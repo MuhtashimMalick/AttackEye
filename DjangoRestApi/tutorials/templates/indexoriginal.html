@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Sigma layouts example</title>
+</head>
+<body>
+  <style>
+    html,
+    body,
+    #sigma-container {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      margin-left: auto; 
+      margin-right: auto;
+      background-color: #000;
+    }
+
+    .fa {
+      margin-left: -12px;
+      margin-right: 8px;
+    }
+
+
+    .mx{
+      background-color: #F7727B;
+      position: absolute;
+      left: 3em;
+      bottom: 43em;
+      width: 60px;
+      height: 60px;
+      border: 3px solid #FFF;
+      border-radius: 50%;
+      cursor: pointer;
+      display: block;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+    }  
+
+    .address {
+      background-color:#8f3d32; 
+      position: absolute;
+      left: 3em;
+      bottom: 36em;
+      width: 60px;
+      height: 60px;
+      border: 3px solid #FFF;
+      border-radius: 50%;
+      cursor: pointer;
+      display: block;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+    }  
+
+    .subdomain {
+      background-color: #B30000;
+      position: absolute;
+      left: 3em;
+      bottom: 29em;
+      width: 60px;
+      height: 60px;
+      border: 3px solid #FFF;
+      border-radius: 50%;
+      cursor: pointer;
+      display: block;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      text-align: center;
+    } 
+
+    .domain {
+      background-color: #EDE4C7;
+      position: absolute;
+      left: 3em;
+      bottom: 22em;
+      width: 60px;
+      height: 60px;
+      border: 3px solid #FFF;
+      border-radius: 50%;
+      cursor: pointer;
+      display: block;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+    } 
+
+    .as {
+      background-color: #ED7047;
+      position: absolute;
+      left: 3em;
+      bottom: 15em;
+      width: 60px;
+      height: 60px;
+      border: 3px solid #FFF;
+      border-radius: 50%;
+      cursor: pointer;
+      display: block;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+    }  
+
+    .netblock {
+      background-color: #CC301E;
+      position: absolute;
+      left: 3em;
+      bottom: 8em;
+      width: 60px;
+      height: 60px;
+      border: 3px solid #FFF;
+      border-radius: 50%;
+      cursor: pointer;
+      display: block;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      text-align: center;
+    }  
+
+    .ns {
+      background-color:#E36414; 
+      position: absolute;
+      left: 3em;
+      bottom: 1em;
+      width: 60px;
+      height: 60px;
+      border: 3px solid #FFF;
+      border-radius: 50%;
+      cursor: pointer;
+      display: block;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+    }  
+
+
+    #buttons {
+      position: absolute;
+      right: 1em;
+      top: 1em;
+      display: flex;
+    }
+    #buttons > button {
+      margin-right: 1em;
+      display: inline-block;
+      text-align: center;
+      background: white;
+      outline: none;
+      border: 1px solid dimgrey;
+      border-radius: 2px;
+      cursor: pointer;
+    }
+    #buttons > button img {
+      height: 2em;
+    }
+    #buttons > button > span {
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
+    #buttons > button:last-child {
+      margin-right: 0;
+    }
+    #search {
+      position: absolute;
+      left: 1em;
+      top: 1em;
+      background: white;
+      cursor: pointer;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+    #searchimg{
+      position: relative;
+      display: inline-block;
+      background: white;
+      cursor: pointer;
+    }
+    #controls {
+      position: absolute;
+      right: 50em;
+      bottom: 1em;
+      text-align: right;
+    }
+    .input {
+      position: relative;
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .input:not(:hover) label {
+      display: none;
+    }
+    .input label {
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      background: black;
+      color: white;
+      padding: 0.2em;
+      border-radius: 2px;
+      margin-top: 0.3em;
+      font-size: 0.8em;
+      white-space: nowrap;
+    }
+    .input button {
+      width: 2.5em;
+      height: 2.5em;
+      display: inline-block;
+      text-align: center;
+      background: white;
+      outline: none;
+      border: 1px solid dimgrey;
+      border-radius: 2px;
+      cursor: pointer;
+    }
+
+
+    #abc {
+      position: absolute;
+      left: 20em;
+      top: 1em;
+      background: white;
+      cursor: pointer;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+
+    .download {
+      position: absolute;
+      left: 79em;
+      top: 1em;
+      background: #458ea0;
+      cursor: pointer;
+      color: white;
+      padding: 10px 20px;
+      margin: 2px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .tabular {
+      position: absolute;
+      left: 88em;
+      top: 1em;
+      background: #de5760;
+      cursor: pointer;
+      color: white;
+      padding: 10px 20px;
+      margin: 2px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type=text], select {
+      position: absolute;
+      left: 50em;
+      top: 1em;
+      padding: 9px 20px;
+      margin: 2px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    input[type=submit] {
+      position: absolute;
+      left: 70em;
+      top: 1em;
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      margin: 2px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+
+    .buttonload:hover {
+      background-color: #45a049;
+    }
+
+    .buttonload {
+      position: absolute;
+      left: 58em;
+      top: 1em;
+      background-color: #4CAF50; /* Green background */
+      color: white; /* White text */
+      padding: 8px 24px; /* Some padding */
+      border: none;  
+      font-size: 16px; /* Set a font-size */
+      margin-right: 1em;
+      display: inline-block;
+      text-align: center;
+      outline: none;
+      border-radius: 2px;
+      cursor: pointer;
+      text-align: center;
+    }
+
+    .buttonloader {
+      position: absolute;
+      left: 58em;
+      top: 1em;
+      background-color: #4CAF50; /* Green background */
+      color: white; /* White text */
+      padding: 8px 24px; /* Some padding */
+      border: none;  
+      font-size: 16px; /* Set a font-size */
+      margin-right: 1em;
+      display: inline-block;
+      text-align: center;
+      outline: none;
+      border-radius: 2px;
+      cursor: pointer;
+    }
+
+  </style>
+
+
+  <div id="sigma-container"></div>
+
+
+  <div id="abc" ></div>
+  <div id="app" >
+    <form id="myform" >
+      <fieldset>
+        <input type="text" name="textInput" placeholder="Enter domain name ...">
+      </fieldset>
+      <button class="buttonloader">
+        <i class="fa fa-spinner fa-spin"></i> Submit
+      </button>
+      <button class="buttonload">
+        Submit
+      </button>
+      <!-- <input type="submit" value="Submit" onclick="spinner()"> -->
+    </form>
+
+
+    <button class="download">
+      Download
+    </button>
+
+    <button class="tabular">
+      Table
+    </button>
+  </div>
+
+
+
+    <div id="controls">
+      <div class="input"><label for="zoom-in">Zoom in</label><button id="zoom-in">+</button></div>
+      <div class="input"><label for="zoom-out">Zoom out</label><button id="zoom-out">-</button></div>
+      <div class="input"><label for="zoom-reset">Reset zoom</label><button id="zoom-reset">⊙</button></div>
+      <div class="input">
+        <label for="labels-threshold">Labels threshold</label>
+        <input id="labels-threshold" type="range" min="0" max="50" step="1" />
+      </div>
+    </div>
+
+    <div id="buttons">
+      <button id="random">
+        <span><img src="api/static/public/GiPerspectiveDiceSixFaces.svg" />random</span>
+      </button>
+      <button id="forceatlas2">
+        <span>
+          <img id="forceatlas2-start-label" src="api/static/public/BiPlay.svg" />
+          <img id="forceatlas2-stop-label" style="display: none" src="api/static/public/BiPause.svg" />
+          Force Atlas 2
+        </span>
+      </button>
+      <button id="circular">
+        <span><img src="api/static/public/BiLoaderCircle.svg" />circular</span>
+      </button>
+    </div>
+    <div id="search">
+      <div id="searchimg">
+        <span ><img src="api/static/public/advanced-search.svg"  width="30" height="35" style="vertical-align:middle"/></span></div>
+        <input type="search" id="search-input" list="suggestions" placeholder="Try searching for a node..." />
+        <datalist id="suggestions"></datalist>
+      </div>
+
+
+      <button class="subdomain">
+        Sub<br>Domain
+      </button>
+
+      <button class="domain">
+        Domain
+      </button>
+
+      <button class="as">
+        AS
+      </button>
+
+      <button class="netblock">
+        Net<br>Block
+      </button>
+
+      <button class="ns">
+        NS
+      </button>
+
+      <button class="mx">
+        MX
+      </button>
+
+      <button class="address">
+        Address
+      </button>
+
+      <script type="text/javascript">
+        function spinner() {
+          document.getElementsByClassName("loader")[0].style.display = "block";
+        }
+      </script> 
+
+      <script src="api/static/bundle.js"></script>
+    </body>
+    </html>
