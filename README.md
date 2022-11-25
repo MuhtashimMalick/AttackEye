@@ -16,5 +16,7 @@ python manage.py runserver 8080
 Open the URL http://localhost:8080/ to access the application.
 
 Open new tab to run Celery worker nodes:
+
 '''
 celery -A DjangoRestApi worker --pool=prefork --concurrency=4 --loglevel=info
+'''
