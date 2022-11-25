@@ -1,0 +1,6 @@
+Dockerfile
+*.md
+snapcraft.yaml
+images/*
+examples/*
+.idea
