@@ -1,7 +1,7 @@
 # ATTACK-EYE: Reconnaissance tool for Attack Surface 
 
 For more detail, please visit:
-> [Django Rest Api tutorial with examples](https://bezkoder.com/django-rest-api/)
+> [Attack Eye Website](http://attack-eye.neduet.edu.pk:6700/)
 
 Django CRUD with Database:
 > [Django Rest Api with MySQL](https://bezkoder.com/django-crud-mysql-rest-framework/)
