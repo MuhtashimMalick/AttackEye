@@ -1,4 +1,4 @@
-# Attack-EYE: Reconnaissance tool for Attack Surface 
+# ATTACK-EYE: Reconnaissance tool for Attack Surface 
 
 For more detail, please visit:
 > [Django Rest Api tutorial with examples](https://bezkoder.com/django-rest-api/)
