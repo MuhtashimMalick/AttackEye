@@ -2,9 +2,9 @@ from django.urls import re_path
 from django.urls import path
 from attackeye import views 
 from django.contrib import admin
+
 urlpatterns = [
-    
-    path("",views.login,name="login"),
+    path("", views.login,name="login"),
     re_path(r'^api/view/subdomain$', views.subdomainpage),
     # re_path(r'^register/ma',views.register, name='register'),
     re_path(r'^register$',views.registeruser, name='register_user'),
