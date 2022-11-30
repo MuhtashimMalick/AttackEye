@@ -1,49 +1,9 @@
+{% extends "./base.html" %}
 {% load static %}
-{% comment %} <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
 
-    <form   id="loginform" method="post" action="{% url 'login_user' %}">
-      {% csrf_token %}
-
-                                              
-        <input name="name" placeholder="Enter name">
-        <input name="password" placeholder="Enter password">
-        <!-- <input type="button" id="add" value="Add" onclick="Javascript:addRow()"></td> -->
-        <button class="buttonloader">
-          <span >
-            <!-- <i id="spinner" class="fa fa-spinner fa-spin"></i> -->
-            <!-- <i id="spinner" class="fa fa-spinner fa-spin"></i>  -->
-            Submit
-          </span>
-         
-       
-   </button>
-
-
-        
-    </form>
-
-
-        <script src="{% static 'js/login.js' %}"></script>
-        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-</body>
-
-</html> {% endcomment %}
-
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+{% block content %}
 
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-<!------ Include the above in your HEAD tag ---------->
 
 <style style="text/css">
 
@@ -235,6 +195,12 @@ form {
 
 form > .btn {
   margin-top: 1em;
+  background-color: #ffffff;
+}
+
+form > .btn:hover {
+  background-color: #ffffff;
+  opacity: 0.7;
 }
 
 form > input {
@@ -243,9 +209,20 @@ form > input {
   color: #ffffff;
 }
 
-form > input:focus {
-  background-color: #000000;
+form > input:focus,
+form > input:active,
+form > input:autofill {
+  color: #ffffff;
 }
+
+form > input:-webkit-autofill,
+form > input:-webkit-autofill:hover,
+form > input:-webkit-autofill:focus,
+form > input:-webkit-autofill:active {
+  color: #ffffff;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
 
 #particles-js {
   position: absolute;
@@ -306,12 +283,8 @@ canvas {
         Submit
       </span>
           
-   </button>
-
-
-        
+    </button>
     </form>
-
 
     <!-- Remind Passowrd -->
     <div id="formFooter">
@@ -456,3 +429,5 @@ update = function() {
 };
 requestAnimationFrame(update);
 </script>
+
+{% endblock %}

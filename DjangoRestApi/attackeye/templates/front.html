@@ -1,18 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends "./base.html" %}
+{% load static %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- <link rel="stylesheet" href="./front.css"> -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-</head>
+{% block content %}
 
-<body>
   <style>
     .mytable a{
       color:#767171;
@@ -31,13 +21,10 @@
     
     body{
       overflow-x: hidden !important;
- margin:0;
- padding:0;
-
- background-image: url(./{% static 'img/1.jpg' %});
- {% comment %} background-image: url(/home/hamza/django-rest-api/django-rest-api-master/DjangoRestApi/tutorials/templates/public/1.jpg);  {% endcomment %}
- /* font-family: 'Oxygen', sans-serif; */
-}
+      margin:0;
+      padding:0;
+      background-image: url(./{% static 'img/1.jpg' %});
+    }
 {% comment %} table thead{
   color:--main_color;
   font:20px
@@ -1672,74 +1659,64 @@ footer.nb-footer .footer-info-single ul li a {
     </div>
   </section>
 </footer>
-        
-        
-        
-        
-        
-        
-        
-        
-        
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+
+
+{% comment %} <script>
+  window.setInterval('refresh()', 10000); 	
+  
+  function refresh() {
+      document.getElementById("refresh").contentWindow.location.reload(true);
+      $("refresh").html(htmlData);
+      window .location.reload();
+  }
+  </script>
+  {% endcomment %}
+<script>
+    AOS.init();
+  </script>
+  <script>
+    populateOverallOverview()
+    {% comment %} setInterval(populateOverallOverview); {% endcomment %}
+  </script>
+    {% comment %} <script> 
       
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
-        
+      
+      var form = document.querySelector('#myform');
+      form.onsubmit = function () {
+        const csrftoken = document.querySelector('[name=csrfmiddlewaretoken]').value;
+        console.log(csrftoken)
+        // download.className = "disabled";
+        // download.disabled = true;
+    
+        //  waiting.style.display = "flex";
+        //  window.location.href="/index"
+        var formData = new FormData(form);
+        var text = formData.get('textInput');
+        //axios.post("http://localhost:8080/api/tutorials", {
+          axios.post("/api/tutorials", {
+            headers: {"X-CSRFToken": csrftoken},
+            description: text
+        })
+            .then(function (response) {
+            console.log(response);
+            // window.location.href="/index"
+            // window.location.reload();
+      
+            
+            // download.disabled = false;
+            // download.className = "download";
+        })
+            .catch(function (error) {
+            console.log(error.response);
+        });
+        return false
+      }
+    </script>
+    {% endcomment %}
 
-        {% comment %} <script>
-          window.setInterval('refresh()', 10000); 	
-          
-          function refresh() {
-             document.getElementById("refresh").contentWindow.location.reload(true);
-             $("refresh").html(htmlData);
-              window .location.reload();
-          }
-          </script>
-         {% endcomment %}
-        <script>
-            AOS.init();
-          </script>
-         <script>
-            populateOverallOverview()
-            {% comment %} setInterval(populateOverallOverview); {% endcomment %}
-          </script>
-            {% comment %} <script> 
-              
-              
-              var form = document.querySelector('#myform');
-              form.onsubmit = function () {
-                const csrftoken = document.querySelector('[name=csrfmiddlewaretoken]').value;
-                console.log(csrftoken)
-                // download.className = "disabled";
-                // download.disabled = true;
-           
-                //  waiting.style.display = "flex";
-                //  window.location.href="/index"
-                var formData = new FormData(form);
-                var text = formData.get('textInput');
-                //axios.post("http://localhost:8080/api/tutorials", {
-                  axios.post("/api/tutorials", {
-                    headers: {"X-CSRFToken": csrftoken},
-                    description: text
-                })
-                    .then(function (response) {
-                    console.log(response);
-                    // window.location.href="/index"
-                    // window.location.reload();
-             
-                    
-                    // download.disabled = false;
-                    // download.className = "download";
-                })
-                    .catch(function (error) {
-                    console.log(error.response);
-                });
-                return false
-              }
-            </script>
-           {% endcomment %}
-</body>
-
-</html>
+{% endblock %}
