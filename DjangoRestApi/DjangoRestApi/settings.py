@@ -27,7 +27,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -39,10 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # Django REST framework 
     'rest_framework',
-    # Tutorials application 
-    'tutorials.apps.TutorialsConfig',
     # CORS
     'corsheaders',
+    'attackeye',
 ]
 
 MIDDLEWARE = [
@@ -96,21 +94,16 @@ WSGI_APPLICATION = 'DjangoRestApi.wsgi.application'
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
 DATABASES = {
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.sqlite3',
-    #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    # }
-# DATABASES = {
     'default': {
-    'ENGINE': 'django.db.backends.mysql',
-    'NAME': 'attackeye',
-    'USER':'admin',
-    'PASSWORD':'password',
-    'HOST':'localhost',
-    'PORT': '',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'attackeye',
+        'USER':'root',
+        'PASSWORD':'nccs.2020',
+        'HOST':'localhost',
+        'PORT': '3306',
+    }
 }
 
-}
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
 
@@ -147,7 +140,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
-STATIC_URL = '/static/'
+STATIC_URL = 'static/'
+
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
