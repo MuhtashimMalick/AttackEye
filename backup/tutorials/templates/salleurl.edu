@@ -1,0 +1,2076 @@
+{
+  "edges": [
+    {
+      "key": "0",
+      "source": "0",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "1",
+      "source": "1",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "2",
+      "source": "2",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "3",
+      "source": "3",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "4",
+      "source": "4",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "5",
+      "source": "5",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "6",
+      "source": "6",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "7",
+      "source": "7",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "8",
+      "source": "8",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "9",
+      "source": "9",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "10",
+      "source": "10",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "11",
+      "source": "11",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "12",
+      "source": "12",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "13",
+      "source": "13",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "14",
+      "source": "14",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "15",
+      "source": "15",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "16",
+      "source": "16",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "17",
+      "source": "17",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "18",
+      "source": "18",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "19",
+      "source": "19",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "20",
+      "source": "20",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "21",
+      "source": "21",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "22",
+      "source": "22",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "23",
+      "source": "23",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "24",
+      "source": "24",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "25",
+      "source": "25",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "26",
+      "source": "26",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "27",
+      "source": "27",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "28",
+      "source": "28",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "29",
+      "source": "29",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "30",
+      "source": "30",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "31",
+      "source": "31",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "32",
+      "source": "32",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "33",
+      "source": "33",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "34",
+      "source": "34",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "35",
+      "source": "35",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "36",
+      "source": "36",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "37",
+      "source": "37",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "38",
+      "source": "38",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "39",
+      "source": "39",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "40",
+      "source": "40",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "41",
+      "source": "41",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "42",
+      "source": "42",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "43",
+      "source": "43",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "44",
+      "source": "44",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "45",
+      "source": "45",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "46",
+      "source": "46",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "47",
+      "source": "47",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "48",
+      "source": "48",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "49",
+      "source": "49",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "50",
+      "source": "50",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "51",
+      "source": "51",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "52",
+      "source": "52",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "53",
+      "source": "53",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "54",
+      "source": "54",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "55",
+      "source": "55",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "56",
+      "source": "56",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "57",
+      "source": "57",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "58",
+      "source": "58",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "59",
+      "source": "59",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "60",
+      "source": "60",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "61",
+      "source": "61",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "62",
+      "source": "62",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "63",
+      "source": "63",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "64",
+      "source": "64",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "65",
+      "source": "65",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "66",
+      "source": "66",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "67",
+      "source": "67",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "68",
+      "source": "68",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "69",
+      "source": "69",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "70",
+      "source": "70",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "71",
+      "source": "71",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "72",
+      "source": "72",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "73",
+      "source": "73",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "74",
+      "source": "74",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "75",
+      "source": "75",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "76",
+      "source": "76",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "77",
+      "source": "77",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "78",
+      "source": "78",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "79",
+      "source": "79",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "80",
+      "source": "80",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "81",
+      "source": "81",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "82",
+      "source": "82",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "83",
+      "source": "83",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "84",
+      "source": "84",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "85",
+      "source": "85",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "86",
+      "source": "86",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "87",
+      "source": "87",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "88",
+      "source": "88",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "89",
+      "source": "89",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "key": "0",
+      "attributes": {
+        "x": 0,
+        "y": 0,
+        "label": "so.www.salleurl.edu",
+        "pointTitle": "subdomain: so.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "1",
+      "attributes": {
+        "x": 1.1646012353682504,
+        "y": -1.1456447125081337,
+        "label": "ldap.www.salleurl.edu",
+        "pointTitle": "subdomain: ldap.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "2",
+      "attributes": {
+        "x": -2.0276425316485076,
+        "y": 2.7053780005180164,
+        "label": "www.fess.www.salleurl.edu",
+        "pointTitle": "subdomain: www.fess.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "3",
+      "attributes": {
+        "x": 5.494349917009237,
+        "y": -3.2704656001781056,
+        "label": "view.communication.www.salleurl.edu",
+        "pointTitle": "subdomain: view.communication.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "4",
+      "attributes": {
+        "x": -6.723437067873972,
+        "y": 6.837418478362196,
+        "label": "studies.www.salleurl.edu",
+        "pointTitle": "subdomain: studies.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "5",
+      "attributes": {
+        "x": -8.342571148226668,
+        "y": -6.134155368260488,
+        "label": "localhost.communication.www.salleurl.edu",
+        "pointTitle": "subdomain: localhost.communication.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "6",
+      "attributes": {
+        "x": -10.38669260496914,
+        "y": 8.236337935503418,
+        "label": "link.www.salleurl.edu",
+        "pointTitle": "subdomain: link.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "7",
+      "attributes": {
+        "x": 13.777708239735013,
+        "y": -11.133954589713015,
+        "label": "sport.www.salleurl.edu",
+        "pointTitle": "subdomain: sport.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "8",
+      "attributes": {
+        "x": 11.834814901386915,
+        "y": 10.499024365852716,
+        "label": "login.www.salleurl.edu",
+        "pointTitle": "subdomain: login.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "9",
+      "attributes": {
+        "x": -11.98872199268892,
+        "y": -17.327815422494574,
+        "label": "proyectos.www.salleurl.edu",
+        "pointTitle": "subdomain: proyectos.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "10",
+      "attributes": {
+        "x": -13.46556675862638,
+        "y": 15.836698399680321,
+        "label": "lyncdiscover.www.salleurl.edu",
+        "pointTitle": "subdomain: lyncdiscover.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "11",
+      "attributes": {
+        "x": -18.584759389582466,
+        "y": -11.29370901136236,
+        "label": "executive-mba-digital-leaders.www.salleurl.edu",
+        "pointTitle": "subdomain: executive-mba-digital-leaders.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "12",
+      "attributes": {
+        "x": 21.903794978282125,
+        "y": 23.177739863968988,
+        "label": "salleurl.edu",
+        "pointTitle": "domain: salleurl.edu",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "13",
+      "attributes": {
+        "x": 16.726955625432236,
+        "y": -23.155533827612956,
+        "label": "teacherdesk.www.salleurl.edu",
+        "pointTitle": "subdomain: teacherdesk.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "14",
+      "attributes": {
+        "x": -25.518598303238697,
+        "y": 18.81297439249774,
+        "label": "alumni300.www.salleurl.edu",
+        "pointTitle": "subdomain: alumni300.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "15",
+      "attributes": {
+        "x": -25.710499259751863,
+        "y": -20.639374859743743,
+        "label": "igslasalle.www.salleurl.edu",
+        "pointTitle": "subdomain: igslasalle.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "16",
+      "attributes": {
+        "x": 23.633495453586754,
+        "y": 28.09034256806418,
+        "label": "50anys.www.salleurl.edu",
+        "pointTitle": "subdomain: 50anys.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "17",
+      "attributes": {
+        "x": 31.21069025902134,
+        "y": -31.663109423902,
+        "label": "grados.www.salleurl.edu",
+        "pointTitle": "subdomain: grados.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "18",
+      "attributes": {
+        "x": -31.889638051319565,
+        "y": 34.12765001714824,
+        "label": "seamless.www.salleurl.edu",
+        "pointTitle": "subdomain: seamless.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "19",
+      "attributes": {
+        "x": 35.45660346536157,
+        "y": -23.95205600196771,
+        "label": "ws.www.salleurl.edu",
+        "pointTitle": "subdomain: ws.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "20",
+      "attributes": {
+        "x": -22.949923329712185,
+        "y": 25.8545530078062,
+        "label": "ns3.www.salleurl.edu",
+        "pointTitle": "subdomain: ns3.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "21",
+      "attributes": {
+        "x": -41.84909106728456,
+        "y": -36.099615914701126,
+        "label": "shop.www.salleurl.edu",
+        "pointTitle": "subdomain: shop.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "22",
+      "attributes": {
+        "x": -34.4632634924119,
+        "y": 39.89230918258109,
+        "label": "nirvana.www.salleurl.edu",
+        "pointTitle": "subdomain: nirvana.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "23",
+      "attributes": {
+        "x": 42.69699865718408,
+        "y": -34.48165078759828,
+        "label": "blogs.www.salleurl.edu",
+        "pointTitle": "subdomain: blogs.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "24",
+      "attributes": {
+        "x": 40.660371183101276,
+        "y": 41.43895720016323,
+        "label": "newstudents.www.salleurl.edu",
+        "pointTitle": "subdomain: newstudents.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "25",
+      "attributes": {
+        "x": -29.59168428098414,
+        "y": -34.463435394412826,
+        "label": "ns2.www.salleurl.edu",
+        "pointTitle": "subdomain: ns2.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "26",
+      "attributes": {
+        "x": -48.83071294646739,
+        "y": 43.05969807439374,
+        "label": "mycurriculum.www.salleurl.edu",
+        "pointTitle": "subdomain: mycurriculum.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "27",
+      "attributes": {
+        "x": 27.21421042664051,
+        "y": -33.16846326466507,
+        "label": "www.www.salleurl.edu",
+        "pointTitle": "subdomain: www.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Bing",
+        "size": 15
+      }
+    },
+    {
+      "key": "28",
+      "attributes": {
+        "x": 50.87793306848431,
+        "y": 48.448741704695934,
+        "label": "wikibes.www.salleurl.edu",
+        "pointTitle": "subdomain: wikibes.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "29",
+      "attributes": {
+        "x": 35.6373296907121,
+        "y": -38.747639760120485,
+        "label": "cloud.communication.www.salleurl.edu",
+        "pointTitle": "subdomain: cloud.communication.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "30",
+      "attributes": {
+        "x": 44.89338412135702,
+        "y": 54.26865623254177,
+        "label": "virtualoffice.www.salleurl.edu",
+        "pointTitle": "subdomain: virtualoffice.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "31",
+      "attributes": {
+        "x": 31.410131518019963,
+        "y": -38.78963382232393,
+        "label": "virtualrooms.www.salleurl.edu",
+        "pointTitle": "subdomain: virtualrooms.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "32",
+      "attributes": {
+        "x": 52.18958588712455,
+        "y": 42.054994389931665,
+        "label": "www.admissions.www.salleurl.edu",
+        "pointTitle": "subdomain: www.admissions.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "33",
+      "attributes": {
+        "x": -58.56180761509778,
+        "y": -60.238715350026055,
+        "label": "virtuoarc.www.salleurl.edu",
+        "pointTitle": "subdomain: virtuoarc.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "34",
+      "attributes": {
+        "x": -52.249695201312576,
+        "y": 39.304056024042275,
+        "label": "emailer.www.salleurl.edu",
+        "pointTitle": "subdomain: emailer.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "35",
+      "attributes": {
+        "x": -62.14724344172803,
+        "y": -45.83075550540174,
+        "label": "pages.communication.www.salleurl.edu",
+        "pointTitle": "subdomain: pages.communication.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "36",
+      "attributes": {
+        "x": 67.93876561541595,
+        "y": 44.5450458880934,
+        "label": "planet4project.www.salleurl.edu",
+        "pointTitle": "subdomain: planet4project.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "37",
+      "attributes": {
+        "x": 38.961022866456716,
+        "y": -69.46815472088815,
+        "label": "www.radioclub.www.salleurl.edu",
+        "pointTitle": "subdomain: www.radioclub.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "38",
+      "attributes": {
+        "x": -67.80238691023425,
+        "y": 47.31352863254471,
+        "label": "project-management.www.salleurl.edu",
+        "pointTitle": "subdomain: project-management.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "39",
+      "attributes": {
+        "x": -70.64317533977214,
+        "y": -42.75203883183567,
+        "label": "lasallerd.www.salleurl.edu",
+        "pointTitle": "subdomain: lasallerd.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "40",
+      "attributes": {
+        "x": -56.80331233279881,
+        "y": 73.50486634719834,
+        "label": "enquestes.www.salleurl.edu",
+        "pointTitle": "subdomain: enquestes.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "41",
+      "attributes": {
+        "x": -64.47468341892838,
+        "y": -61.57633116525041,
+        "label": "localhost.www.salleurl.edu",
+        "pointTitle": "subdomain: localhost.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "42",
+      "attributes": {
+        "x": 76.21169343493837,
+        "y": 49.89113832802798,
+        "label": "webservices2.www.salleurl.edu",
+        "pointTitle": "subdomain: webservices2.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "43",
+      "attributes": {
+        "x": 60.50846048651659,
+        "y": -46.021990877580556,
+        "label": "newsletter.www.salleurl.edu",
+        "pointTitle": "subdomain: newsletter.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "44",
+      "attributes": {
+        "x": -68.55624019656707,
+        "y": 52.967636946611016,
+        "label": "talentweek.www.salleurl.edu",
+        "pointTitle": "subdomain: talentweek.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "45",
+      "attributes": {
+        "x": 51.07092370387712,
+        "y": -81.75284738669265,
+        "label": "www.eng.www.salleurl.edu",
+        "pointTitle": "subdomain: www.eng.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "46",
+      "attributes": {
+        "x": -81.49812478397908,
+        "y": 62.680464803044174,
+        "label": "it.www.salleurl.edu",
+        "pointTitle": "subdomain: it.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "47",
+      "attributes": {
+        "x": -79.12868552799935,
+        "y": -74.8312659701547,
+        "label": "beslasalle.www.salleurl.edu",
+        "pointTitle": "subdomain: beslasalle.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "48",
+      "attributes": {
+        "x": -77.18056819509899,
+        "y": 94.15652539498019,
+        "label": "communication.www.salleurl.edu",
+        "pointTitle": "subdomain: communication.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "49",
+      "attributes": {
+        "x": 85.92657593800271,
+        "y": -63.83293686252997,
+        "label": "mfa.www.salleurl.edu",
+        "pointTitle": "subdomain: mfa.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "50",
+      "attributes": {
+        "x": 69.11723906606042,
+        "y": 91.83479840516345,
+        "label": "www.salleurl.edu",
+        "pointTitle": "subdomain: www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "51",
+      "attributes": {
+        "x": -62.456113650324525,
+        "y": -94.57490252026719,
+        "label": "click.communication.www.salleurl.edu",
+        "pointTitle": "subdomain: click.communication.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "52",
+      "attributes": {
+        "x": 87.23999535605711,
+        "y": 70.28419329470879,
+        "label": "lstalentfair.www.salleurl.edu",
+        "pointTitle": "subdomain: lstalentfair.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "53",
+      "attributes": {
+        "x": -101.44944978052507,
+        "y": -97.55930198332406,
+        "label": "mta.communication.www.salleurl.edu",
+        "pointTitle": "subdomain: mta.communication.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "54",
+      "attributes": {
+        "x": -83.89979945495841,
+        "y": 91.60414082177584,
+        "label": "butlleti.www.salleurl.edu",
+        "pointTitle": "subdomain: butlleti.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "55",
+      "attributes": {
+        "x": -83.03787878220747,
+        "y": -59.097907034956584,
+        "label": "nca-i.www.salleurl.edu",
+        "pointTitle": "subdomain: nca-i.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "56",
+      "attributes": {
+        "x": -99.42476143248393,
+        "y": 76.80676429417632,
+        "label": "postfix.www.salleurl.edu",
+        "pointTitle": "subdomain: postfix.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "57",
+      "attributes": {
+        "x": -66.5390043228561,
+        "y": -109.01475244946059,
+        "label": "image.communication.www.salleurl.edu",
+        "pointTitle": "subdomain: image.communication.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "58",
+      "attributes": {
+        "x": -93.42133995705129,
+        "y": 89.4529844321247,
+        "label": "ets.www.salleurl.edu",
+        "pointTitle": "subdomain: ets.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "59",
+      "attributes": {
+        "x": 85.95367877298216,
+        "y": -71.48278688277296,
+        "label": "jobs.www.salleurl.edu",
+        "pointTitle": "subdomain: jobs.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "60",
+      "attributes": {
+        "x": -89.3144413744239,
+        "y": 86.89154665446871,
+        "label": "sip.www.salleurl.edu",
+        "pointTitle": "subdomain: sip.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "61",
+      "attributes": {
+        "x": -68.61572796349782,
+        "y": -85.39418907138071,
+        "label": "websdr.housing.www.salleurl.edu",
+        "pointTitle": "subdomain: websdr.housing.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "62",
+      "attributes": {
+        "x": 121.32112147562569,
+        "y": 88.01386151954986,
+        "label": "support.www.salleurl.edu",
+        "pointTitle": "subdomain: support.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "63",
+      "attributes": {
+        "x": 102.60889874454736,
+        "y": -65.9740780543994,
+        "label": "www.grados.www.salleurl.edu",
+        "pointTitle": "subdomain: www.grados.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "64",
+      "attributes": {
+        "x": -89.0840756041192,
+        "y": 82.29806402025909,
+        "label": "crater.www.salleurl.edu",
+        "pointTitle": "subdomain: crater.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "65",
+      "attributes": {
+        "x": -113.92053221389133,
+        "y": -129.23470126515707,
+        "label": "ebd.www.salleurl.edu",
+        "pointTitle": "subdomain: ebd.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "66",
+      "attributes": {
+        "x": 115.69387634371864,
+        "y": 130.48917106775207,
+        "label": "services.www.salleurl.edu",
+        "pointTitle": "subdomain: services.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "67",
+      "attributes": {
+        "x": 77.54357883442998,
+        "y": -74.28654292140195,
+        "label": "arc.www.salleurl.edu",
+        "pointTitle": "subdomain: arc.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "68",
+      "attributes": {
+        "x": 89.25028803846743,
+        "y": 107.74374335737184,
+        "label": "esdeveniments.www.salleurl.edu",
+        "pointTitle": "subdomain: esdeveniments.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "69",
+      "attributes": {
+        "x": -109.9424069807466,
+        "y": -114.9455800465564,
+        "label": "users.www.salleurl.edu",
+        "pointTitle": "subdomain: users.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "70",
+      "attributes": {
+        "x": 107.78603377381542,
+        "y": 75.00897521056412,
+        "label": "crm.www.salleurl.edu",
+        "pointTitle": "subdomain: crm.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "71",
+      "attributes": {
+        "x": -111.88751084685828,
+        "y": -96.40865388852238,
+        "label": "sonsalbalco.www.salleurl.edu",
+        "pointTitle": "subdomain: sonsalbalco.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "72",
+      "attributes": {
+        "x": -101.25403848777792,
+        "y": 84.27960388648496,
+        "label": "alumni.www.salleurl.edu",
+        "pointTitle": "subdomain: alumni.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "73",
+      "attributes": {
+        "x": -135.0104700871717,
+        "y": -130.32726509330536,
+        "label": "graduacions.www.salleurl.edu",
+        "pointTitle": "subdomain: graduacions.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "74",
+      "attributes": {
+        "x": 114.12198444777579,
+        "y": 78.44698943087005,
+        "label": "ftp.www.salleurl.edu",
+        "pointTitle": "subdomain: ftp.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "75",
+      "attributes": {
+        "x": -77.98612869830315,
+        "y": -117.23335859405356,
+        "label": "aries.www.salleurl.edu",
+        "pointTitle": "subdomain: aries.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "76",
+      "attributes": {
+        "x": -85.24304619374601,
+        "y": 103.95420977936122,
+        "label": "estudy.www.salleurl.edu",
+        "pointTitle": "subdomain: estudy.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "77",
+      "attributes": {
+        "x": -112.88217934666763,
+        "y": -82.83704765522029,
+        "label": "web.www.salleurl.edu",
+        "pointTitle": "subdomain: web.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "78",
+      "attributes": {
+        "x": 110.2572059382895,
+        "y": 89.60695099287118,
+        "label": "events.www.salleurl.edu",
+        "pointTitle": "subdomain: events.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "79",
+      "attributes": {
+        "x": -91.37962612417266,
+        "y": -108.83269713981184,
+        "label": "esecretary.www.salleurl.edu",
+        "pointTitle": "subdomain: esecretary.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "80",
+      "attributes": {
+        "x": 118.17652845686936,
+        "y": 109.06556824855062,
+        "label": "webservices.www.salleurl.edu",
+        "pointTitle": "subdomain: webservices.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "81",
+      "attributes": {
+        "x": -149.7923179155058,
+        "y": -159.8453270473157,
+        "label": "webmail.www.salleurl.edu",
+        "pointTitle": "subdomain: webmail.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "82",
+      "attributes": {
+        "x": -124.69694540260232,
+        "y": 120.03598743310053,
+        "label": "autodiscover.www.salleurl.edu",
+        "pointTitle": "subdomain: autodiscover.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "83",
+      "attributes": {
+        "x": -106.66553634814562,
+        "y": -106.13467402917553,
+        "label": "venture-capital.www.salleurl.edu",
+        "pointTitle": "subdomain: venture-capital.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "84",
+      "attributes": {
+        "x": 84.47298230485052,
+        "y": 155.74179481439455,
+        "label": "accommodation.www.salleurl.edu",
+        "pointTitle": "subdomain: accommodation.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "85",
+      "attributes": {
+        "x": 121.63021274517371,
+        "y": -105.05662062319817,
+        "label": "radius.www.salleurl.edu",
+        "pointTitle": "subdomain: radius.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "86",
+      "attributes": {
+        "x": -143.1853849799066,
+        "y": 98.09003979681711,
+        "label": "eventos.www.salleurl.edu",
+        "pointTitle": "subdomain: eventos.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "87",
+      "attributes": {
+        "x": 127.48345041405479,
+        "y": -157.563942796216,
+        "label": "www.arq.www.salleurl.edu",
+        "pointTitle": "subdomain: www.arq.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "88",
+      "attributes": {
+        "x": 122.61031966651151,
+        "y": 147.421189882444,
+        "label": "grus.www.salleurl.edu",
+        "pointTitle": "subdomain: grus.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "89",
+      "attributes": {
+        "x": 108.7561062359872,
+        "y": -176.883463694147,
+        "label": "admissions.www.salleurl.edu",
+        "pointTitle": "subdomain: admissions.www.salleurl.edu",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    }
+  ]
+}

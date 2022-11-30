@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Fri Nov 11 23:59:22 2022 as: nmap -A -T5 -p0-65535 -&#45;privilege -&#45;host-timeout 30m -&#45;min-hostgroup 256 -&#45;min-parallelism 100 -iL /home/sam/practice-django/myblog/nmap.txt -oX /home/sam/practice-django/myblog/testscan.xml -->
+<nmaprun scanner="nmap" args="nmap -A -T5 -p0-65535 -&#45;privilege -&#45;host-timeout 30m -&#45;min-hostgroup 256 -&#45;min-parallelism 100 -iL /home/sam/practice-django/myblog/nmap.txt -oX /home/sam/practice-django/myblog/testscan.xml" start="1668193162" startstr="Fri Nov 11 23:59:22 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="65536" services="0-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<taskprogress task="SYN Stealth Scan" time="1668193448" percent="25.58" remaining="830" etc="1668194277"/>
+<taskprogress task="SYN Stealth Scan" time="1668193929" percent="72.13" remaining="296" etc="1668194225"/>
+<taskprogress task="SYN Stealth Scan" time="1668194119" percent="85.88" remaining="158" etc="1668194276"/>
+<taskprogress task="SYN Stealth Scan" time="1668194244" percent="90.86" remaining="109" etc="1668194353"/>
+<host starttime="1668193163" endtime="1668194515"><status state="up" reason="reset" reason_ttl="255"/>
+<address addr="93.184.216.34" addrtype="ipv4"/>
+<hostnames>
+<hostname name="example.com" type="user"/>
+</hostnames>
+<ports><extraports state="filtered" count="65534">
+<extrareasons reason="no-responses" count="65534"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" product="Edgecast CDN httpd" extrainfo="bsa/EB11" method="probed" conf="10"/><script id="http-server-header" output="&#xa;  ECS (bsa/EB12)&#xa;  ECS (bsa/EB17)"><elem>ECS (bsa/EB12)</elem>
+<elem>ECS (bsa/EB17)</elem>
+</script><script id="http-title" output="Example Domain"><elem key="title">Example Domain</elem>
+</script></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" product="Edgecast CDN httpd" extrainfo="bsa/EB18" tunnel="ssl" method="probed" conf="10"/><script id="http-server-header" output="&#xa;  ECS (bsa/EB16)&#xa;  ECS (bsa/EB24)"><elem>ECS (bsa/EB16)</elem>
+<elem>ECS (bsa/EB24)</elem>
+</script><script id="http-title" output="Example Domain"><elem key="title">Example Domain</elem>
+</script><script id="ssl-cert" output="Subject: commonName=www.example.org/organizationName=Internet\xC2\xA0Corporation\xC2\xA0for\xC2\xA0Assigned\xC2\xA0Names\xC2\xA0and\xC2\xA0Numbers/stateOrProvinceName=California/countryName=US&#xa;Subject Alternative Name: DNS:www.example.org, DNS:example.net, DNS:example.edu, DNS:example.com, DNS:example.org, DNS:www.example.com, DNS:www.example.edu, DNS:www.example.net&#xa;Not valid before: 2022-03-14T00:00:00&#xa;Not valid after:  2023-03-14T23:59:59"><table key="subject">
+<elem key="commonName">www.example.org</elem>
+<elem key="localityName">Los Angeles</elem>
+<elem key="stateOrProvinceName">California</elem>
+<elem key="countryName">US</elem>
+<elem key="organizationName">Internet\xC2\xA0Corporation\xC2\xA0for\xC2\xA0Assigned\xC2\xA0Names\xC2\xA0and\xC2\xA0Numbers</elem>
+</table>
+<table key="issuer">
+<elem key="commonName">DigiCert TLS RSA SHA256 2020 CA1</elem>
+<elem key="countryName">US</elem>
+<elem key="organizationName">DigiCert Inc</elem>
+</table>
+<table key="pubkey">
+<elem key="type">rsa</elem>
+<elem key="exponent">userdata: 0x55bdf4895818</elem>
+<elem key="modulus">userdata: 0x55bdf4894a48</elem>
+<elem key="bits">2048</elem>
+</table>
+<table key="extensions">
+<table>
+<elem key="name">X509v3 Authority Key Identifier</elem>
+<elem key="value">keyid:B7:6B:A2:EA:A8:AA:84:8C:79:EA:B4:DA:0F:98:B2:C5:95:76:B9:F4&#xa;</elem>
+</table>
+<table>
+<elem key="name">X509v3 Subject Key Identifier</elem>
+<elem key="value">F7:2A:09:D0:24:5B:11:71:EE:BA:BE:F4:3E:1C:3D:56:12:88:16:BB</elem>
+</table>
+<table>
+<elem key="name">X509v3 Subject Alternative Name</elem>
+<elem key="value">DNS:www.example.org, DNS:example.net, DNS:example.edu, DNS:example.com, DNS:example.org, DNS:www.example.com, DNS:www.example.edu, DNS:www.example.net</elem>
+</table>
+<table>
+<elem key="critical">true</elem>
+<elem key="name">X509v3 Key Usage</elem>
+<elem key="value">Digital Signature, Key Encipherment</elem>
+</table>
+<table>
+<elem key="name">X509v3 Extended Key Usage</elem>
+<elem key="value">TLS Web Server Authentication, TLS Web Client Authentication</elem>
+</table>
+<table>
+<elem key="name">X509v3 CRL Distribution Points</elem>
+<elem key="value">&#xa;Full Name:&#xa;  URI:http://crl3.digicert.com/DigiCertTLSRSASHA2562020CA1-4.crl&#xa;&#xa;Full Name:&#xa;  URI:http://crl4.digicert.com/DigiCertTLSRSASHA2562020CA1-4.crl&#xa;</elem>
+</table>
+<table>
+<elem key="name">X509v3 Certificate Policies</elem>
+<elem key="value">Policy: 2.23.140.1.2.2&#xa;  CPS: http://www.digicert.com/CPS&#xa;</elem>
+</table>
+<table>
+<elem key="name">Authority Information Access</elem>
+<elem key="value">OCSP - URI:http://ocsp.digicert.com&#xa;CA Issuers - URI:http://cacerts.digicert.com/DigiCertTLSRSASHA2562020CA1-1.crt&#xa;</elem>
+</table>
+<table>
+<elem key="name">X509v3 Basic Constraints</elem>
+<elem key="value">CA:FALSE</elem>
+</table>
+<table>
+<elem key="name">CT Precertificate SCTs</elem>
+<elem key="value">Signed Certificate Timestamp:&#xa;    Version   : v1 (0x0)&#xa;    Log ID    : E8:3E:D0:DA:3E:F5:06:35:32:E7:57:28:BC:89:6B:C9:&#xa;                03:D3:CB:D1:11:6B:EC:EB:69:E1:77:7D:6D:06:BD:6E&#xa;    Timestamp : Mar 14 22:48:46.197 2022 GMT&#xa;    Extensions: none&#xa;    Signature : ecdsa-with-SHA256&#xa;                30:44:02:20:31:78:F3:53:EB:46:7F:BD:32:53:3D:5A:&#xa;                F2:88:6C:D7:AC:BC:42:34:94:2A:B5:E5:0B:92:0B:81:&#xa;                10:C6:C6:FE:02:20:47:74:30:BC:82:C9:21:60:14:7E:&#xa;                F4:9F:25:0F:F3:32:6A:AB:D8:90:DA:9D:61:3C:BB:36:&#xa;                C2:E0:45:9B:73:00&#xa;Signed Certificate Timestamp:&#xa;    Version   : v1 (0x0)&#xa;    Log ID    : 35:CF:19:1B:BF:B1:6C:57:BF:0F:AD:4C:6D:42:CB:BB:&#xa;                B6:27:20:26:51:EA:3F:E1:2A:EF:A8:03:C3:3B:D6:4C&#xa;    Timestamp : Mar 14 22:48:46.204 2022 GMT&#xa;    Extensions: none&#xa;    Signature : ecdsa-with-SHA256&#xa;                30:44:02:20:3B:29:4F:1C:24:50:1A:44:A1:E0:3E:22:&#xa;                89:4D:63:03:8A:97:D6:31:9B:09:3C:D7:AC:9D:D0:ED:&#xa;                88:24:F6:5C:02:20:15:F1:35:A1:A0:E2:E2:8A:A1:8A:&#xa;                9D:8D:36:09:D7:06:5C:EC:C0:CC:2E:ED:4F:A9:BB:3A:&#xa;                D2:C0:92:ED:BE:58&#xa;Signed Certificate Timestamp:&#xa;    Version   : v1 (0x0)&#xa;    Log ID    : B3:73:77:07:E1:84:50:F8:63:86:D6:05:A9:DC:11:09:&#xa;                4A:79:2D:B1:67:0C:0B:87:DC:F0:03:0E:79:36:A5:9A&#xa;    Timestamp : Mar 14 22:48:46.215 2022 GMT&#xa;    Extensions: none&#xa;    Signature : ecdsa-with-SHA256&#xa;                30:45:02:20:29:1E:EA:C0:F2:D0:6F:A5:13:DB:E4:BB:&#xa;                C3:BB:90:B1:BB:03:65:F6:55:5F:F8:3C:16:40:6D:02:&#xa;                5B:5A:4E:90:02:21:00:CB:76:D7:9D:44:D1:8D:86:EC:&#xa;                D8:A4:1E:A0:98:10:72:76:1B:52:42:2E:58:64:BB:29:&#xa;                16:F6:95:1E:97:96:D7</elem>
+</table>
+</table>
+<elem key="sig_algo">sha256WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2022-03-14T00:00:00</elem>
+<elem key="notAfter">2023-03-14T23:59:59</elem>
+</table>
+<elem key="md5">c5208a47259d540a6e3404dddb85af91</elem>
+<elem key="sha1">df81dfa6b61eafdffffe1a250240db5d2e6cee25</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIHRzCCBi+gAwIBAgIQD6pjEJMHvD1BSJJkDM1NmjANBgkqhkiG9w0BAQsFADBP&#xa;MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMSkwJwYDVQQDEyBE&#xa;aWdpQ2VydCBUTFMgUlNBIFNIQTI1NiAyMDIwIENBMTAeFw0yMjAzMTQwMDAwMDBa&#xa;Fw0yMzAzMTQyMzU5NTlaMIGWMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZv&#xa;cm5pYTEUMBIGA1UEBxMLTG9zIEFuZ2VsZXMxQjBABgNVBAoMOUludGVybmV0wqBD&#xa;b3Jwb3JhdGlvbsKgZm9ywqBBc3NpZ25lZMKgTmFtZXPCoGFuZMKgTnVtYmVyczEY&#xa;MBYGA1UEAxMPd3d3LmV4YW1wbGUub3JnMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A&#xa;MIIBCgKCAQEAlV2WY5rlGn1fpwvuBhj0nVBcNxCxkHUG/pJG4HvaJen7YIZ1mLc7&#xa;/P4snOJZiEfwWFTikHNbcUCcYiKG8JkFebZOYMc1U9PiEtVWGU4kuYuxiXpD8oMP&#xa;in1B0SgrF7gKfO1//I2weJdAUjgZuXBCPAlhz2EnHddzXUtwm9XuOLO/Y6LATVMs&#xa;bp8/lXnfo/bX0UgJ7C0aVqOu07A0Vr6OkPxwWmOvF3cRKhVCM7U4B51KK+IsWRLm&#xa;8cVW1IaXjwhGzW7BR6EI3sxCQ4Wnc6HVPSgmomLWWWkIGFPAwcWUB4NC12yhCO5i&#xa;W/dxNMWNLMRVtnZAyq6FpZ8wFK6j4OMwMwIDAQABo4ID1TCCA9EwHwYDVR0jBBgw&#xa;FoAUt2ui6qiqhIx56rTaD5iyxZV2ufQwHQYDVR0OBBYEFPcqCdAkWxFx7rq+9D4c&#xa;PVYSiBa7MIGBBgNVHREEejB4gg93d3cuZXhhbXBsZS5vcmeCC2V4YW1wbGUubmV0&#xa;ggtleGFtcGxlLmVkdYILZXhhbXBsZS5jb22CC2V4YW1wbGUub3Jngg93d3cuZXhh&#xa;bXBsZS5jb22CD3d3dy5leGFtcGxlLmVkdYIPd3d3LmV4YW1wbGUubmV0MA4GA1Ud&#xa;DwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwgY8GA1Ud&#xa;HwSBhzCBhDBAoD6gPIY6aHR0cDovL2NybDMuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0&#xa;VExTUlNBU0hBMjU2MjAyMENBMS00LmNybDBAoD6gPIY6aHR0cDovL2NybDQuZGln&#xa;aWNlcnQuY29tL0RpZ2lDZXJ0VExTUlNBU0hBMjU2MjAyMENBMS00LmNybDA+BgNV&#xa;HSAENzA1MDMGBmeBDAECAjApMCcGCCsGAQUFBwIBFhtodHRwOi8vd3d3LmRpZ2lj&#xa;ZXJ0LmNvbS9DUFMwfwYIKwYBBQUHAQEEczBxMCQGCCsGAQUFBzABhhhodHRwOi8v&#xa;b2NzcC5kaWdpY2VydC5jb20wSQYIKwYBBQUHMAKGPWh0dHA6Ly9jYWNlcnRzLmRp&#xa;Z2ljZXJ0LmNvbS9EaWdpQ2VydFRMU1JTQVNIQTI1NjIwMjBDQTEtMS5jcnQwCQYD&#xa;VR0TBAIwADCCAXwGCisGAQQB1nkCBAIEggFsBIIBaAFmAHUA6D7Q2j71BjUy51co&#xa;vIlryQPTy9ERa+zraeF3fW0GvW4AAAF/ip6hdQAABAMARjBEAiAxePNT60Z/vTJT&#xa;PVryiGzXrLxCNJQqteULkguBEMbG/gIgR3QwvILJIWAUfvSfJQ/zMmqr2JDanWE8&#xa;uzbC4EWbcwAAdQA1zxkbv7FsV78PrUxtQsu7ticgJlHqP+Eq76gDwzvWTAAAAX+K&#xa;nqF8AAAEAwBGMEQCIDspTxwkUBpEoeA+IolNYwOKl9Yxmwk816yd0O2IJPZcAiAV&#xa;8TWhoOLiiqGKnY02CdcGXOzAzC7tT6m7OtLAku2+WAB2ALNzdwfhhFD4Y4bWBanc&#xa;EQlKeS2xZwwLh9zwAw55NqWaAAABf4qeoYcAAAQDAEcwRQIgKR7qwPLQb6UT2+S7&#xa;w7uQsbsDZfZVX/g8FkBtAltaTpACIQDLdtedRNGNhuzYpB6gmBBydhtSQi5YZLsp&#xa;FvaVHpeW1zANBgkqhkiG9w0BAQsFAAOCAQEAqp++XZEbreROTsyPB2RENbStOxM/&#xa;wSnYtKvzQlFJRjvWzx5Bg+ELVy+DaXllB29ZA4xRlIkYED4eXO26PY5PGhSS0yv/&#xa;1JjLp5MOvLcbk6RCQkbZ5bEaa2gqmy5IqS8dKrDj+CCUVIFQLu7X4CB6ey5n+/rY&#xa;F6Rb3MoAYu8jr3pY8Hp0DL1NQ/GMAofc464J0vf6NzzSS6sE5UOl0lURDkGHXzio&#xa;5XpeTEa4tvo/w0vNQDX/4KRxdArBIIvjVEeE1Ri9UZtAXd1CMBLROqVjmq+QCNYb&#xa;0XELBnGQ666tr7pfx9trHniitNEGI6dj87VD+laMUBd7HBtOEGsiDoRSlA==&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script><script id="ssl-date" output="TLS randomness does not represent time"></script><script id="tls-alpn" output="&#xa;  h2&#xa;  http/1.1"><elem>h2</elem>
+<elem>http/1.1</elem>
+</script><script id="tls-nextprotoneg" output="&#xa;  h2&#xa;  http/1.1&#xa;  http/1.0"><elem>h2</elem>
+<elem>http/1.1</elem>
+<elem>http/1.0</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Oracle Virtualbox" accuracy="97" line="91850">
+<osclass type="bridge" vendor="Oracle" osfamily="Virtualbox" accuracy="97"><cpe>cpe:/o:oracle:virtualbox</cpe></osclass>
+</osmatch>
+<osmatch name="QEMU user mode network gateway" accuracy="91" line="93627">
+<osclass type="general purpose" vendor="QEMU" osfamily="QEMU" accuracy="91"><cpe>cpe:/a:qemu:qemu</cpe></osclass>
+</osmatch>
+</os>
+<distance value="2"/>
+<tcpsequence index="17" difficulty="Good luck!" values="FAA41001,FAA6FE01,FAA8F201,FAAAE601,FAACDA01,FAAECE01"/>
+<ipidsequence class="Incrementing by 2" values="B561,B563,B565,B567,B569,B571"/>
+<tcptssequence class="none returned (unsupported)"/>
+<trace port="80" proto="tcp">
+<hop ttl="1" ipaddr="10.0.2.2" rtt="1.15" host="_gateway"/>
+<hop ttl="2" ipaddr="93.184.216.34" rtt="1.09"/>
+</trace>
+<times srtt="1484" rttvar="524" to="50000"/>
+</host>
+<host starttime="1668193163" endtime="1668194515"><status state="up" reason="reset" reason_ttl="255"/>
+<address addr="45.33.32.156" addrtype="ipv4"/>
+<hostnames>
+<hostname name="scanme.nmap.org" type="user"/>
+<hostname name="scanme.nmap.org" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="64559">
+<extrareasons reason="no-responses" count="64558"/>
+<extrareasons reason="net-unreach" count="1"/>
+</extraports>
+<extraports state="closed" count="974">
+<extrareasons reason="resets" count="974"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ssh" product="OpenSSH" version="6.6.1p1 Ubuntu 2ubuntu2.13" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:6.6.1p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  1024 ac:00:a0:1a:82:ff:cc:55:99:dc:67:2b:34:97:6b:75 (DSA)&#xa;  2048 20:3d:2d:44:62:2a:b0:5a:9d:b5:b3:05:14:c2:a6:b2 (RSA)&#xa;  256 96:02:bb:5e:57:54:1c:4e:45:2f:56:4c:4a:24:b2:57 (ECDSA)&#xa;  256 33:fa:91:0f:e0:e1:7b:1f:6d:05:a2:b0:f1:54:41:56 (ED25519)"><table>
+<elem key="type">ssh-dss</elem>
+<elem key="key">AAAAB3NzaC1kc3MAAACBAOe8o59vFWZGaBmGPVeJBObEfi1AR8yEUYC/Ufkku3sKhGF7wM2m2ujIeZDK5vqeC0S5EN2xYo6FshCP4FQRYeTxD17nNO4PhwW65qAjDRRU0uHFfSAh5wk+vt4yQztOE++sTd1G9OBLzA8HO99qDmCAxb3zw+GQDEgPjzgyzGZ3AAAAFQCBmE1vROP8IaPkUmhM5xLFta/xHwAAAIEA3EwRfaeOPLL7TKDgGX67Lbkf9UtdlpCdC4doMjGgsznYMwWH6a7Lj3vi4/KmeZZdix6FMdFqq+2vrfT1DRqx0RS0XYdGxnkgS+2g333WYCrUkDCn6RPUWR/1TgGMPHCj7LWCa1ZwJwLWS2KX288Pa2gLOWuhZm2VYKSQx6NEDOIAAACBANxIfprSdBdbo4Ezrh6/X6HSvrhjtZ7MouStWaE714ByO5bS2coM9CyaCwYyrE5qzYiyIfb+1BG3O5nVdDuN95sQ/0bAdBKlkqLFvFqFjVbETF0ri3v97w6MpUawfF75ouDrQ4xdaUOLLEWTso6VFJcM6Jg9bDl0FA0uLZUSDEHL</elem>
+<elem key="bits">1024</elem>
+<elem key="fingerprint">ac00a01a82ffcc5599dc672b34976b75</elem>
+</table>
+<table>
+<elem key="type">ssh-rsa</elem>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABAQC6afooTZ9mVUGFNEhkMoRR1Btzu64XXwElhCsHw/zVlIx/HXylNbb9+11dm2VgJQ21pxkWDs+L6+EbYyDnvRURTrMTgHL0xseB0EkNqexs9hYZSiqtMx4jtGNtHvsMxZnbxvVUk2dasWvtBkn8J5JagSbzWTQo4hjKMOI1SUlXtiKxAs2F8wiq2EdSuKw/KNk8GfIp1TA+8ccGeAtnsVptTJ4D/8MhAWsROkQzOowQvnBBz2/8ecEvoMScaf+kDfNQowK3gENtSSOqYw9JLOza6YJBPL/aYuQQ0nJ74Rr5vL44aNIlrGI9jJc2x0bV7BeNA5kVuXsmhyfWbbkB8yGd</elem>
+<elem key="bits">2048</elem>
+<elem key="fingerprint">203d2d44622ab05a9db5b30514c2a6b2</elem>
+</table>
+<table>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMD46g67x6yWNjjQJnXhiz/TskHrqQ0uPcOspFrIYW382uOGzmWDZCFV8FbFwQyH90u+j0Qr1SGNAxBZMhOQ8pc=</elem>
+<elem key="bits">256</elem>
+<elem key="fingerprint">9602bb5e57541c4e452f564c4a24b257</elem>
+</table>
+<table>
+<elem key="type">ssh-ed25519</elem>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAILzVjfIyIHfXyRd8jVBaVT8Yvk/UvHh5Afvho8sGciG7</elem>
+<elem key="bits">256</elem>
+<elem key="fingerprint">33fa910fe0e17b1f6d05a2b0f1544156</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" product="Apache httpd" version="2.4.7" extrainfo="(Ubuntu)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.7</cpe></service><script id="http-server-header" output="Apache/2.4.7 (Ubuntu)"><elem>Apache/2.4.7 (Ubuntu)</elem>
+</script><script id="http-title" output="Go ahead and ScanMe!"><elem key="title">Go ahead and ScanMe!</elem>
+</script></port>
+<port protocol="tcp" portid="9929"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="nping-echo" product="Nping echo" method="probed" conf="10"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="22"/>
+<portused state="closed" proto="tcp" portid="9"/>
+<osmatch name="Oracle Virtualbox" accuracy="93" line="91850">
+<osclass type="bridge" vendor="Oracle" osfamily="Virtualbox" accuracy="93"><cpe>cpe:/o:oracle:virtualbox</cpe></osclass>
+</osmatch>
+<osmatch name="QEMU user mode network gateway" accuracy="88" line="93627">
+<osclass type="general purpose" vendor="QEMU" osfamily="QEMU" accuracy="88"><cpe>cpe:/a:qemu:qemu</cpe></osclass>
+</osmatch>
+</os>
+<distance value="2"/>
+<tcpsequence index="17" difficulty="Good luck!" values="FAA60401,FAA7F801,FAA9EC01,FAABE001,FAADD401,FAB0C201"/>
+<ipidsequence class="Incremental" values="B562,B564,B566,B568,B56C,B575"/>
+<tcptssequence class="none returned (unsupported)"/>
+<trace port="80" proto="tcp">
+<hop ttl="1" ipaddr="10.0.2.2" rtt="1.15" host="_gateway"/>
+<hop ttl="2" ipaddr="45.33.32.156" rtt="1.08" host="scanme.nmap.org"/>
+</trace>
+<times srtt="3074" rttvar="3449" to="50000"/>
+</host>
+<runstats><finished time="1668194515" timestr="Sat Nov 12 00:21:55 2022" elapsed="1353.72" summary="Nmap done at Sat Nov 12 00:21:55 2022; 2 IP addresses (2 hosts up) scanned in 1353.72 seconds" exit="success"/><hosts up="2" down="0" total="2"/>
+</runstats>
+</nmaprun>

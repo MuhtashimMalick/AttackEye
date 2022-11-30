@@ -1,0 +1,2580 @@
+{
+  "edges": [
+    {
+      "key": "0",
+      "source": "0",
+      "target": "19",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "1",
+      "source": "2",
+      "target": "84",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "2",
+      "source": "2",
+      "target": "74",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "3",
+      "source": "3",
+      "target": "53",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "4",
+      "source": "3",
+      "target": "74",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "5",
+      "source": "4",
+      "target": "53",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "6",
+      "source": "4",
+      "target": "74",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "7",
+      "source": "5",
+      "target": "17",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "8",
+      "source": "5",
+      "target": "74",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "9",
+      "source": "6",
+      "target": "63",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "10",
+      "source": "6",
+      "target": "85",
+      "edgeTitle": "ptr_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "11",
+      "source": "9",
+      "target": "80",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "12",
+      "source": "9",
+      "target": "74",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "13",
+      "source": "10",
+      "target": "80",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "14",
+      "source": "10",
+      "target": "74",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "15",
+      "source": "11",
+      "target": "31",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "16",
+      "source": "12",
+      "target": "53",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "17",
+      "source": "12",
+      "target": "74",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "18",
+      "source": "13",
+      "target": "80",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "19",
+      "source": "13",
+      "target": "74",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "20",
+      "source": "14",
+      "target": "53",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "21",
+      "source": "14",
+      "target": "74",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "22",
+      "source": "16",
+      "target": "24",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "23",
+      "source": "16",
+      "target": "17",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "24",
+      "source": "16",
+      "target": "38",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "25",
+      "source": "19",
+      "target": "1",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "26",
+      "source": "20",
+      "target": "36",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "27",
+      "source": "20",
+      "target": "24",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "28",
+      "source": "20",
+      "target": "74",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "29",
+      "source": "23",
+      "target": "34",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "30",
+      "source": "23",
+      "target": "70",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "31",
+      "source": "26",
+      "target": "17",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "32",
+      "source": "26",
+      "target": "80",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "33",
+      "source": "26",
+      "target": "74",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "34",
+      "source": "27",
+      "target": "80",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "35",
+      "source": "27",
+      "target": "74",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "36",
+      "source": "28",
+      "target": "84",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "37",
+      "source": "28",
+      "target": "74",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "38",
+      "source": "29",
+      "target": "21",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "39",
+      "source": "30",
+      "target": "53",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "40",
+      "source": "30",
+      "target": "74",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "41",
+      "source": "32",
+      "target": "17",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "42",
+      "source": "32",
+      "target": "74",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "43",
+      "source": "33",
+      "target": "17",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "44",
+      "source": "33",
+      "target": "74",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "45",
+      "source": "34",
+      "target": "44",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "46",
+      "source": "35",
+      "target": "57",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "47",
+      "source": "35",
+      "target": "88",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "48",
+      "source": "35",
+      "target": "87",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "49",
+      "source": "35",
+      "target": "15",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "50",
+      "source": "37",
+      "target": "17",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "51",
+      "source": "37",
+      "target": "74",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "52",
+      "source": "40",
+      "target": "53",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "53",
+      "source": "40",
+      "target": "74",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "54",
+      "source": "41",
+      "target": "17",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "55",
+      "source": "41",
+      "target": "74",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "56",
+      "source": "42",
+      "target": "72",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "57",
+      "source": "42",
+      "target": "25",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "58",
+      "source": "42",
+      "target": "15",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "59",
+      "source": "43",
+      "target": "80",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "60",
+      "source": "43",
+      "target": "74",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "61",
+      "source": "45",
+      "target": "73",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "62",
+      "source": "45",
+      "target": "65",
+      "edgeTitle": "ptr_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "63",
+      "source": "46",
+      "target": "58",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "64",
+      "source": "47",
+      "target": "63",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "65",
+      "source": "47",
+      "target": "65",
+      "edgeTitle": "ptr_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "66",
+      "source": "48",
+      "target": "53",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "67",
+      "source": "48",
+      "target": "74",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "68",
+      "source": "49",
+      "target": "80",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "69",
+      "source": "49",
+      "target": "74",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "70",
+      "source": "50",
+      "target": "16",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "71",
+      "source": "51",
+      "target": "38",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "72",
+      "source": "51",
+      "target": "74",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "73",
+      "source": "52",
+      "target": "74",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "75",
+      "source": "54",
+      "target": "80",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "76",
+      "source": "54",
+      "target": "74",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "77",
+      "source": "55",
+      "target": "29",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "78",
+      "source": "55",
+      "target": "78",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "79",
+      "source": "55",
+      "target": "35",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "80",
+      "source": "56",
+      "target": "18",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "81",
+      "source": "56",
+      "target": "25",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "82",
+      "source": "56",
+      "target": "88",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "83",
+      "source": "58",
+      "target": "80",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "84",
+      "source": "58",
+      "target": "36",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "85",
+      "source": "58",
+      "target": "53",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "86",
+      "source": "58",
+      "target": "7",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "87",
+      "source": "59",
+      "target": "80",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "88",
+      "source": "59",
+      "target": "74",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "89",
+      "source": "60",
+      "target": "11",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "90",
+      "source": "61",
+      "target": "53",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "91",
+      "source": "61",
+      "target": "74",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "92",
+      "source": "62",
+      "target": "53",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "93",
+      "source": "62",
+      "target": "74",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "94",
+      "source": "64",
+      "target": "17",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "95",
+      "source": "64",
+      "target": "74",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "96",
+      "source": "65",
+      "target": "36",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "97",
+      "source": "65",
+      "target": "24",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "98",
+      "source": "65",
+      "target": "74",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "99",
+      "source": "66",
+      "target": "74",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "100",
+      "source": "66",
+      "target": "20",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "101",
+      "source": "67",
+      "target": "53",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "102",
+      "source": "67",
+      "target": "74",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "103",
+      "source": "68",
+      "target": "8",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "104",
+      "source": "68",
+      "target": "25",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "105",
+      "source": "68",
+      "target": "87",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "106",
+      "source": "69",
+      "target": "17",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "107",
+      "source": "69",
+      "target": "80",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "108",
+      "source": "69",
+      "target": "74",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "109",
+      "source": "70",
+      "target": "84",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "110",
+      "source": "71",
+      "target": "63",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "111",
+      "source": "71",
+      "target": "20",
+      "edgeTitle": "ptr_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "112",
+      "source": "74",
+      "target": "21",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "113",
+      "source": "74",
+      "target": "42",
+      "edgeTitle": "ns_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "114",
+      "source": "74",
+      "target": "83",
+      "edgeTitle": "ns_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "115",
+      "source": "74",
+      "target": "68",
+      "edgeTitle": "ns_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "116",
+      "source": "74",
+      "target": "56",
+      "edgeTitle": "ns_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "117",
+      "source": "74",
+      "target": "65",
+      "edgeTitle": "mx_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "118",
+      "source": "74",
+      "target": "82",
+      "edgeTitle": "mx_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "119",
+      "source": "74",
+      "target": "74",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "120",
+      "source": "75",
+      "target": "17",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "121",
+      "source": "75",
+      "target": "74",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "122",
+      "source": "76",
+      "target": "73",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "123",
+      "source": "76",
+      "target": "51",
+      "edgeTitle": "ptr_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "124",
+      "source": "77",
+      "target": "17",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "125",
+      "source": "77",
+      "target": "74",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "126",
+      "source": "78",
+      "target": "18",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "127",
+      "source": "78",
+      "target": "8",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "128",
+      "source": "78",
+      "target": "72",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "129",
+      "source": "78",
+      "target": "22",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "130",
+      "source": "79",
+      "target": "53",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "131",
+      "source": "79",
+      "target": "74",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "132",
+      "source": "81",
+      "target": "80",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "133",
+      "source": "81",
+      "target": "74",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "134",
+      "source": "82",
+      "target": "31",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "135",
+      "source": "82",
+      "target": "1",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "136",
+      "source": "82",
+      "target": "39",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "137",
+      "source": "83",
+      "target": "22",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "138",
+      "source": "83",
+      "target": "25",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "139",
+      "source": "83",
+      "target": "57",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "140",
+      "source": "85",
+      "target": "7",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "141",
+      "source": "85",
+      "target": "74",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "142",
+      "source": "86",
+      "target": "44",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "143",
+      "source": "86",
+      "target": "74",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "144",
+      "source": "89",
+      "target": "17",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "145",
+      "source": "89",
+      "target": "80",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "146",
+      "source": "89",
+      "target": "74",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "key": "0",
+      "attributes": {
+        "x": -0,
+        "y": 0,
+        "label": "54489",
+        "pointTitle": "as: 54489, Desc: CORESPACE-DAL - CoreSpace, Inc.",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "1",
+      "attributes": {
+        "x": -1.3127119788664134,
+        "y": -1.8567849563102279,
+        "label": "64.182.101.45",
+        "pointTitle": "address: 64.182.101.45",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "2",
+      "attributes": {
+        "x": 2.9099217034448452,
+        "y": 3.915954795581053,
+        "label": "www3.dsu.edu.pk",
+        "pointTitle": "subdomain: www3.dsu.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Alterations",
+        "size": 15
+      }
+    },
+    {
+      "key": "3",
+      "attributes": {
+        "x": 4.0740473300359294,
+        "y": -5.948410983498056,
+        "label": "mun.dsu.edu.pk",
+        "pointTitle": "subdomain: mun.dsu.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Ask",
+        "size": 15
+      }
+    },
+    {
+      "key": "4",
+      "attributes": {
+        "x": -6.156374959991901,
+        "y": 5.303004086795132,
+        "label": "ceid.dsu.edu.pk",
+        "pointTitle": "subdomain: ceid.dsu.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "DuckDuckGo",
+        "size": 15
+      }
+    },
+    {
+      "key": "5",
+      "attributes": {
+        "x": -8.708177203037732,
+        "y": -9.718825922586802,
+        "label": "oric.dsu.edu.pk",
+        "pointTitle": "subdomain: oric.dsu.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Ask",
+        "size": 15
+      }
+    },
+    {
+      "key": "6",
+      "attributes": {
+        "x": 10.421781852911515,
+        "y": 10.572190001942499,
+        "label": "87.107.68.111.in-addr.arpa",
+        "pointTitle": "ptr: 87.107.68.111.in-addr.arpa",
+        "color": "#E33E14",
+        "category": "ptr",
+        "type": "border",
+        "source": "Reverse DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "7",
+      "attributes": {
+        "x": -11.50705102400732,
+        "y": -10.205527619687036,
+        "label": "111.68.107.87",
+        "pointTitle": "address: 111.68.107.87",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "8",
+      "attributes": {
+        "x": -8.225727526375188,
+        "y": 8.702466848906624,
+        "label": "216.239.38.109",
+        "pointTitle": "address: 216.239.38.109",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "9",
+      "attributes": {
+        "x": 14.239451551251701,
+        "y": -10.817896434227837,
+        "label": "lms2.dsu.edu.pk",
+        "pointTitle": "subdomain: lms2.dsu.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Alterations",
+        "size": 15
+      }
+    },
+    {
+      "key": "10",
+      "attributes": {
+        "x": -10.072720256200904,
+        "y": 19.546228152223996,
+        "label": "silabs.dsu.edu.pk",
+        "pointTitle": "subdomain: silabs.dsu.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "HackerTarget",
+        "size": 15
+      }
+    },
+    {
+      "key": "11",
+      "attributes": {
+        "x": 13.590847027790595,
+        "y": -21.289616231966335,
+        "label": "38.143.176.0/20",
+        "pointTitle": "netblock: 38.143.176.0/20",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "12",
+      "attributes": {
+        "x": -20.379941790954582,
+        "y": 22.099558202502664,
+        "label": "pdc.dsu.edu.pk",
+        "pointTitle": "subdomain: pdc.dsu.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Yahoo",
+        "size": 15
+      }
+    },
+    {
+      "key": "13",
+      "attributes": {
+        "x": -16.21481697907265,
+        "y": -16.402109100831876,
+        "label": "gd.dsu.edu.pk",
+        "pointTitle": "subdomain: gd.dsu.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Wayback",
+        "size": 15
+      }
+    },
+    {
+      "key": "14",
+      "attributes": {
+        "x": -15.381510066251929,
+        "y": 25.995863632895983,
+        "label": "medialabs.dsu.edu.pk",
+        "pointTitle": "subdomain: medialabs.dsu.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Ask",
+        "size": 15
+      }
+    },
+    {
+      "key": "15",
+      "attributes": {
+        "x": 26.994124859887172,
+        "y": -19.762645382156037,
+        "label": "2001:4860:4802:32::6d",
+        "pointTitle": "address: 2001:4860:4802:32::6d",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "16",
+      "attributes": {
+        "x": 27.43607660384668,
+        "y": 21.850021223234567,
+        "label": "203.130.0.0/20",
+        "pointTitle": "netblock: 203.130.0.0/20",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "17",
+      "attributes": {
+        "x": -30.4299606261576,
+        "y": -18.56106379820035,
+        "label": "203.130.11.2",
+        "pointTitle": "address: 203.130.11.2",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "18",
+      "attributes": {
+        "x": -22.773488135342113,
+        "y": 21.510534030924166,
+        "label": "216.239.36.109",
+        "pointTitle": "address: 216.239.36.109",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "19",
+      "attributes": {
+        "x": -29.957144218976836,
+        "y": -19.852614830186425,
+        "label": "64.182.0.0/17",
+        "pointTitle": "netblock: 64.182.0.0/17",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "20",
+      "attributes": {
+        "x": -31.881317712965952,
+        "y": 37.88072210867467,
+        "label": "mail.dsu.edu.pk",
+        "pointTitle": "subdomain: mail.dsu.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "21",
+      "attributes": {
+        "x": -40.066919988274414,
+        "y": -26.35137177230858,
+        "label": "35.236.144.210",
+        "pointTitle": "address: 35.236.144.210",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "22",
+      "attributes": {
+        "x": 23.715452202956932,
+        "y": 31.79845345442257,
+        "label": "216.239.34.109",
+        "pointTitle": "address: 216.239.34.109",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "23",
+      "attributes": {
+        "x": 36.79382802613981,
+        "y": -29.535567573737648,
+        "label": "396982",
+        "pointTitle": "as: 396982, Desc: GOOGLE-CLOUD-PLATFORM, US",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "24",
+      "attributes": {
+        "x": -33.86985937428688,
+        "y": 38.033454044783426,
+        "label": "203.130.11.4",
+        "pointTitle": "address: 203.130.11.4",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "25",
+      "attributes": {
+        "x": 43.71662438589398,
+        "y": -48.351517705881406,
+        "label": "googledomains.com",
+        "pointTitle": "domain: googledomains.com",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "26",
+      "attributes": {
+        "x": -26.345506936072574,
+        "y": 37.228601925180214,
+        "label": "survey.dsu.edu.pk",
+        "pointTitle": "subdomain: survey.dsu.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Wayback",
+        "size": 15
+      }
+    },
+    {
+      "key": "27",
+      "attributes": {
+        "x": -52.946345345686716,
+        "y": -44.177209334916434,
+        "label": "my.dsu.edu.pk",
+        "pointTitle": "subdomain: my.dsu.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Wayback",
+        "size": 15
+      }
+    },
+    {
+      "key": "28",
+      "attributes": {
+        "x": -50.142862478283845,
+        "y": 54.23995131761632,
+        "label": "www2.dsu.edu.pk",
+        "pointTitle": "subdomain: www2.dsu.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "HackerTarget",
+        "size": 15
+      }
+    },
+    {
+      "key": "29",
+      "attributes": {
+        "x": 41.59075545004395,
+        "y": -55.171143237592574,
+        "label": "35.236.128.0/17",
+        "pointTitle": "netblock: 35.236.128.0/17",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "30",
+      "attributes": {
+        "x": 39.73851741534816,
+        "y": 45.97189711790886,
+        "label": "battlex.dsu.edu.pk",
+        "pointTitle": "subdomain: battlex.dsu.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Wayback",
+        "size": 15
+      }
+    },
+    {
+      "key": "31",
+      "attributes": {
+        "x": -46.962813959071,
+        "y": -41.63617269133431,
+        "label": "38.143.181.15",
+        "pointTitle": "address: 38.143.181.15",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "32",
+      "attributes": {
+        "x": 56.056695611133065,
+        "y": 37.97234849047223,
+        "label": "cba.dsu.edu.pk",
+        "pointTitle": "subdomain: cba.dsu.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AlienVault",
+        "size": 15
+      }
+    },
+    {
+      "key": "33",
+      "attributes": {
+        "x": -41.31524084223801,
+        "y": -39.569800815655206,
+        "label": "etest2.dsu.edu.pk",
+        "pointTitle": "subdomain: etest2.dsu.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Alterations",
+        "size": 15
+      }
+    },
+    {
+      "key": "34",
+      "attributes": {
+        "x": -54.257383216664394,
+        "y": 46.89082985226668,
+        "label": "35.196.224.0/20",
+        "pointTitle": "netblock: 35.196.224.0/20",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "35",
+      "attributes": {
+        "x": 64.33867630476053,
+        "y": -53.55340508438559,
+        "label": "2001:4860::/32",
+        "pointTitle": "netblock: 2001:4860::/32",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "36",
+      "attributes": {
+        "x": -49.37401929630261,
+        "y": 53.04337805650087,
+        "label": "111.68.107.86",
+        "pointTitle": "address: 111.68.107.86",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "37",
+      "attributes": {
+        "x": -52.256192352721435,
+        "y": -65.92389471045355,
+        "label": "wwwdev.dsu.edu.pk",
+        "pointTitle": "subdomain: wwwdev.dsu.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Ask",
+        "size": 15
+      }
+    },
+    {
+      "key": "38",
+      "attributes": {
+        "x": 63.895959672036554,
+        "y": 39.7294560277397,
+        "label": "203.130.11.5",
+        "pointTitle": "address: 203.130.11.5",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "39",
+      "attributes": {
+        "x": -69.6308529100162,
+        "y": -76.40712481784915,
+        "label": "dnsexit.com",
+        "pointTitle": "domain: dnsexit.com",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "40",
+      "attributes": {
+        "x": -45.468130524014036,
+        "y": 68.6735288706862,
+        "label": "cgv.dsu.edu.pk",
+        "pointTitle": "subdomain: cgv.dsu.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Ask",
+        "size": 15
+      }
+    },
+    {
+      "key": "41",
+      "attributes": {
+        "x": -56.70160904568796,
+        "y": -81.2261296051077,
+        "label": "mydsung.dsu.edu.pk",
+        "pointTitle": "subdomain: mydsung.dsu.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "DuckDuckGo",
+        "size": 15
+      }
+    },
+    {
+      "key": "42",
+      "attributes": {
+        "x": 46.12877114935687,
+        "y": 79.00681531785636,
+        "label": "ns-cloud-d1.googledomains.com",
+        "pointTitle": "ns: ns-cloud-d1.googledomains.com",
+        "color": "#E36414",
+        "category": "ns",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "43",
+      "attributes": {
+        "x": -49.179433038945625,
+        "y": -77.91134079752418,
+        "label": "dl.dsu.edu.pk",
+        "pointTitle": "subdomain: dl.dsu.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "HackerTarget",
+        "size": 15
+      }
+    },
+    {
+      "key": "44",
+      "attributes": {
+        "x": -67.10569397018067,
+        "y": 44.386347168636455,
+        "label": "35.196.224.81",
+        "pointTitle": "address: 35.196.224.81",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "45",
+      "attributes": {
+        "x": 75.67814808273633,
+        "y": -70.96276249122431,
+        "label": "4.11.130.203.in-addr.arpa",
+        "pointTitle": "ptr: 4.11.130.203.in-addr.arpa",
+        "color": "#E33E14",
+        "category": "ptr",
+        "type": "border",
+        "source": "Reverse DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "46",
+      "attributes": {
+        "x": -71.18688562277818,
+        "y": 82.3573542392929,
+        "label": "45773",
+        "pointTitle": "as: 45773, Desc: HECPERN-AS-PK PERN AS Content Servie Provider, Islamabad, Pakistan",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "47",
+      "attributes": {
+        "x": 50.215634106766544,
+        "y": -66.04019950706612,
+        "label": "86.107.68.111.in-addr.arpa",
+        "pointTitle": "ptr: 86.107.68.111.in-addr.arpa",
+        "color": "#E33E14",
+        "category": "ptr",
+        "type": "border",
+        "source": "Reverse DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "48",
+      "attributes": {
+        "x": -67.53689421770001,
+        "y": 63.122457533265006,
+        "label": "spectrum.dsu.edu.pk",
+        "pointTitle": "subdomain: spectrum.dsu.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Wayback",
+        "size": 15
+      }
+    },
+    {
+      "key": "49",
+      "attributes": {
+        "x": -73.87437906049503,
+        "y": -53.32705984712595,
+        "label": "mydsung-dev.dsu.edu.pk",
+        "pointTitle": "subdomain: mydsung-dev.dsu.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Alterations",
+        "size": 15
+      }
+    },
+    {
+      "key": "50",
+      "attributes": {
+        "x": 61.24604637233814,
+        "y": 62.344814816182726,
+        "label": "24435",
+        "pointTitle": "as: 24435, Desc: SUPERNET-PAKISTAN-AS-AP Supernet Limited Transit Autonomous System Number",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "51",
+      "attributes": {
+        "x": -74.51989297342038,
+        "y": -74.97933658068392,
+        "label": "smtp1.dsu.edu.pk",
+        "pointTitle": "subdomain: smtp1.dsu.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Reverse DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "52",
+      "attributes": {
+        "x": -72.89253656022788,
+        "y": 97.0044189560374,
+        "label": "www.dsu.edu.pk",
+        "pointTitle": "subdomain: www.dsu.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "53",
+      "attributes": {
+        "x": -98.6999888019322,
+        "y": -82.59634224332797,
+        "label": "111.68.107.91",
+        "pointTitle": "address: 111.68.107.91",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "54",
+      "attributes": {
+        "x": -78.33405932658967,
+        "y": 66.37518123340006,
+        "label": "filer.dsu.edu.pk",
+        "pointTitle": "subdomain: filer.dsu.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "HackerTarget",
+        "size": 15
+      }
+    },
+    {
+      "key": "55",
+      "attributes": {
+        "x": 77.93109125902788,
+        "y": -95.29972391715874,
+        "label": "15169",
+        "pointTitle": "as: 15169, Desc: Google Google, Inc - Google",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "56",
+      "attributes": {
+        "x": -103.32535191690963,
+        "y": 104.0177662947718,
+        "label": "ns-cloud-d3.googledomains.com",
+        "pointTitle": "ns: ns-cloud-d3.googledomains.com",
+        "color": "#E36414",
+        "category": "ns",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "57",
+      "attributes": {
+        "x": -66.79691368551954,
+        "y": -113.1979641267128,
+        "label": "2001:4860:4802:34::6d",
+        "pointTitle": "address: 2001:4860:4802:34::6d",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "58",
+      "attributes": {
+        "x": 67.75402813437547,
+        "y": 61.440016769303504,
+        "label": "111.68.96.0/20",
+        "pointTitle": "netblock: 111.68.96.0/20",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "59",
+      "attributes": {
+        "x": -75.98058772914933,
+        "y": -108.83721526191661,
+        "label": "library.dsu.edu.pk",
+        "pointTitle": "subdomain: library.dsu.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AlienVault",
+        "size": 15
+      }
+    },
+    {
+      "key": "60",
+      "attributes": {
+        "x": 84.36378989373785,
+        "y": 100.72839951356147,
+        "label": "174",
+        "pointTitle": "as: 174, Desc: COGENT-174 - Cogent Communications",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "61",
+      "attributes": {
+        "x": -97.50024572913611,
+        "y": -72.72733154948733,
+        "label": "crcl.dsu.edu.pk",
+        "pointTitle": "subdomain: crcl.dsu.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AlienVault",
+        "size": 15
+      }
+    },
+    {
+      "key": "62",
+      "attributes": {
+        "x": 107.7744948051018,
+        "y": 73.12626492089188,
+        "label": "acm.dsu.edu.pk",
+        "pointTitle": "subdomain: acm.dsu.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Ask",
+        "size": 15
+      }
+    },
+    {
+      "key": "63",
+      "attributes": {
+        "x": 77.7024547713133,
+        "y": -101.48189476295514,
+        "label": "111.in-addr.arpa",
+        "pointTitle": "domain: 111.in-addr.arpa",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "Reverse DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "64",
+      "attributes": {
+        "x": -104.5336857404474,
+        "y": 86.91271064021015,
+        "label": "directory.dsu.edu.pk",
+        "pointTitle": "subdomain: directory.dsu.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "DuckDuckGo",
+        "size": 15
+      }
+    },
+    {
+      "key": "65",
+      "attributes": {
+        "x": -65.44637512029153,
+        "y": -100.01845185693519,
+        "label": "smtp.dsu.edu.pk",
+        "pointTitle": "mx: smtp.dsu.edu.pk",
+        "color": "#F7727B",
+        "category": "mx",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "66",
+      "attributes": {
+        "x": 101.70536136170026,
+        "y": 96.58328719473019,
+        "label": "webmail.dsu.edu.pk",
+        "pointTitle": "subdomain: webmail.dsu.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Alterations",
+        "size": 15
+      }
+    },
+    {
+      "key": "67",
+      "attributes": {
+        "x": -102.13415649825988,
+        "y": -76.12854919015183,
+        "label": "wsn.dsu.edu.pk",
+        "pointTitle": "subdomain: wsn.dsu.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "DuckDuckGo",
+        "size": 15
+      }
+    },
+    {
+      "key": "68",
+      "attributes": {
+        "x": -124.65207157290664,
+        "y": 96.55845236416427,
+        "label": "ns-cloud-d4.googledomains.com",
+        "pointTitle": "ns: ns-cloud-d4.googledomains.com",
+        "color": "#E36414",
+        "category": "ns",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "69",
+      "attributes": {
+        "x": 89.25722543534347,
+        "y": -127.94503654628994,
+        "label": "etest.dsu.edu.pk",
+        "pointTitle": "subdomain: etest.dsu.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Ask",
+        "size": 15
+      }
+    },
+    {
+      "key": "70",
+      "attributes": {
+        "x": -122.75419484614352,
+        "y": 83.46599878981176,
+        "label": "35.237.0.0/16",
+        "pointTitle": "netblock: 35.237.0.0/16",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "71",
+      "attributes": {
+        "x": 95.95828648883571,
+        "y": -86.19788621074346,
+        "label": "85.107.68.111.in-addr.arpa",
+        "pointTitle": "ptr: 85.107.68.111.in-addr.arpa",
+        "color": "#E33E14",
+        "category": "ptr",
+        "type": "border",
+        "source": "Reverse DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "72",
+      "attributes": {
+        "x": -81.91844876759455,
+        "y": 129.22410602128625,
+        "label": "216.239.32.109",
+        "pointTitle": "address: 216.239.32.109",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "73",
+      "attributes": {
+        "x": -112.39477978236268,
+        "y": -75.48292528854613,
+        "label": "203.in-addr.arpa",
+        "pointTitle": "domain: 203.in-addr.arpa",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "Reverse DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "74",
+      "attributes": {
+        "x": 88.69907736986067,
+        "y": 74.21996872335141,
+        "label": "dsu.edu.pk",
+        "pointTitle": "domain: dsu.edu.pk",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "75",
+      "attributes": {
+        "x": -75.0475851289162,
+        "y": -141.80983412217506,
+        "label": "lms19.dsu.edu.pk",
+        "pointTitle": "subdomain: lms19.dsu.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Alterations",
+        "size": 15
+      }
+    },
+    {
+      "key": "76",
+      "attributes": {
+        "x": -131.52581638638023,
+        "y": 101.8346288459693,
+        "label": "5.11.130.203.in-addr.arpa",
+        "pointTitle": "ptr: 5.11.130.203.in-addr.arpa",
+        "color": "#E33E14",
+        "category": "ptr",
+        "type": "border",
+        "source": "Reverse DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "77",
+      "attributes": {
+        "x": 146.57530514944256,
+        "y": -86.89276401589655,
+        "label": "lms1.dsu.edu.pk",
+        "pointTitle": "subdomain: lms1.dsu.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Alterations",
+        "size": 15
+      }
+    },
+    {
+      "key": "78",
+      "attributes": {
+        "x": 78.33968122546612,
+        "y": 148.80660411036118,
+        "label": "216.239.32.0/20",
+        "pointTitle": "netblock: 216.239.32.0/20",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "79",
+      "attributes": {
+        "x": -91.03356532095118,
+        "y": -112.86946366194937,
+        "label": "ieee.dsu.edu.pk",
+        "pointTitle": "subdomain: ieee.dsu.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "HackerTarget",
+        "size": 15
+      }
+    },
+    {
+      "key": "80",
+      "attributes": {
+        "x": -151.32503899615722,
+        "y": 144.95013930046917,
+        "label": "111.68.107.82",
+        "pointTitle": "address: 111.68.107.82",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "81",
+      "attributes": {
+        "x": 145.49684144368524,
+        "y": -130.2269007796371,
+        "label": "vpn.dsu.edu.pk",
+        "pointTitle": "subdomain: vpn.dsu.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Wayback",
+        "size": 15
+      }
+    },
+    {
+      "key": "82",
+      "attributes": {
+        "x": 84.90488876667803,
+        "y": 84.38510061233528,
+        "label": "smtp.dnsexit.com",
+        "pointTitle": "mx: smtp.dnsexit.com",
+        "color": "#F7727B",
+        "category": "mx",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "83",
+      "attributes": {
+        "x": 153.12316754008327,
+        "y": -97.15032041971898,
+        "label": "ns-cloud-d2.googledomains.com",
+        "pointTitle": "ns: ns-cloud-d2.googledomains.com",
+        "color": "#E36414",
+        "category": "ns",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "84",
+      "attributes": {
+        "x": -126.55106810027829,
+        "y": 147.08635751768256,
+        "label": "35.237.150.78",
+        "pointTitle": "address: 35.237.150.78",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "85",
+      "attributes": {
+        "x": -100.60838933720872,
+        "y": -109.2514592283329,
+        "label": "mailer.dsu.edu.pk",
+        "pointTitle": "subdomain: mailer.dsu.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Reverse DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "86",
+      "attributes": {
+        "x": 146.49065310850654,
+        "y": 162.3547442636837,
+        "label": "admissions.dsu.edu.pk",
+        "pointTitle": "subdomain: admissions.dsu.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Ask",
+        "size": 15
+      }
+    },
+    {
+      "key": "87",
+      "attributes": {
+        "x": 113.97745631659713,
+        "y": -110.96657666587281,
+        "label": "2001:4860:4802:38::6d",
+        "pointTitle": "address: 2001:4860:4802:38::6d",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "88",
+      "attributes": {
+        "x": -119.73064628897035,
+        "y": 127.33938941489133,
+        "label": "2001:4860:4802:36::6d",
+        "pointTitle": "address: 2001:4860:4802:36::6d",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "89",
+      "attributes": {
+        "x": 118.23080999390547,
+        "y": -115.5816007314002,
+        "label": "lms.dsu.edu.pk",
+        "pointTitle": "subdomain: lms.dsu.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AlienVault",
+        "size": 15
+      }
+    }
+  ]
+}

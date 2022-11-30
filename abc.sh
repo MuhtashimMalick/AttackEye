@@ -14,13 +14,13 @@ cd /home/hamza/Desktop/go/pkg/mod/pkg/mod/github.com/OWASP/Amass/v3/cmd/amass
 # echo $a
 # echo "******************************HHHHHHHHHHHHHHH HHHHHHHHHHHHHHHH***************************"
 # echo $1
-# ./amass enum -passive -d $1 -o /home/hamza/django-rest-api/django-rest-api-master/DjangoRestApi/tutorials/templates/$1.txt 
+# ./amass enum -passive -d $1 -o /home/hamza/django-rest-api/django-rest-api-master/DjangoRestApi/attackeye/templates/$1.txt 
 
 ./amass enum -d $1
 
 ./amass viz -enum 1 -graphistry -d $1 
 # # mv amass_graphistry.json /home/nccs-irp/sigma.js/examples/layouts/data.json
-mv amass_graphistry.json /home/hamza/django-rest-api/django-rest-api-master/DjangoRestApi/tutorials/templates/$1
+mv amass_graphistry.json /home/hamza/django-rest-api/django-rest-api-master/DjangoRestApi/attackeye/templates/$1
 
 
 
@@ -50,7 +50,7 @@ mv amass_graphistry.json /home/hamza/django-rest-api/django-rest-api-master/Djan
 #     'city': 'Some City',
 #     'state': 'Utah',
 # # })
-# data=$(</home/hamza/django-rest-api/django-rest-api-master/DjangoRestApi/tutorials/templates/data.json)
+# data=$(</home/hamza/django-rest-api/django-rest-api-master/DjangoRestApi/attackeye/templates/data.json)
 
 # echo "$data"
 # #mysql commands

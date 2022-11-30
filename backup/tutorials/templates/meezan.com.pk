@@ -1,0 +1,98 @@
+{
+  "edges": [
+    {
+      "key": "0",
+      "source": "0",
+      "target": "1",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "1",
+      "source": "1",
+      "target": "1",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "2",
+      "source": "2",
+      "target": "1",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "3",
+      "source": "3",
+      "target": "1",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "key": "0",
+      "attributes": {
+        "x": -0,
+        "y": 0,
+        "label": "28www.meezan.com.pk",
+        "pointTitle": "subdomain: 28www.meezan.com.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Censys",
+        "size": 15
+      }
+    },
+    {
+      "key": "1",
+      "attributes": {
+        "x": -1.5334435262969284,
+        "y": -1.9451318591253925,
+        "label": "meezan.com.pk",
+        "pointTitle": "domain: meezan.com.pk",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "2",
+      "attributes": {
+        "x": 2.7151350553233238,
+        "y": 2.4930445917016013,
+        "label": "mail.meezan.com.pk",
+        "pointTitle": "subdomain: mail.meezan.com.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "RapidDNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "3",
+      "attributes": {
+        "x": 4.688494447025021,
+        "y": -5.283729307772352,
+        "label": "www.meezan.com.pk",
+        "pointTitle": "subdomain: www.meezan.com.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Ask",
+        "size": 15
+      }
+    }
+  ]
+}
