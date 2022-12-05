@@ -1,0 +1,589 @@
+{
+  "edges": [
+    {
+      "key": "0",
+      "source": "0",
+      "target": "21",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "1",
+      "source": "0",
+      "target": "5",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "2",
+      "source": "5",
+      "target": "7",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "3",
+      "source": "6",
+      "target": "16",
+      "edgeTitle": "ns_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "4",
+      "source": "6",
+      "target": "13",
+      "edgeTitle": "ns_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "5",
+      "source": "6",
+      "target": "12",
+      "edgeTitle": "mx_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "6",
+      "source": "6",
+      "target": "15",
+      "edgeTitle": "mx_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "7",
+      "source": "6",
+      "target": "6",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "8",
+      "source": "6",
+      "target": "1",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "9",
+      "source": "8",
+      "target": "6",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "10",
+      "source": "8",
+      "target": "7",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "11",
+      "source": "11",
+      "target": "6",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "12",
+      "source": "11",
+      "target": "1",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "13",
+      "source": "12",
+      "target": "4",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "14",
+      "source": "12",
+      "target": "7",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "15",
+      "source": "13",
+      "target": "2",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "16",
+      "source": "13",
+      "target": "3",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "17",
+      "source": "15",
+      "target": "9",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "18",
+      "source": "15",
+      "target": "14",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "19",
+      "source": "15",
+      "target": "10",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "20",
+      "source": "16",
+      "target": "2",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "21",
+      "source": "16",
+      "target": "22",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "22",
+      "source": "17",
+      "target": "3",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "23",
+      "source": "17",
+      "target": "22",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "24",
+      "source": "18",
+      "target": "19",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "25",
+      "source": "19",
+      "target": "14",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "26",
+      "source": "19",
+      "target": "10",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "27",
+      "source": "20",
+      "target": "17",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "28",
+      "source": "21",
+      "target": "1",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "key": "0",
+      "attributes": {
+        "x": 0,
+        "y": 0,
+        "label": "7506",
+        "pointTitle": "as: 7506, Desc: INTERQ GMO Internet,Inc",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "1",
+      "attributes": {
+        "x": -1.148058340028504,
+        "y": -1.3564721316789332,
+        "label": "150.95.219.150",
+        "pointTitle": "address: 150.95.219.150",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "2",
+      "attributes": {
+        "x": 3.193320281318554,
+        "y": 3.0596741189449768,
+        "label": "gmoserver.jp",
+        "pointTitle": "domain: gmoserver.jp",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "3",
+      "attributes": {
+        "x": 4.865406367799414,
+        "y": -4.150044562508906,
+        "label": "157.7.33.87",
+        "pointTitle": "address: 157.7.33.87",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "4",
+      "attributes": {
+        "x": 6.560332431954412,
+        "y": 4.069937927403934,
+        "label": "onamae.ne.jp",
+        "pointTitle": "domain: onamae.ne.jp",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "5",
+      "attributes": {
+        "x": 9.415643888760492,
+        "y": -9.985452281560683,
+        "label": "163.44.160.0/19",
+        "pointTitle": "netblock: 163.44.160.0/19",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "6",
+      "attributes": {
+        "x": 6.620531056504474,
+        "y": 11.729569187395557,
+        "label": "plusw.co.jp",
+        "pointTitle": "domain: plusw.co.jp",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "7",
+      "attributes": {
+        "x": 13.945227896486172,
+        "y": -8.323184010206592,
+        "label": "163.44.187.209",
+        "pointTitle": "address: 163.44.187.209",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "8",
+      "attributes": {
+        "x": 9.687411338139734,
+        "y": 8.721894640380118,
+        "label": "mail.plusw.co.jp",
+        "pointTitle": "subdomain: mail.plusw.co.jp",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "PKey",
+        "size": 15
+      }
+    },
+    {
+      "key": "9",
+      "attributes": {
+        "x": -12.315924269314124,
+        "y": -13.962377297650884,
+        "label": "outlook.com",
+        "pointTitle": "domain: outlook.com",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "10",
+      "attributes": {
+        "x": -19.763910294070023,
+        "y": 18.6551774103035,
+        "label": "104.47.23.74",
+        "pointTitle": "address: 104.47.23.74",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "11",
+      "attributes": {
+        "x": -15.69776638643874,
+        "y": -13.76101587564595,
+        "label": "www.plusw.co.jp",
+        "pointTitle": "subdomain: www.plusw.co.jp",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "DuckDuckGo",
+        "size": 15
+      }
+    },
+    {
+      "key": "12",
+      "attributes": {
+        "x": -23.577779112489978,
+        "y": 12.999510188499993,
+        "label": "mx9.onamae.ne.jp",
+        "pointTitle": "mx: mx9.onamae.ne.jp",
+        "color": "#F7727B",
+        "category": "mx",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "13",
+      "attributes": {
+        "x": 21.156803554263192,
+        "y": -23.8048419900027,
+        "label": "ns-rs2.gmoserver.jp",
+        "pointTitle": "ns: ns-rs2.gmoserver.jp",
+        "color": "#E36414",
+        "category": "ns",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "14",
+      "attributes": {
+        "x": -14.79669271031372,
+        "y": 21.763974626845705,
+        "label": "104.47.23.138",
+        "pointTitle": "address: 104.47.23.138",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "15",
+      "attributes": {
+        "x": 26.082785743862846,
+        "y": -19.519587580431192,
+        "label": "plusw-co-jp.mail.protection.outlook.com",
+        "pointTitle": "mx: plusw-co-jp.mail.protection.outlook.com",
+        "color": "#F7727B",
+        "category": "mx",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "16",
+      "attributes": {
+        "x": -19.78441362733824,
+        "y": 16.052484146808307,
+        "label": "ns-rs1.gmoserver.jp",
+        "pointTitle": "ns: ns-rs1.gmoserver.jp",
+        "color": "#E36414",
+        "category": "ns",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "17",
+      "attributes": {
+        "x": -33.854544447276524,
+        "y": -33.998198098293464,
+        "label": "157.7.32.0/22",
+        "pointTitle": "netblock: 157.7.32.0/22",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "18",
+      "attributes": {
+        "x": -22.03967670480081,
+        "y": 30.110812249972106,
+        "label": "8075",
+        "pointTitle": "as: 8075, Desc: MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "19",
+      "attributes": {
+        "x": -19.92811725518,
+        "y": -20.313983389272092,
+        "label": "104.47.20.0/22",
+        "pointTitle": "netblock: 104.47.20.0/22",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "20",
+      "attributes": {
+        "x": 35.96729135068362,
+        "y": 35.3633315337463,
+        "label": "55907",
+        "pointTitle": "as: 55907, Desc: GMO-DNS GMO Internet,Inc",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "21",
+      "attributes": {
+        "x": 34.394073153341715,
+        "y": -34.62195498765205,
+        "label": "150.95.128.0/17",
+        "pointTitle": "netblock: 150.95.128.0/17",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "22",
+      "attributes": {
+        "x": 28.932229012903854,
+        "y": 30.925053676588174,
+        "label": "157.7.32.87",
+        "pointTitle": "address: 157.7.32.87",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    }
+  ]
+}
