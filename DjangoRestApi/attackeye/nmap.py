@@ -1,6 +1,7 @@
 import xml.etree.cElementTree as et
 import subprocess
 import pathlib
+from django.conf import settings
 
 
 def generate_nmap_xml_report(input_file_name, output_file_name):
@@ -12,7 +13,7 @@ def parse_nmap_xml_report(xml_file_name: str, host_name: str):
     try:
         # tree = et.parse(str(pathlib.Path().resolve()) +
         #                 f"/myblog/{xml_file_name}.xml")
-        tree = et.parse('/home/hamza/django-rest-api/django-rest-api-master/DjangoRestApi/attackeye/templates/testscan.xml')
+        tree = et.parse(f'{settings.SITE_ROOT}/DjangoRestApi/generated_subdomains/testscan.xml')
     except:
         return f'No XML file with name {xml_file_name}.xml'
     root = tree.getroot()

@@ -9,6 +9,7 @@ import subprocess
 
 ######################################################################################
 from attackeye.models import scan
+from django.conf import settings
 
 @shared_task
 def amass(y,user):
@@ -19,7 +20,7 @@ def amass(y,user):
     print(f"Execution of {y} has STARTED")
     # process = subprocess.Popen(['./amass.exe', 'enum', '-active', '-d', domain],stdout=subprocess.PIPE,stderr=subprocess.PIPE)
     # stdout, stderr = process.communicate()
-    subprocess.call(['bash','/home/hamza/abc.sh',y])
+    subprocess.call(['bash',f'{settings.SITE_ROOT}/abc.sh',y])
     print(f"Execution of {y} has COMPLETED")
     scan.objects.filter(UserId=user,description=y).update(pending=1)
 

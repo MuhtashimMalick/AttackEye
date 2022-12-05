@@ -8,8 +8,8 @@ export PATH=$PATH:/usr/local/go/bin/
 
 # # export PATH=$PATH:/root/go/pkg/mod/pkg/mod/github.com/OWASP/Amass/v3/cmd/amass
 # # cd /root/go/pkg/mod/pkg/mod/github.com/OWASP/Amass/v3/cmd/amass
-export PATH=$PATH:/home/hamza/Desktop/go/pkg/mod/pkg/mod/github.com/OWASP/Amass/v3/cmd/amass
-cd /home/hamza/Desktop/go/pkg/mod/pkg/mod/github.com/OWASP/Amass/v3/cmd/amass
+export PATH=$PATH:/home/$USER/Attack-Eye/go/pkg/mod/pkg/mod/github.com/OWASP/Amass/v3/cmd/amass
+cd /home/$USER/Attack-Eye/go/pkg/mod/pkg/mod/github.com/OWASP/Amass/v3/cmd/amass
 # var a=$1
 # echo $a
 # echo "******************************HHHHHHHHHHHHHHH HHHHHHHHHHHHHHHH***************************"
@@ -20,7 +20,7 @@ cd /home/hamza/Desktop/go/pkg/mod/pkg/mod/github.com/OWASP/Amass/v3/cmd/amass
 
 ./amass viz -enum 1 -graphistry -d $1 
 # # mv amass_graphistry.json /home/nccs-irp/sigma.js/examples/layouts/data.json
-mv amass_graphistry.json /home/hamza/django-rest-api/django-rest-api-master/DjangoRestApi/attackeye/templates/$1
+mv amass_graphistry.json /home/$USER/Attack-Eye/DjangoRestApi/generated_subdomains/$1
 
 
 

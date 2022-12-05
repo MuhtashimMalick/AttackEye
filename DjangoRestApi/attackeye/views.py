@@ -18,6 +18,7 @@ from django.contrib import auth
 from django.http import HttpResponseRedirect
 from django.http import HttpResponse
 from django.urls import reverse
+from django.conf import settings
 import datetime
 from .forms import UserRegistrationForm
 # from django.contrib.auth.forms import UserRegistrationForm
@@ -76,7 +77,7 @@ def graph_json(request,graphdomain):
         # check=y
     # print(request)
     # print(request.data["title"])
-    graph = open('/home/hamza/django-rest-api/django-rest-api-master/DjangoRestApi/attackeye/templates/'+graphdomain,'rb')
+    graph = open(f'{settings.SITE_ROOT}/DjangoRestApi/generated_subdomains/'+graphdomain,'rb')
     # graph = open('/home/hamza/django-rest-api/django-rest-api-master/DjangoRestApi/attackeye/templates/data.json','rb')
     print(graph)
     response = FileResponse(graph)
@@ -96,14 +97,14 @@ def download_csv(request,graphname):
     # domain = attackeye.description
     # logging.info(str(domain))
     print("hamza",graphname)
-    subprocess.call(['bash','/home/hamza/SubDomainDownload.sh',graphname])
-    img = open('/home/hamza/Desktop/go/pkg/mod/pkg/mod/github.com/OWASP/Amass/v3/cmd/amass/amass_maltego.csv', 'rb') 
+    subprocess.call(['bash',f'{settings.SITE_ROOT}/SubDomainDownload.sh',graphname])
+    img = open(f'{settings.SITE_ROOT}/go/pkg/mod/pkg/mod/github.com/OWASP/Amass/v3/cmd/amass/amass_maltego.csv', 'rb') 
     response = FileResponse(img)
     return response
 
 @parser_classes([JSONParser])
 @api_view(['GET', 'POST', 'DELETE'])
-def tutorial_list(request):
+def attackeye_list(request):
     if request.method == 'GET':
         attackeye = scan.objects.all()
         
@@ -111,8 +112,8 @@ def tutorial_list(request):
         if title is not None:
             attackeye = attackeye.filter(title__icontains=title)
         
-        tutorials_serializer = scanSerializer(attackeye, many=True)
-        return JsonResponse(tutorials_serializer.data, safe=False)
+        attackeye_serializer = scanSerializer(attackeye, many=True)
+        return JsonResponse(attackeye_serializer.data, safe=False)
         # 'safe=False' for objects serialization
  
     elif request.method == 'POST':
@@ -152,7 +153,7 @@ def tutorial_list(request):
         return JsonResponse({'message': '{} Tutorials were deleted successfully!'.format(count[0])}, status=status.HTTP_204_NO_CONTENT)
 # # "http://localhost:8080/api/attackeye
 # @api_view(['GET', 'POST', 'DELETE'])
-# def tutorial_list(request):
+# def attackeye_list(request):
 #     if request.method == 'GET':
 #         attackeye = scan.objects.all()
         
@@ -165,20 +166,20 @@ def tutorial_list(request):
 #         # 'safe=False' for objects serialization
  
 #     elif request.method == 'POST':
-#         tutorial_data = JSONParser().parse(request)
-#         x = tutorial_data["title"]
-#         y = tutorial_data["description"]
-#         tutorial_serializer = scanSerializer(data=tutorial_data)
-#         if tutorial_serializer.is_valid():
-#             tutorial_serializer.save()
+#         attackeye_data = JSONParser().parse(request)
+#         x = attackeye_data["title"]
+#         y = attackeye_data["description"]
+#         attackeye_serializer = scanSerializer(data=attackeye_data)
+#         if attackeye_serializer.is_valid():
+#             attackeye_serializer.save()
 #             amass.delay(str(y))
 #             # subprocess.call(['bash','/home/hamza/abc.sh',str(y)])
-#             return JsonResponse(tutorial_serializer.data, status=status.HTTP_201_CREATED) 
-#         return JsonResponse(tutorial_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-#         #  tutorial_data = JSONParser().parse(request)
-#         #  x = tutorial_data["title"]
-#         #  y = tutorial_data["description"]
-#         # tutorial_serializer = scanSerializer(data=tutorial_data)
+#             return JsonResponse(attackeye_serializer.data, status=status.HTTP_201_CREATED) 
+#         return JsonResponse(attackeye_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+#         #  attackeye_data = JSONParser().parse(request)
+#         #  x = attackeye_data["title"]
+#         #  y = attackeye_data["description"]
+#         # attackeye_serializer = scanSerializer(data=attackeye_data)
 #         #  print("ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss")
 #         #  user= request.session["_auth_user_id"]
 #         #  y=request.POST.get("domain")
@@ -223,20 +224,20 @@ def tutorial_list(request):
 #         #  return JsonResponse({"msg":"done"}, status=status.HTTP_201_CREATED) 
 #         # username = request.POST.get('name')
 #         # password= request.POST.get("password")
-#         # tutorial_data = JSONParser().parse(request)
-#         # x = tutorial_data["title"]
+#         # attackeye_data = JSONParser().parse(request)
+#         # x = attackeye_data["title"]
 
 #         # print("*************************************************************")
 #         # print(username,password)
-#         # z=tutorial_data["published"]
-#         # tutorial_serializer = scanSerializer(data=tutorial_data)
-#         # if tutorial_serializer.is_valid():
-#         #     tutorial_serializer.save()
+#         # z=attackeye_data["published"]
+#         # attackeye_serializer = scanSerializer(data=attackeye_data)
+#         # if attackeye_serializer.is_valid():
+#         #     attackeye_serializer.save()
           
 #             # amass.delay(str(y))
 #             # subprocess.call(['bash','/home/hamza/abc.sh',str(y)])
-#         #     return JsonResponse(tutorial_serializer.data, status=status.HTTP_201_CREATED) 
-#         # return JsonResponse(tutorial_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+#         #     return JsonResponse(attackeye_serializer.data, status=status.HTTP_201_CREATED) 
+#         # return JsonResponse(attackeye_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
     
 #     elif request.method == 'DELETE':
 #         count = scan.objects.all().delete()
@@ -244,23 +245,23 @@ def tutorial_list(request):
  
  
 @api_view(['GET', 'PUT', 'DELETE'])
-def tutorial_detail(request, pk):
+def attackeye_detail(request, pk):
     try: 
         tutorial = scan.objects.get(pk=pk) 
     except scan.DoesNotExist: 
         return JsonResponse({'message': 'The tutorial does not exist'}, status=status.HTTP_404_NOT_FOUND) 
  
     if request.method == 'GET': 
-        tutorial_serializer = scanSerializer(tutorial) 
-        return JsonResponse(tutorial_serializer.data) 
+        attackeye_serializer = scanSerializer(tutorial) 
+        return JsonResponse(attackeye_serializer.data) 
  
     elif request.method == 'PUT': 
-        tutorial_data = JSONParser().parse(request) 
-        tutorial_serializer = scanSerializer(tutorial, data=tutorial_data) 
-        if tutorial_serializer.is_valid(): 
-            tutorial_serializer.save() 
-            return JsonResponse(tutorial_serializer.data) 
-        return JsonResponse(tutorial_serializer.errors, status=status.HTTP_400_BAD_REQUEST) 
+        attackeye_data = JSONParser().parse(request) 
+        attackeye_serializer = scanSerializer(tutorial, data=attackeye_data) 
+        if attackeye_serializer.is_valid(): 
+            attackeye_serializer.save() 
+            return JsonResponse(attackeye_serializer.data) 
+        return JsonResponse(attackeye_serializer.errors, status=status.HTTP_400_BAD_REQUEST) 
  
     elif request.method == 'DELETE': 
         tutorial.delete() 
@@ -268,7 +269,7 @@ def tutorial_detail(request, pk):
     
         
 @api_view(['GET'])
-def tutorial_list_published(request):
+def attackeye_list_published(request):
     attackeye = scan.objects.filter(published=True)
         
     if request.method == 'GET': 
@@ -323,9 +324,9 @@ def tutorial_list_published(request):
 # @api_view(['POST'])
 # def graph_display(request):
 #    print(request)
-#    tutorial_data = JSONParser().parse(request) 
-#    tutorial_serializer = scanSerializer(tutorial, data=tutorial_data) 
-#    return JsonResponse(tutorial_serializer.data) 
+#    attackeye_data = JSONParser().parse(request) 
+#    attackeye_serializer = scanSerializer(tutorial, data=attackeye_data) 
+#    return JsonResponse(attackeye_serializer.data) 
    
 # @api_view(['GET', 'POST', 'DELETE'])
 # def graph_display(request):
@@ -337,8 +338,8 @@ def tutorial_list_published(request):
 #         # except scan.DoesNotExist: 
 #         #     return JsonResponse({'message': 'The tutorial does not exist'}, status=status.HTTP_404_NOT_FOUND) 
 #         # # if request.method == 'GET': 
-#         #     tutorial_serializer = scanSerializer(tutorial) 
-#         #     return JsonResponse(tutorial_serializer.data) 
+#         #     attackeye_serializer = scanSerializer(tutorial) 
+#         #     return JsonResponse(attackeye_serializer.data) 
  
 #         # if request.method == 'GET':
 #         # attackeye = scan.objects.all()
@@ -367,7 +368,7 @@ def tutorial_list_published(request):
         
 #         # subprocess.call(['bash','/home/hamza/hamza.sh',str(y)])
 #         return JsonResponse({'message': 'Done successfully!'}, status=status.HTTP_201_CREATED) 
-#         # z=tutorial_data["published"]
+#         # z=attackeye_data["published"]
 #         # graph_serializer = scanSerializer(data=graph_data)
 #         # if graph_serializer.is_valid():
 #         #     graph_serializer.save()
@@ -512,7 +513,7 @@ def registeruser(request):
 def nmap(request):
     if request.method=="POST":
         description=request.data["description"]
-        graph = open('/home/hamza/django-rest-api/django-rest-api-master/DjangoRestApi/attackeye/templates/'+description+'.txt','r')
+        graph = open(f'{settings.SITE_ROOT}/DjangoRestApi/attackeye/templates/'+description+'.txt','r')
         content=graph.read()
         lines=content.splitlines()
         print(lines)

@@ -1290,7 +1290,7 @@ footer.nb-footer .footer-info-single ul li a {
                                                 {% comment %} {% for graph in graph_list%}
                                                 <tr>
                                                     <tbody>
-                                                    <td><a href="{% url 'showgraph' graph.description%}"> {{graph.description}}</a></td>
+                                                    <td><a href="{% url 'showgraph' graph.description %}"> {{graph.description}}</a></td>
                                                     </tbody>
                                                 </tr>
                                                 {%endfor%} {% endcomment %}
@@ -1698,7 +1698,7 @@ footer.nb-footer .footer-info-single ul li a {
         var formData = new FormData(form);
         var text = formData.get('textInput');
         //axios.post("http://localhost:8080/api/tutorials", {
-          axios.post("/api/tutorials", {
+          axios.post("/api/attackeye", {
             headers: {"X-CSRFToken": csrftoken},
             description: text
         })

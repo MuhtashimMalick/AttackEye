@@ -1,6 +1,6 @@
 from django.urls import re_path
 from django.urls import path
-from attackeye import views 
+from attackeye import views
 from django.contrib import admin
 
 urlpatterns = [
@@ -18,15 +18,15 @@ urlpatterns = [
     # re_path(r'^api/deletedomain/(?P<description>[a-z].+)', views.deletedomain,name='deletedomain'),
     re_path(r'^api/deletedomain',views.deletedomain,name="deletedomain"),
     re_path(r'^index$', views.index,name='index-file'),
-    re_path(r'^api/attackeye$', views.tutorial_list,name='tutorial_list'),
+    re_path(r'^api/attackeye$', views.attackeye_list,name='attackeye_list'),
     re_path(r'^api/load/graph/(?P<graphdomain>[a-z].+)', views.graph_json),
     # re_path(r'^api/load/graph$', views.graph_json),
     # re_path(r'^api/load/graph_list$', views.graph_list,name="graphlist"),
     # re_path(r'^api/load/graph_list$', views.graph_list,name="graphlist"),
     # re_path(r'^api/download/csv$', views.download_csv),
     re_path(r'^api/download/csv/([a-z].+)$', views.download_csv),
-    re_path(r'^api/attackeye/(?P<pk>[0-9]+)$', views.tutorial_detail),
-    re_path(r'^api/attackeye/published$', views.tutorial_list_published),
+    re_path(r'^api/attackeye/(?P<pk>[0-9]+)$', views.attackeye_detail),
+    re_path(r'^api/attackeye/published$', views.attackeye_list_published),
     re_path(r'^api/view/table$', views.table_view),
 
     re_path(r'^index/nmap$', views.nmap,name='nmap'),

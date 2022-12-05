@@ -119,7 +119,7 @@
     
 
 //     //axios.post("http://localhost:8080/api/tutorials", {
-//       axios.post("/api/tutorials", {
+//       axios.post("/api/attackeye", {
 //         title: "fine",
 //         description: text,
 //         // published: today,
@@ -253,14 +253,14 @@ form.onsubmit = function () {
   // spinner.style.display = "flex";
 var desc=document.getElementById("description")
 const csrftoken= document.querySelector('[name=csrfmiddlewaretoken]').value;
-const headers = {"X-CSRFTOKEN": csrftoken,contentType: 'application/json'}
+const headers = {"X-CSRFTOKEN": csrftoken, contentType: 'application/json'}
 console.log(headers)
 var formData = new FormData(form);
 var text = formData.get('textInput');
 // const data={"description" : text}
 console.log(text)
 //axios.post("http://localhost:8080/api/tutorials", {
-axios.post("/api/tutorials", {
+axios.post("/api/attackeye", {
           description:text
 },
 {headers: headers})
@@ -288,10 +288,9 @@ axios.post("/api/deletedomain", {
 },
 {headers: headers})
   .then(function (response) {
-  console.log(response);
-  populateOverallOverview()
-
-})
+    console.log(response);
+    populateOverallOverview()
+  })
 };
 
 // function populateOverall(){
