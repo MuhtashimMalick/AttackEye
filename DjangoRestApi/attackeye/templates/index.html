@@ -3,7 +3,9 @@
 
 {% block content %}
 
-  <style>
+  <script src="{% static 'js/bundle.js' %}"></script>
+
+  <style type="text/css">
     html,
     body,
     #sigma-container {
@@ -257,8 +259,6 @@
     }
     .parent-div > button >span{
       height: 100%;
-      display: inline-flex;
-      align-items: center;
       text-align: center;
     }
 
@@ -387,6 +387,8 @@
       /* border: 1px solid dimgrey; */
       border-radius: 2px;
       cursor: pointer;
+      padding: 0;
+      line-height: 15px;
     }
     .Navbar {
       position:absolute;
@@ -622,7 +624,7 @@ display:flex;
         <!-- </div> -->
           <div class="parent-div">
             <button id="random">
-              <span><img src="{% static 'img/svgs/GiPerspectiveDiceSixFaces.svg' %}" />random</span>
+              <span><img src="{% static 'img/svgs/GiPerspectiveDiceSixFaces.svg' %}" /> Random</span>
             </button>
           </div>
           <div class="parent-div">
@@ -635,7 +637,7 @@ display:flex;
             </button>
           </div>
           <div class="parent-div"><button id="circular">
-              <span><img src="{% static 'img/svgs/BiLoaderCircle.svg' %}" />circular</span>
+              <span><img src="{% static 'img/svgs/BiLoaderCircle.svg' %}" /> Circular</span>
             </button> </div>
           <div class="parent-div"> 
              <button class="download">
@@ -658,12 +660,10 @@ display:flex;
       </div>
       <!--Container Main end-->
   
-    <!-- <script type="text/javascript">
+    <script type="text/javascript">
       function spinner() {
         document.getElementsByClassName("loader")[0].style.display = "block";
       }
-    </script>  -->
-
-    <script src="{% static 'js/bundle.js' %}"></script>
+    </script> 
 
 {% endblock %}

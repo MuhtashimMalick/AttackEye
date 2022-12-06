@@ -128,7 +128,6 @@ def attackeye_list(request):
             graphold=scan.objects.filter(UserId=user,description=y)
             graph=scan.objects.filter(description=y)
             if graphold:
-            
                 graphold.delete()
             elif graph:
                 tutorial=scan.objects.create(UserId=user,description=y,pending=1)

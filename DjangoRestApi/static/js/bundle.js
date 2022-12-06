@@ -1,35 +1,35 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./layouts1/node_modules/axios/index.js":
+/***/ "./node_modules/axios/index.js":
 /*!**********************************************!*\
-  !*** ./layouts1/node_modules/axios/index.js ***!
+  !*** ./node_modules/axios/index.js ***!
   \**********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__(/*! ./lib/axios */ "./layouts1/node_modules/axios/lib/axios.js");
+module.exports = __webpack_require__(/*! ./lib/axios */ "./node_modules/axios/lib/axios.js");
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/axios/lib/adapters/xhr.js":
+/***/ "./node_modules/axios/lib/adapters/xhr.js":
 /*!*********************************************************!*\
-  !*** ./layouts1/node_modules/axios/lib/adapters/xhr.js ***!
+  !*** ./node_modules/axios/lib/adapters/xhr.js ***!
   \*********************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
 
-var utils = __webpack_require__(/*! ./../utils */ "./layouts1/node_modules/axios/lib/utils.js");
-var settle = __webpack_require__(/*! ./../core/settle */ "./layouts1/node_modules/axios/lib/core/settle.js");
-var cookies = __webpack_require__(/*! ./../helpers/cookies */ "./layouts1/node_modules/axios/lib/helpers/cookies.js");
-var buildURL = __webpack_require__(/*! ./../helpers/buildURL */ "./layouts1/node_modules/axios/lib/helpers/buildURL.js");
-var buildFullPath = __webpack_require__(/*! ../core/buildFullPath */ "./layouts1/node_modules/axios/lib/core/buildFullPath.js");
-var parseHeaders = __webpack_require__(/*! ./../helpers/parseHeaders */ "./layouts1/node_modules/axios/lib/helpers/parseHeaders.js");
-var isURLSameOrigin = __webpack_require__(/*! ./../helpers/isURLSameOrigin */ "./layouts1/node_modules/axios/lib/helpers/isURLSameOrigin.js");
-var createError = __webpack_require__(/*! ../core/createError */ "./layouts1/node_modules/axios/lib/core/createError.js");
-var transitionalDefaults = __webpack_require__(/*! ../defaults/transitional */ "./layouts1/node_modules/axios/lib/defaults/transitional.js");
-var Cancel = __webpack_require__(/*! ../cancel/Cancel */ "./layouts1/node_modules/axios/lib/cancel/Cancel.js");
+var utils = __webpack_require__(/*! ./../utils */ "./node_modules/axios/lib/utils.js");
+var settle = __webpack_require__(/*! ./../core/settle */ "./node_modules/axios/lib/core/settle.js");
+var cookies = __webpack_require__(/*! ./../helpers/cookies */ "./node_modules/axios/lib/helpers/cookies.js");
+var buildURL = __webpack_require__(/*! ./../helpers/buildURL */ "./node_modules/axios/lib/helpers/buildURL.js");
+var buildFullPath = __webpack_require__(/*! ../core/buildFullPath */ "./node_modules/axios/lib/core/buildFullPath.js");
+var parseHeaders = __webpack_require__(/*! ./../helpers/parseHeaders */ "./node_modules/axios/lib/helpers/parseHeaders.js");
+var isURLSameOrigin = __webpack_require__(/*! ./../helpers/isURLSameOrigin */ "./node_modules/axios/lib/helpers/isURLSameOrigin.js");
+var createError = __webpack_require__(/*! ../core/createError */ "./node_modules/axios/lib/core/createError.js");
+var transitionalDefaults = __webpack_require__(/*! ../defaults/transitional */ "./node_modules/axios/lib/defaults/transitional.js");
+var Cancel = __webpack_require__(/*! ../cancel/Cancel */ "./node_modules/axios/lib/cancel/Cancel.js");
 
 module.exports = function xhrAdapter(config) {
   return new Promise(function dispatchXhrRequest(resolve, reject) {
@@ -234,20 +234,20 @@ module.exports = function xhrAdapter(config) {
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/axios/lib/axios.js":
+/***/ "./node_modules/axios/lib/axios.js":
 /*!**************************************************!*\
-  !*** ./layouts1/node_modules/axios/lib/axios.js ***!
+  !*** ./node_modules/axios/lib/axios.js ***!
   \**************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
 
-var utils = __webpack_require__(/*! ./utils */ "./layouts1/node_modules/axios/lib/utils.js");
-var bind = __webpack_require__(/*! ./helpers/bind */ "./layouts1/node_modules/axios/lib/helpers/bind.js");
-var Axios = __webpack_require__(/*! ./core/Axios */ "./layouts1/node_modules/axios/lib/core/Axios.js");
-var mergeConfig = __webpack_require__(/*! ./core/mergeConfig */ "./layouts1/node_modules/axios/lib/core/mergeConfig.js");
-var defaults = __webpack_require__(/*! ./defaults */ "./layouts1/node_modules/axios/lib/defaults/index.js");
+var utils = __webpack_require__(/*! ./utils */ "./node_modules/axios/lib/utils.js");
+var bind = __webpack_require__(/*! ./helpers/bind */ "./node_modules/axios/lib/helpers/bind.js");
+var Axios = __webpack_require__(/*! ./core/Axios */ "./node_modules/axios/lib/core/Axios.js");
+var mergeConfig = __webpack_require__(/*! ./core/mergeConfig */ "./node_modules/axios/lib/core/mergeConfig.js");
+var defaults = __webpack_require__(/*! ./defaults */ "./node_modules/axios/lib/defaults/index.js");
 
 /**
  * Create an instance of Axios
@@ -280,19 +280,19 @@ var axios = createInstance(defaults);
 axios.Axios = Axios;
 
 // Expose Cancel & CancelToken
-axios.Cancel = __webpack_require__(/*! ./cancel/Cancel */ "./layouts1/node_modules/axios/lib/cancel/Cancel.js");
-axios.CancelToken = __webpack_require__(/*! ./cancel/CancelToken */ "./layouts1/node_modules/axios/lib/cancel/CancelToken.js");
-axios.isCancel = __webpack_require__(/*! ./cancel/isCancel */ "./layouts1/node_modules/axios/lib/cancel/isCancel.js");
-axios.VERSION = (__webpack_require__(/*! ./env/data */ "./layouts1/node_modules/axios/lib/env/data.js").version);
+axios.Cancel = __webpack_require__(/*! ./cancel/Cancel */ "./node_modules/axios/lib/cancel/Cancel.js");
+axios.CancelToken = __webpack_require__(/*! ./cancel/CancelToken */ "./node_modules/axios/lib/cancel/CancelToken.js");
+axios.isCancel = __webpack_require__(/*! ./cancel/isCancel */ "./node_modules/axios/lib/cancel/isCancel.js");
+axios.VERSION = (__webpack_require__(/*! ./env/data */ "./node_modules/axios/lib/env/data.js").version);
 
 // Expose all/spread
 axios.all = function all(promises) {
   return Promise.all(promises);
 };
-axios.spread = __webpack_require__(/*! ./helpers/spread */ "./layouts1/node_modules/axios/lib/helpers/spread.js");
+axios.spread = __webpack_require__(/*! ./helpers/spread */ "./node_modules/axios/lib/helpers/spread.js");
 
 // Expose isAxiosError
-axios.isAxiosError = __webpack_require__(/*! ./helpers/isAxiosError */ "./layouts1/node_modules/axios/lib/helpers/isAxiosError.js");
+axios.isAxiosError = __webpack_require__(/*! ./helpers/isAxiosError */ "./node_modules/axios/lib/helpers/isAxiosError.js");
 
 module.exports = axios;
 
@@ -302,9 +302,9 @@ module.exports["default"] = axios;
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/axios/lib/cancel/Cancel.js":
+/***/ "./node_modules/axios/lib/cancel/Cancel.js":
 /*!**********************************************************!*\
-  !*** ./layouts1/node_modules/axios/lib/cancel/Cancel.js ***!
+  !*** ./node_modules/axios/lib/cancel/Cancel.js ***!
   \**********************************************************/
 /***/ ((module) => {
 
@@ -332,16 +332,16 @@ module.exports = Cancel;
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/axios/lib/cancel/CancelToken.js":
+/***/ "./node_modules/axios/lib/cancel/CancelToken.js":
 /*!***************************************************************!*\
-  !*** ./layouts1/node_modules/axios/lib/cancel/CancelToken.js ***!
+  !*** ./node_modules/axios/lib/cancel/CancelToken.js ***!
   \***************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
 
-var Cancel = __webpack_require__(/*! ./Cancel */ "./layouts1/node_modules/axios/lib/cancel/Cancel.js");
+var Cancel = __webpack_require__(/*! ./Cancel */ "./node_modules/axios/lib/cancel/Cancel.js");
 
 /**
  * A `CancelToken` is an object that can be used to request cancellation of an operation.
@@ -462,9 +462,9 @@ module.exports = CancelToken;
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/axios/lib/cancel/isCancel.js":
+/***/ "./node_modules/axios/lib/cancel/isCancel.js":
 /*!************************************************************!*\
-  !*** ./layouts1/node_modules/axios/lib/cancel/isCancel.js ***!
+  !*** ./node_modules/axios/lib/cancel/isCancel.js ***!
   \************************************************************/
 /***/ ((module) => {
 
@@ -478,21 +478,21 @@ module.exports = function isCancel(value) {
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/axios/lib/core/Axios.js":
+/***/ "./node_modules/axios/lib/core/Axios.js":
 /*!*******************************************************!*\
-  !*** ./layouts1/node_modules/axios/lib/core/Axios.js ***!
+  !*** ./node_modules/axios/lib/core/Axios.js ***!
   \*******************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
 
-var utils = __webpack_require__(/*! ./../utils */ "./layouts1/node_modules/axios/lib/utils.js");
-var buildURL = __webpack_require__(/*! ../helpers/buildURL */ "./layouts1/node_modules/axios/lib/helpers/buildURL.js");
-var InterceptorManager = __webpack_require__(/*! ./InterceptorManager */ "./layouts1/node_modules/axios/lib/core/InterceptorManager.js");
-var dispatchRequest = __webpack_require__(/*! ./dispatchRequest */ "./layouts1/node_modules/axios/lib/core/dispatchRequest.js");
-var mergeConfig = __webpack_require__(/*! ./mergeConfig */ "./layouts1/node_modules/axios/lib/core/mergeConfig.js");
-var validator = __webpack_require__(/*! ../helpers/validator */ "./layouts1/node_modules/axios/lib/helpers/validator.js");
+var utils = __webpack_require__(/*! ./../utils */ "./node_modules/axios/lib/utils.js");
+var buildURL = __webpack_require__(/*! ../helpers/buildURL */ "./node_modules/axios/lib/helpers/buildURL.js");
+var InterceptorManager = __webpack_require__(/*! ./InterceptorManager */ "./node_modules/axios/lib/core/InterceptorManager.js");
+var dispatchRequest = __webpack_require__(/*! ./dispatchRequest */ "./node_modules/axios/lib/core/dispatchRequest.js");
+var mergeConfig = __webpack_require__(/*! ./mergeConfig */ "./node_modules/axios/lib/core/mergeConfig.js");
+var validator = __webpack_require__(/*! ../helpers/validator */ "./node_modules/axios/lib/helpers/validator.js");
 
 var validators = validator.validators;
 /**
@@ -637,16 +637,16 @@ module.exports = Axios;
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/axios/lib/core/InterceptorManager.js":
+/***/ "./node_modules/axios/lib/core/InterceptorManager.js":
 /*!********************************************************************!*\
-  !*** ./layouts1/node_modules/axios/lib/core/InterceptorManager.js ***!
+  !*** ./node_modules/axios/lib/core/InterceptorManager.js ***!
   \********************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
 
-var utils = __webpack_require__(/*! ./../utils */ "./layouts1/node_modules/axios/lib/utils.js");
+var utils = __webpack_require__(/*! ./../utils */ "./node_modules/axios/lib/utils.js");
 
 function InterceptorManager() {
   this.handlers = [];
@@ -702,17 +702,17 @@ module.exports = InterceptorManager;
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/axios/lib/core/buildFullPath.js":
+/***/ "./node_modules/axios/lib/core/buildFullPath.js":
 /*!***************************************************************!*\
-  !*** ./layouts1/node_modules/axios/lib/core/buildFullPath.js ***!
+  !*** ./node_modules/axios/lib/core/buildFullPath.js ***!
   \***************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
 
-var isAbsoluteURL = __webpack_require__(/*! ../helpers/isAbsoluteURL */ "./layouts1/node_modules/axios/lib/helpers/isAbsoluteURL.js");
-var combineURLs = __webpack_require__(/*! ../helpers/combineURLs */ "./layouts1/node_modules/axios/lib/helpers/combineURLs.js");
+var isAbsoluteURL = __webpack_require__(/*! ../helpers/isAbsoluteURL */ "./node_modules/axios/lib/helpers/isAbsoluteURL.js");
+var combineURLs = __webpack_require__(/*! ../helpers/combineURLs */ "./node_modules/axios/lib/helpers/combineURLs.js");
 
 /**
  * Creates a new URL by combining the baseURL with the requestedURL,
@@ -733,16 +733,16 @@ module.exports = function buildFullPath(baseURL, requestedURL) {
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/axios/lib/core/createError.js":
+/***/ "./node_modules/axios/lib/core/createError.js":
 /*!*************************************************************!*\
-  !*** ./layouts1/node_modules/axios/lib/core/createError.js ***!
+  !*** ./node_modules/axios/lib/core/createError.js ***!
   \*************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
 
-var enhanceError = __webpack_require__(/*! ./enhanceError */ "./layouts1/node_modules/axios/lib/core/enhanceError.js");
+var enhanceError = __webpack_require__(/*! ./enhanceError */ "./node_modules/axios/lib/core/enhanceError.js");
 
 /**
  * Create an Error with the specified message, config, error code, request and response.
@@ -762,20 +762,20 @@ module.exports = function createError(message, config, code, request, response) 
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/axios/lib/core/dispatchRequest.js":
+/***/ "./node_modules/axios/lib/core/dispatchRequest.js":
 /*!*****************************************************************!*\
-  !*** ./layouts1/node_modules/axios/lib/core/dispatchRequest.js ***!
+  !*** ./node_modules/axios/lib/core/dispatchRequest.js ***!
   \*****************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
 
-var utils = __webpack_require__(/*! ./../utils */ "./layouts1/node_modules/axios/lib/utils.js");
-var transformData = __webpack_require__(/*! ./transformData */ "./layouts1/node_modules/axios/lib/core/transformData.js");
-var isCancel = __webpack_require__(/*! ../cancel/isCancel */ "./layouts1/node_modules/axios/lib/cancel/isCancel.js");
-var defaults = __webpack_require__(/*! ../defaults */ "./layouts1/node_modules/axios/lib/defaults/index.js");
-var Cancel = __webpack_require__(/*! ../cancel/Cancel */ "./layouts1/node_modules/axios/lib/cancel/Cancel.js");
+var utils = __webpack_require__(/*! ./../utils */ "./node_modules/axios/lib/utils.js");
+var transformData = __webpack_require__(/*! ./transformData */ "./node_modules/axios/lib/core/transformData.js");
+var isCancel = __webpack_require__(/*! ../cancel/isCancel */ "./node_modules/axios/lib/cancel/isCancel.js");
+var defaults = __webpack_require__(/*! ../defaults */ "./node_modules/axios/lib/defaults/index.js");
+var Cancel = __webpack_require__(/*! ../cancel/Cancel */ "./node_modules/axios/lib/cancel/Cancel.js");
 
 /**
  * Throws a `Cancel` if cancellation has been requested.
@@ -860,9 +860,9 @@ module.exports = function dispatchRequest(config) {
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/axios/lib/core/enhanceError.js":
+/***/ "./node_modules/axios/lib/core/enhanceError.js":
 /*!**************************************************************!*\
-  !*** ./layouts1/node_modules/axios/lib/core/enhanceError.js ***!
+  !*** ./node_modules/axios/lib/core/enhanceError.js ***!
   \**************************************************************/
 /***/ ((module) => {
 
@@ -914,16 +914,16 @@ module.exports = function enhanceError(error, config, code, request, response) {
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/axios/lib/core/mergeConfig.js":
+/***/ "./node_modules/axios/lib/core/mergeConfig.js":
 /*!*************************************************************!*\
-  !*** ./layouts1/node_modules/axios/lib/core/mergeConfig.js ***!
+  !*** ./node_modules/axios/lib/core/mergeConfig.js ***!
   \*************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
 
-var utils = __webpack_require__(/*! ../utils */ "./layouts1/node_modules/axios/lib/utils.js");
+var utils = __webpack_require__(/*! ../utils */ "./node_modules/axios/lib/utils.js");
 
 /**
  * Config-specific merge-function which creates a new config-object
@@ -1024,16 +1024,16 @@ module.exports = function mergeConfig(config1, config2) {
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/axios/lib/core/settle.js":
+/***/ "./node_modules/axios/lib/core/settle.js":
 /*!********************************************************!*\
-  !*** ./layouts1/node_modules/axios/lib/core/settle.js ***!
+  !*** ./node_modules/axios/lib/core/settle.js ***!
   \********************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
 
-var createError = __webpack_require__(/*! ./createError */ "./layouts1/node_modules/axios/lib/core/createError.js");
+var createError = __webpack_require__(/*! ./createError */ "./node_modules/axios/lib/core/createError.js");
 
 /**
  * Resolve or reject a Promise based on response status.
@@ -1060,17 +1060,17 @@ module.exports = function settle(resolve, reject, response) {
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/axios/lib/core/transformData.js":
+/***/ "./node_modules/axios/lib/core/transformData.js":
 /*!***************************************************************!*\
-  !*** ./layouts1/node_modules/axios/lib/core/transformData.js ***!
+  !*** ./node_modules/axios/lib/core/transformData.js ***!
   \***************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
 
-var utils = __webpack_require__(/*! ./../utils */ "./layouts1/node_modules/axios/lib/utils.js");
-var defaults = __webpack_require__(/*! ../defaults */ "./layouts1/node_modules/axios/lib/defaults/index.js");
+var utils = __webpack_require__(/*! ./../utils */ "./node_modules/axios/lib/utils.js");
+var defaults = __webpack_require__(/*! ../defaults */ "./node_modules/axios/lib/defaults/index.js");
 
 /**
  * Transform the data for a request or a response
@@ -1093,19 +1093,19 @@ module.exports = function transformData(data, headers, fns) {
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/axios/lib/defaults/index.js":
+/***/ "./node_modules/axios/lib/defaults/index.js":
 /*!***********************************************************!*\
-  !*** ./layouts1/node_modules/axios/lib/defaults/index.js ***!
+  !*** ./node_modules/axios/lib/defaults/index.js ***!
   \***********************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
 
-var utils = __webpack_require__(/*! ../utils */ "./layouts1/node_modules/axios/lib/utils.js");
-var normalizeHeaderName = __webpack_require__(/*! ../helpers/normalizeHeaderName */ "./layouts1/node_modules/axios/lib/helpers/normalizeHeaderName.js");
-var enhanceError = __webpack_require__(/*! ../core/enhanceError */ "./layouts1/node_modules/axios/lib/core/enhanceError.js");
-var transitionalDefaults = __webpack_require__(/*! ./transitional */ "./layouts1/node_modules/axios/lib/defaults/transitional.js");
+var utils = __webpack_require__(/*! ../utils */ "./node_modules/axios/lib/utils.js");
+var normalizeHeaderName = __webpack_require__(/*! ../helpers/normalizeHeaderName */ "./node_modules/axios/lib/helpers/normalizeHeaderName.js");
+var enhanceError = __webpack_require__(/*! ../core/enhanceError */ "./node_modules/axios/lib/core/enhanceError.js");
+var transitionalDefaults = __webpack_require__(/*! ./transitional */ "./node_modules/axios/lib/defaults/transitional.js");
 
 var DEFAULT_CONTENT_TYPE = {
   'Content-Type': 'application/x-www-form-urlencoded'
@@ -1121,10 +1121,10 @@ function getDefaultAdapter() {
   var adapter;
   if (typeof XMLHttpRequest !== 'undefined') {
     // For browsers use XHR adapter
-    adapter = __webpack_require__(/*! ../adapters/xhr */ "./layouts1/node_modules/axios/lib/adapters/xhr.js");
+    adapter = __webpack_require__(/*! ../adapters/xhr */ "./node_modules/axios/lib/adapters/xhr.js");
   } else if (typeof process !== 'undefined' && Object.prototype.toString.call(process) === '[object process]') {
     // For node use HTTP adapter
-    adapter = __webpack_require__(/*! ../adapters/http */ "./layouts1/node_modules/axios/lib/adapters/xhr.js");
+    adapter = __webpack_require__(/*! ../adapters/http */ "./node_modules/axios/lib/adapters/xhr.js");
   }
   return adapter;
 }
@@ -1235,9 +1235,9 @@ module.exports = defaults;
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/axios/lib/defaults/transitional.js":
+/***/ "./node_modules/axios/lib/defaults/transitional.js":
 /*!******************************************************************!*\
-  !*** ./layouts1/node_modules/axios/lib/defaults/transitional.js ***!
+  !*** ./node_modules/axios/lib/defaults/transitional.js ***!
   \******************************************************************/
 /***/ ((module) => {
 
@@ -1253,9 +1253,9 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/axios/lib/env/data.js":
+/***/ "./node_modules/axios/lib/env/data.js":
 /*!*****************************************************!*\
-  !*** ./layouts1/node_modules/axios/lib/env/data.js ***!
+  !*** ./node_modules/axios/lib/env/data.js ***!
   \*****************************************************/
 /***/ ((module) => {
 
@@ -1265,9 +1265,9 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/axios/lib/helpers/bind.js":
+/***/ "./node_modules/axios/lib/helpers/bind.js":
 /*!*********************************************************!*\
-  !*** ./layouts1/node_modules/axios/lib/helpers/bind.js ***!
+  !*** ./node_modules/axios/lib/helpers/bind.js ***!
   \*********************************************************/
 /***/ ((module) => {
 
@@ -1287,16 +1287,16 @@ module.exports = function bind(fn, thisArg) {
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/axios/lib/helpers/buildURL.js":
+/***/ "./node_modules/axios/lib/helpers/buildURL.js":
 /*!*************************************************************!*\
-  !*** ./layouts1/node_modules/axios/lib/helpers/buildURL.js ***!
+  !*** ./node_modules/axios/lib/helpers/buildURL.js ***!
   \*************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
 
-var utils = __webpack_require__(/*! ./../utils */ "./layouts1/node_modules/axios/lib/utils.js");
+var utils = __webpack_require__(/*! ./../utils */ "./node_modules/axios/lib/utils.js");
 
 function encode(val) {
   return encodeURIComponent(val).
@@ -1368,9 +1368,9 @@ module.exports = function buildURL(url, params, paramsSerializer) {
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/axios/lib/helpers/combineURLs.js":
+/***/ "./node_modules/axios/lib/helpers/combineURLs.js":
 /*!****************************************************************!*\
-  !*** ./layouts1/node_modules/axios/lib/helpers/combineURLs.js ***!
+  !*** ./node_modules/axios/lib/helpers/combineURLs.js ***!
   \****************************************************************/
 /***/ ((module) => {
 
@@ -1393,16 +1393,16 @@ module.exports = function combineURLs(baseURL, relativeURL) {
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/axios/lib/helpers/cookies.js":
+/***/ "./node_modules/axios/lib/helpers/cookies.js":
 /*!************************************************************!*\
-  !*** ./layouts1/node_modules/axios/lib/helpers/cookies.js ***!
+  !*** ./node_modules/axios/lib/helpers/cookies.js ***!
   \************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
 
-var utils = __webpack_require__(/*! ./../utils */ "./layouts1/node_modules/axios/lib/utils.js");
+var utils = __webpack_require__(/*! ./../utils */ "./node_modules/axios/lib/utils.js");
 
 module.exports = (
   utils.isStandardBrowserEnv() ?
@@ -1457,9 +1457,9 @@ module.exports = (
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/axios/lib/helpers/isAbsoluteURL.js":
+/***/ "./node_modules/axios/lib/helpers/isAbsoluteURL.js":
 /*!******************************************************************!*\
-  !*** ./layouts1/node_modules/axios/lib/helpers/isAbsoluteURL.js ***!
+  !*** ./node_modules/axios/lib/helpers/isAbsoluteURL.js ***!
   \******************************************************************/
 /***/ ((module) => {
 
@@ -1482,16 +1482,16 @@ module.exports = function isAbsoluteURL(url) {
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/axios/lib/helpers/isAxiosError.js":
+/***/ "./node_modules/axios/lib/helpers/isAxiosError.js":
 /*!*****************************************************************!*\
-  !*** ./layouts1/node_modules/axios/lib/helpers/isAxiosError.js ***!
+  !*** ./node_modules/axios/lib/helpers/isAxiosError.js ***!
   \*****************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
 
-var utils = __webpack_require__(/*! ./../utils */ "./layouts1/node_modules/axios/lib/utils.js");
+var utils = __webpack_require__(/*! ./../utils */ "./node_modules/axios/lib/utils.js");
 
 /**
  * Determines whether the payload is an error thrown by Axios
@@ -1506,16 +1506,16 @@ module.exports = function isAxiosError(payload) {
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/axios/lib/helpers/isURLSameOrigin.js":
+/***/ "./node_modules/axios/lib/helpers/isURLSameOrigin.js":
 /*!********************************************************************!*\
-  !*** ./layouts1/node_modules/axios/lib/helpers/isURLSameOrigin.js ***!
+  !*** ./node_modules/axios/lib/helpers/isURLSameOrigin.js ***!
   \********************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
 
-var utils = __webpack_require__(/*! ./../utils */ "./layouts1/node_modules/axios/lib/utils.js");
+var utils = __webpack_require__(/*! ./../utils */ "./node_modules/axios/lib/utils.js");
 
 module.exports = (
   utils.isStandardBrowserEnv() ?
@@ -1585,16 +1585,16 @@ module.exports = (
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/axios/lib/helpers/normalizeHeaderName.js":
+/***/ "./node_modules/axios/lib/helpers/normalizeHeaderName.js":
 /*!************************************************************************!*\
-  !*** ./layouts1/node_modules/axios/lib/helpers/normalizeHeaderName.js ***!
+  !*** ./node_modules/axios/lib/helpers/normalizeHeaderName.js ***!
   \************************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
 
-var utils = __webpack_require__(/*! ../utils */ "./layouts1/node_modules/axios/lib/utils.js");
+var utils = __webpack_require__(/*! ../utils */ "./node_modules/axios/lib/utils.js");
 
 module.exports = function normalizeHeaderName(headers, normalizedName) {
   utils.forEach(headers, function processHeader(value, name) {
@@ -1608,16 +1608,16 @@ module.exports = function normalizeHeaderName(headers, normalizedName) {
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/axios/lib/helpers/parseHeaders.js":
+/***/ "./node_modules/axios/lib/helpers/parseHeaders.js":
 /*!*****************************************************************!*\
-  !*** ./layouts1/node_modules/axios/lib/helpers/parseHeaders.js ***!
+  !*** ./node_modules/axios/lib/helpers/parseHeaders.js ***!
   \*****************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
 
-var utils = __webpack_require__(/*! ./../utils */ "./layouts1/node_modules/axios/lib/utils.js");
+var utils = __webpack_require__(/*! ./../utils */ "./node_modules/axios/lib/utils.js");
 
 // Headers whose duplicates are ignored by node
 // c.f. https://nodejs.org/api/http.html#http_message_headers
@@ -1672,9 +1672,9 @@ module.exports = function parseHeaders(headers) {
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/axios/lib/helpers/spread.js":
+/***/ "./node_modules/axios/lib/helpers/spread.js":
 /*!***********************************************************!*\
-  !*** ./layouts1/node_modules/axios/lib/helpers/spread.js ***!
+  !*** ./node_modules/axios/lib/helpers/spread.js ***!
   \***********************************************************/
 /***/ ((module) => {
 
@@ -1710,16 +1710,16 @@ module.exports = function spread(callback) {
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/axios/lib/helpers/validator.js":
+/***/ "./node_modules/axios/lib/helpers/validator.js":
 /*!**************************************************************!*\
-  !*** ./layouts1/node_modules/axios/lib/helpers/validator.js ***!
+  !*** ./node_modules/axios/lib/helpers/validator.js ***!
   \**************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
 
-var VERSION = (__webpack_require__(/*! ../env/data */ "./layouts1/node_modules/axios/lib/env/data.js").version);
+var VERSION = (__webpack_require__(/*! ../env/data */ "./node_modules/axios/lib/env/data.js").version);
 
 var validators = {};
 
@@ -1803,16 +1803,16 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/axios/lib/utils.js":
+/***/ "./node_modules/axios/lib/utils.js":
 /*!**************************************************!*\
-  !*** ./layouts1/node_modules/axios/lib/utils.js ***!
+  !*** ./node_modules/axios/lib/utils.js ***!
   \**************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
 
-var bind = __webpack_require__(/*! ./helpers/bind */ "./layouts1/node_modules/axios/lib/helpers/bind.js");
+var bind = __webpack_require__(/*! ./helpers/bind */ "./node_modules/axios/lib/helpers/bind.js");
 
 // utils is a library of generic helper functions non-specific to axios
 
@@ -2163,9 +2163,9 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/graphology-layout-forceatlas2/defaults.js":
+/***/ "./node_modules/graphology-layout-forceatlas2/defaults.js":
 /*!*************************************************************************!*\
-  !*** ./layouts1/node_modules/graphology-layout-forceatlas2/defaults.js ***!
+  !*** ./node_modules/graphology-layout-forceatlas2/defaults.js ***!
   \*************************************************************************/
 /***/ ((module) => {
 
@@ -2189,9 +2189,9 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/graphology-layout-forceatlas2/helpers.js":
+/***/ "./node_modules/graphology-layout-forceatlas2/helpers.js":
 /*!************************************************************************!*\
-  !*** ./layouts1/node_modules/graphology-layout-forceatlas2/helpers.js ***!
+  !*** ./node_modules/graphology-layout-forceatlas2/helpers.js ***!
   \************************************************************************/
 /***/ ((__unused_webpack_module, exports) => {
 
@@ -2459,9 +2459,9 @@ exports.createWorker = function createWorker(fn) {
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/graphology-layout-forceatlas2/index.js":
+/***/ "./node_modules/graphology-layout-forceatlas2/index.js":
 /*!**********************************************************************!*\
-  !*** ./layouts1/node_modules/graphology-layout-forceatlas2/index.js ***!
+  !*** ./node_modules/graphology-layout-forceatlas2/index.js ***!
   \**********************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
@@ -2471,11 +2471,11 @@ exports.createWorker = function createWorker(fn) {
  *
  * Library endpoint.
  */
-var isGraph = __webpack_require__(/*! graphology-utils/is-graph */ "./layouts1/node_modules/graphology-utils/is-graph.js"),
-  iterate = __webpack_require__(/*! ./iterate.js */ "./layouts1/node_modules/graphology-layout-forceatlas2/iterate.js"),
-  helpers = __webpack_require__(/*! ./helpers.js */ "./layouts1/node_modules/graphology-layout-forceatlas2/helpers.js");
+var isGraph = __webpack_require__(/*! graphology-utils/is-graph */ "./node_modules/graphology-utils/is-graph.js"),
+  iterate = __webpack_require__(/*! ./iterate.js */ "./node_modules/graphology-layout-forceatlas2/iterate.js"),
+  helpers = __webpack_require__(/*! ./helpers.js */ "./node_modules/graphology-layout-forceatlas2/helpers.js");
 
-var DEFAULT_SETTINGS = __webpack_require__(/*! ./defaults.js */ "./layouts1/node_modules/graphology-layout-forceatlas2/defaults.js");
+var DEFAULT_SETTINGS = __webpack_require__(/*! ./defaults.js */ "./node_modules/graphology-layout-forceatlas2/defaults.js");
 
 /**
  * Asbtract function used to run a certain number of iterations.
@@ -2574,9 +2574,9 @@ module.exports = synchronousLayout;
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/graphology-layout-forceatlas2/iterate.js":
+/***/ "./node_modules/graphology-layout-forceatlas2/iterate.js":
 /*!************************************************************************!*\
-  !*** ./layouts1/node_modules/graphology-layout-forceatlas2/iterate.js ***!
+  !*** ./node_modules/graphology-layout-forceatlas2/iterate.js ***!
   \************************************************************************/
 /***/ ((module) => {
 
@@ -3379,9 +3379,9 @@ module.exports = function iterate(options, NodeMatrix, EdgeMatrix) {
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/graphology-layout-forceatlas2/webworker.js":
+/***/ "./node_modules/graphology-layout-forceatlas2/webworker.js":
 /*!**************************************************************************!*\
-  !*** ./layouts1/node_modules/graphology-layout-forceatlas2/webworker.js ***!
+  !*** ./node_modules/graphology-layout-forceatlas2/webworker.js ***!
   \**************************************************************************/
 /***/ ((module) => {
 
@@ -4221,9 +4221,9 @@ moduleShim.exports = function iterate(options, NodeMatrix, EdgeMatrix) {
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/graphology-layout-forceatlas2/worker.js":
+/***/ "./node_modules/graphology-layout-forceatlas2/worker.js":
 /*!***********************************************************************!*\
-  !*** ./layouts1/node_modules/graphology-layout-forceatlas2/worker.js ***!
+  !*** ./node_modules/graphology-layout-forceatlas2/worker.js ***!
   \***********************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
@@ -4234,11 +4234,11 @@ moduleShim.exports = function iterate(options, NodeMatrix, EdgeMatrix) {
  * Supervisor class able to spawn a web worker to run the FA2 layout in a
  * separate thread not to block UI with heavy synchronous computations.
  */
-var workerFunction = __webpack_require__(/*! ./webworker.js */ "./layouts1/node_modules/graphology-layout-forceatlas2/webworker.js"),
-  isGraph = __webpack_require__(/*! graphology-utils/is-graph */ "./layouts1/node_modules/graphology-utils/is-graph.js"),
-  helpers = __webpack_require__(/*! ./helpers.js */ "./layouts1/node_modules/graphology-layout-forceatlas2/helpers.js");
+var workerFunction = __webpack_require__(/*! ./webworker.js */ "./node_modules/graphology-layout-forceatlas2/webworker.js"),
+  isGraph = __webpack_require__(/*! graphology-utils/is-graph */ "./node_modules/graphology-utils/is-graph.js"),
+  helpers = __webpack_require__(/*! ./helpers.js */ "./node_modules/graphology-layout-forceatlas2/helpers.js");
 
-var DEFAULT_SETTINGS = __webpack_require__(/*! ./defaults.js */ "./layouts1/node_modules/graphology-layout-forceatlas2/defaults.js");
+var DEFAULT_SETTINGS = __webpack_require__(/*! ./defaults.js */ "./node_modules/graphology-layout-forceatlas2/defaults.js");
 
 /**
  * Class representing a FA2 layout run by a webworker.
@@ -4434,9 +4434,9 @@ module.exports = FA2LayoutSupervisor;
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/graphology-layout/circlepack.js":
+/***/ "./node_modules/graphology-layout/circlepack.js":
 /*!***************************************************************!*\
-  !*** ./layouts1/node_modules/graphology-layout/circlepack.js ***!
+  !*** ./node_modules/graphology-layout/circlepack.js ***!
   \***************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
@@ -4446,9 +4446,9 @@ module.exports = FA2LayoutSupervisor;
  *
  * Circlepack layout from d3-hierarchy/gephi.
  */
-var resolveDefaults = __webpack_require__(/*! graphology-utils/defaults */ "./layouts1/node_modules/graphology-utils/defaults.js");
-var isGraph = __webpack_require__(/*! graphology-utils/is-graph */ "./layouts1/node_modules/graphology-utils/is-graph.js");
-var shuffle = __webpack_require__(/*! pandemonium/shuffle-in-place */ "./layouts1/node_modules/pandemonium/shuffle-in-place.js");
+var resolveDefaults = __webpack_require__(/*! graphology-utils/defaults */ "./node_modules/graphology-utils/defaults.js");
+var isGraph = __webpack_require__(/*! graphology-utils/is-graph */ "./node_modules/graphology-utils/is-graph.js");
+var shuffle = __webpack_require__(/*! pandemonium/shuffle-in-place */ "./node_modules/pandemonium/shuffle-in-place.js");
 
 /**
  * Default options.
@@ -4918,9 +4918,9 @@ module.exports = circlePackLayout;
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/graphology-layout/circular.js":
+/***/ "./node_modules/graphology-layout/circular.js":
 /*!*************************************************************!*\
-  !*** ./layouts1/node_modules/graphology-layout/circular.js ***!
+  !*** ./node_modules/graphology-layout/circular.js ***!
   \*************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
@@ -4930,8 +4930,8 @@ module.exports = circlePackLayout;
  *
  * Layout arranging the nodes in a circle.
  */
-var resolveDefaults = __webpack_require__(/*! graphology-utils/defaults */ "./layouts1/node_modules/graphology-utils/defaults.js");
-var isGraph = __webpack_require__(/*! graphology-utils/is-graph */ "./layouts1/node_modules/graphology-utils/is-graph.js");
+var resolveDefaults = __webpack_require__(/*! graphology-utils/defaults */ "./node_modules/graphology-utils/defaults.js");
+var isGraph = __webpack_require__(/*! graphology-utils/is-graph */ "./node_modules/graphology-utils/is-graph.js");
 
 /**
  * Default options.
@@ -5008,9 +5008,9 @@ module.exports = circularLayout;
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/graphology-layout/index.js":
+/***/ "./node_modules/graphology-layout/index.js":
 /*!**********************************************************!*\
-  !*** ./layouts1/node_modules/graphology-layout/index.js ***!
+  !*** ./node_modules/graphology-layout/index.js ***!
   \**********************************************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
@@ -5020,9 +5020,9 @@ module.exports = circularLayout;
  *
  * Library endpoint.
  */
-var circlepack = __webpack_require__(/*! ./circlepack.js */ "./layouts1/node_modules/graphology-layout/circlepack.js"),
-  circular = __webpack_require__(/*! ./circular.js */ "./layouts1/node_modules/graphology-layout/circular.js"),
-  random = __webpack_require__(/*! ./random.js */ "./layouts1/node_modules/graphology-layout/random.js");
+var circlepack = __webpack_require__(/*! ./circlepack.js */ "./node_modules/graphology-layout/circlepack.js"),
+  circular = __webpack_require__(/*! ./circular.js */ "./node_modules/graphology-layout/circular.js"),
+  random = __webpack_require__(/*! ./random.js */ "./node_modules/graphology-layout/random.js");
 
 exports.circlepack = circlepack;
 exports.circular = circular;
@@ -5031,9 +5031,9 @@ exports.random = random;
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/graphology-layout/random.js":
+/***/ "./node_modules/graphology-layout/random.js":
 /*!***********************************************************!*\
-  !*** ./layouts1/node_modules/graphology-layout/random.js ***!
+  !*** ./node_modules/graphology-layout/random.js ***!
   \***********************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
@@ -5043,8 +5043,8 @@ exports.random = random;
  *
  * Simple layout giving uniform random positions to the nodes.
  */
-var resolveDefaults = __webpack_require__(/*! graphology-utils/defaults */ "./layouts1/node_modules/graphology-utils/defaults.js");
-var isGraph = __webpack_require__(/*! graphology-utils/is-graph */ "./layouts1/node_modules/graphology-utils/is-graph.js");
+var resolveDefaults = __webpack_require__(/*! graphology-utils/defaults */ "./node_modules/graphology-utils/defaults.js");
+var isGraph = __webpack_require__(/*! graphology-utils/is-graph */ "./node_modules/graphology-utils/is-graph.js");
 
 /**
  * Default options.
@@ -5123,9 +5123,9 @@ module.exports = randomLayout;
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/graphology-utils/defaults.js":
+/***/ "./node_modules/graphology-utils/defaults.js":
 /*!************************************************************!*\
-  !*** ./layouts1/node_modules/graphology-utils/defaults.js ***!
+  !*** ./node_modules/graphology-utils/defaults.js ***!
   \************************************************************/
 /***/ ((module) => {
 
@@ -5180,9 +5180,9 @@ module.exports = resolveDefaults;
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/graphology-utils/is-graph.js":
+/***/ "./node_modules/graphology-utils/is-graph.js":
 /*!************************************************************!*\
-  !*** ./layouts1/node_modules/graphology-utils/is-graph.js ***!
+  !*** ./node_modules/graphology-utils/is-graph.js ***!
   \************************************************************/
 /***/ ((module) => {
 
@@ -5213,9 +5213,9 @@ module.exports = function isGraph(value) {
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/graphology/dist/graphology.umd.min.js":
+/***/ "./node_modules/graphology/dist/graphology.umd.min.js":
 /*!*********************************************************************!*\
-  !*** ./layouts1/node_modules/graphology/dist/graphology.umd.min.js ***!
+  !*** ./node_modules/graphology/dist/graphology.umd.min.js ***!
   \*********************************************************************/
 /***/ (function(module) {
 
@@ -5225,9 +5225,9 @@ module.exports = function isGraph(value) {
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/pandemonium/random.js":
+/***/ "./node_modules/pandemonium/random.js":
 /*!*****************************************************!*\
-  !*** ./layouts1/node_modules/pandemonium/random.js ***!
+  !*** ./node_modules/pandemonium/random.js ***!
   \*****************************************************/
 /***/ ((module) => {
 
@@ -5272,9 +5272,9 @@ module.exports = random;
 
 /***/ }),
 
-/***/ "./layouts1/node_modules/pandemonium/shuffle-in-place.js":
+/***/ "./node_modules/pandemonium/shuffle-in-place.js":
 /*!***************************************************************!*\
-  !*** ./layouts1/node_modules/pandemonium/shuffle-in-place.js ***!
+  !*** ./node_modules/pandemonium/shuffle-in-place.js ***!
   \***************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
@@ -5284,7 +5284,7 @@ module.exports = random;
  *
  * Shuffle function applying the Fisher-Yates algorithm to the provided array.
  */
-var createRandom = (__webpack_require__(/*! ./random.js */ "./layouts1/node_modules/pandemonium/random.js").createRandom);
+var createRandom = (__webpack_require__(/*! ./random.js */ "./node_modules/pandemonium/random.js").createRandom);
 
 /**
  * Creating a function returning the given array shuffled.
@@ -5773,9 +5773,9 @@ Object.defineProperty(exports, "__esModule", ({value:true}));exports.fromCodePoi
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./layouts1/node.border.frag.glsl":
+/***/ "./node_modules/raw-loader/dist/cjs.js!./node.border.frag.glsl":
 /*!******************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./layouts1/node.border.frag.glsl ***!
+  !*** ./node_modules/raw-loader/dist/cjs.js!./node.border.frag.glsl ***!
   \******************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -5788,9 +5788,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./layouts1/node.border.vert.glsl":
+/***/ "./node_modules/raw-loader/dist/cjs.js!./node.border.vert.glsl":
 /*!******************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./layouts1/node.border.vert.glsl ***!
+  !*** ./node_modules/raw-loader/dist/cjs.js!./node.border.vert.glsl ***!
   \******************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -5923,9 +5923,9 @@ module.exports = string => typeof string === 'string' ? string.replace(ansiRegex
 
 /***/ }),
 
-/***/ "./layouts1/index.ts":
+/***/ "./index.ts":
 /*!***************************!*\
-  !*** ./layouts1/index.ts ***!
+  !*** ./index.ts ***!
   \***************************/
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 var _data;
@@ -5983,9 +5983,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-var graphology_1 = __importDefault(__webpack_require__(/*! graphology */ "./layouts1/node_modules/graphology/dist/graphology.umd.min.js"));
+var graphology_1 = __importDefault(__webpack_require__(/*! graphology */ "./node_modules/graphology/dist/graphology.umd.min.js"));
 var sigma_1 = __importDefault(__webpack_require__(/*! sigma */ "../src/index.ts"));
-var graphology_layout_1 = __webpack_require__(/*! graphology-layout */ "./layouts1/node_modules/graphology-layout/index.js");
+var graphology_layout_1 = __webpack_require__(/*! graphology-layout */ "./node_modules/graphology-layout/index.js");
 var animate_1 = __webpack_require__(/*! sigma/utils/animate */ "../src/utils/animate.ts");
 // var dm=document.currentScript.getAttribute('description'); 
 var dm =window.localStorage.getItem("graphname")
@@ -6025,10 +6025,10 @@ function getData(dm){
 // data_json_1.then(data =>{return data} )
 // document. location. reload()
 
-var worker_1 = __importDefault(__webpack_require__(/*! graphology-layout-forceatlas2/worker */ "./layouts1/node_modules/graphology-layout-forceatlas2/worker.js"));
-var graphology_layout_forceatlas2_1 = __importDefault(__webpack_require__(/*! graphology-layout-forceatlas2 */ "./layouts1/node_modules/graphology-layout-forceatlas2/index.js"));
-var node_border_1 = __importDefault(__webpack_require__(/*! ./node.border */ "./layouts1/node.border.ts"));
-var axios = __webpack_require__(/*! axios */ "./layouts1/node_modules/axios/index.js");
+var worker_1 = __importDefault(__webpack_require__(/*! graphology-layout-forceatlas2/worker */ "./node_modules/graphology-layout-forceatlas2/worker.js"));
+var graphology_layout_forceatlas2_1 = __importDefault(__webpack_require__(/*! graphology-layout-forceatlas2 */ "./node_modules/graphology-layout-forceatlas2/index.js"));
+var node_border_1 = __importDefault(__webpack_require__(/*! ./node.border */ "./node.border.ts"));
+var axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 var globalVariable;
 var hide = 0;
 // Initialize the graph object with data
@@ -6134,15 +6134,14 @@ var cancelCurrentAnimation = null;
 // correlate start/stop actions with state management
 function stopFA2() {
     fa2Layout.stop();
-    FA2StartLabel.style.display = "flex";
+    FA2StartLabel.style.display = "";
     FA2StopLabel.style.display = "none";
 }
 function startFA2() {
-    if (cancelCurrentAnimation)
-        cancelCurrentAnimation();
+    if (cancelCurrentAnimation) cancelCurrentAnimation();
     fa2Layout.start();
     FA2StartLabel.style.display = "none";
-    FA2StopLabel.style.display = "flex";
+    FA2StopLabel.style.display = "";
 }
 // the main toggle function
 function toggleFA2Layout() {
@@ -6606,10 +6605,10 @@ console.log(getData(dm))
 // // data_json_1.then(data =>{return data} )
 // // document. location. reload()
 
-// var worker_1 = __importDefault(__webpack_require__(/*! graphology-layout-forceatlas2/worker */ "./layouts1/node_modules/graphology-layout-forceatlas2/worker.js"));
-// var graphology_layout_forceatlas2_1 = __importDefault(__webpack_require__(/*! graphology-layout-forceatlas2 */ "./layouts1/node_modules/graphology-layout-forceatlas2/index.js"));
-// var node_border_1 = __importDefault(__webpack_require__(/*! ./node.border */ "./layouts1/node.border.ts"));
-// var axios = __webpack_require__(/*! axios */ "./layouts1/node_modules/axios/index.js");
+// var worker_1 = __importDefault(__webpack_require__(/*! graphology-layout-forceatlas2/worker */ "./node_modules/graphology-layout-forceatlas2/worker.js"));
+// var graphology_layout_forceatlas2_1 = __importDefault(__webpack_require__(/*! graphology-layout-forceatlas2 */ "./node_modules/graphology-layout-forceatlas2/index.js"));
+// var node_border_1 = __importDefault(__webpack_require__(/*! ./node.border */ "./node.border.ts"));
+// var axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 // var globalVariable;
 // var hide = 0;
 // // Initialize the graph object with data
@@ -7146,9 +7145,9 @@ console.log(getData(dm))
 
 /***/ }),
 
-/***/ "./layouts1/node.border.ts":
+/***/ "./node.border.ts":
 /*!*********************************!*\
-  !*** ./layouts1/node.border.ts ***!
+  !*** ./node.border.ts ***!
   \*********************************/
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
@@ -7180,8 +7179,8 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
  */
 var utils_1 = __webpack_require__(/*! sigma/utils */ "../src/utils/index.ts");
 var node_1 = __webpack_require__(/*! sigma/rendering/webgl/programs/common/node */ "../src/rendering/webgl/programs/common/node.ts");
-var node_border_vert_glsl_1 = __importDefault(__webpack_require__(/*! !raw-loader!./node.border.vert.glsl */ "./node_modules/raw-loader/dist/cjs.js!./layouts1/node.border.vert.glsl"));
-var node_border_frag_glsl_1 = __importDefault(__webpack_require__(/*! !raw-loader!./node.border.frag.glsl */ "./node_modules/raw-loader/dist/cjs.js!./layouts1/node.border.frag.glsl"));
+var node_border_vert_glsl_1 = __importDefault(__webpack_require__(/*! !raw-loader!./node.border.vert.glsl */ "./node_modules/raw-loader/dist/cjs.js!./node.border.vert.glsl"));
+var node_border_frag_glsl_1 = __importDefault(__webpack_require__(/*! !raw-loader!./node.border.frag.glsl */ "./node_modules/raw-loader/dist/cjs.js!./node.border.frag.glsl"));
 var POINTS = 1, ATTRIBUTES = 4;
 var NodeProgramBorder = /** @class */ (function (_super) {
     __extends(NodeProgramBorder, _super);
@@ -13244,7 +13243,7 @@ module.exports = function isGraph(value) {
 
 // /***/ "./data.json":
 // /*!****************************!*\
-//   !*** ./layouts1/data.json ***!
+//   !*** ./data.json ***!
 //   \****************************/
 // /***/((module) => {
 //   // const axios = require('axios');
@@ -14372,7 +14371,7 @@ module.exports = function isGraph(value) {
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ //	__webpack_require__("./node_modules/webpack-hot-middleware/client.js");
-/******/ 	var __webpack_exports__ = __webpack_require__("./layouts1/index.ts");
+/******/ 	var __webpack_exports__ = __webpack_require__("./index.ts");
 /******/ 	
 /******/ })()
 ;

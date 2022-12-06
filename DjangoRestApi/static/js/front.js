@@ -246,36 +246,30 @@
 // refresh.addEventListener("click",populateOverallOverview)
 // for (var i = 0; i < btns. length; i++) {
 //     btns[i]. addEventListener("click", deletedomain)}
-var form = document.querySelector('#dform');
+var form = document.querySelector('#dform'),
+    spinner = document.querySelector('.spinner');
 
 // var deletenbtn=document.querySelector("#delete")
 form.onsubmit = function () {
-  // spinner.style.display = "flex";
-var desc=document.getElementById("description")
-const csrftoken= document.querySelector('[name=csrfmiddlewaretoken]').value;
-const headers = {"X-CSRFTOKEN": csrftoken, contentType: 'application/json'}
-console.log(headers)
-var formData = new FormData(form);
-var text = formData.get('textInput');
-// const data={"description" : text}
-console.log(text)
-//axios.post("http://localhost:8080/api/tutorials", {
-axios.post("/api/attackeye", {
-          description:text
-},
-{headers: headers})
-    .then(function (response) {
-      // spinner.style.display = "none";
-      desc.value=''
-      
-    console.log(response);
-    
-
-})
-    .catch(function (error) {
+  spinner.style.display = "";
+  var desc=document.getElementById("description");
+  const csrftoken= document.querySelector('[name=csrfmiddlewaretoken]').value;
+  const headers = {"X-CSRFTOKEN": csrftoken, contentType: 'application/json'}
+  console.log(headers);
+  var formData = new FormData(form);
+  var text = formData.get('textInput');
+  // const data={"description" : text}
+  console.log(text, "t-text");
+  //axios.post("http://localhost:8080/api/tutorials", {
+  axios.post("/api/attackeye", {
+    description: text
+  }, {headers: headers}).then(function(response) {
+    desc.value='';
+    console.log(response, "t-response");
+  }).catch(function (error) {
     console.log(error.response);
-});
-return false;
+  });
+  return false;
 };
 
 function deletedomain(){
@@ -314,10 +308,8 @@ function Geeks() {
 }
 
 function populateOverallOverview(){
-axios.get("/api/graphtable"
-)
-  .then(function (response) {
-      Geeks()
+axios.get("/api/graphtable").then(function(response) {
+      Geeks();
   console.log(response);
   console.log("haza")
 
@@ -344,7 +336,7 @@ axios.get("/api/graphtable"
   var item=response.data.graph
   console.log(item)
   // insert data
-  item.forEach(function (result) {
+  item.forEach(function(result) {
       
       var row = table.insertRow();
     //   row.id=result.description
@@ -355,30 +347,31 @@ axios.get("/api/graphtable"
     if(result.pending==1){
       // var result=result.time
       // var result1 = result.split('.')[0];
+      // spinner.style.cssText = 'display:none !important';
+      row.removeAttribute("style");
       addCell(row,result.time)
-        var button1 = document.createElement('BUTTON');
-        var text1 = document.createTextNode("View Graph");
-        button1.appendChild(text1);
-        button1.id=result.description
-        row.appendChild(button1);
-        btnview = document.getElementById(button1.id);
-        btnview. addEventListener("click", viewgraph)
-     ///////////////////////////////////////////////
-          var button = document.createElement('BUTTON');
-          var text = document.createTextNode("Delete");
-          button.appendChild(text);
-          button.id=result.id
-          row.appendChild(button);
-          btndel = document.getElementById(button.id);
-          btndel. addEventListener("click", deletedomain)
-          // //////////////////////////////////////////
+      var button1 = document.createElement('BUTTON');
+      var text1 = document.createTextNode("View Graph");
+      button1.appendChild(text1);
+      button1.id=result.description
+      row.appendChild(button1);
+      btnview = document.getElementById(button1.id);
+      btnview. addEventListener("click", viewgraph)
+      ///////////////////////////////////////////////
+      var button = document.createElement('BUTTON');
+      var text = document.createTextNode("Delete");
+      button.appendChild(text);
+      button.id=result.id
+      row.appendChild(button);
+      btndel = document.getElementById(button.id);
+      btndel. addEventListener("click", deletedomain)
+      ////////////////////////////////////////////
     }
     else{
+        row.setAttribute("style", "background-color: yellow; color: #000000;");
         addCell(row, 'pending');
     }
  
-     
-
 
   });
 
