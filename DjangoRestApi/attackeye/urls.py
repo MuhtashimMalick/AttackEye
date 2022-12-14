@@ -17,7 +17,7 @@ urlpatterns = [
     re_path(r'^api/showgraph', views.showgraph,name='showgraph'),
     # re_path(r'^api/deletedomain/(?P<description>[a-z].+)', views.deletedomain,name='deletedomain'),
     re_path(r'^api/deletedomain',views.deletedomain,name="deletedomain"),
-    re_path(r'^index$', views.index,name='index-file'),
+    re_path(r'^surface$', views.surface,name='surface'),
     re_path(r'^api/attackeye$', views.attackeye_list,name='attackeye_list'),
     re_path(r'^api/load/graph/(?P<graphdomain>[a-z].+)', views.graph_json),
     # re_path(r'^api/load/graph$', views.graph_json),

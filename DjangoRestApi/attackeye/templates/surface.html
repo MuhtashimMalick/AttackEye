@@ -24,21 +24,10 @@
       margin-left: -12px;
       margin-right: 8px;
     } */
-    .round-div{
-      /* background-color: #F7727B; */
-     
-      width: 60px;
-      height: 60px;
-      border: 3px solid #FFF;
-      border-radius: 50%;
-      cursor: pointer;
-      display: block;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      font-size: 12px;
-    }  
+    .round-div {
+      margin-top: 10px;
+      display: inline-block;
+    }   
     .ptr{
       background-color: #E33E14;
       /* position: absolute;
@@ -349,11 +338,14 @@
       top:0px;
       right:0px;
     }
-    #mob{
-      display:block;
+    #mob {
       position: absolute;
-      top: 100px;
-      left:10px;
+      top: 110px;
+      width: 90px;
+      left: 10px;
+      text-align: center;
+      background-color: #2f376880;
+      border: 1px solid #ffffff;
     }
     .input {
       position: relative;
@@ -535,7 +527,7 @@ display:flex;
   </style>
 
   <div id="sigma-container"></div>
- {% comment %} <h1 id='domain' data-att={{description}}></h1> {% endcomment %}
+ {% comment %} <h1 id='domain' data-att={{domain}}></h1> {% endcomment %}
   {% comment %} {{ data }} {% endcomment %}
   <div id="abc" ></div>
     <div id="controls">
@@ -550,7 +542,7 @@ display:flex;
 
     </div>
 
-      <button id="togglediv">Categories</button>
+      <button id="togglediv">Legend Toggle</button>
 
       <div id="mob" class="roundmain" style="display:block;"><div class="round-div">
         <button class="subdomain">

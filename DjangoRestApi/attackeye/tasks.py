@@ -10,6 +10,7 @@ import subprocess
 ######################################################################################
 from attackeye.models import scan
 from django.conf import settings
+import datetime
 
 @shared_task
 def amass(y,user):
@@ -22,11 +23,4 @@ def amass(y,user):
     # stdout, stderr = process.communicate()
     subprocess.call(['bash',f'{settings.SITE_ROOT}/abc.sh',y])
     print(f"Execution of {y} has COMPLETED")
-    scan.objects.filter(UserId=user,description=y).update(pending=1)
-
-    # tutorial=Tutorial.objects.create(UserId=user,description=y)
-    # stdout, stderr
-    # with open ('messages.txt', 'w') as file:
-    #     file.writelines(str(stdout))
-    # print(f'Execution for domain {domain} has been complete')
-    # return stdout
+    scan.objects.filter(UserId=user,domain=y).update(pending=1, timeDateEnd=datetime.datetime.now())

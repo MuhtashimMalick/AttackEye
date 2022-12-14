@@ -8,13 +8,5 @@ class scanSerializer(serializers.ModelSerializer):
         model = scan
         fields = ('id',
                   'UserId',
-                  'description',
+                  'domain',
                   'published')
-        
-
-    # class Meta:
-    #     model = Tutorial
-    #     fields = ('id',
-    #               'title',
-    #               'description',
-    #               'published')
