@@ -237,41 +237,18 @@ input[type=submit]:hover {
 
 .topnav {
   position:absolute;
-    top:0px;
-    width:100%;
-    background-image: url('{% static 'img/login-background-01.jpg' %}');
-    display: flex;
-    padding: 4px;
-    font-family: sans-serif;
-    color: white;
-    box-shadow: rgb(15 52 143 / 90%) 0px 0px 60px 0px, rgb(70 75 141 / 83%) 0px 18px 36px -18px;
-    margin:0px;
+  top:0px;
+  width:100%;
+  display: flex;
+  padding: 4px;
+  color: white;
+  margin:0px;
   padding: 0;
- height:4.25vw;
-  {% comment %} margin:0px; {% endcomment %}
-  {% comment %} padding: 0; {% endcomment %}
-  z-index: 4;
-  position: fixed;
-    width: 100%;
- background-color: var(--main_color);
- /* background-color: #333; */
- overflow: hidden;
+  background-color: #263238c2;
+  border-bottom: 1px solid #444444;
 }
 .topnav a {
     text-align: center;
-    padding: 14px 16px;
-    font-size: 2vw;
-    text-decoration: none;
-    height:3vw;
-    font-weight: 500;
-      letter-spacing: 1px;
-   /* float: left; */
-   /* display: block;
-   color: #f2f2f2;
-   text-align: center;
-   padding: 14px 16px;
-   text-decoration: none;
-   font-size: 4vw; */
   }
   
   /* Add an active class to highlight the current page */
@@ -284,31 +261,15 @@ input[type=submit]:hover {
   .topnav .icon {
    display: none;
   }
-  .topnav a:hover, .dropdown:hover .dropbtn {
-    background-color:var(--alternative_color);
-    color: var(--font_color);
-   }  
-   .Navbar {
-    position:absolute;
-    top:0px;
-    width:100%;
-    background-image: url('{% static 'img/login-background-01.jpg' %}');
-    display: flex;
-    padding: 4px;
-    font-family: sans-serif;
-    color: white;
-    box-shadow: rgb(15 52 143 / 90%) 0px 0px 60px -12px, rgb(70 75 141 / 83%) 0px 18px 36px -18px;
-  }
   .Navbar__Link a img {
     width: 250px;
     height: auto;
-    margin-top:1.25vh;
 }
 
 </style>
 <div class="topnav" id="myTopnav">
 <div class="left">
-  <div class="Navbar__Link Navbar__Link-brand">        
+  <div class="Navbar__Link Navbar__Link-brand" style="padding: 0.5em 1em;">        
     <a href="/home"><img src="{% static 'img/white2.png' %}" alt="logo" id="im"></a>
   </div>
 </div>

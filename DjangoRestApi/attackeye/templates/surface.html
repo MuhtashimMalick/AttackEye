@@ -1,6 +1,10 @@
 {% extends "./base.html" %}
 {% load static %}
 
+{% block styles %}
+  <link rel="stylesheet" href="{% static 'css/bootstrap-icons.css' %}"/>
+{% endblock %}
+
 {% block content %}
 
   <script src="{% static 'js/bundle.js' %}"></script>
@@ -181,26 +185,20 @@
     } */
 
     #search-input{
-      height:35px;
-
+      padding: 0 0.5em;
+      height: 34px;
     }
     #search {
       float:left;
-      /* position: absolute;
-      left: 1em;
-      top: 1em; */
       cursor: pointer;
       padding-left: 5px;
       padding-right: 0;
       margin-right: 5px;
-      background-color: #ffffff;
     }
 
     #searchimg{
-      /* position: relative; */
-      display: inline-block;
-      background: white;
-      cursor: pointer;
+      display: inline;
+      font-size: 18px;
     }
     #controls {
       position: absolute;
@@ -220,17 +218,13 @@
       padding-right: 5px;
     }
     .parent-div{
-      outline: none;
-      border:black;
-      /* border: 1px solid dimgrey; */
-      border-radius: 2px;
-      cursor: pointer;
-      /* float:left; */
-      margin:2px;
+      margin: 0 5px;
     }
     .parent-div > button{
-      width:100%;
       text-align:center;
+      font-size: 16px;
+      height: 35px;
+      line-height: 30px;
     }
     .parent-div a{
       width:100%;
@@ -249,11 +243,11 @@
     .parent-div > button >span{
       height: 100%;
       text-align: center;
+      font-size: 16px;
     }
 
     .disabled{
       background-color: grey;
-      cursor:default;
       color: white;
       border: none;
       border-radius: 4px;
@@ -262,32 +256,27 @@
         
     .download {
       background: #12132a;
-      cursor: pointer;
       color: white;
       border: none;
       border-radius: 4px;
-      padding: 10px 20px;
-     
-     
+      padding: 0px 15px;
    
     }
     .nmap {
       border: none;
      
       border-radius: 4px;
-      padding: 10px 20px;
+      padding: 0px 15px;
       background: black;
       color: white;
-      cursor: pointer;
     }
     .tabular {
       border: none;
      
       border-radius: 4px;
-      padding: 10px 20px;
+      padding: 0px 15px;
       background: black;
       color: white;
-      cursor: pointer;
     }
 
     input[type=text], select {
@@ -340,9 +329,10 @@
     }
     #mob {
       position: absolute;
-      top: 110px;
+      top: 120px;
       width: 90px;
-      left: 10px;
+      left: 27px;
+      padding-bottom: 15px;
       text-align: center;
       background-color: #2f376880;
       border: 1px solid #ffffff;
@@ -386,12 +376,12 @@
       position:absolute;
       top:0px;
       width:100%;
-      background-image: url('{% static 'img/login-background-01.jpg' %}');
+      background-color: #263238c2;
+      border-bottom: 1px solid #444444;
+      /* background-image: url('{% static 'img/login-background-01.jpg' %}'); */
       display: flex;
-      padding: 4px;
-      font-family: sans-serif;
       color: white;
-      box-shadow: rgb(15 52 143 / 90%) 0px 0px 60px -12px, rgb(70 75 141 / 83%) 0px 18px 36px -18px;
+      /* box-shadow: rgb(15 52 143 / 90%) 0px 0px 60px -12px, rgb(70 75 141 / 83%) 0px 18px 36px -18px; */
     }
 /* .Navbar-home a{
   float: none;
@@ -424,7 +414,7 @@ display:flex;
  display: block;
  color:black;
  text-align: center;
- padding: 5px 16px 0;
+ padding: 10px 16px;
  text-decoration: none;
  font-size: 17px;
   /* font-size: 10px; */
@@ -446,10 +436,19 @@ display:flex;
   display:none;
 } */
 #togglediv{
-  display:block;
-  position:absolute;
-  top:75px;
-  left:10px;
+  display: block;
+  position: absolute;
+  top: 80px;
+  left: 10px;
+  border: none;
+  padding: 5px 10px;
+  background-color: #ffffff;
+  border-radius: 7px;
+  font-family: system-ui;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 /* .suggestions{
@@ -593,7 +592,8 @@ display:flex;
         <nav class="Navbar__Items Navbar__Items--right">
           <div id="search">
             <div id="searchimg">
-              <span ><img src="{% static 'img/svgs/advanced-search.svg' %}"  width="20" height="35" style="vertical-align:middle"/></span></div>
+              <i class="bi bi-binoculars"></i>
+            </div>
               <input type="search" id="search-input" list="suggestions" placeholder="Try searching for a node..." />
               <datalist id="suggestions"></datalist>
             </div>
@@ -615,22 +615,20 @@ display:flex;
           </form> -->
         <!-- </div> -->
           <div class="parent-div">
-            <button id="random">
-              <span><img src="{% static 'img/svgs/GiPerspectiveDiceSixFaces.svg' %}" /> Random</span>
+            <button class="bi bi-patch-question-fill" id="random">
+              <span> Random</span>
             </button>
           </div>
           <div class="parent-div">
-           <button id="forceatlas2">
-              <span>
-                <img id="forceatlas2-start-label" src="{% static 'img/svgs/BiPlay.svg' %}" />
-                <img id="forceatlas2-stop-label" style="display: none" src="{% static 'img/svgs/BiPause.svg' %}" />
-                Force Atlas 2
-              </span>
+           <button id="forceatlas2" class="bi bi-stop-circle-fill">
+              <span>Force Atlas 2</span>
             </button>
           </div>
-          <div class="parent-div"><button id="circular">
-              <span><img src="{% static 'img/svgs/BiLoaderCircle.svg' %}" /> Circular</span>
-            </button> </div>
+          <div class="parent-div">
+            <button id="circular" class="bi bi-circle">
+              <span> Circular</span>
+            </button>
+          </div>
           <div class="parent-div"> 
              <button class="download">
                Download
@@ -642,10 +640,8 @@ display:flex;
               Table
             </button> 
           </div>
-          <div class="parent-div"> 
-            <div>
+          <div class="parent-div">
               <button class='nmap' type="submit"  onclick="location.href='{% url 'nmapreport' %}'" name='mybtn2'>Subdomain Report</button>
-           </div> 
           </div>
            
         </nav>
