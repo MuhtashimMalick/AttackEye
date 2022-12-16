@@ -6669,9 +6669,6 @@ module.exports = function isGraph(value) {
         };
         if (n) i = t._edgeKeyGenerator();
         else if (i = "" + i, t._edges.has(i)) throw new B("Graph.".concat(e, ': the "').concat(i, '" edge already exists in the graph.'));
-        if (!t.multi && (r ? void 0 !== c.undirected[a] : void 0 !== c.out[a])) {
-          throw new B("Graph.".concat(e, ': an edge linking "').concat(o, '" to "').concat(a, "\" already exists. If you really want to add multiple edges linking those nodes, you should create a multi graph by using the 'multi' option."));
-        }
         var f = new H(r, i, c, d, u);
         return t._edges.set(i, f), o === a ? r ? (c.undirectedSelfLoops++, t._undirectedSelfLoopCount++) : (c.directedSelfLoops++, t._directedSelfLoopCount++) : r ? (c.undirectedDegree++, d.undirectedDegree++) : (c.outDegree++, d.inDegree++), Q(t, r, f, o, a, c, d), r ? t._undirectedSize++ : t._directedSize++, s.key = i, t.emit("edgeAdded", s), i
     }
