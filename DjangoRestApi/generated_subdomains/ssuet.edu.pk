@@ -1,0 +1,2578 @@
+{
+  "edges": [
+    {
+      "key": "0",
+      "source": "1",
+      "target": "34",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "1",
+      "source": "1",
+      "target": "19",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "2",
+      "source": "1",
+      "target": "47",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "3",
+      "source": "4",
+      "target": "34",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "4",
+      "source": "4",
+      "target": "23",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "5",
+      "source": "5",
+      "target": "31",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "6",
+      "source": "6",
+      "target": "39",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "7",
+      "source": "7",
+      "target": "76",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "8",
+      "source": "8",
+      "target": "24",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "9",
+      "source": "8",
+      "target": "11",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "10",
+      "source": "10",
+      "target": "34",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "11",
+      "source": "10",
+      "target": "47",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "12",
+      "source": "10",
+      "target": "19",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "13",
+      "source": "12",
+      "target": "34",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "14",
+      "source": "12",
+      "target": "85",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "15",
+      "source": "13",
+      "target": "34",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "16",
+      "source": "13",
+      "target": "19",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "17",
+      "source": "13",
+      "target": "47",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "18",
+      "source": "14",
+      "target": "74",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "19",
+      "source": "14",
+      "target": "17",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "20",
+      "source": "15",
+      "target": "16",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "21",
+      "source": "15",
+      "target": "46",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "22",
+      "source": "18",
+      "target": "53",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "23",
+      "source": "18",
+      "target": "2",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "24",
+      "source": "20",
+      "target": "23",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "25",
+      "source": "21",
+      "target": "34",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "26",
+      "source": "21",
+      "target": "47",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "27",
+      "source": "21",
+      "target": "19",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "28",
+      "source": "22",
+      "target": "34",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "29",
+      "source": "22",
+      "target": "31",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "30",
+      "source": "25",
+      "target": "83",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "31",
+      "source": "25",
+      "target": "72",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "32",
+      "source": "26",
+      "target": "34",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "33",
+      "source": "26",
+      "target": "30",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "34",
+      "source": "27",
+      "target": "81",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "35",
+      "source": "27",
+      "target": "72",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "36",
+      "source": "27",
+      "target": "2",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "37",
+      "source": "27",
+      "target": "45",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "38",
+      "source": "27",
+      "target": "56",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "39",
+      "source": "27",
+      "target": "17",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "40",
+      "source": "27",
+      "target": "11",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "41",
+      "source": "29",
+      "target": "34",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "42",
+      "source": "29",
+      "target": "47",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "43",
+      "source": "29",
+      "target": "19",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "44",
+      "source": "32",
+      "target": "34",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "45",
+      "source": "32",
+      "target": "19",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "46",
+      "source": "32",
+      "target": "47",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "47",
+      "source": "33",
+      "target": "34",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "48",
+      "source": "33",
+      "target": "47",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "49",
+      "source": "33",
+      "target": "19",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "50",
+      "source": "34",
+      "target": "27",
+      "edgeTitle": "ns_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "51",
+      "source": "34",
+      "target": "70",
+      "edgeTitle": "ns_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "52",
+      "source": "34",
+      "target": "44",
+      "edgeTitle": "mx_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "53",
+      "source": "34",
+      "target": "34",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "54",
+      "source": "34",
+      "target": "19",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "55",
+      "source": "34",
+      "target": "47",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "56",
+      "source": "35",
+      "target": "34",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "57",
+      "source": "35",
+      "target": "71",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "58",
+      "source": "36",
+      "target": "34",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "59",
+      "source": "36",
+      "target": "47",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "60",
+      "source": "36",
+      "target": "19",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "61",
+      "source": "38",
+      "target": "9",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "62",
+      "source": "38",
+      "target": "56",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "63",
+      "source": "39",
+      "target": "82",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "64",
+      "source": "40",
+      "target": "34",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "65",
+      "source": "40",
+      "target": "47",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "66",
+      "source": "40",
+      "target": "19",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "67",
+      "source": "41",
+      "target": "34",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "68",
+      "source": "41",
+      "target": "47",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "69",
+      "source": "41",
+      "target": "19",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "70",
+      "source": "42",
+      "target": "47",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "71",
+      "source": "43",
+      "target": "20",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "72",
+      "source": "44",
+      "target": "28",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "73",
+      "source": "44",
+      "target": "16",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "74",
+      "source": "44",
+      "target": "46",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "75",
+      "source": "48",
+      "target": "34",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "76",
+      "source": "48",
+      "target": "47",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "77",
+      "source": "48",
+      "target": "19",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "78",
+      "source": "49",
+      "target": "15",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "79",
+      "source": "49",
+      "target": "59",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "80",
+      "source": "49",
+      "target": "73",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "81",
+      "source": "52",
+      "target": "34",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "82",
+      "source": "52",
+      "target": "19",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "83",
+      "source": "52",
+      "target": "47",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "84",
+      "source": "54",
+      "target": "34",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "85",
+      "source": "54",
+      "target": "47",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "86",
+      "source": "54",
+      "target": "19",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "87",
+      "source": "55",
+      "target": "34",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "88",
+      "source": "55",
+      "target": "47",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "89",
+      "source": "55",
+      "target": "19",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "90",
+      "source": "57",
+      "target": "34",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "91",
+      "source": "57",
+      "target": "85",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "92",
+      "source": "59",
+      "target": "65",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "93",
+      "source": "59",
+      "target": "61",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "94",
+      "source": "59",
+      "target": "84",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "95",
+      "source": "59",
+      "target": "58",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "96",
+      "source": "60",
+      "target": "0",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "97",
+      "source": "60",
+      "target": "79",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "98",
+      "source": "62",
+      "target": "3",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "99",
+      "source": "62",
+      "target": "45",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "100",
+      "source": "63",
+      "target": "34",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "101",
+      "source": "63",
+      "target": "67",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "102",
+      "source": "64",
+      "target": "34",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "103",
+      "source": "64",
+      "target": "47",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "104",
+      "source": "64",
+      "target": "19",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "105",
+      "source": "66",
+      "target": "19",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "106",
+      "source": "67",
+      "target": "28",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "107",
+      "source": "67",
+      "target": "60",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "108",
+      "source": "68",
+      "target": "34",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "109",
+      "source": "68",
+      "target": "47",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "110",
+      "source": "68",
+      "target": "19",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "111",
+      "source": "69",
+      "target": "34",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "112",
+      "source": "69",
+      "target": "47",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "113",
+      "source": "69",
+      "target": "19",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "114",
+      "source": "70",
+      "target": "81",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "115",
+      "source": "70",
+      "target": "53",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "116",
+      "source": "70",
+      "target": "3",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "117",
+      "source": "70",
+      "target": "83",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "118",
+      "source": "70",
+      "target": "74",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "119",
+      "source": "70",
+      "target": "9",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "120",
+      "source": "70",
+      "target": "24",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "121",
+      "source": "71",
+      "target": "34",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "122",
+      "source": "71",
+      "target": "19",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "123",
+      "source": "71",
+      "target": "47",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "124",
+      "source": "73",
+      "target": "51",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "125",
+      "source": "73",
+      "target": "37",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "126",
+      "source": "73",
+      "target": "80",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "127",
+      "source": "73",
+      "target": "50",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "128",
+      "source": "75",
+      "target": "25",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "129",
+      "source": "75",
+      "target": "18",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "130",
+      "source": "75",
+      "target": "62",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "131",
+      "source": "75",
+      "target": "14",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "132",
+      "source": "75",
+      "target": "38",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "133",
+      "source": "75",
+      "target": "8",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "134",
+      "source": "75",
+      "target": "42",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "135",
+      "source": "75",
+      "target": "66",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "136",
+      "source": "76",
+      "target": "30",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "137",
+      "source": "77",
+      "target": "5",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "138",
+      "source": "78",
+      "target": "34",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "139",
+      "source": "78",
+      "target": "47",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "140",
+      "source": "78",
+      "target": "19",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "141",
+      "source": "79",
+      "target": "0",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "142",
+      "source": "79",
+      "target": "65",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "143",
+      "source": "79",
+      "target": "61",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "144",
+      "source": "79",
+      "target": "84",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "145",
+      "source": "79",
+      "target": "58",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "146",
+      "source": "79",
+      "target": "51",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "147",
+      "source": "79",
+      "target": "37",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "148",
+      "source": "79",
+      "target": "80",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "149",
+      "source": "79",
+      "target": "50",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "150",
+      "source": "85",
+      "target": "34",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "151",
+      "source": "85",
+      "target": "82",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "key": "0",
+      "attributes": {
+        "x": -0,
+        "y": 0,
+        "label": "office.com",
+        "pointTitle": "domain: office.com",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "1",
+      "attributes": {
+        "x": -1.3095263846176208,
+        "y": -1.7618527313154115,
+        "label": "lib.ssuet.edu.pk",
+        "pointTitle": "subdomain: lib.ssuet.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Crtsh",
+        "size": 15
+      }
+    },
+    {
+      "key": "2",
+      "attributes": {
+        "x": -3.1330261275843427,
+        "y": 3.777263987579939,
+        "label": "173.245.59.56",
+        "pointTitle": "address: 173.245.59.56",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "3",
+      "attributes": {
+        "x": 4.360671139901857,
+        "y": -5.258846355354998,
+        "label": "172.64.32.201",
+        "pointTitle": "address: 172.64.32.201",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "4",
+      "attributes": {
+        "x": -7.753403093155882,
+        "y": 6.623900697614344,
+        "label": "onlinemis.ssuet.edu.pk",
+        "pointTitle": "subdomain: onlinemis.ssuet.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "DuckDuckGo",
+        "size": 15
+      }
+    },
+    {
+      "key": "5",
+      "attributes": {
+        "x": 9.243764516652105,
+        "y": -5.157561390557968,
+        "label": "62.171.128.0/18",
+        "pointTitle": "netblock: 62.171.128.0/18",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "6",
+      "attributes": {
+        "x": 8.513241357133742,
+        "y": 11.007489521030942,
+        "label": "17557",
+        "pointTitle": "as: 17557, Desc: PKTELECOM-AS-PK Pakistan Telecommunication Company Limited",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "7",
+      "attributes": {
+        "x": -8.353876025832786,
+        "y": -10.121755556179618,
+        "label": "32475",
+        "pointTitle": "as: 32475, Desc: SINGLEHOP-LLC - SingleHop, Inc.",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "8",
+      "attributes": {
+        "x": 14.267263483418098,
+        "y": 14.163757369856576,
+        "label": "2606:4700:50::/44",
+        "pointTitle": "netblock: 2606:4700:50::/44",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "9",
+      "attributes": {
+        "x": 11.816223387397866,
+        "y": -17.34809949189765,
+        "label": "2a06:98c1:50::ac40:20c9",
+        "pointTitle": "address: 2a06:98c1:50::ac40:20c9",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "10",
+      "attributes": {
+        "x": -18.712341089622694,
+        "y": 13.233176241192364,
+        "label": "ns2.ssuet.edu.pk",
+        "pointTitle": "subdomain: ns2.ssuet.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "HackerTarget",
+        "size": 15
+      }
+    },
+    {
+      "key": "11",
+      "attributes": {
+        "x": -16.62582265213424,
+        "y": -19.400073895554833,
+        "label": "2606:4700:58::adf5:3b38",
+        "pointTitle": "address: 2606:4700:58::adf5:3b38",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "12",
+      "attributes": {
+        "x": -18.170112134332317,
+        "y": 17.673640598779812,
+        "label": "cms.ssuet.edu.pk",
+        "pointTitle": "subdomain: cms.ssuet.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "DuckDuckGo",
+        "size": 15
+      }
+    },
+    {
+      "key": "13",
+      "attributes": {
+        "x": 25.47570045890204,
+        "y": -16.90488744209913,
+        "label": "dsa.ssuet.edu.pk",
+        "pointTitle": "subdomain: dsa.ssuet.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Crtsh",
+        "size": 15
+      }
+    },
+    {
+      "key": "14",
+      "attributes": {
+        "x": 17.0335887472516,
+        "y": 16.496689110343176,
+        "label": "2803:f800:50::/45",
+        "pointTitle": "netblock: 2803:f800:50::/45",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "15",
+      "attributes": {
+        "x": 27.354639514740484,
+        "y": -16.326924728036488,
+        "label": "104.40.0.0/13",
+        "pointTitle": "netblock: 104.40.0.0/13",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "16",
+      "attributes": {
+        "x": 23.283236472469785,
+        "y": 31.988515310412435,
+        "label": "104.47.11.10",
+        "pointTitle": "address: 104.47.11.10",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "17",
+      "attributes": {
+        "x": -23.572623825761905,
+        "y": -30.917171811622175,
+        "label": "2803:f800:50::6ca2:c138",
+        "pointTitle": "address: 2803:f800:50::6ca2:c138",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "18",
+      "attributes": {
+        "x": 27.147097594885754,
+        "y": 31.30501771749109,
+        "label": "173.245.58.0/23",
+        "pointTitle": "netblock: 173.245.58.0/23",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "19",
+      "attributes": {
+        "x": 33.70835750568402,
+        "y": -33.5023900659859,
+        "label": "104.21.64.221",
+        "pointTitle": "address: 104.21.64.221",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "20",
+      "attributes": {
+        "x": 38.4503358878935,
+        "y": 29.961544515242633,
+        "label": "61.5.128.0/19",
+        "pointTitle": "netblock: 61.5.128.0/19",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "21",
+      "attributes": {
+        "x": -30.46919755885788,
+        "y": -30.845769196783152,
+        "label": "apps.ssuet.edu.pk",
+        "pointTitle": "subdomain: apps.ssuet.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "HackerTarget",
+        "size": 15
+      }
+    },
+    {
+      "key": "22",
+      "attributes": {
+        "x": -25.43200479239171,
+        "y": 31.087765798379166,
+        "label": "nib.ssuet.edu.pk",
+        "pointTitle": "subdomain: nib.ssuet.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "23",
+      "attributes": {
+        "x": 23.608214821201685,
+        "y": -37.131633025542754,
+        "label": "61.5.159.50",
+        "pointTitle": "address: 61.5.159.50",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "24",
+      "attributes": {
+        "x": 31.57999129688962,
+        "y": 28.70409899927614,
+        "label": "2606:4700:50::adf5:3ac9",
+        "pointTitle": "address: 2606:4700:50::adf5:3ac9",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "25",
+      "attributes": {
+        "x": 47.040924575209296,
+        "y": -29.29450435044467,
+        "label": "108.162.192.0/20",
+        "pointTitle": "netblock: 108.162.192.0/20",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "26",
+      "attributes": {
+        "x": 51.83889442223844,
+        "y": 39.51667478227819,
+        "label": "exams.ssuet.edu.pk",
+        "pointTitle": "subdomain: exams.ssuet.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "DuckDuckGo",
+        "size": 15
+      }
+    },
+    {
+      "key": "27",
+      "attributes": {
+        "x": 53.02831568110639,
+        "y": -27.252484421368433,
+        "label": "ajay.ns.cloudflare.com",
+        "pointTitle": "ns: ajay.ns.cloudflare.com",
+        "color": "#E36414",
+        "category": "ns",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "28",
+      "attributes": {
+        "x": 35.719132728175026,
+        "y": 32.43176888262081,
+        "label": "outlook.com",
+        "pointTitle": "domain: outlook.com",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "29",
+      "attributes": {
+        "x": -29.81434522028147,
+        "y": -38.44151737296808,
+        "label": "hr.ssuet.edu.pk",
+        "pointTitle": "subdomain: hr.ssuet.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Crtsh",
+        "size": 15
+      }
+    },
+    {
+      "key": "30",
+      "attributes": {
+        "x": 39.31315689619325,
+        "y": 42.30437482997366,
+        "label": "107.6.182.251",
+        "pointTitle": "address: 107.6.182.251",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "31",
+      "attributes": {
+        "x": -47.753349670906346,
+        "y": -44.74926768969975,
+        "label": "62.171.159.40",
+        "pointTitle": "address: 62.171.159.40",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "32",
+      "attributes": {
+        "x": -37.01626708261447,
+        "y": 33.97495544735021,
+        "label": "developer.ssuet.edu.pk",
+        "pointTitle": "subdomain: developer.ssuet.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Wayback",
+        "size": 15
+      }
+    },
+    {
+      "key": "33",
+      "attributes": {
+        "x": 35.996956072584474,
+        "y": -54.84418097020719,
+        "label": "www.ssuet.edu.pk",
+        "pointTitle": "subdomain: www.ssuet.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Riddler",
+        "size": 15
+      }
+    },
+    {
+      "key": "34",
+      "attributes": {
+        "x": 64.34882483423723,
+        "y": 45.26890641208633,
+        "label": "ssuet.edu.pk",
+        "pointTitle": "domain: ssuet.edu.pk",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "35",
+      "attributes": {
+        "x": 48.82766662874729,
+        "y": -43.83939225476698,
+        "label": "onlineadmission.ssuet.edu.pk",
+        "pointTitle": "subdomain: onlineadmission.ssuet.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Crtsh",
+        "size": 15
+      }
+    },
+    {
+      "key": "36",
+      "attributes": {
+        "x": -54.79755519239338,
+        "y": 62.77057014031632,
+        "label": "onlinetest.ssuet.edu.pk",
+        "pointTitle": "subdomain: onlinetest.ssuet.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "DuckDuckGo",
+        "size": 15
+      }
+    },
+    {
+      "key": "37",
+      "attributes": {
+        "x": 58.37695717694956,
+        "y": -65.35529749590671,
+        "label": "2603:1046:c01:2005::8",
+        "pointTitle": "address: 2603:1046:c01:2005::8",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "38",
+      "attributes": {
+        "x": -47.3817786209144,
+        "y": 66.39283314852494,
+        "label": "2a06:98c1:50::/46",
+        "pointTitle": "netblock: 2a06:98c1:50::/46",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "39",
+      "attributes": {
+        "x": 70.73943071616996,
+        "y": -77.90105074531672,
+        "label": "119.159.226.0/24",
+        "pointTitle": "netblock: 119.159.226.0/24",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "40",
+      "attributes": {
+        "x": -59.875663279325074,
+        "y": 60.59761173932877,
+        "label": "ce.ssuet.edu.pk",
+        "pointTitle": "subdomain: ce.ssuet.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Crtsh",
+        "size": 15
+      }
+    },
+    {
+      "key": "41",
+      "attributes": {
+        "x": 79.5974507411315,
+        "y": -71.97476440005849,
+        "label": "webmail.ssuet.edu.pk",
+        "pointTitle": "subdomain: webmail.ssuet.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Riddler",
+        "size": 15
+      }
+    },
+    {
+      "key": "42",
+      "attributes": {
+        "x": 60.71718703471214,
+        "y": 46.38428494181893,
+        "label": "172.67.0.0/16",
+        "pointTitle": "netblock: 172.67.0.0/16",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "43",
+      "attributes": {
+        "x": -53.14365795342343,
+        "y": -69.77910896709133,
+        "label": "9541",
+        "pointTitle": "as: 9541, Desc: CYBERNET-AP Cyber Internet Services (Pvt) Ltd.",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "44",
+      "attributes": {
+        "x": -58.973579452615844,
+        "y": 83.86631763487605,
+        "label": "ssuet-edu-pk.mail.protection.outlook.com",
+        "pointTitle": "mx: ssuet-edu-pk.mail.protection.outlook.com",
+        "color": "#F7727B",
+        "category": "mx",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "45",
+      "attributes": {
+        "x": 45.22597564265751,
+        "y": -46.49027138987304,
+        "label": "172.64.33.56",
+        "pointTitle": "address: 172.64.33.56",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "46",
+      "attributes": {
+        "x": 58.3113788889176,
+        "y": 55.131163620330476,
+        "label": "104.47.11.74",
+        "pointTitle": "address: 104.47.11.74",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "47",
+      "attributes": {
+        "x": 85.54402358164444,
+        "y": -57.27085333109961,
+        "label": "172.67.156.37",
+        "pointTitle": "address: 172.67.156.37",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "48",
+      "attributes": {
+        "x": -69.48786091868725,
+        "y": 90.05432504819728,
+        "label": "onlineadmissions.ssuet.edu.pk",
+        "pointTitle": "subdomain: onlineadmissions.ssuet.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Crtsh",
+        "size": 15
+      }
+    },
+    {
+      "key": "49",
+      "attributes": {
+        "x": -72.57436252260123,
+        "y": -53.743440385872454,
+        "label": "8075",
+        "pointTitle": "as: 8075, Desc: MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "50",
+      "attributes": {
+        "x": -67.4565055526173,
+        "y": 51.734112496354825,
+        "label": "2603:1046:c01:248f::8",
+        "pointTitle": "address: 2603:1046:c01:248f::8",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "51",
+      "attributes": {
+        "x": 54.76074431672569,
+        "y": -74.51352405468137,
+        "label": "2603:1046:c01:1000::8",
+        "pointTitle": "address: 2603:1046:c01:1000::8",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "52",
+      "attributes": {
+        "x": -82.13325074139144,
+        "y": 79.88433208643238,
+        "label": "sirsyed.ssuet.edu.pk",
+        "pointTitle": "subdomain: sirsyed.ssuet.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "HackerTarget",
+        "size": 15
+      }
+    },
+    {
+      "key": "53",
+      "attributes": {
+        "x": -80.71989058134909,
+        "y": -86.41436325031424,
+        "label": "173.245.58.201",
+        "pointTitle": "address: 173.245.58.201",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "54",
+      "attributes": {
+        "x": -73.241985331178,
+        "y": 55.84656391295722,
+        "label": "ftp.ssuet.edu.pk",
+        "pointTitle": "subdomain: ftp.ssuet.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "PKey",
+        "size": 15
+      }
+    },
+    {
+      "key": "55",
+      "attributes": {
+        "x": -88.3465148857519,
+        "y": -57.00795255427683,
+        "label": "vpn.ssuet.edu.pk",
+        "pointTitle": "subdomain: vpn.ssuet.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Crtsh",
+        "size": 15
+      }
+    },
+    {
+      "key": "56",
+      "attributes": {
+        "x": -76.87530269667312,
+        "y": 97.63559188474348,
+        "label": "2a06:98c1:50::ac40:2138",
+        "pointTitle": "address: 2a06:98c1:50::ac40:2138",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "57",
+      "attributes": {
+        "x": 72.37707564025159,
+        "y": -94.15907879517562,
+        "label": "erp.ssuet.edu.pk",
+        "pointTitle": "subdomain: erp.ssuet.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "58",
+      "attributes": {
+        "x": -78.18231478705309,
+        "y": 81.91269622067583,
+        "label": "40.101.18.24",
+        "pointTitle": "address: 40.101.18.24",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "59",
+      "attributes": {
+        "x": -63.12420807347657,
+        "y": -81.25041804478575,
+        "label": "40.96.0.0/13",
+        "pointTitle": "netblock: 40.96.0.0/13",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "60",
+      "attributes": {
+        "x": 71.63038597583069,
+        "y": 81.28969700872952,
+        "label": "autod.ha-autod.office.com",
+        "pointTitle": "subdomain: autod.ha-autod.office.com",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "61",
+      "attributes": {
+        "x": -97.7371587839403,
+        "y": -116.5127351026297,
+        "label": "40.101.80.24",
+        "pointTitle": "address: 40.101.80.24",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "62",
+      "attributes": {
+        "x": -82.47263527816445,
+        "y": 122.56690453679451,
+        "label": "172.64.0.0/18",
+        "pointTitle": "netblock: 172.64.0.0/18",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "63",
+      "attributes": {
+        "x": 76.70135959746497,
+        "y": -73.42934004763175,
+        "label": "autodiscover.ssuet.edu.pk",
+        "pointTitle": "subdomain: autodiscover.ssuet.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Crtsh",
+        "size": 15
+      }
+    },
+    {
+      "key": "64",
+      "attributes": {
+        "x": 112.09024621219325,
+        "y": 86.7384026004876,
+        "label": "docs.ssuet.edu.pk",
+        "pointTitle": "subdomain: docs.ssuet.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "DuckDuckGo",
+        "size": 15
+      }
+    },
+    {
+      "key": "65",
+      "attributes": {
+        "x": -128.85198260932316,
+        "y": -121.22052325081961,
+        "label": "40.99.204.120",
+        "pointTitle": "address: 40.99.204.120",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "66",
+      "attributes": {
+        "x": -122.2637631169839,
+        "y": 114.04243779624743,
+        "label": "104.16.0.0/12",
+        "pointTitle": "netblock: 104.16.0.0/12",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "67",
+      "attributes": {
+        "x": -87.02415824085708,
+        "y": -121.44353734746842,
+        "label": "autodiscover.outlook.com",
+        "pointTitle": "subdomain: autodiscover.outlook.com",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "68",
+      "attributes": {
+        "x": -99.0335986140875,
+        "y": 92.47476230852408,
+        "label": "vle.ssuet.edu.pk",
+        "pointTitle": "subdomain: vle.ssuet.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Crtsh",
+        "size": 15
+      }
+    },
+    {
+      "key": "69",
+      "attributes": {
+        "x": -107.26969137699459,
+        "y": -79.96874962936941,
+        "label": "dl.ssuet.edu.pk",
+        "pointTitle": "subdomain: dl.ssuet.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Crtsh",
+        "size": 15
+      }
+    },
+    {
+      "key": "70",
+      "attributes": {
+        "x": -77.0518969584682,
+        "y": 123.44364893952259,
+        "label": "michelle.ns.cloudflare.com",
+        "pointTitle": "ns: michelle.ns.cloudflare.com",
+        "color": "#E36414",
+        "category": "ns",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "71",
+      "attributes": {
+        "x": -86.00270635463474,
+        "y": -120.30456785940528,
+        "label": "admissions.ssuet.edu.pk",
+        "pointTitle": "subdomain: admissions.ssuet.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "72",
+      "attributes": {
+        "x": 111.4138090624343,
+        "y": 119.46587715125742,
+        "label": "108.162.193.56",
+        "pointTitle": "address: 108.162.193.56",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "73",
+      "attributes": {
+        "x": 89.42986581789391,
+        "y": -132.85877799479863,
+        "label": "2603:1000::/25",
+        "pointTitle": "netblock: 2603:1000::/25",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "74",
+      "attributes": {
+        "x": -127.76170806068428,
+        "y": 81.98088176446855,
+        "label": "2803:f800:50::6ca2:c0c9",
+        "pointTitle": "address: 2803:f800:50::6ca2:c0c9",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "75",
+      "attributes": {
+        "x": 135.99684349691768,
+        "y": -97.67172616826171,
+        "label": "13335",
+        "pointTitle": "as: 13335, Desc: CLOUDFLARENET - Cloudflare, Inc.",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "76",
+      "attributes": {
+        "x": -80.77269427608785,
+        "y": 128.88653694579048,
+        "label": "107.6.176.0/21",
+        "pointTitle": "netblock: 107.6.176.0/21",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "77",
+      "attributes": {
+        "x": 119.28344395965246,
+        "y": -140.78817977192347,
+        "label": "51167",
+        "pointTitle": "as: 51167, Desc: CONTABO",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "78",
+      "attributes": {
+        "x": -137.03311113415901,
+        "y": 121.4564453860265,
+        "label": "portal.ssuet.edu.pk",
+        "pointTitle": "subdomain: portal.ssuet.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Wayback",
+        "size": 15
+      }
+    },
+    {
+      "key": "79",
+      "attributes": {
+        "x": 94.02702446542328,
+        "y": -141.8703740777703,
+        "label": "autod.ms-acdc-autod.office.com",
+        "pointTitle": "subdomain: autod.ms-acdc-autod.office.com",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "80",
+      "attributes": {
+        "x": 134.57679835753567,
+        "y": 144.70922213620457,
+        "label": "2603:1046:c01:248a::8",
+        "pointTitle": "address: 2603:1046:c01:248a::8",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "81",
+      "attributes": {
+        "x": -125.82384017029784,
+        "y": -145.41863877376628,
+        "label": "cloudflare.com",
+        "pointTitle": "domain: cloudflare.com",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "82",
+      "attributes": {
+        "x": 105.46527065293773,
+        "y": 142.5988444730985,
+        "label": "119.159.226.28",
+        "pointTitle": "address: 119.159.226.28",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "83",
+      "attributes": {
+        "x": 159.887066826224,
+        "y": -89.65833813370077,
+        "label": "108.162.192.201",
+        "pointTitle": "address: 108.162.192.201",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "84",
+      "attributes": {
+        "x": 93.7863598123481,
+        "y": 130.80272786770453,
+        "label": "40.101.82.72",
+        "pointTitle": "address: 40.101.82.72",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "85",
+      "attributes": {
+        "x": 145.9097690575231,
+        "y": -167.76107358618248,
+        "label": "edusmartz.ssuet.edu.pk",
+        "pointTitle": "subdomain: edusmartz.ssuet.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    }
+  ]
+}
