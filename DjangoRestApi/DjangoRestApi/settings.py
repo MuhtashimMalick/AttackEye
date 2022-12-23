@@ -99,8 +99,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'attackeye',
-        'USER':'root',
-        'PASSWORD':'nccs.2020',
+        'USER':'admin',
+        'PASSWORD':'password',
         'HOST':'localhost',
         'PORT': '3306',
     }

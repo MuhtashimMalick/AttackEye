@@ -102,7 +102,7 @@ function populateOverallOverview() {
 
 			// row.id=result.description
 			addCell(row, result.domain);
-			addCell(row, result.published);
+			// addCell(row, result.published);
 			addCell(row, timeStart);
 
 			// addCell(row, "delete")
