@@ -3,7 +3,7 @@
     {
       "key": "0",
       "source": "0",
-      "target": "3",
+      "target": "5",
       "edgeTitle": "root",
       "attributes": {
         "size": 1
@@ -12,8 +12,8 @@
     {
       "key": "1",
       "source": "0",
-      "target": "2",
-      "edgeTitle": "a_record",
+      "target": "3",
+      "edgeTitle": "cname_record",
       "attributes": {
         "size": 1
       }
@@ -21,17 +21,17 @@
     {
       "key": "2",
       "source": "1",
-      "target": "3",
-      "edgeTitle": "root",
+      "target": "4",
+      "edgeTitle": "contains",
       "attributes": {
         "size": 1
       }
     },
     {
       "key": "3",
-      "source": "1",
-      "target": "0",
-      "edgeTitle": "cname_record",
+      "source": "2",
+      "target": "1",
+      "edgeTitle": "prefix",
       "attributes": {
         "size": 1
       }
@@ -39,7 +39,7 @@
     {
       "key": "4",
       "source": "3",
-      "target": "3",
+      "target": "5",
       "edgeTitle": "root",
       "attributes": {
         "size": 1
@@ -47,9 +47,9 @@
     },
     {
       "key": "5",
-      "source": "4",
-      "target": "5",
-      "edgeTitle": "prefix",
+      "source": "3",
+      "target": "4",
+      "edgeTitle": "a_record",
       "attributes": {
         "size": 1
       }
@@ -57,8 +57,8 @@
     {
       "key": "6",
       "source": "5",
-      "target": "2",
-      "edgeTitle": "contains",
+      "target": "5",
+      "edgeTitle": "root",
       "attributes": {
         "size": 1
       }
@@ -68,22 +68,8 @@
     {
       "key": "0",
       "attributes": {
-        "x": 0,
+        "x": -0,
         "y": 0,
-        "label": "www.boieventportal.neduet.edu.pk",
-        "pointTitle": "subdomain: www.boieventportal.neduet.edu.pk",
-        "color": "#B30000",
-        "category": "subdomain",
-        "type": "border",
-        "source": "DNS",
-        "size": 15
-      }
-    },
-    {
-      "key": "1",
-      "attributes": {
-        "x": -1.4671742481001278,
-        "y": -1.4558710154116508,
         "label": "boieventportal.neduet.edu.pk",
         "pointTitle": "subdomain: boieventportal.neduet.edu.pk",
         "color": "#B30000",
@@ -94,38 +80,24 @@
       }
     },
     {
+      "key": "1",
+      "attributes": {
+        "x": 1.8682071268385205,
+        "y": -1.793157758742793,
+        "label": "111.68.96.0/20",
+        "pointTitle": "netblock: 111.68.96.0/20",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
       "key": "2",
       "attributes": {
-        "x": 3.60446398792325,
-        "y": 2.4532299141991887,
-        "label": "111.68.109.245",
-        "pointTitle": "address: 111.68.109.245",
-        "color": "#8F3D32",
-        "category": "address",
-        "type": "border",
-        "source": "DNS",
-        "size": 15
-      }
-    },
-    {
-      "key": "3",
-      "attributes": {
-        "x": -3.0910468213663025,
-        "y": -5.583319667881586,
-        "label": "neduet.edu.pk",
-        "pointTitle": "domain: neduet.edu.pk",
-        "color": "#EDE4C7",
-        "category": "domain",
-        "type": "border",
-        "source": "DNS",
-        "size": 15
-      }
-    },
-    {
-      "key": "4",
-      "attributes": {
-        "x": -6.238662400898855,
-        "y": 7.270596301535715,
+        "x": 3.4041637670058824,
+        "y": 2.5843703638463738,
         "label": "45773",
         "pointTitle": "as: 45773, Desc: HECPERN-AS-PK PERN AS Content Servie Provider, Islamabad, Pakistan",
         "color": "#ED7047",
@@ -136,16 +108,44 @@
       }
     },
     {
+      "key": "3",
+      "attributes": {
+        "x": 3.331643558979418,
+        "y": -5.530200115355445,
+        "label": "www.boieventportal.neduet.edu.pk",
+        "pointTitle": "subdomain: www.boieventportal.neduet.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "4",
+      "attributes": {
+        "x": 7.932219233901035,
+        "y": 5.5242272230458145,
+        "label": "111.68.109.245",
+        "pointTitle": "address: 111.68.109.245",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
       "key": "5",
       "attributes": {
-        "x": 7.145073218413547,
-        "y": -9.638014192745999,
-        "label": "111.68.96.0/20",
-        "pointTitle": "netblock: 111.68.96.0/20",
-        "color": "#CC301E",
-        "category": "netblock",
+        "x": -8.636414473731104,
+        "y": -8.024096248212043,
+        "label": "neduet.edu.pk",
+        "pointTitle": "domain: neduet.edu.pk",
+        "color": "#EDE4C7",
+        "category": "domain",
         "type": "border",
-        "source": "RIR",
+        "source": "DNS",
         "size": 15
       }
     }

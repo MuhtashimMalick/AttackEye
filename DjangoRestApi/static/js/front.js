@@ -20,6 +20,7 @@ form.onsubmit = function() {
 	}).catch(function(error) {
 		console.log(error.response);
 	});
+	this.elements[1].value = "";
 	return false;
 };
 
@@ -81,12 +82,12 @@ function populateOverallOverview() {
 		var thead = table.createTHead();
 		thead.id = "tablehead";
 		var headerRow = thead.insertRow();
-		headerRow.id = "headertab";
-		addCell(headerRow, 'Domain');
-		addCell(headerRow, 'Date');
-		addCell(headerRow, 'Time Start');
-		addCell(headerRow, 'Time End');
-		addCell(headerRow, 'Status');
+		// headerRow.id = "headertab";
+		// addCell(headerRow, 'Domain');
+		// addCell(headerRow, 'Date');
+		// addCell(headerRow, 'Time Start');
+		// addCell(headerRow, 'Time End');
+		// addCell(headerRow, 'Status');
 		spinner.style.cssText = 'display: none !important';
 
 		//   addCell(headerRow, 'Amount');
@@ -132,6 +133,7 @@ function populateOverallOverview() {
 				button.addEventListener("click", deletedomain);
 				/////////////////////////////////////////////
 			} else {
+				row.style.backgroundColor = '#008b8b';
 				addCell(row, '-');
 				addCell(row, '<span style="margin-right: 5px;">Scanning</span><span class="spinner justify-content-center" style="position: unset; background-color: unset; padding-top: 0;"><span style="display: table-cell;" class="dot1 bg-light rounded-circle m-2"></span><span style="display: table-cell;" class="dot2 bg-light rounded-circle m-2"></span><span style="display: table-cell;" class="dot3 bg-light rounded-circle m-2"></span></span>');
 			}

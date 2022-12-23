@@ -15,9 +15,21 @@ html {
     background: radial-gradient( circle, rgba(14, 32, 32, 1) 0%, rgba(13, 4, 32, 1) 100% );
     padding-bottom: 50px;
 }
+
 #firstTabOverall {
     color: white;
 }
+
+#firstTabOverall thead {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#firstTabOverall td,
+#tablehead td {
+    width: 173px;
+}
+
 #firstTabOverall button {
     color: white;
     background-color: transparent;
@@ -38,7 +50,7 @@ html {
     #im {
         height: 100px;
         padding-bottom: 0px !important;
-   }
+    }
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -487,4 +499,19 @@ html {
         margin-right: 0;
         font-weight: 600;
    }
+}
+
+#sigma-container::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    background-color: #000000;
+    background-image: url('../img/login-background.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3;
 }
