@@ -6,6 +6,7 @@ from django.shortcuts import render, redirect
 import json
 from rest_framework.decorators import parser_classes
 import validators
+import requests
 from django.views.decorators.csrf import csrf_exempt
 from django.contrib.auth.models import User
 from rest_framework.response import Response
@@ -152,12 +153,17 @@ def attackeye_list(request):
         # 'safe=False' for objects serialization
  
     elif request.method == 'POST':
-        # y=request.data["description"]
-        
-         y=request.data["domain"]
-         x=validators.domain(y)
-         
-         if x == True:
+
+        y=request.data["domain"]
+        x=validators.domain(y)
+
+        try:
+            z = requests.get(f'http://{y}', headers={'User-Agent': 'Mozilla/5.0'}).status_code
+        except requests.exceptions.ConnectionError as e:
+            print(e)
+            z = 0
+
+        if x and z == 200:
             print(x,y,'done')
             user = request.session["_auth_user_id"]
             graphold=scan.objects.filter(UserId=user,domain=y)
@@ -166,19 +172,15 @@ def attackeye_list(request):
                 graphold.delete()
             elif graph:
                 attackeye=scan.objects.create(UserId=user,domain=y,pending=1)
-                return Response({'recieved data': request.data})
+                return Response({'response': request.data})
             
-            # tutorial=scan.objects.create(UserId=user,description=y)
-            # print("llllllllllllllllllllllllllllllllllllllllllll")
             attackeye=scan.objects.create(UserId=user,domain=y,pending=0)
             amass.delay(str(y),str(user)) 
-            return Response({'received data': request.data})
-            # response = redirect('/home')
-            # return response
-         else:
-             print("empty")
-             print(x)
-             return Response({'received data': 'enter valid input'})
+            return Response({'response': request.data})
+        else:
+            print("empty")
+            print(x)
+            return Response({'error': 'enter valid input'})
               
     
     elif request.method == 'DELETE':
@@ -224,10 +226,9 @@ def graphtable(request):
     if request.method == 'GET':
         if request.user.is_authenticated:
             user= request.session["_auth_user_id"]
-            print("userhamza",user)
             graph_list=[]
             graph=scan.objects.filter(UserId=user).values()
-            print(graph)
+            #print(graph)
             return Response({'graph':graph})
         
             for i in range(len(graph)):
