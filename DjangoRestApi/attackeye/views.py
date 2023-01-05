@@ -154,18 +154,20 @@ def attackeye_list(request):
     elif request.method == 'POST':
         # y=request.data["description"]
         
-         y=request.data["domain"]
-         x=validators.domain(y)
-         
-         if x == True:
+        y=request.data["domain"]
+        x=validators.domain(y)
+
+        if x == True:
             print(x,y,'done')
             user = request.session["_auth_user_id"]
-            graphold=scan.objects.filter(UserId=user,domain=y)
-            graph=scan.objects.filter(domain=y)
-            if graphold:
-                graphold.delete()
-            elif graph:
-                attackeye=scan.objects.create(UserId=user,domain=y,pending=1)
+            domainbyuser=scan.objects.filter(UserId=user,domain=y)
+            domain=scan.objects.filter(domain=y)
+            if domainbyuser:
+                domainbyuser.delete()
+            elif domain and len(domainbyuser) == 0:
+                for dom in domain.values('timeDateEnd'):
+                    tDE = dom['timeDateEnd']
+                attackeye=scan.objects.create(UserId=user,domain=y,pending=1,timeDateEnd=tDE)
                 return Response({'recieved data': request.data})
             
             # tutorial=scan.objects.create(UserId=user,description=y)
@@ -175,10 +177,10 @@ def attackeye_list(request):
             return Response({'received data': request.data})
             # response = redirect('/home')
             # return response
-         else:
-             print("empty")
-             print(x)
-             return Response({'received data': 'enter valid input'})
+        else:
+            print("empty")
+            print(x)
+            return Response({'received data': 'enter valid input'})
               
     
     elif request.method == 'DELETE':
@@ -224,10 +226,10 @@ def graphtable(request):
     if request.method == 'GET':
         if request.user.is_authenticated:
             user= request.session["_auth_user_id"]
-            print("userhamza",user)
+            #print("userhamza",user)
             graph_list=[]
             graph=scan.objects.filter(UserId=user).values()
-            print(graph)
+            #print(graph)
             return Response({'graph':graph})
         
             for i in range(len(graph)):
