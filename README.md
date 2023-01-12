@@ -9,6 +9,10 @@ Create the DB tables first:
 ```
 python manage.py migrate
 ```
+Activate Virtual Environment:
+```
+. env/bin/activate
+```
 Run the development web server:
 ```
 python manage.py runserver 8080
