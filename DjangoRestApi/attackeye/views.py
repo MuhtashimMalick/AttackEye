@@ -154,34 +154,33 @@ def attackeye_list(request):
  
     elif request.method == 'POST':
 
-        y=request.data["domain"]
-        x=validators.domain(y)
+        domain=request.data["domain"]
+        isValidDomain=validators.domain(domain)
 
         try:
-            z = requests.get(f'http://{y}', headers={'User-Agent': 'Mozilla/5.0'}).status_code
+            domainStatusCode = requests.get(f'http://{domain}', headers={'User-Agent': 'Mozilla/5.0'}).status_code
         except requests.exceptions.ConnectionError as e:
             print(e)
-            z = 0
+            domainStatusCode = 0
 
-        if x and z == 200:
-            print(x,y,'done')
+        if isValidDomain and domainStatusCode == 200:
+            print(isValidDomain,domain,'done')
             user = request.session["_auth_user_id"]
-            graphold=scan.objects.filter(UserId=user,domain=y)
-            graph=scan.objects.filter(domain=y)
+            graphold=scan.objects.filter(UserId=user,domain=domain)
+            graph=scan.objects.filter(domain=domain)
             if graphold:
                 graphold.delete()
             elif graph:
-                attackeye=scan.objects.create(UserId=user,domain=y,pending=1)
+                attackeye=scan.objects.create(UserId=user,domain=domain,pending=1)
                 return Response({'response': request.data})
             
-            attackeye=scan.objects.create(UserId=user,domain=y,pending=0)
-            amass.delay(str(y),str(user)) 
+            attackeye=scan.objects.create(UserId=user,domain=domain,pending=0)
+            amass.delay(str(domain),str(user)) 
             return Response({'response': request.data})
         else:
             print("empty")
-            print(x)
+            print(isValidDomain)
             return Response({'error': 'enter valid input'})
-              
     
     elif request.method == 'DELETE':
         count = scan.objects.all().delete()
@@ -226,6 +225,7 @@ def graphtable(request):
     if request.method == 'GET':
         if request.user.is_authenticated:
             user= request.session["_auth_user_id"]
+            #print("userhamza",user)
             graph_list=[]
             graph=scan.objects.filter(UserId=user).values()
             #print(graph)

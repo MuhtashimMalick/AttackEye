@@ -1,0 +1,1038 @@
+{
+  "edges": [
+    {
+      "key": "0",
+      "source": "0",
+      "target": "23",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "1",
+      "source": "0",
+      "target": "14",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "2",
+      "source": "1",
+      "target": "24",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "3",
+      "source": "1",
+      "target": "37",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "4",
+      "source": "1",
+      "target": "36",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "5",
+      "source": "3",
+      "target": "33",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "6",
+      "source": "3",
+      "target": "13",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "7",
+      "source": "3",
+      "target": "22",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "8",
+      "source": "4",
+      "target": "11",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "9",
+      "source": "4",
+      "target": "2",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "10",
+      "source": "4",
+      "target": "22",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "11",
+      "source": "5",
+      "target": "15",
+      "edgeTitle": "ns_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "12",
+      "source": "5",
+      "target": "3",
+      "edgeTitle": "ns_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "13",
+      "source": "5",
+      "target": "27",
+      "edgeTitle": "ns_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "14",
+      "source": "5",
+      "target": "1",
+      "edgeTitle": "ns_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "15",
+      "source": "5",
+      "target": "28",
+      "edgeTitle": "mx_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "16",
+      "source": "5",
+      "target": "0",
+      "edgeTitle": "mx_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "17",
+      "source": "5",
+      "target": "5",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "18",
+      "source": "5",
+      "target": "19",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "19",
+      "source": "5",
+      "target": "11",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "20",
+      "source": "6",
+      "target": "19",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "21",
+      "source": "8",
+      "target": "14",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "22",
+      "source": "15",
+      "target": "10",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "23",
+      "source": "15",
+      "target": "18",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "24",
+      "source": "15",
+      "target": "2",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "25",
+      "source": "16",
+      "target": "5",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "26",
+      "source": "16",
+      "target": "7",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "27",
+      "source": "21",
+      "target": "30",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "28",
+      "source": "21",
+      "target": "34",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "29",
+      "source": "25",
+      "target": "6",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "30",
+      "source": "25",
+      "target": "38",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "31",
+      "source": "25",
+      "target": "29",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "32",
+      "source": "25",
+      "target": "8",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "33",
+      "source": "25",
+      "target": "4",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "34",
+      "source": "25",
+      "target": "35",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "35",
+      "source": "26",
+      "target": "5",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "36",
+      "source": "26",
+      "target": "19",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "37",
+      "source": "26",
+      "target": "11",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "38",
+      "source": "27",
+      "target": "17",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "39",
+      "source": "27",
+      "target": "12",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "40",
+      "source": "27",
+      "target": "31",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "41",
+      "source": "28",
+      "target": "23",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "42",
+      "source": "28",
+      "target": "20",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "43",
+      "source": "29",
+      "target": "20",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "44",
+      "source": "30",
+      "target": "9",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "45",
+      "source": "32",
+      "target": "5",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "46",
+      "source": "32",
+      "target": "9",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "47",
+      "source": "34",
+      "target": "7",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "48",
+      "source": "35",
+      "target": "13",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "49",
+      "source": "35",
+      "target": "12",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "50",
+      "source": "35",
+      "target": "37",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "51",
+      "source": "35",
+      "target": "18",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "52",
+      "source": "38",
+      "target": "31",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "53",
+      "source": "38",
+      "target": "36",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "key": "0",
+      "attributes": {
+        "x": -0,
+        "y": 0,
+        "label": "mx00.1and1.co.uk",
+        "pointTitle": "mx: mx00.1and1.co.uk",
+        "color": "#F7727B",
+        "category": "mx",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "1",
+      "attributes": {
+        "x": -1.4042441812778839,
+        "y": -1.9743670153989537,
+        "label": "ns1121.ui-dns.com",
+        "pointTitle": "ns: ns1121.ui-dns.com",
+        "color": "#E36414",
+        "category": "ns",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "2",
+      "attributes": {
+        "x": -3.913290132630374,
+        "y": 3.7579039871979347,
+        "label": "2001:8d8:fe:53:0:d9a0:5379:100",
+        "pointTitle": "address: 2001:8d8:fe:53:0:d9a0:5379:100",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "3",
+      "attributes": {
+        "x": -3.82759459410868,
+        "y": -5.53057086908941,
+        "label": "ns1121.ui-dns.de",
+        "pointTitle": "ns: ns1121.ui-dns.de",
+        "color": "#E36414",
+        "category": "ns",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "4",
+      "attributes": {
+        "x": -5.373594496027405,
+        "y": 5.8271080004538085,
+        "label": "2001:8d8::/32",
+        "pointTitle": "netblock: 2001:8d8::/32",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "5",
+      "attributes": {
+        "x": -5.914780639662331,
+        "y": -8.830002239481288,
+        "label": "socialbuzzing.co.uk",
+        "pointTitle": "domain: socialbuzzing.co.uk",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "6",
+      "attributes": {
+        "x": -6.156303332170606,
+        "y": 8.292241716901334,
+        "label": "217.160.0.0/18",
+        "pointTitle": "netblock: 217.160.0.0/18",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "7",
+      "attributes": {
+        "x": 10.415154209341356,
+        "y": -11.620743361975265,
+        "label": "2602:fcbc:0:3::11",
+        "pointTitle": "address: 2602:fcbc:0:3::11",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "8",
+      "attributes": {
+        "x": 15.589275783012095,
+        "y": 13.82569178505652,
+        "label": "212.227.0.0/17",
+        "pointTitle": "netblock: 212.227.0.0/17",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "9",
+      "attributes": {
+        "x": 15.892856938758445,
+        "y": -17.508293423988952,
+        "label": "54.144.128.85",
+        "pointTitle": "address: 54.144.128.85",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "10",
+      "attributes": {
+        "x": 17.95899032540204,
+        "y": 14.480653886654643,
+        "label": "ui-dns.org",
+        "pointTitle": "domain: ui-dns.org",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "11",
+      "attributes": {
+        "x": 12.23982791090149,
+        "y": -17.61152155416599,
+        "label": "2001:8d8:100f:f000::263",
+        "pointTitle": "address: 2001:8d8:100f:f000::263",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "12",
+      "attributes": {
+        "x": 18.177036580090004,
+        "y": 19.71129029205008,
+        "label": "217.160.81.121",
+        "pointTitle": "address: 217.160.81.121",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "13",
+      "attributes": {
+        "x": -15.812754938274528,
+        "y": -17.18547362096895,
+        "label": "217.160.80.121",
+        "pointTitle": "address: 217.160.80.121",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "14",
+      "attributes": {
+        "x": 14.690424095059482,
+        "y": 17.828280307220762,
+        "label": "212.227.15.41",
+        "pointTitle": "address: 212.227.15.41",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "15",
+      "attributes": {
+        "x": -18.064613319268314,
+        "y": -29.873576705033287,
+        "label": "ns1121.ui-dns.org",
+        "pointTitle": "ns: ns1121.ui-dns.org",
+        "color": "#E36414",
+        "category": "ns",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "16",
+      "attributes": {
+        "x": 21.939780795939512,
+        "y": 24.970555668627743,
+        "label": "wwwelb.socialbuzzing.co.uk",
+        "pointTitle": "subdomain: wwwelb.socialbuzzing.co.uk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Alterations",
+        "size": 15
+      }
+    },
+    {
+      "key": "17",
+      "attributes": {
+        "x": -32.62645607640259,
+        "y": -27.045220055566457,
+        "label": "ui-dns.biz",
+        "pointTitle": "domain: ui-dns.biz",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "18",
+      "attributes": {
+        "x": 19.280411506086722,
+        "y": 27.75702854144555,
+        "label": "217.160.83.121",
+        "pointTitle": "address: 217.160.83.121",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "19",
+      "attributes": {
+        "x": 27.631190284935972,
+        "y": -35.497055223029086,
+        "label": "217.160.0.240",
+        "pointTitle": "address: 217.160.0.240",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "20",
+      "attributes": {
+        "x": -28.444231983336365,
+        "y": 32.757951925064326,
+        "label": "217.72.192.67",
+        "pointTitle": "address: 217.72.192.67",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "21",
+      "attributes": {
+        "x": 28.516880702432452,
+        "y": -40.28963460648421,
+        "label": "14618",
+        "pointTitle": "as: 14618, Desc: AMAZON-AES - Amazon.com, Inc.",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "22",
+      "attributes": {
+        "x": 41.46698242254341,
+        "y": 22.948589703070862,
+        "label": "2001:8d8:fe:53:0:d9a0:5079:100",
+        "pointTitle": "address: 2001:8d8:fe:53:0:d9a0:5079:100",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "23",
+      "attributes": {
+        "x": 39.54270199412383,
+        "y": -23.27055501820402,
+        "label": "1and1.co.uk",
+        "pointTitle": "domain: 1and1.co.uk",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "24",
+      "attributes": {
+        "x": -27.023695898250484,
+        "y": 39.89377120450086,
+        "label": "ui-dns.com",
+        "pointTitle": "domain: ui-dns.com",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "25",
+      "attributes": {
+        "x": -35.97166380566236,
+        "y": -30.547459864276615,
+        "label": "8560",
+        "pointTitle": "as: 8560, Desc: IONOS-AS This is the joint network for IONOS, Fasthosts, Arsys, 1\u00261 Mail and Media and 1\u00261 Telecom. Formerly known as 1\u00261 Internet SE., DE",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "26",
+      "attributes": {
+        "x": 26.28918190543513,
+        "y": 29.442421674101677,
+        "label": "www.socialbuzzing.co.uk",
+        "pointTitle": "subdomain: www.socialbuzzing.co.uk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "HackerTarget",
+        "size": 15
+      }
+    },
+    {
+      "key": "27",
+      "attributes": {
+        "x": -35.735532575303225,
+        "y": -45.61241607084703,
+        "label": "ns1121.ui-dns.biz",
+        "pointTitle": "ns: ns1121.ui-dns.biz",
+        "color": "#E36414",
+        "category": "ns",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "28",
+      "attributes": {
+        "x": 31.15485211502447,
+        "y": 35.412729326451625,
+        "label": "mx01.1and1.co.uk",
+        "pointTitle": "mx: mx01.1and1.co.uk",
+        "color": "#F7727B",
+        "category": "mx",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "29",
+      "attributes": {
+        "x": -40.105526011111536,
+        "y": -57.72533273020046,
+        "label": "217.72.192.0/20",
+        "pointTitle": "netblock: 217.72.192.0/20",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "30",
+      "attributes": {
+        "x": 34.5913123133408,
+        "y": 44.13352947132365,
+        "label": "54.144.0.0/14",
+        "pointTitle": "netblock: 54.144.0.0/14",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "31",
+      "attributes": {
+        "x": 54.15951251189744,
+        "y": -61.965673253052536,
+        "label": "2001:8d8:fe:53:0:d9a0:5179:100",
+        "pointTitle": "address: 2001:8d8:fe:53:0:d9a0:5179:100",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "32",
+      "attributes": {
+        "x": 61.68250829072761,
+        "y": 58.03349498416004,
+        "label": "wwwbrasil.socialbuzzing.co.uk",
+        "pointTitle": "subdomain: wwwbrasil.socialbuzzing.co.uk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Alterations",
+        "size": 15
+      }
+    },
+    {
+      "key": "33",
+      "attributes": {
+        "x": 47.74111978077458,
+        "y": -60.56446550268439,
+        "label": "ui-dns.de",
+        "pointTitle": "domain: ui-dns.de",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "34",
+      "attributes": {
+        "x": -58.06719478907498,
+        "y": 59.35712214402244,
+        "label": "2602:fcbc::/48",
+        "pointTitle": "netblock: 2602:fcbc::/48",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "35",
+      "attributes": {
+        "x": -65.65049650792395,
+        "y": -63.72890755701785,
+        "label": "217.160.80.0/22",
+        "pointTitle": "netblock: 217.160.80.0/22",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "36",
+      "attributes": {
+        "x": -55.42109467477521,
+        "y": 41.66562893147997,
+        "label": "2001:8d8:fe:53:0:d9a0:5279:100",
+        "pointTitle": "address: 2001:8d8:fe:53:0:d9a0:5279:100",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "37",
+      "attributes": {
+        "x": -37.421242350122256,
+        "y": -44.64697828391484,
+        "label": "217.160.82.121",
+        "pointTitle": "address: 217.160.82.121",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "38",
+      "attributes": {
+        "x": -54.67091071801628,
+        "y": 50.835113467260186,
+        "label": "2001:8d8::/40",
+        "pointTitle": "netblock: 2001:8d8::/40",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    }
+  ]
+}
