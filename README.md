@@ -3,6 +3,13 @@
 For more detail, please visit:
 > [Attack Eye Website](http://attack-eye.neduet.edu.pk:6700/)
 
+## Configuration file Amass
+
+File Path:
+```
+$HOME/.config/amass/config.ini
+```
+
 ## Running the Application
 
 Create the DB tables first:
