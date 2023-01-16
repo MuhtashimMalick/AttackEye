@@ -9,6 +9,9 @@ File Path:
 ```
 $HOME/.config/amass/config.ini
 ```
+Make output directory: 
+
+$HOME/django-rest-api/django-rest-api-master/amass_output
 
 ## Running the Application
 
