@@ -3,22 +3,26 @@ var form = document.querySelector('#dform'),
 
 form.onsubmit = function() {
 	spinner.style.display = "";
+	var formE = this;
 
 	const csrftoken = document.querySelector('[name=csrfmiddlewaretoken]').value;
 	const headers = {
 		"X-CSRFTOKEN": csrftoken,
 		contentType: 'application/json'
 	}
-	console.log(headers);
+	console.log(headers, "headers on form submit");
 	axios.post("/api/attackeye", {
 		domain: this.elements[1].value
-	}, {
-		headers: headers
-	}).then(function(response) {
-		this.elements[1].value = '';
-		console.log(response, "t-response");
+	}, {headers: headers}).then(function(response) {
+		formE.elements[1].value = '';
+		if (response.data.error) {
+			formE.children[1].classList.add('invalid-input');
+		} else {
+			formE.children[1].classList.remove('invalid-input');
+		}
+		console.log(response.data, "t-response");
 	}).catch(function(error) {
-		console.log(error.response);
+		console.log(error);
 	});
 	this.elements[1].value = "";
 	return false;
@@ -65,7 +69,7 @@ function deletedomain() {
 
 function populateOverallOverview() {
 	axios.get("/api/graphtable").then(function(response) {
-		$("#firstTabOverall tr").remove();
+		if ($("#firstTabOverall tr")) $("#firstTabOverall tr").remove();
 		console.log(response);
 		console.log("haza");
 

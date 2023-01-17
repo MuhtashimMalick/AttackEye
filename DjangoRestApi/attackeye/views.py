@@ -6,6 +6,7 @@ from django.shortcuts import render, redirect
 import json
 from rest_framework.decorators import parser_classes
 import validators
+import requests
 from django.views.decorators.csrf import csrf_exempt
 from django.contrib.auth.models import User
 from rest_framework.response import Response
@@ -152,36 +153,34 @@ def attackeye_list(request):
         # 'safe=False' for objects serialization
  
     elif request.method == 'POST':
-        # y=request.data["description"]
-        
-        y=request.data["domain"]
-        x=validators.domain(y)
 
-        if x == True:
-            print(x,y,'done')
+        domain=request.data["domain"]
+        isValidDomain=validators.domain(domain)
+
+        try:
+            domainStatusCode = requests.get(f'http://{domain}', headers={'User-Agent': 'Mozilla/5.0'}).status_code
+        except requests.exceptions.ConnectionError as e:
+            print(e)
+            domainStatusCode = 0
+
+        if isValidDomain and domainStatusCode == 200:
+            print(isValidDomain,domain,'done')
             user = request.session["_auth_user_id"]
-            domainbyuser=scan.objects.filter(UserId=user,domain=y)
-            domain=scan.objects.filter(domain=y)
-            if domainbyuser:
-                domainbyuser.delete()
-            elif domain and len(domainbyuser) == 0:
-                for dom in domain.values('timeDateEnd'):
-                    tDE = dom['timeDateEnd']
-                attackeye=scan.objects.create(UserId=user,domain=y,pending=1,timeDateEnd=tDE)
-                return Response({'recieved data': request.data})
+            graphold=scan.objects.filter(UserId=user,domain=domain)
+            graph=scan.objects.filter(domain=domain)
+            if graphold:
+                graphold.delete()
+            elif graph:
+                attackeye=scan.objects.create(UserId=user,domain=domain,pending=1)
+                return Response({'response': request.data})
             
-            # tutorial=scan.objects.create(UserId=user,description=y)
-            # print("llllllllllllllllllllllllllllllllllllllllllll")
-            attackeye=scan.objects.create(UserId=user,domain=y,pending=0)
-            amass.delay(str(y),str(user)) 
-            return Response({'received data': request.data})
-            # response = redirect('/home')
-            # return response
+            attackeye=scan.objects.create(UserId=user,domain=domain,pending=0)
+            amass.delay(str(domain),str(user)) 
+            return Response({'response': request.data})
         else:
             print("empty")
-            print(x)
-            return Response({'received data': 'enter valid input'})
-              
+            print(isValidDomain)
+            return Response({'error': 'enter valid input'})
     
     elif request.method == 'DELETE':
         count = scan.objects.all().delete()
