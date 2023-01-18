@@ -41,7 +41,7 @@ form.onsubmit = function() {
 	toolOverlay.querySelectorAll('button')[1].onclick = () => {
 		scanFormContainer.removeChild(toolOverlayContainer);
 	}
-
+  
 	if (isSubdomain(domainInputValue)) {
 		scanFormContainer.appendChild(toolOverlay.querySelector('div'));
 		return false;
@@ -92,7 +92,7 @@ function deletedomain() {
 
 function populateOverallOverview() {
 	axios.get("/api/graphtable").then(function(response) {
-		$("#firstTabOverall tr").remove();
+		if ($("#firstTabOverall tr")) $("#firstTabOverall tr").remove();
 		console.log(response);
 		console.log("haza");
 

@@ -515,7 +515,7 @@ html {
    }
 }
 
-#sigma-container::before{
+#sigma-container::before {
     content: "";
     position: absolute;
     top: 0;
@@ -554,4 +554,18 @@ html {
 .tool-overlay button {
     padding: 0.3em 0.5em;
     font-size: 14px;
+}
+
+.invalid-input::before {
+    content: "Domain not valid";
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 36px;
+    padding: 0 1em;
+    bottom: 0;
+    background-color: red;
+    font-size: 14px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }

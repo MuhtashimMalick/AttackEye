@@ -3,17 +3,33 @@
 For more detail, please visit:
 > [Attack Eye Website](http://attack-eye.neduet.edu.pk:6700/)
 
+## Configuration file Amass
+
+File Path:
+```
+$HOME/.config/amass/config.ini
+```
+Make output directory: 
+
+```
+$HOME/django-rest-api/django-rest-api-master/amass_output
+```
+
 ## Running the Application
 
 Create the DB tables first:
 ```
 python manage.py migrate
 ```
+Activate Virtual Environment:
+```
+. env/bin/activate
+```
 Run the development web server:
 ```
-python manage.py runserver 8080
+python3 manage.py runserver [machine_ip]:8080
 ```
-Open the URL http://localhost:8080/ to access the application.
+Open the URL http://[machine_ip]:8080/ to access the application.
 
 Open new tab to run Celery worker nodes:
 
