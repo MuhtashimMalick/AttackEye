@@ -176,16 +176,16 @@ def attackeye_list(request):
             # response = redirect('/home')
             # return response
          else:
-             print("empty")
-             print(x)
-             return Response({'received data': 'enter valid input'})
-              
-    
+            print("empty")
+            print(x)
+            return Response({'received data': 'enter valid input'})
+
+
     elif request.method == 'DELETE':
         count = scan.objects.all().delete()
         return JsonResponse({'message': '{} Scans were deleted successfully!'.format(count[0])}, status=status.HTTP_204_NO_CONTENT)
 
- 
+
 @api_view(['GET', 'PUT', 'DELETE'])
 def attackeye_detail(request, pk):
     try: 

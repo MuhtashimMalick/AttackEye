@@ -3,24 +3,51 @@ var form = document.querySelector('#dform'),
 
 form.onsubmit = function() {
 	spinner.style.display = "";
+	var scanFormContainer = document.querySelector('#tool2');
+	
+	var domainInputValue = this.elements[1].value;
+	const isSubdomain = (domain) => domain.split('.').length > 3 && !/^(com|net|org|edu|gov)$/i.test(domain.split('.')[domain.split('.').length - 1]);
+	const domainRegex = /[^.]*\.[^.]{2,5}(?:\.[^.]{2,5})?$/mg;
+	const tLD = domainInputValue.match(domainRegex);
 
-	const csrftoken = document.querySelector('[name=csrfmiddlewaretoken]').value;
-	const headers = {
-		"X-CSRFTOKEN": csrftoken,
-		contentType: 'application/json'
+	var startScan = (domain) => {
+		const csrftoken = this.querySelector('[name=csrfmiddlewaretoken]').value;
+		axios.post("/api/attackeye", {
+			domain: domain
+		}, {
+			headers: {"X-CSRFTOKEN": csrftoken,contentType: 'application/json'}
+		}).then(function(response) {
+			this.elements[1].value = '';
+			console.log(response, "t-response");
+		}).catch(function(error) {
+			console.log(error.response);
+		});
+		this.elements[1].value = "";
 	}
-	console.log(headers);
-	axios.post("/api/attackeye", {
-		domain: this.elements[1].value
-	}, {
-		headers: headers
-	}).then(function(response) {
-		this.elements[1].value = '';
-		console.log(response, "t-response");
-	}).catch(function(error) {
-		console.log(error.response);
-	});
-	this.elements[1].value = "";
+
+	var toolOverlay = new DOMParser().parseFromString(
+		'<div class="tool-overlay backdrop-blur"><div class="inner"><h3>You\'ve input a subdomain</h3><p>A subdomain cannot be scanned. You can only proceed with scanning the organization domain ('+ tLD +')</p><button>Proceed Scanning ('+ tLD +')</button><button>Cancel</button></div></div>', 
+		"text/html"
+	);
+	
+	// proceed scanning button
+	var toolOverlayContainer = toolOverlay.querySelector('div');
+	toolOverlay.querySelectorAll('button')[0].onclick = () => {
+		startScan(tLD[0]);
+		scanFormContainer.removeChild(toolOverlayContainer);
+	}
+
+	// cancel button
+	toolOverlay.querySelectorAll('button')[1].onclick = () => {
+		scanFormContainer.removeChild(toolOverlayContainer);
+	}
+
+	if (isSubdomain(domainInputValue)) {
+		scanFormContainer.appendChild(toolOverlay.querySelector('div'));
+		return false;
+	}
+
+	startScan(domainInputValue);
 	return false;
 };
 

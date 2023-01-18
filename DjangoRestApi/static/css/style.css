@@ -1,3 +1,16 @@
+/* slightly transparent fallback */
+.backdrop-blur {
+    background-color: rgba(0, 0, 0, .2);
+}
+
+/* if backdrop support: very transparent and blurred */
+@supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+    .backdrop-blur {
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(5px);
+    }
+}
+
 html {
     border-style: none !important;
     border: none !important;
@@ -227,6 +240,7 @@ html {
     padding-top: 30px;
     margin-right: auto;
     text-align: left !important;
+    position: relative;
    /* flex: 2;
     */
 }
@@ -514,4 +528,30 @@ html {
     background-size: cover;
     background-position: center;
     opacity: 0.3;
+}
+
+.tool-overlay {
+    z-index: 1;
+    position: absolute;
+    bottom: -1em;
+    top: 0;
+    right: -5em;
+    left: -1em;
+}
+
+.tool-overlay > .inner {
+    position: absolute;
+    background-color: #000000;
+    width: 400px;
+    padding: 2em 2em;
+    z-index: 1;
+    top: 6em;
+    right: 0;
+    margin: 0 auto;
+    left: 0;
+}
+
+.tool-overlay button {
+    padding: 0.3em 0.5em;
+    font-size: 14px;
 }
