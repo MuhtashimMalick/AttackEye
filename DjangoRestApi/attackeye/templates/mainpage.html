@@ -37,7 +37,7 @@
 
   <!-- Navbar  -->
   <div class="container-fluid" id="body">
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark shrink" id="na" >
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark shrink blur-b shadow" id="na" >
       <div class="container" >
         
           <img src="{% static 'img/white4.png' %}" alt="logo" id="im">
@@ -152,15 +152,14 @@
     <div class="container-fluid" id="tool">
       <div class="container">
         <div class="row" id="discover1">
-          <h1 data-aos="fadeInUp">TOOLS</h1>
           <div class="col-lg-4">
             <div id="tool1" data-aos="fade-right">
               <img src="/static/img/world.png" alt="..." class="img-fluid" />
             </div>
           </div>
           <div class="col-lg-8">
-            <div id="tool2">
-              <h2 class="dwriting" data-aos="fadeInUp">ATTACK SURFACE DISCOVERY AND PASSIVE SCAN</h2>
+            <div id="tool2" style="padding-top: 0;">
+              <h2 class="dwriting" data-aos="fadeInUp" style="margin-top: 0;">ATTACK SURFACE DISCOVERY AND PASSIVE SCAN</h2>
               <p class="dwriting" data-aos="fadeInUp">
                 Information gathering for planning a penetertion test and asessing
                 How much work it might involved. We provide powerful reconnaissance
@@ -177,10 +176,10 @@
                     <span class="dot2 bg-light rounded-circle m-2"></span>
                     <span class="dot3 bg-light rounded-circle m-2"></span>
                   </div>
-                  <input class="form-control" id="domain" type="text" name="domain" placeholder="Enter domain name ..." itemid="dinput" data-aos="fadeInUp">
+                  <input class="form-control" id="domain" type="text" name="domain" placeholder="Enter domain name ..." itemid="dinput">
                 </div>
                 <div class="col-sm-2">
-                  <button type="submit" class="btn btn-light" id="discover" data-aos="fade-left">
+                  <button type="submit" class="btn btn-light" id="discover">
                     DISCOVER
                   </button>
                 </div>
@@ -202,9 +201,6 @@
                   </tr>
                   {%endfor%} {% endcomment %}
                 </table>
-              
-                  
-
               </div>
             </div>
           </div>
@@ -473,20 +469,8 @@
         delay: 1000,
       });
   </script>
-
   
   <script src="{% static 'js/front.js' %}"></script>
-  <script type="text/javascript">
-    var nav = document.querySelector("nav");
-
-    window.addEventListener("scroll", function () {
-      if (window.pageYOffset > 10) {
-        nav.classList.add("blur-b", "shadow");
-      } else {
-        nav.classList.remove("blur-b", "shadow");
-      }
-    });
-  </script>
   
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
