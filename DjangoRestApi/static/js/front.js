@@ -52,7 +52,7 @@ form.onsubmit = function() {
 					}
 					scanFormContainer.appendChild(toolOverlay.querySelector('div'));
 				} else if (response.data.message == "Invalid Domain") {
-					toolTip.innerHTML = response.data.message;
+					toolTip.innerHTML = '<span>!</span>' + response.data.message;
 					domainInput.parentNode.appendChild(toolTip);
 					
 					setTimeout(function() {
