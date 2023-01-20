@@ -209,7 +209,7 @@ def attackeye_list(request):
         else:
             print("empty")
             print(isValidDomain)
-            return Response({'message': 'Invalid Domain', 'messageDescription': 'Your input cannot be scanned at this moment.', 'error': 500})
+            return Response({'message': 'Invalid Domain', 'domain': extDomain,  'messageDescription': 'Your input cannot be scanned at this moment.', 'error': 500})
     
     elif request.method == 'DELETE':
         count = scan.objects.all().delete()

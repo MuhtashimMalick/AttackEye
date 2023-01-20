@@ -8,8 +8,15 @@ form.onsubmit = function() {
 	var domainInputValue = this.elements[1].value,
 		domainInput = this.elements[1];
 
+	var toolTip = document.createElement('span');
+	toolTip.className = 'tooltiptext';
+	toolTip.innerHTML = 'Input a valid domain';
+
 	if (domainInputValue == '') {
-		domainInput.style.border = "5px solid red";
+		domainInput.parentNode.appendChild(toolTip);
+		setTimeout(function() {
+			domainInput.parentNode.removeChild(toolTip);
+		}, 5000);
 		return false;
 	} else {
 		domainInput.style.border = "";
@@ -34,20 +41,29 @@ form.onsubmit = function() {
 		}).then(function(response) {
 			domainInput.value = '';
 			if (response.data.error) {
-				toolOverlay.querySelector('h4').innerHTML = response.data.message;
-				toolOverlay.querySelector('p').innerHTML = response.data.messageDescription;
 				if (response.data.message == "Subdomains are not allowed") {
+					toolOverlay.querySelector('h4').innerHTML = response.data.message;
+					toolOverlay.querySelector('p').innerHTML = response.data.messageDescription;
 					toolOverlay.querySelectorAll('button')[0].innerHTML = "Proceed scanning (" + response.data.domain + ")";
 					// proceed scanning button
 					toolOverlay.querySelectorAll('button')[0].onclick = () => {
 						startScan(response.data.domain);
 						scanFormContainer.removeChild(toolOverlayContainer);
 					}
+					scanFormContainer.appendChild(toolOverlay.querySelector('div'));
+				} else if (response.data.message == "Invalid Domain") {
+					toolTip.innerHTML = response.data.message;
+					domainInput.parentNode.appendChild(toolTip);
+					
+					setTimeout(function() {
+						domainInput.parentNode.removeChild(toolTip);
+					}, 5000);
+
+					spinner.style.display = "none";
+					domainInput.value = response.data.domain;
 				} else {
 					toolOverlay.querySelectorAll('button')[0].style.display = "none";
 				}
-
-				scanFormContainer.appendChild(toolOverlay.querySelector('div'));
 			}
 			console.log(response, "t-response");
 		}).catch(function(error) {

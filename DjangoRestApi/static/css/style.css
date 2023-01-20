@@ -555,3 +555,30 @@ html {
     padding: 0.3em 0.5em;
     font-size: 14px;
 }
+
+
+.tooltiptext {
+    width: 200px;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: -40px;
+    left: 60px;
+    margin-left: -60px;
+    transition: opacity 0.3s;
+}
+
+.tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 0px 10px 10px 10px;
+    border-style: solid;
+    border-color: #555 transparent;
+}
