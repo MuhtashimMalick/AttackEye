@@ -3,9 +3,11 @@ var form = document.querySelector('#dform'),
 
 form.onsubmit = function() {
 	spinner.style.display = "";
-	var scanFormContainer = document.querySelector('#tool2');
+	var scanFormContainer = document.querySelector('#tool2'),
+		formE = this;
 	
-	var domainInputValue = this.elements[1].value;
+	var domainInputValue = this.elements[1].value,
+		domainInput = this.elements[1];
 	const isSubdomain = (domain) => domain.split('.').length > 3 && !/^(com|net|org|edu|gov)$/i.test(domain.split('.')[domain.split('.').length - 1]);
 	const domainRegex = /[^.]*\.[^.]{2,5}(?:\.[^.]{2,5})?$/mg;
 	const tLD = domainInputValue.match(domainRegex);
@@ -17,12 +19,17 @@ form.onsubmit = function() {
 		}, {
 			headers: {"X-CSRFTOKEN": csrftoken,contentType: 'application/json'}
 		}).then(function(response) {
-			this.elements[1].value = '';
+			domainInput.value = '';
+			if (response.data.error) {
+				formE.children[1].classList.add('invalid-input');
+			} else {
+				formE.children[1].classList.remove('invalid-input');
+			}
 			console.log(response, "t-response");
 		}).catch(function(error) {
-			console.log(error.response);
+			console.log(error);
 		});
-		this.elements[1].value = "";
+		domainInput.value = "";
 	}
 
 	var toolOverlay = new DOMParser().parseFromString(
@@ -93,8 +100,7 @@ function deletedomain() {
 function populateOverallOverview() {
 	axios.get("/api/graphtable").then(function(response) {
 		if ($("#firstTabOverall tr")) $("#firstTabOverall tr").remove();
-		console.log(response);
-		console.log("haza");
+		console.log(response, "populateOverallOverview");
 
 		var table = document.getElementById("firstTabOverall");
 
@@ -122,7 +128,7 @@ function populateOverallOverview() {
 		console.log(item);
 		// insert data
 		item.forEach(function(result) {
-
+			
 			var row = table.insertRow(),
 				timeStart = result.timeDateStart.match(/([0-9]{4}-[0-9]{2}-[0-9]{2})/ig)[0] + ' ' + result.timeDateStart.match(/([0-9]+(:[0-9]+)+)/ig)[0],
 				timeEnd = (result.timeDateEnd) ? (result.timeDateEnd.match(/([0-9]{4}-[0-9]{2}-[0-9]{2})/ig)[0] + ' ' + result.timeDateEnd.match(/([0-9]+(:[0-9]+)+)/ig)[0]) : result.timeDateEnd;

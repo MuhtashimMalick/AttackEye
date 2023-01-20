@@ -163,16 +163,21 @@ def attackeye_list(request):
             print(e)
             domainStatusCode = 0
 
-        if isValidDomain and domainStatusCode == 200:
+        if isValidDomain and (domainStatusCode == 200 or domainStatusCode == 403):
             print(isValidDomain,domain,'done')
             user = request.session["_auth_user_id"]
-            graphold=scan.objects.filter(UserId=user,domain=domain)
-            graph=scan.objects.filter(domain=domain)
-            if graphold:
-                graphold.delete()
-            elif graph:
-                attackeye=scan.objects.create(UserId=user,domain=domain,pending=1)
-                return Response({'response': request.data})
+            domainbyuser=scan.objects.filter(UserId=user,domain=domain)
+            domainfromdb=scan.objects.filter(domain=domain)
+            # if domain exists
+            if domainbyuser:
+                domainbyuser.delete()
+            # if domain exists for the current user
+            elif domainfromdb and len(domainbyuser) == 0:
+                timeDateEnd = domainfromdb.values('timeDateEnd')[0]['timeDateEnd']
+                timeDateStart = domainfromdb.values('timeDateStart')[0]['timeDateStart']
+                scan.objects.create(UserId=user,domain=domain,pending=1)
+                scan.objects.filter(UserId=user,domain=domain).update(timeDateStart=timeDateStart,timeDateEnd=timeDateEnd)
+                return Response({'recieved data': request.data})
             
             attackeye=scan.objects.create(UserId=user,domain=domain,pending=0)
             amass.delay(str(domain),str(user)) 
