@@ -176,6 +176,15 @@ def attackeye_list(request):
                                 domainStatusCode == 202 or # Accepted
                                 domainStatusCode == 401 or # Unauthorized
                                 domainStatusCode == 404 or # Not Found
+                                domainStatusCode == 302 or # Redirect
+                                domainStatusCode == 300 or # Multiple Choice
+                                domainStatusCode == 301 or # Moved Permanently
+                                domainStatusCode == 303 or # See Other
+                                domainStatusCode == 304 or # Not Modified
+                                domainStatusCode == 305 or # Use Proxy
+                                domainStatusCode == 306 or # unused
+                                domainStatusCode == 307 or # Temporary Redirect
+                                domainStatusCode == 308 or # Permanent Redirect
                                 domainStatusCode == 403) and # Forbidden
                                 (domainStatusCode != 500 or # Internal Server Error
                                 domainStatusCode != 501 or # Not Implemented
