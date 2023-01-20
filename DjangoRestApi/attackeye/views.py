@@ -7,6 +7,7 @@ import json
 from rest_framework.decorators import parser_classes
 import validators
 import requests
+import tldextract
 from django.views.decorators.csrf import csrf_exempt
 from django.contrib.auth.models import User
 from rest_framework.response import Response
@@ -151,28 +152,66 @@ def attackeye_list(request):
         attackeye_serializer = scanSerializer(attackeye, many=True)
         return JsonResponse(attackeye_serializer.data, safe=False)
         # 'safe=False' for objects serialization
- 
+
     elif request.method == 'POST':
 
         domain=request.data["domain"]
-        isValidDomain=validators.domain(domain)
+
+        extSubdomain = tldextract.extract(domain).subdomain
+        extDomain = tldextract.extract(domain).domain + '.' + tldextract.extract(domain).suffix
+
+        isValidDomain=validators.domain(extDomain)
 
         try:
-            domainStatusCode = requests.get(f'http://{domain}', headers={'User-Agent': 'Mozilla/5.0'}).status_code
+            domainStatusCode = requests.get(f'http://{extDomain}', headers={'User-Agent': 'Mozilla/5.0'}).status_code
         except requests.exceptions.ConnectionError as e:
             print(e)
             domainStatusCode = 0
 
-        if isValidDomain and domainStatusCode == 200:
+        print(domainStatusCode)
+        if extSubdomain != '':
+            return Response({'message': 'Subdomains are not allowed', 'domain': extDomain, 'messageDescription': f'A subdomain cannot be scanned. You can only proceed with scanning the organization domain ({extDomain})', 'error': 405})
+        elif isValidDomain and ((domainStatusCode == 200 or
+                                domainStatusCode == 201 or # Created
+                                domainStatusCode == 202 or # Accepted
+                                domainStatusCode == 401 or # Unauthorized
+                                domainStatusCode == 404 or # Not Found
+                                domainStatusCode == 406 or # Not Acceptable
+                                domainStatusCode == 302 or # Redirect
+                                domainStatusCode == 300 or # Multiple Choice
+                                domainStatusCode == 301 or # Moved Permanently
+                                domainStatusCode == 303 or # See Other
+                                domainStatusCode == 304 or # Not Modified
+                                domainStatusCode == 305 or # Use Proxy
+                                domainStatusCode == 306 or # unused
+                                domainStatusCode == 307 or # Temporary Redirect
+                                domainStatusCode == 308 or # Permanent Redirect
+                                domainStatusCode == 403) and # Forbidden
+                                (domainStatusCode != 500 or # Internal Server Error
+                                domainStatusCode != 501 or # Not Implemented
+                                domainStatusCode != 502 or # Bad Gateway
+                                domainStatusCode != 503 or # Service Unavailable
+                                domainStatusCode != 504 or # Gateway Timeout
+                                domainStatusCode != 505 or # HTTP Version Not Supported
+                                domainStatusCode != 506 or # Variant Also Negotiates
+                                domainStatusCode != 507 or # Insufficient Storage (WebDAV)
+                                domainStatusCode != 508 or # Loop Detected (WebDAV)
+                                domainStatusCode != 510 or # Not Extended
+                                domainStatusCode != 511)): # Network Authentication Required
             print(isValidDomain,domain,'done')
             user = request.session["_auth_user_id"]
-            graphold=scan.objects.filter(UserId=user,domain=domain)
-            graph=scan.objects.filter(domain=domain)
-            if graphold:
-                graphold.delete()
-            elif graph:
-                attackeye=scan.objects.create(UserId=user,domain=domain,pending=1)
-                return Response({'response': request.data})
+            domainbyuser=scan.objects.filter(UserId=user,domain=extDomain)
+            domainfromdb=scan.objects.filter(domain=extDomain)
+            # if domain exists
+            if domainbyuser:
+                domainbyuser.delete()
+            # if domain exists for the current user
+            elif domainfromdb and len(domainbyuser) == 0:
+                timeDateEnd = domainfromdb.values('timeDateEnd')[0]['timeDateEnd']
+                timeDateStart = domainfromdb.values('timeDateStart')[0]['timeDateStart']
+                scan.objects.create(UserId=user,domain=extDomain,pending=1)
+                scan.objects.filter(UserId=user,domain=extDomain).update(timeDateStart=timeDateStart,timeDateEnd=timeDateEnd)
+                return Response({'requestData': request.data, 'domain': extDomain})
             
             attackeye=scan.objects.create(UserId=user,domain=domain,pending=0)
             amass.delay(str(domain),str(user)) 
@@ -180,7 +219,7 @@ def attackeye_list(request):
         else:
             print("empty")
             print(isValidDomain)
-            return Response({'error': 'enter valid input'})
+            return Response({'message': 'Invalid Domain', 'domain': extDomain,  'messageDescription': 'Your input cannot be scanned at this moment.', 'error': 500})
     
     elif request.method == 'DELETE':
         count = scan.objects.all().delete()
