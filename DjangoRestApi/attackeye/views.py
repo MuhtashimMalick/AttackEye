@@ -168,7 +168,7 @@ def attackeye_list(request):
             print(e)
             domainStatusCode = 0
 
-        print()
+        print(domainStatusCode)
         if extSubdomain != '':
             return Response({'message': 'Subdomains are not allowed', 'domain': extDomain, 'messageDescription': f'A subdomain cannot be scanned. You can only proceed with scanning the organization domain ({extDomain})', 'error': 405})
         elif isValidDomain and ((domainStatusCode == 200 or
@@ -176,6 +176,7 @@ def attackeye_list(request):
                                 domainStatusCode == 202 or # Accepted
                                 domainStatusCode == 401 or # Unauthorized
                                 domainStatusCode == 404 or # Not Found
+                                domainStatusCode == 406 or # Not Acceptable
                                 domainStatusCode == 302 or # Redirect
                                 domainStatusCode == 300 or # Multiple Choice
                                 domainStatusCode == 301 or # Moved Permanently
