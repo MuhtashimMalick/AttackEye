@@ -6,5 +6,8 @@ List all prioritize item here:
 
 Task 1:
 ```
-Example Task
+Check if domain is valid and return a popup of it's status of not.
+```
+```
+Check if domain has a subdomain and give the user the option to continue with organization domain only if they wish.
 ```
