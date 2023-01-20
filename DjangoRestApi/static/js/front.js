@@ -2,15 +2,28 @@ var form = document.querySelector('#dform'),
 	spinner = document.querySelector('.spinner');
 
 form.onsubmit = function() {
-	spinner.style.display = "";
 	var scanFormContainer = document.querySelector('#tool2'),
 		formE = this;
 	
 	var domainInputValue = this.elements[1].value,
 		domainInput = this.elements[1];
-	const isSubdomain = (domain) => domain.split('.').length > 3 && !/^(com|net|org|edu|gov)$/i.test(domain.split('.')[domain.split('.').length - 1]);
-	const domainRegex = /[^.]*\.[^.]{2,5}(?:\.[^.]{2,5})?$/mg;
-	const tLD = domainInputValue.match(domainRegex);
+
+	if (domainInputValue == '') {
+		domainInput.style.border = "5px solid red";
+		return false;
+	} else {
+		domainInput.style.border = "";
+	}
+	spinner.style.display = "";
+
+	// const isSubdomain = (domain) => domain.split('.').length > 3 && !/^(com|net|org|edu|gov)$/i.test(domain.split('.')[domain.split('.').length - 1]);
+	// const tLD = domainInputValue.match(/[^.]*\.[^.]{2,5}(?:\.[^.]{2,5})?\/$/mg);
+
+	var toolOverlay = new DOMParser().parseFromString(
+		'<div class="tool-overlay backdrop-blur"><div class="inner"><h4></h4><p></p><button></button><button>Back</button></div></div>', 
+		"text/html"
+	),
+		toolOverlayContainer = toolOverlay.querySelector('div');
 
 	var startScan = (domain) => {
 		const csrftoken = this.querySelector('[name=csrfmiddlewaretoken]').value;
@@ -21,41 +34,35 @@ form.onsubmit = function() {
 		}).then(function(response) {
 			domainInput.value = '';
 			if (response.data.error) {
-				formE.children[1].classList.add('invalid-input');
-			} else {
-				formE.children[1].classList.remove('invalid-input');
+				toolOverlay.querySelector('h4').innerHTML = response.data.message;
+				toolOverlay.querySelector('p').innerHTML = response.data.messageDescription;
+				if (response.data.message == "Subdomains are not allowed") {
+					toolOverlay.querySelectorAll('button')[0].innerHTML = "Proceed scanning (" + response.data.domain + ")";
+					// proceed scanning button
+					toolOverlay.querySelectorAll('button')[0].onclick = () => {
+						startScan(response.data.domain);
+						scanFormContainer.removeChild(toolOverlayContainer);
+					}
+				} else {
+					toolOverlay.querySelectorAll('button')[0].style.display = "none";
+				}
+
+				scanFormContainer.appendChild(toolOverlay.querySelector('div'));
 			}
 			console.log(response, "t-response");
 		}).catch(function(error) {
-			console.log(error);
+			console.log(error, "error generated");
 		});
 		domainInput.value = "";
-	}
-
-	var toolOverlay = new DOMParser().parseFromString(
-		'<div class="tool-overlay backdrop-blur"><div class="inner"><h3>You\'ve input a subdomain</h3><p>A subdomain cannot be scanned. You can only proceed with scanning the organization domain ('+ tLD +')</p><button>Proceed Scanning ('+ tLD +')</button><button>Cancel</button></div></div>', 
-		"text/html"
-	);
-	
-	// proceed scanning button
-	var toolOverlayContainer = toolOverlay.querySelector('div');
-	toolOverlay.querySelectorAll('button')[0].onclick = () => {
-		startScan(tLD[0]);
-		scanFormContainer.removeChild(toolOverlayContainer);
+		return false;
 	}
 
 	// cancel button
 	toolOverlay.querySelectorAll('button')[1].onclick = () => {
 		scanFormContainer.removeChild(toolOverlayContainer);
 	}
-  
-	if (isSubdomain(domainInputValue)) {
-		scanFormContainer.appendChild(toolOverlay.querySelector('div'));
-		return false;
-	}
 
-	startScan(domainInputValue);
-	return false;
+	return startScan(domainInputValue);
 };
 
 function deletedomain() {
