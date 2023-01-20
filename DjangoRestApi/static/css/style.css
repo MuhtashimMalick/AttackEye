@@ -559,8 +559,8 @@ html {
 
 .tooltiptext {
     width: 200px;
-    background-color: red;
-    color: #fff;
+    background-color: white;
+    color: #333333;
     text-align: center;
     border-radius: 6px;
     padding: 5px 0;
@@ -569,7 +569,17 @@ html {
     bottom: -40px;
     left: 60px;
     margin-left: -60px;
+    opacity: 0.9;
+    border: 1px solid #b4b4b4;
     transition: opacity 0.3s;
+}
+
+.tooltiptext > span {
+    font-weight: 900;
+    background-color: yellowgreen;
+    padding: 2px 8px;
+    color: #000000;
+    margin-right: 7px;
 }
 
 .tooltiptext::after {

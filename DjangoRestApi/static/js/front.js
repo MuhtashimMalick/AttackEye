@@ -10,7 +10,7 @@ form.onsubmit = function() {
 
 	var toolTip = document.createElement('span');
 	toolTip.className = 'tooltiptext';
-	toolTip.innerHTML = 'Input a valid domain';
+	toolTip.innerHTML = '<span>!</span>Input a valid domain';
 
 	if (domainInputValue == '') {
 		domainInput.parentNode.appendChild(toolTip);
