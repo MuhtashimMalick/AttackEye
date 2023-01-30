@@ -82,14 +82,26 @@ form.onsubmit = function() {
 };
 
 function deletedomain() {
+	var scanFormContainer = document.querySelector('#tool2');
+
 	const csrftoken = document.querySelector('[name=csrfmiddlewaretoken]').value;
 	const headers = {
 		"X-CSRFTOKEN": csrftoken,
 		contentType: 'application/json'
 	}
 	var dm = (this.id)
-	console.log(dm)
-	axios.post("/api/deletedomain", {
+
+	var toolOverlay = new DOMParser().parseFromString(
+			'<div class="tool-overlay backdrop-blur"><div class="inner"><h4></h4><p></p><button>Delete</button><button>Back</button></div></div>', 
+			"text/html"
+		), 
+		toolOverlayContainer = toolOverlay.querySelector('div');
+
+	toolOverlay.querySelector('h4').innerHTML = 'Delete domain "' + this.getAttribute('data-domain') + '"?';
+	toolOverlay.querySelector('p').innerHTML = 'This scan will be deleted and removed from your account. You can always start a new scan of this domain.';
+	// proceed scanning button
+	toolOverlay.querySelectorAll('button')[0].onclick = () => {
+		axios.post("/api/deletedomain", {
 			domain: dm
 		}, {
 			headers: headers
@@ -98,6 +110,13 @@ function deletedomain() {
 			console.log(response);
 			populateOverallOverview()
 		})
+		scanFormContainer.removeChild(toolOverlayContainer);
+	}
+	// cancel button
+	toolOverlay.querySelectorAll('button')[1].onclick = () => {
+		scanFormContainer.removeChild(toolOverlayContainer);
+	}
+	scanFormContainer.appendChild(toolOverlay.querySelector('div'));
 };
 
 // function populateOverall(){
@@ -184,6 +203,7 @@ function populateOverallOverview() {
 
 				button.appendChild(text);
 				button.id = result.id;
+				button.setAttribute('data-domain', result.domain);
 				btnCont.appendChild(button);
 				// row.appendChild(button);
 				button.addEventListener("click", deletedomain);

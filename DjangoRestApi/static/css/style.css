@@ -1,7 +1,7 @@
 /* slightly transparent fallback */
-.backdrop-blur {
+/* .backdrop-blur {
     background-color: rgba(0, 0, 0, .2);
-}
+} */
 
 /* if backdrop support: very transparent and blurred */
 @supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
@@ -240,7 +240,6 @@ html {
     padding-top: 30px;
     margin-right: auto;
     text-align: left !important;
-    position: relative;
    /* flex: 2;
     */
 }
@@ -260,6 +259,7 @@ html {
 }
 #discover1 {
     text-align: center;
+    position: relative;
 }
 #discover1 > h1 {
     margin: 0;
