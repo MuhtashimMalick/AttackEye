@@ -4,15 +4,15 @@ from attackeye import views
 from django.contrib import admin
 
 urlpatterns = [
-    path("", views.login,name="login"),
+    path("", views.userlogin, name="login_user"),
     re_path(r'^api/view/subdomain$', views.subdomainpage),
-    # re_path(r'^register/ma',views.register, name='register'),
-    re_path(r'^register$',views.registeruser, name='register_user'),
+    re_path(r'register',views.registeruser, name='register'),
+    # re_path(r'^register$',views.registeruser, name='register_user'),
     re_path(r'^front$', views.front),
     re_path(r'^mainpage$', views.mainpage),
-    re_path(r'^home$', views.userlogin,name='login_user'),
+    re_path(r'login', views.login, name='login'),
     re_path(r'^api/graphtable$', views.graphtable),
-    re_path(r'^api/logout$', views.userlogout,name='logoutbtn'),
+    re_path(r'logout', views.userlogout, name='logoutbtn'),
     # re_path(r'^api/showgraph/(?P<description>[a-z].+)', views.showgraph,name='showgraph'),
     re_path(r'^api/showgraph', views.showgraph,name='showgraph'),
     # re_path(r'^api/deletedomain/(?P<description>[a-z].+)', views.deletedomain,name='deletedomain'),

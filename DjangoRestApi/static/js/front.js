@@ -1,4 +1,4 @@
-var form = document.querySelector('#dform'),
+var form = document.querySelector('#dform') || false,
 	spinner = document.querySelector('.spinner');
 
 form.onsubmit = function() {
@@ -6,16 +6,18 @@ form.onsubmit = function() {
 		formE = this;
 	
 	var domainInputValue = this.elements[1].value,
-		domainInput = this.elements[1];
+		domainInput = this.elements[1],
+		toolTip = document.createElement('span'),
+		isDomain = /^(http(s?):\/\/)?[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,6}(\/)?$/i;
 
-	var toolTip = document.createElement('span');
 	toolTip.className = 'tooltiptext';
 	toolTip.innerHTML = '<span>!</span>Input a valid domain';
 
-	if (domainInputValue == '') {
+	if (domainInputValue == '' || !isDomain.test(domainInputValue)) {
 		domainInput.parentNode.appendChild(toolTip);
 		setTimeout(function() {
 			domainInput.parentNode.removeChild(toolTip);
+			spinner.style.display = "none";
 		}, 5000);
 		return false;
 	} else {
@@ -48,6 +50,7 @@ form.onsubmit = function() {
 					// proceed scanning button
 					toolOverlay.querySelectorAll('button')[0].onclick = () => {
 						startScan(response.data.domain);
+						populateOverallOverview();
 						scanFormContainer.removeChild(toolOverlayContainer);
 					}
 					scanFormContainer.appendChild(toolOverlay.querySelector('div'));
@@ -64,6 +67,8 @@ form.onsubmit = function() {
 				} else {
 					toolOverlay.querySelectorAll('button')[0].style.display = "none";
 				}
+			} else {
+				populateOverallOverview(domain);
 			}
 			console.log(response, "t-response");
 		}).catch(function(error) {
@@ -81,7 +86,7 @@ form.onsubmit = function() {
 	return startScan(domainInputValue);
 };
 
-function deletedomain() {
+function deletedomain(btn) {
 	var scanFormContainer = document.querySelector('#tool2');
 
 	const csrftoken = document.querySelector('[name=csrfmiddlewaretoken]').value;
@@ -89,7 +94,7 @@ function deletedomain() {
 		"X-CSRFTOKEN": csrftoken,
 		contentType: 'application/json'
 	}
-	var dm = (this.id)
+	var dm = btn.id;
 
 	var toolOverlay = new DOMParser().parseFromString(
 			'<div class="tool-overlay backdrop-blur"><div class="inner"><h4></h4><p></p><button>Delete</button><button>Back</button></div></div>', 
@@ -97,19 +102,18 @@ function deletedomain() {
 		), 
 		toolOverlayContainer = toolOverlay.querySelector('div');
 
-	toolOverlay.querySelector('h4').innerHTML = 'Delete domain "' + this.getAttribute('data-domain') + '"?';
+	toolOverlay.querySelector('h4').innerHTML = 'Delete domain "' + btn.getAttribute('data-domain') + '"?';
 	toolOverlay.querySelector('p').innerHTML = 'This scan will be deleted and removed from your account. You can always start a new scan of this domain.';
-	// proceed scanning button
+	// proceed deleting button
 	toolOverlay.querySelectorAll('button')[0].onclick = () => {
 		axios.post("/api/deletedomain", {
 			domain: dm
 		}, {
 			headers: headers
-		})
-		.then(function(response) {
+		}).then(function(response) {
 			console.log(response);
-			populateOverallOverview()
-		})
+			populateOverallOverview();
+		});
 		scanFormContainer.removeChild(toolOverlayContainer);
 	}
 	// cancel button
@@ -119,31 +123,10 @@ function deletedomain() {
 	scanFormContainer.appendChild(toolOverlay.querySelector('div'));
 };
 
-// function populateOverall(){
-//     const csrftoken= document.querySelector('[name=csrfmiddlewaretoken]').value;
-// const headers = {"X-CSRFTOKEN": csrftoken,contentType: 'application/json'}
-//     var dm =(this.id)
-//     console.log(dm)
-// axios.post("/api/deletedomain", {
-//         description:dm
-// },
-// {headers: headers})
-//   .then(function (response) {
-//   console.log(response);
-
-// })
-// };
-// function Geeks() {
-// 	$("#firstTabOverall tr").remove();
-	// $("#GFG_DOWN").text
-	//     ("All rows of the table are deleted.");
-// }
-
-function populateOverallOverview() {
-	axios.get("/api/graphtable").then(function(response) {
+function populateOverallOverview(domain) {
+	var axiosCall = (response) => {
 		if ($("#firstTabOverall tr")) $("#firstTabOverall tr").remove();
-		console.log(response, "populateOverallOverview");
-
+		
 		var table = document.getElementById("firstTabOverall");
 
 		// helper function        
@@ -154,9 +137,9 @@ function populateOverallOverview() {
 		}
 
 		// create header 
-		var thead = table.createTHead();
+		var thead = table.createTBody();
 		thead.id = "tablehead";
-		var headerRow = thead.insertRow();
+		// var headerRow = thead.insertRow();
 		// headerRow.id = "headertab";
 		// addCell(headerRow, 'Domain');
 		// addCell(headerRow, 'Date');
@@ -165,7 +148,7 @@ function populateOverallOverview() {
 		// addCell(headerRow, 'Status');
 		spinner.style.cssText = 'display: none !important';
 
-		//   addCell(headerRow, 'Amount');
+		// addCell(headerRow, 'Amount');
 		var item = response.data.graph;
 		console.log(item);
 		// insert data
@@ -196,7 +179,7 @@ function populateOverallOverview() {
 
 				btnCont.appendChild(button1);
 				row.appendChild(btnCont);
-				button1.addEventListener("click", viewgraph);
+				button1.addEventListener("click", () => { viewgraph(button1) });
 				/////////////////////////////////////////////
 				var button = document.createElement('BUTTON');
 				var text = document.createTextNode("Delete");
@@ -206,39 +189,40 @@ function populateOverallOverview() {
 				button.setAttribute('data-domain', result.domain);
 				btnCont.appendChild(button);
 				// row.appendChild(button);
-				button.addEventListener("click", deletedomain);
+				button.addEventListener("click", () => { deletedomain(button) });
 				/////////////////////////////////////////////
 			} else {
 				row.style.backgroundColor = '#008b8b';
 				addCell(row, '-');
 				addCell(row, '<span style="margin-right: 5px;">Scanning</span><span class="spinner justify-content-center" style="position: unset; background-color: unset; padding-top: 0;"><span style="display: table-cell;" class="dot1 bg-light rounded-circle m-2"></span><span style="display: table-cell;" class="dot2 bg-light rounded-circle m-2"></span><span style="display: table-cell;" class="dot3 bg-light rounded-circle m-2"></span></span>');
 			}
-		});
 
-	})
-	// .catch(function(error){
-	//     console.log(error.response)
-	// })
+			// Checking if array of domain is given
+			if (typeof domain == 'object') {
+				for (var i = 0; i < domain.length; i++) {
+					if (result.domain == domain[i] && result.pending == 1) {
+						domain.splice(domain.indexOf(domain[i]), 1);
+					}
+				}
+				if (domain.length == 0) clearInterval(checkDomainStatus);
+			}
+			// checking if single string of domain is given
+			if (typeof domain != 'object' && result.domain == domain && result.pending == 1) {
+				clearInterval(checkDomainStatus);
+				console.log('cleared');
+			}
+		});
+	}
+	if (!domain) {
+		return axios.get("/api/graphtable").then(axiosCall);
+	}
+	var checkDomainStatus = setInterval(function() {
+		axios.get("/api/graphtable").then(axiosCall);
+	}, 2000);
 }
 
-// window.onload = populateOverallOverview()
-// setInterval(populateOverallOverview, 5000);
-function viewgraph() {
-	var dm = this.id;
-	window.localStorage.setItem("graphname", dm)
-	window.location.href = "/surface"
-	//   const csrftoken= document.querySelector('[name=csrfmiddlewaretoken]').value;
-	// const headers = {"X-CSRFTOKEN": csrftoken,contentType: 'application/json'}
-	//   var dm =(this.id)
-	//   console.log(dm)
-	// axios.post("/api/showgraph", {
-	//       description:dm
-	// },
-	// {headers: headers})
-	// .then(function (response) {
-	// console.log(response.data);
-
-	// populateOverallOverview()
-
-	// })
+function viewgraph(btn) {
+	var dm = btn.id;
+	window.localStorage.setItem("graphname", dm);
+	window.location.href = "/surface";
 };

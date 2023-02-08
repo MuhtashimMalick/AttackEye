@@ -167,7 +167,7 @@ input:placeholder {
 }
 
 .underlineHover:hover {
-  color: #0d0d0d;
+  color: #56baed;
 }
 
 .underlineHover:hover:after{
@@ -254,11 +254,6 @@ canvas {
     </div> {% endcomment %}
 
     <!-- Login Form -->
-    {% comment %} <form>
-      <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
-      <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
-      <input type="submit" class="fadeIn fourth" value="Log In">
-    </form> {% endcomment %}
     
     <form id="loginform" method="post" action="{% url 'login_user' %}">
       {% csrf_token %}
@@ -278,7 +273,7 @@ canvas {
 
     <!-- Remind Passowrd -->
     <div id="formFooter">
-      <a class="underlineHover" href="#">Forgot Password?</a>
+      <a class="underlineHover" href="{% url 'register' %}">Register for a new account</a>
     </div>
 
   </div>

@@ -1,5 +1,6 @@
 {% extends "./base.html" %}
 {% load static %}
+{% load split %}
 
 {% block content %}
 
@@ -33,6 +34,10 @@
   left: 0;
   padding-top: 5px;
 }
+.login-out {
+  border: 1px solid #ffffff;
+  padding: 0.5em 1em;
+}
 </style>
 
   <!-- Navbar  -->
@@ -53,24 +58,26 @@
           <div class="mx-auto"></div>
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">HOME</a>
+              <a class="nav-link text-white" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#secondpart">SERVICES</a>
+              <a class="nav-link text-white" href="#secondpart">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#tool">TOOL</a>
+              <a class="nav-link text-white" href="#tool">Tool</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#price">PRICING</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#fbmain1">CONTACT</a>
+              <a class="nav-link text-white" href="#price">Pricing</a>
             </li>
             <li class="nav-item">
-              {% comment %} <a class="nav-link text-white" href="#">LOGOUT</a> {% endcomment %}
-              <a class="nav-link text-white" href="{% url 'logoutbtn' %}">LOGOUT</a>
+              <a class="nav-link text-white" href="#fbmain1">Contact</a>
+            </li>
+            <li class="nav-item">
+              {% if userLoggedIn %}
+              <a class="nav-link text-white login-out" href="{% url 'logoutbtn' %}">Logout</a>
+              {% else %}
+              <a class="nav-link text-white login-out" href="{% url 'login' %}">Login</a>
+              {% endif %}
             </li>
           </ul>
         </div>
@@ -148,7 +155,7 @@
     </div>
 
 
-
+    {% if userLoggedIn %}
     <div class="container-fluid" id="tool">
       <div class="container">
         <div class="row" id="discover1">
@@ -193,13 +200,30 @@
                   </thead>
                 </table>
                 <table id="firstTabOverall" class="table table-striped" style="font-size:15px;">
-                  {% comment %} {% for graph in graph_list%}
-                  <tr>
-                      <tbody>
-                      <td><a href="{% url 'showgraph' graph.domain %}"> {{ graph.domain }}</a></td>
-                      </tbody>
+                  <script type="text/javascript">
+                    var currentDomain = [];
+                  </script>
+                  {% for graph in graph_list %}
+                  <tr {% if graph.pending == 0 %}style="background-color: #008b8b;"{% endif %}>
+                    <td>{{ graph.domain }}</td>
+                    <td>{{ graph.timeDateStart|date:"Y-m-d H:i:s" }}</td>
+                    {% if graph.pending == 0 %}
+                    <td>-</td>
+                    <td><span style="margin-right: 5px;">Scanning</span><span class="spinner justify-content-center" style="position: unset; background-color: unset; padding-top: 0;"><span style="display: table-cell;" class="dot1 bg-light rounded-circle m-2"></span><span style="display: table-cell;" class="dot2 bg-light rounded-circle m-2"></span><span style="display: table-cell;" class="dot3 bg-light rounded-circle m-2"></span></span></td>
+                    {% else %}
+                    <td>{{ graph.timeDateEnd|split:"."|first }}</td>
+                    <td style="padding-right: 0;">
+                      <button id="{{ graph.domain }}" onclick="viewgraph(this)">View Graph</button>
+                      <button id="{{ graph.id }}" data-domain="{{ graph.domain }}" onclick="deletedomain(this)">Delete</button>
+                    </td>
+                    {% endif %}
                   </tr>
-                  {%endfor%} {% endcomment %}
+                    {% if graph.pending == 0 %}
+                    <script type="text/javascript">
+                      currentDomain.push('{{ graph.domain }}');
+                    </script>
+                    {% endif %}
+                  {% endfor %}
                 </table>
               </div>
             </div>
@@ -207,7 +231,7 @@
         </div>
       </div>
     </div>
-
+    {% endif %}
 
 
     <div class="container" id="price">
@@ -288,8 +312,6 @@
         </div>
       </div>
     </div>
-
-
   </div>
 
   <div class="container-lg" id="fbmain1">
@@ -488,8 +510,7 @@
   
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   <script>
-    populateOverallOverview();
-    setInterval(populateOverallOverview,4000);
+    (typeof currentDomain != 'undefined' && currentDomain.length > 0) && populateOverallOverview(currentDomain);
 
     // navbar on mobile background fix
     var mbNav = document.querySelector('.navbar-toggler');
