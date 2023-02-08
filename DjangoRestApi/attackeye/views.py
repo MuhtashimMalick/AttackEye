@@ -216,7 +216,9 @@ def attackeye_list(request):
                 return Response({'requestData': request.data, 'domain': extDomain})
             
             attackeye=scan.objects.create(UserId=user,domain=extDomain,pending=0)
-            amass.delay(str(extDomain),str(user)) 
+
+            amass.delay(str(extDomain),str(user))
+
             return Response({'response': request.data})
         else:
             print("empty")
