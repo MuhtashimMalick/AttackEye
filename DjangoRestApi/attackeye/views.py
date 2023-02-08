@@ -135,7 +135,9 @@ def download_csv(request,graphname):
     # logging.info(str(domain))
     print("hamza",graphname)
     subprocess.call(['bash',f'{settings.SITE_ROOT}/SubDomainDownload.sh',graphname])
-    img = open(f'{settings.SITE_ROOT}/go/pkg/mod/pkg/mod/github.com/OWASP/Amass/v3/cmd/amass/amass_maltego.csv', 'rb') 
+    # img = open(f'{settings.SITE_ROOT}/go/pkg/mod/pkg/mod/github.com/OWASP/Amass/v3/cmd/amass/amass_maltego.csv', 'rb') 
+    img = open(f'{settings.SITE_ROOT}/amass_output/amass_maltego.csv', 'rb') 
+
     response = FileResponse(img)
     return response
 
@@ -213,8 +215,8 @@ def attackeye_list(request):
                 scan.objects.filter(UserId=user,domain=extDomain).update(timeDateStart=timeDateStart,timeDateEnd=timeDateEnd)
                 return Response({'requestData': request.data, 'domain': extDomain})
             
-            attackeye=scan.objects.create(UserId=user,domain=domain,pending=0)
-            amass.delay(str(domain),str(user)) 
+            attackeye=scan.objects.create(UserId=user,domain=extDomain,pending=0)
+            amass.delay(str(extDomain),str(user)) 
             return Response({'response': request.data})
         else:
             print("empty")

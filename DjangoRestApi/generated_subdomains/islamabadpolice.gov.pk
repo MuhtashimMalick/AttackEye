@@ -1,0 +1,1015 @@
+{
+  "edges": [
+    {
+      "key": "0",
+      "source": "0",
+      "target": "31",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "1",
+      "source": "0",
+      "target": "28",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "2",
+      "source": "1",
+      "target": "17",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "3",
+      "source": "1",
+      "target": "23",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "4",
+      "source": "2",
+      "target": "32",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "5",
+      "source": "2",
+      "target": "28",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "6",
+      "source": "4",
+      "target": "34",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "7",
+      "source": "4",
+      "target": "28",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "8",
+      "source": "5",
+      "target": "3",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "9",
+      "source": "5",
+      "target": "27",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "10",
+      "source": "8",
+      "target": "26",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "11",
+      "source": "8",
+      "target": "28",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "12",
+      "source": "10",
+      "target": "34",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "13",
+      "source": "10",
+      "target": "31",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "14",
+      "source": "10",
+      "target": "32",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "15",
+      "source": "10",
+      "target": "35",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "16",
+      "source": "10",
+      "target": "26",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "17",
+      "source": "11",
+      "target": "7",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "18",
+      "source": "12",
+      "target": "35",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "19",
+      "source": "12",
+      "target": "28",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "20",
+      "source": "13",
+      "target": "9",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "21",
+      "source": "14",
+      "target": "34",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "22",
+      "source": "14",
+      "target": "28",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "23",
+      "source": "15",
+      "target": "7",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "24",
+      "source": "15",
+      "target": "23",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "25",
+      "source": "16",
+      "target": "32",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "26",
+      "source": "16",
+      "target": "28",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "27",
+      "source": "19",
+      "target": "18",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "28",
+      "source": "19",
+      "target": "27",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "29",
+      "source": "20",
+      "target": "13",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "30",
+      "source": "21",
+      "target": "32",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "31",
+      "source": "21",
+      "target": "28",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "32",
+      "source": "22",
+      "target": "9",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "33",
+      "source": "22",
+      "target": "28",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "34",
+      "source": "24",
+      "target": "17",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "35",
+      "source": "25",
+      "target": "6",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "36",
+      "source": "25",
+      "target": "28",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "37",
+      "source": "28",
+      "target": "9",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "38",
+      "source": "28",
+      "target": "25",
+      "edgeTitle": "mx_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "39",
+      "source": "28",
+      "target": "28",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "40",
+      "source": "28",
+      "target": "15",
+      "edgeTitle": "ns_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "41",
+      "source": "28",
+      "target": "5",
+      "edgeTitle": "ns_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "42",
+      "source": "28",
+      "target": "19",
+      "edgeTitle": "ns_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "43",
+      "source": "28",
+      "target": "1",
+      "edgeTitle": "ns_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "44",
+      "source": "29",
+      "target": "34",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "45",
+      "source": "29",
+      "target": "28",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "46",
+      "source": "30",
+      "target": "10",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "47",
+      "source": "33",
+      "target": "6",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "48",
+      "source": "33",
+      "target": "3",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "49",
+      "source": "33",
+      "target": "18",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "50",
+      "source": "36",
+      "target": "11",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "51",
+      "source": "36",
+      "target": "24",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "52",
+      "source": "37",
+      "target": "33",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "key": "0",
+      "attributes": {
+        "x": -0,
+        "y": 0,
+        "label": "mps.islamabadpolice.gov.pk",
+        "pointTitle": "subdomain: mps.islamabadpolice.gov.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Wayback",
+        "size": 15
+      }
+    },
+    {
+      "key": "1",
+      "attributes": {
+        "x": 1.4640105795335354,
+        "y": -1.6941165012266097,
+        "label": "ns4.rapidcompute.com",
+        "pointTitle": "ns: ns4.rapidcompute.com",
+        "color": "#E36414",
+        "category": "ns",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "2",
+      "attributes": {
+        "x": 2.946215216419869,
+        "y": 3.145361564298658,
+        "label": "avls.islamabadpolice.gov.pk",
+        "pointTitle": "subdomain: avls.islamabadpolice.gov.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Wayback",
+        "size": 15
+      }
+    },
+    {
+      "key": "3",
+      "attributes": {
+        "x": -3.3352360325399353,
+        "y": -3.027217060182776,
+        "label": "202.83.164.168",
+        "pointTitle": "address: 202.83.164.168",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "4",
+      "attributes": {
+        "x": 7.998314958504931,
+        "y": 4.812980705067353,
+        "label": "complaints.islamabadpolice.gov.pk",
+        "pointTitle": "subdomain: complaints.islamabadpolice.gov.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Wayback",
+        "size": 15
+      }
+    },
+    {
+      "key": "5",
+      "attributes": {
+        "x": 6.417336765502584,
+        "y": -5.8393498070256555,
+        "label": "ns4.ntc.net.pk",
+        "pointTitle": "ns: ns4.ntc.net.pk",
+        "color": "#E36414",
+        "category": "ns",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "6",
+      "attributes": {
+        "x": 9.526837547033342,
+        "y": 9.95750848406164,
+        "label": "202.83.164.182",
+        "pointTitle": "address: 202.83.164.182",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "7",
+      "attributes": {
+        "x": 9.573561042665668,
+        "y": -13.89590413009788,
+        "label": "175.107.192.20",
+        "pointTitle": "address: 175.107.192.20",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "8",
+      "attributes": {
+        "x": -8.729057333548349,
+        "y": 14.982999100704667,
+        "label": "ict.islamabadpolice.gov.pk",
+        "pointTitle": "subdomain: ict.islamabadpolice.gov.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "HackerTarget",
+        "size": 15
+      }
+    },
+    {
+      "key": "9",
+      "attributes": {
+        "x": 10.937338053779435,
+        "y": -11.185013777807114,
+        "label": "203.101.184.118",
+        "pointTitle": "address: 203.101.184.118",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "10",
+      "attributes": {
+        "x": -19.255180630038858,
+        "y": 10.8292597232715,
+        "label": "103.209.52.0/23",
+        "pointTitle": "netblock: 103.209.52.0/23",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "11",
+      "attributes": {
+        "x": 16.456911238310667,
+        "y": -12.508911356588595,
+        "label": "175.107.192.0/21",
+        "pointTitle": "netblock: 175.107.192.0/21",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "12",
+      "attributes": {
+        "x": -15.964761492940301,
+        "y": 12.317259464112636,
+        "label": "officers16.islamabadpolice.gov.pk",
+        "pointTitle": "subdomain: officers16.islamabadpolice.gov.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "HackerTarget",
+        "size": 15
+      }
+    },
+    {
+      "key": "13",
+      "attributes": {
+        "x": 13.936374644493068,
+        "y": -16.521378647508328,
+        "label": "203.101.184.0/24",
+        "pointTitle": "netblock: 203.101.184.0/24",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "14",
+      "attributes": {
+        "x": 14.669170658708197,
+        "y": 17.547047838554896,
+        "label": "cms.islamabadpolice.gov.pk",
+        "pointTitle": "subdomain: cms.islamabadpolice.gov.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AlienVault",
+        "size": 15
+      }
+    },
+    {
+      "key": "15",
+      "attributes": {
+        "x": -25.657516196326654,
+        "y": -25.7502873581618,
+        "label": "ns3.rapidcompute.com",
+        "pointTitle": "ns: ns3.rapidcompute.com",
+        "color": "#E36414",
+        "category": "ns",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "16",
+      "attributes": {
+        "x": -21.681891680996106,
+        "y": 25.69271047365678,
+        "label": "pkm.islamabadpolice.gov.pk",
+        "pointTitle": "subdomain: pkm.islamabadpolice.gov.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Wayback",
+        "size": 15
+      }
+    },
+    {
+      "key": "17",
+      "attributes": {
+        "x": -29.360652255939716,
+        "y": -20.058027410184803,
+        "label": "175.107.241.162",
+        "pointTitle": "address: 175.107.241.162",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "18",
+      "attributes": {
+        "x": 31.252492062475966,
+        "y": 34.08814005746689,
+        "label": "202.83.164.169",
+        "pointTitle": "address: 202.83.164.169",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "19",
+      "attributes": {
+        "x": -36.94455974234704,
+        "y": -19.880762928695102,
+        "label": "ns5.ntc.net.pk",
+        "pointTitle": "ns: ns5.ntc.net.pk",
+        "color": "#E36414",
+        "category": "ns",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "20",
+      "attributes": {
+        "x": 20.44381822211291,
+        "y": 27.035289349224016,
+        "label": "9541",
+        "pointTitle": "as: 9541, Desc: CYBERNET-AP Cyber Internet Services Pvt Ltd., PK",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "21",
+      "attributes": {
+        "x": -29.27963196838183,
+        "y": -32.329179117239796,
+        "label": "ctp.islamabadpolice.gov.pk",
+        "pointTitle": "subdomain: ctp.islamabadpolice.gov.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AlienVault",
+        "size": 15
+      }
+    },
+    {
+      "key": "22",
+      "attributes": {
+        "x": 34.13996642054836,
+        "y": 37.484186256220795,
+        "label": "www.islamabadpolice.gov.pk",
+        "pointTitle": "subdomain: www.islamabadpolice.gov.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Wayback",
+        "size": 15
+      }
+    },
+    {
+      "key": "23",
+      "attributes": {
+        "x": -38.97115089229579,
+        "y": -32.95585139692683,
+        "label": "rapidcompute.com",
+        "pointTitle": "domain: rapidcompute.com",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "24",
+      "attributes": {
+        "x": -38.986808926049804,
+        "y": 28.937824754782945,
+        "label": "175.107.240.0/22",
+        "pointTitle": "netblock: 175.107.240.0/22",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "25",
+      "attributes": {
+        "x": -43.360575781373754,
+        "y": -46.2515038646162,
+        "label": "mail.islamabadpolice.gov.pk",
+        "pointTitle": "mx: mail.islamabadpolice.gov.pk",
+        "color": "#F7727B",
+        "category": "mx",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "26",
+      "attributes": {
+        "x": 43.22990372873198,
+        "y": 38.89561617168235,
+        "label": "103.209.53.70",
+        "pointTitle": "address: 103.209.53.70",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "27",
+      "attributes": {
+        "x": 49.389231279660265,
+        "y": -30.399916807635275,
+        "label": "ntc.net.pk",
+        "pointTitle": "domain: ntc.net.pk",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "28",
+      "attributes": {
+        "x": 32.472758490885575,
+        "y": 29.31943830121337,
+        "label": "islamabadpolice.gov.pk",
+        "pointTitle": "domain: islamabadpolice.gov.pk",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "29",
+      "attributes": {
+        "x": -56.22056210157007,
+        "y": -35.32054639055048,
+        "label": "cro.islamabadpolice.gov.pk",
+        "pointTitle": "subdomain: cro.islamabadpolice.gov.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Wayback",
+        "size": 15
+      }
+    },
+    {
+      "key": "30",
+      "attributes": {
+        "x": -38.54059265729447,
+        "y": 33.58657551919172,
+        "label": "136174",
+        "pointTitle": "as: 136174, Desc: TPCPL-AS-AP The Professional Communications Pvt Ltd",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "31",
+      "attributes": {
+        "x": -45.72217781880693,
+        "y": -58.96945926689362,
+        "label": "103.209.53.71",
+        "pointTitle": "address: 103.209.53.71",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "32",
+      "attributes": {
+        "x": 54.73422682285651,
+        "y": 57.84146806045857,
+        "label": "103.209.53.68",
+        "pointTitle": "address: 103.209.53.68",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "33",
+      "attributes": {
+        "x": -40.15482377196096,
+        "y": -34.68389906808442,
+        "label": "202.83.160.0/20",
+        "pointTitle": "netblock: 202.83.160.0/20",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "34",
+      "attributes": {
+        "x": 45.6267216558326,
+        "y": 55.08884137088148,
+        "label": "103.209.53.72",
+        "pointTitle": "address: 103.209.53.72",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "35",
+      "attributes": {
+        "x": -61.87676153748204,
+        "y": -65.7105036125389,
+        "label": "103.209.53.74",
+        "pointTitle": "address: 103.209.53.74",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "36",
+      "attributes": {
+        "x": 69.10891810305733,
+        "y": 54.66774749365047,
+        "label": "24440",
+        "pointTitle": "as: 24440, Desc: CYBERNET-APII Cyber Internet Services Pakistan",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "37",
+      "attributes": {
+        "x": 54.241605779463214,
+        "y": -72.78661430519546,
+        "label": "23888",
+        "pointTitle": "as: 23888, Desc: NTC-AS-AP National Telecommunication Corporation HQ",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    }
+  ]
+}

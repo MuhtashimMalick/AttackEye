@@ -1,0 +1,1164 @@
+{
+  "edges": [
+    {
+      "key": "0",
+      "source": "1",
+      "target": "29",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "1",
+      "source": "1",
+      "target": "33",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "2",
+      "source": "1",
+      "target": "26",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "3",
+      "source": "1",
+      "target": "3",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "4",
+      "source": "1",
+      "target": "34",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "5",
+      "source": "1",
+      "target": "20",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "6",
+      "source": "1",
+      "target": "30",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "7",
+      "source": "2",
+      "target": "37",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "8",
+      "source": "2",
+      "target": "33",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "9",
+      "source": "4",
+      "target": "21",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "10",
+      "source": "4",
+      "target": "9",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "11",
+      "source": "5",
+      "target": "23",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "12",
+      "source": "5",
+      "target": "30",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "13",
+      "source": "6",
+      "target": "21",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "14",
+      "source": "8",
+      "target": "22",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "15",
+      "source": "8",
+      "target": "26",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "16",
+      "source": "9",
+      "target": "10",
+      "edgeTitle": "mx_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "17",
+      "source": "9",
+      "target": "4",
+      "edgeTitle": "mx_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "18",
+      "source": "9",
+      "target": "9",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "19",
+      "source": "10",
+      "target": "21",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "20",
+      "source": "10",
+      "target": "9",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "21",
+      "source": "11",
+      "target": "22",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "22",
+      "source": "11",
+      "target": "13",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "23",
+      "source": "11",
+      "target": "37",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "24",
+      "source": "11",
+      "target": "3",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "25",
+      "source": "11",
+      "target": "23",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "26",
+      "source": "11",
+      "target": "15",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "27",
+      "source": "11",
+      "target": "38",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "28",
+      "source": "12",
+      "target": "15",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "29",
+      "source": "12",
+      "target": "34",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "30",
+      "source": "14",
+      "target": "19",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "31",
+      "source": "14",
+      "target": "7",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "32",
+      "source": "14",
+      "target": "35",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "33",
+      "source": "14",
+      "target": "27",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "34",
+      "source": "14",
+      "target": "24",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "35",
+      "source": "14",
+      "target": "31",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "36",
+      "source": "14",
+      "target": "0",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "37",
+      "source": "16",
+      "target": "19",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "38",
+      "source": "17",
+      "target": "13",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "39",
+      "source": "17",
+      "target": "29",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "40",
+      "source": "18",
+      "target": "38",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "41",
+      "source": "18",
+      "target": "20",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "42",
+      "source": "25",
+      "target": "6",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "43",
+      "source": "27",
+      "target": "7",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "44",
+      "source": "27",
+      "target": "35",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "45",
+      "source": "27",
+      "target": "19",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "46",
+      "source": "27",
+      "target": "10",
+      "edgeTitle": "mx_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "47",
+      "source": "27",
+      "target": "4",
+      "edgeTitle": "mx_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "48",
+      "source": "27",
+      "target": "27",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "49",
+      "source": "27",
+      "target": "24",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "50",
+      "source": "27",
+      "target": "31",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "51",
+      "source": "27",
+      "target": "0",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "52",
+      "source": "27",
+      "target": "1",
+      "edgeTitle": "ns_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "53",
+      "source": "27",
+      "target": "11",
+      "edgeTitle": "ns_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "54",
+      "source": "28",
+      "target": "7",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "55",
+      "source": "28",
+      "target": "35",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "56",
+      "source": "32",
+      "target": "31",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "57",
+      "source": "32",
+      "target": "24",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "58",
+      "source": "32",
+      "target": "0",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "59",
+      "source": "36",
+      "target": "17",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "60",
+      "source": "36",
+      "target": "2",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "61",
+      "source": "36",
+      "target": "18",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "62",
+      "source": "36",
+      "target": "12",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "63",
+      "source": "36",
+      "target": "8",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "64",
+      "source": "36",
+      "target": "16",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "65",
+      "source": "36",
+      "target": "28",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "66",
+      "source": "36",
+      "target": "5",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "67",
+      "source": "36",
+      "target": "32",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "key": "0",
+      "attributes": {
+        "x": 0,
+        "y": 0,
+        "label": "2606:4700:10::6816:1799",
+        "pointTitle": "address: 2606:4700:10::6816:1799",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "1",
+      "attributes": {
+        "x": 1.2698265987753952,
+        "y": -1.567880254699761,
+        "label": "dane.ns.cloudflare.com",
+        "pointTitle": "ns: dane.ns.cloudflare.com",
+        "color": "#E36414",
+        "category": "ns",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "2",
+      "attributes": {
+        "x": -3.456883120312132,
+        "y": 2.0260849689572233,
+        "label": "172.64.0.0/18",
+        "pointTitle": "netblock: 172.64.0.0/18",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "3",
+      "attributes": {
+        "x": -5.929852404269363,
+        "y": -3.233163635379776,
+        "label": "cloudflare.com",
+        "pointTitle": "domain: cloudflare.com",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "4",
+      "attributes": {
+        "x": -7.178178674115367,
+        "y": 6.3121665365428825,
+        "label": "mxb.mailgun.org",
+        "pointTitle": "mx: mxb.mailgun.org",
+        "color": "#F7727B",
+        "category": "mx",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "5",
+      "attributes": {
+        "x": 7.473107044265889,
+        "y": -5.762514270249039,
+        "label": "2606:4700:50::/44",
+        "pointTitle": "netblock: 2606:4700:50::/44",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "6",
+      "attributes": {
+        "x": 11.163907595318026,
+        "y": 6.389352790470515,
+        "label": "34.83.0.0/16",
+        "pointTitle": "netblock: 34.83.0.0/16",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "7",
+      "attributes": {
+        "x": -7.67815797373467,
+        "y": -9.323134353015018,
+        "label": "104.22.23.153",
+        "pointTitle": "address: 104.22.23.153",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "8",
+      "attributes": {
+        "x": -11.695530764849607,
+        "y": 13.887994097021746,
+        "label": "108.162.192.0/20",
+        "pointTitle": "netblock: 108.162.192.0/20",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "9",
+      "attributes": {
+        "x": -14.817276910888966,
+        "y": -11.21768892210976,
+        "label": "mailgun.org",
+        "pointTitle": "domain: mailgun.org",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "10",
+      "attributes": {
+        "x": 15.266662533920634,
+        "y": 18.687347466854412,
+        "label": "mxa.mailgun.org",
+        "pointTitle": "mx: mxa.mailgun.org",
+        "color": "#F7727B",
+        "category": "mx",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "11",
+      "attributes": {
+        "x": -14.76768022801944,
+        "y": -12.148886420698108,
+        "label": "jule.ns.cloudflare.com",
+        "pointTitle": "ns: jule.ns.cloudflare.com",
+        "color": "#E36414",
+        "category": "ns",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "12",
+      "attributes": {
+        "x": -23.751045681528602,
+        "y": 14.364563080299646,
+        "label": "2803:f800:50::/45",
+        "pointTitle": "netblock: 2803:f800:50::/45",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "13",
+      "attributes": {
+        "x": 20.440570535432293,
+        "y": -22.16694469807748,
+        "label": "173.245.58.175",
+        "pointTitle": "address: 173.245.58.175",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "14",
+      "attributes": {
+        "x": 25.44833023393656,
+        "y": 18.61866052945783,
+        "label": "www.cdcpakistan.com",
+        "pointTitle": "subdomain: www.cdcpakistan.com",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Riddler",
+        "size": 15
+      }
+    },
+    {
+      "key": "15",
+      "attributes": {
+        "x": 20.517080818737206,
+        "y": -20.239864987562072,
+        "label": "2803:f800:50::6ca2:c0af",
+        "pointTitle": "address: 2803:f800:50::6ca2:c0af",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "16",
+      "attributes": {
+        "x": 18.104076609908,
+        "y": 18.728245532250263,
+        "label": "172.67.0.0/16",
+        "pointTitle": "netblock: 172.67.0.0/16",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "17",
+      "attributes": {
+        "x": 32.63359709716464,
+        "y": -32.13097056535791,
+        "label": "173.245.58.0/23",
+        "pointTitle": "netblock: 173.245.58.0/23",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "18",
+      "attributes": {
+        "x": 23.330290826265625,
+        "y": 23.536874944699736,
+        "label": "2a06:98c1:50::/46",
+        "pointTitle": "netblock: 2a06:98c1:50::/46",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "19",
+      "attributes": {
+        "x": -36.69312986681936,
+        "y": -33.29316544600795,
+        "label": "172.67.30.75",
+        "pointTitle": "address: 172.67.30.75",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "20",
+      "attributes": {
+        "x": -27.903543611354152,
+        "y": 30.470488931867685,
+        "label": "2a06:98c1:50::ac40:2161",
+        "pointTitle": "address: 2a06:98c1:50::ac40:2161",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "21",
+      "attributes": {
+        "x": -35.004939006383175,
+        "y": -34.17581192214726,
+        "label": "34.83.33.178",
+        "pointTitle": "address: 34.83.33.178",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "22",
+      "attributes": {
+        "x": -35.46965866457571,
+        "y": 27.6867046822726,
+        "label": "108.162.192.175",
+        "pointTitle": "address: 108.162.192.175",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "23",
+      "attributes": {
+        "x": 24.002572877314343,
+        "y": -27.918786507853227,
+        "label": "2606:4700:50::adf5:3aaf",
+        "pointTitle": "address: 2606:4700:50::adf5:3aaf",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "24",
+      "attributes": {
+        "x": -40.39977579217029,
+        "y": 24.233671051742487,
+        "label": "2606:4700:10::6816:1699",
+        "pointTitle": "address: 2606:4700:10::6816:1699",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "25",
+      "attributes": {
+        "x": -35.60761870440926,
+        "y": -25.70255474981911,
+        "label": "15169",
+        "pointTitle": "as: 15169, Desc: GOOGLE - Google LLC",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "26",
+      "attributes": {
+        "x": 44.619577646206764,
+        "y": 34.429584042969886,
+        "label": "108.162.193.97",
+        "pointTitle": "address: 108.162.193.97",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "27",
+      "attributes": {
+        "x": -42.3698647549498,
+        "y": -36.206518984961434,
+        "label": "cdcpakistan.com",
+        "pointTitle": "domain: cdcpakistan.com",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "28",
+      "attributes": {
+        "x": -52.14857097826524,
+        "y": 39.811198062906534,
+        "label": "104.22.16.0/20",
+        "pointTitle": "netblock: 104.22.16.0/20",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "29",
+      "attributes": {
+        "x": -31.878252844918755,
+        "y": -40.33422913384893,
+        "label": "173.245.59.97",
+        "pointTitle": "address: 173.245.59.97",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "30",
+      "attributes": {
+        "x": 55.677216292620244,
+        "y": 52.328548949249594,
+        "label": "2606:4700:58::adf5:3b61",
+        "pointTitle": "address: 2606:4700:58::adf5:3b61",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "31",
+      "attributes": {
+        "x": -38.787739800840825,
+        "y": -32.96267691343165,
+        "label": "2606:4700:10::ac43:1e4b",
+        "pointTitle": "address: 2606:4700:10::ac43:1e4b",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "32",
+      "attributes": {
+        "x": -33.84816731465515,
+        "y": 60.84773188053131,
+        "label": "2606:4700:10::/44",
+        "pointTitle": "netblock: 2606:4700:10::/44",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "33",
+      "attributes": {
+        "x": -60.999946005803835,
+        "y": -37.04730044988594,
+        "label": "172.64.33.97",
+        "pointTitle": "address: 172.64.33.97",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "34",
+      "attributes": {
+        "x": -55.17684741053385,
+        "y": 65.81777947027048,
+        "label": "2803:f800:50::6ca2:c161",
+        "pointTitle": "address: 2803:f800:50::6ca2:c161",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "35",
+      "attributes": {
+        "x": 39.21492876328445,
+        "y": -62.35507804416392,
+        "label": "104.22.22.153",
+        "pointTitle": "address: 104.22.22.153",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "36",
+      "attributes": {
+        "x": -47.332729079719606,
+        "y": 50.343101229487196,
+        "label": "13335",
+        "pointTitle": "as: 13335, Desc: CLOUDFLARENET - Cloudflare, Inc.",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "37",
+      "attributes": {
+        "x": 38.97751028630508,
+        "y": -46.17737897696122,
+        "label": "172.64.32.175",
+        "pointTitle": "address: 172.64.32.175",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "38",
+      "attributes": {
+        "x": 70.23603073705411,
+        "y": 73.64651165018681,
+        "label": "2a06:98c1:50::ac40:20af",
+        "pointTitle": "address: 2a06:98c1:50::ac40:20af",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    }
+  ]
+}

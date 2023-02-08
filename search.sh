@@ -23,7 +23,7 @@ cd $parent_dir/go/pkg/mod/pkg/mod/github.com/OWASP/Amass/v3/cmd/amass
 
 ./amass viz -enum 1 -graphistry -d $1 
 # # mv amass_graphistry.json /home/nccs-irp/sigma.js/examples/layouts/data.json
-mv amass_graphistry.json $parent_dir/DjangoRestApi/generated_subdomains/$1
+mv /home/hamza/django-rest-api/django-rest-api-master/amass_output/amass_graphistry.json $parent_dir/DjangoRestApi/generated_subdomains/$1
 
 
 
