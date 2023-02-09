@@ -63,9 +63,11 @@
             <li class="nav-item">
               <a class="nav-link text-white" href="#secondpart">Services</a>
             </li>
+            {% if userLoggedIn %}
             <li class="nav-item">
               <a class="nav-link text-white" href="#tool">Tool</a>
             </li>
+            {% endif %}
             <li class="nav-item">
               <a class="nav-link text-white" href="#price">Pricing</a>
             </li>
@@ -94,15 +96,17 @@
             <span class="text-wrapper">
               <span class="line line1"></span>
               <span class="letters">Start a full scan in minutes with power full cloud baised
-                tool,plus flexible reporting, automation and collaboration
-                options.Thousands of team across the world deliver successful
+                tool, plus flexible reporting, automation and collaboration
+                options. Thousands of team across the world deliver successful
                 engagement faster with the ATTACKEYE.com</span>
             </span>
           </h5>
 
+          {% if userLoggedIn %}
           <a href="#tool2" class="btn btn-light" id="topb">
             DISCOVER ATTACK SURFACE
           </a>
+          {% endif %}
         </div>
         <div class="col" data-aos="fadeInUp">
           <div class="containe-fluid" id="fluid3"><img src="/static/img/abc.gif" alt="" class="img-fluid" /> </div>
