@@ -3,26 +3,26 @@
     {
       "key": "0",
       "source": "1",
-      "target": "3",
-      "edgeTitle": "root",
+      "target": "8",
+      "edgeTitle": "contains",
       "attributes": {
         "size": 1
       }
     },
     {
       "key": "1",
-      "source": "1",
-      "target": "26",
-      "edgeTitle": "a_record",
+      "source": "2",
+      "target": "16",
+      "edgeTitle": "root",
       "attributes": {
         "size": 1
       }
     },
     {
       "key": "2",
-      "source": "1",
-      "target": "0",
-      "edgeTitle": "aaaa_record",
+      "source": "2",
+      "target": "15",
+      "edgeTitle": "a_record",
       "attributes": {
         "size": 1
       }
@@ -30,8 +30,8 @@
     {
       "key": "3",
       "source": "2",
-      "target": "22",
-      "edgeTitle": "contains",
+      "target": "3",
+      "edgeTitle": "aaaa_record",
       "attributes": {
         "size": 1
       }
@@ -39,7 +39,7 @@
     {
       "key": "4",
       "source": "4",
-      "target": "16",
+      "target": "9",
       "edgeTitle": "root",
       "attributes": {
         "size": 1
@@ -57,7 +57,7 @@
     {
       "key": "6",
       "source": "4",
-      "target": "22",
+      "target": "27",
       "edgeTitle": "a_record",
       "attributes": {
         "size": 1
@@ -66,7 +66,7 @@
     {
       "key": "7",
       "source": "5",
-      "target": "25",
+      "target": "6",
       "edgeTitle": "contains",
       "attributes": {
         "size": 1
@@ -74,54 +74,54 @@
     },
     {
       "key": "8",
-      "source": "7",
-      "target": "6",
-      "edgeTitle": "contains",
+      "source": "9",
+      "target": "9",
+      "edgeTitle": "root",
       "attributes": {
         "size": 1
       }
     },
     {
       "key": "9",
-      "source": "7",
-      "target": "26",
-      "edgeTitle": "contains",
-      "attributes": {
-        "size": 1
-      }
-    },
-    {
-      "key": "10",
-      "source": "12",
-      "target": "3",
-      "edgeTitle": "root",
-      "attributes": {
-        "size": 1
-      }
-    },
-    {
-      "key": "11",
-      "source": "12",
-      "target": "11",
+      "source": "9",
+      "target": "6",
       "edgeTitle": "a_record",
       "attributes": {
         "size": 1
       }
     },
     {
+      "key": "10",
+      "source": "10",
+      "target": "18",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "11",
+      "source": "10",
+      "target": "21",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
       "key": "12",
-      "source": "12",
-      "target": "10",
-      "edgeTitle": "aaaa_record",
+      "source": "10",
+      "target": "12",
+      "edgeTitle": "prefix",
       "attributes": {
         "size": 1
       }
     },
     {
       "key": "13",
-      "source": "13",
-      "target": "3",
-      "edgeTitle": "root",
+      "source": "12",
+      "target": "19",
+      "edgeTitle": "contains",
       "attributes": {
         "size": 1
       }
@@ -129,8 +129,8 @@
     {
       "key": "14",
       "source": "13",
-      "target": "6",
-      "edgeTitle": "a_record",
+      "target": "1",
+      "edgeTitle": "prefix",
       "attributes": {
         "size": 1
       }
@@ -138,24 +138,6 @@
     {
       "key": "15",
       "source": "13",
-      "target": "9",
-      "edgeTitle": "aaaa_record",
-      "attributes": {
-        "size": 1
-      }
-    },
-    {
-      "key": "16",
-      "source": "14",
-      "target": "28",
-      "edgeTitle": "prefix",
-      "attributes": {
-        "size": 1
-      }
-    },
-    {
-      "key": "17",
-      "source": "14",
       "target": "5",
       "edgeTitle": "prefix",
       "attributes": {
@@ -163,27 +145,45 @@
       }
     },
     {
-      "key": "18",
-      "source": "15",
+      "key": "16",
+      "source": "14",
       "target": "20",
-      "edgeTitle": "contains",
-      "attributes": {
-        "size": 1
-      }
-    },
-    {
-      "key": "19",
-      "source": "16",
-      "target": "16",
       "edgeTitle": "root",
       "attributes": {
         "size": 1
       }
     },
     {
+      "key": "17",
+      "source": "14",
+      "target": "7",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "18",
+      "source": "17",
+      "target": "9",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "19",
+      "source": "17",
+      "target": "27",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
       "key": "20",
-      "source": "16",
-      "target": "25",
+      "source": "17",
+      "target": "8",
       "edgeTitle": "a_record",
       "attributes": {
         "size": 1
@@ -191,9 +191,9 @@
     },
     {
       "key": "21",
-      "source": "17",
+      "source": "18",
       "target": "15",
-      "edgeTitle": "prefix",
+      "edgeTitle": "contains",
       "attributes": {
         "size": 1
       }
@@ -201,78 +201,42 @@
     {
       "key": "22",
       "source": "18",
-      "target": "7",
-      "edgeTitle": "prefix",
+      "target": "24",
+      "edgeTitle": "contains",
       "attributes": {
         "size": 1
       }
     },
     {
       "key": "23",
-      "source": "18",
-      "target": "27",
-      "edgeTitle": "prefix",
+      "source": "20",
+      "target": "2",
+      "edgeTitle": "ns_record",
       "attributes": {
         "size": 1
       }
     },
     {
       "key": "24",
-      "source": "18",
-      "target": "23",
-      "edgeTitle": "prefix",
+      "source": "20",
+      "target": "22",
+      "edgeTitle": "ns_record",
       "attributes": {
         "size": 1
       }
     },
     {
       "key": "25",
-      "source": "19",
-      "target": "21",
-      "edgeTitle": "root",
+      "source": "20",
+      "target": "30",
+      "edgeTitle": "ns_record",
       "attributes": {
         "size": 1
       }
     },
     {
       "key": "26",
-      "source": "19",
-      "target": "20",
-      "edgeTitle": "a_record",
-      "attributes": {
-        "size": 1
-      }
-    },
-    {
-      "key": "27",
-      "source": "21",
-      "target": "13",
-      "edgeTitle": "ns_record",
-      "attributes": {
-        "size": 1
-      }
-    },
-    {
-      "key": "28",
-      "source": "21",
-      "target": "12",
-      "edgeTitle": "ns_record",
-      "attributes": {
-        "size": 1
-      }
-    },
-    {
-      "key": "29",
-      "source": "21",
-      "target": "1",
-      "edgeTitle": "ns_record",
-      "attributes": {
-        "size": 1
-      }
-    },
-    {
-      "key": "30",
-      "source": "21",
+      "source": "20",
       "target": "4",
       "edgeTitle": "mx_record",
       "attributes": {
@@ -280,89 +244,44 @@
       }
     },
     {
-      "key": "31",
-      "source": "21",
-      "target": "24",
+      "key": "27",
+      "source": "20",
+      "target": "17",
       "edgeTitle": "mx_record",
       "attributes": {
         "size": 1
       }
     },
     {
-      "key": "32",
-      "source": "21",
-      "target": "21",
-      "edgeTitle": "root",
-      "attributes": {
-        "size": 1
-      }
-    },
-    {
-      "key": "33",
-      "source": "21",
+      "key": "28",
+      "source": "20",
       "target": "20",
-      "edgeTitle": "a_record",
-      "attributes": {
-        "size": 1
-      }
-    },
-    {
-      "key": "34",
-      "source": "23",
-      "target": "11",
-      "edgeTitle": "contains",
-      "attributes": {
-        "size": 1
-      }
-    },
-    {
-      "key": "35",
-      "source": "24",
-      "target": "16",
       "edgeTitle": "root",
       "attributes": {
         "size": 1
       }
     },
     {
-      "key": "36",
-      "source": "24",
-      "target": "22",
+      "key": "29",
+      "source": "20",
+      "target": "7",
       "edgeTitle": "a_record",
       "attributes": {
         "size": 1
       }
     },
     {
-      "key": "37",
-      "source": "24",
-      "target": "8",
-      "edgeTitle": "a_record",
-      "attributes": {
-        "size": 1
-      }
-    },
-    {
-      "key": "38",
-      "source": "27",
-      "target": "9",
+      "key": "30",
+      "source": "21",
+      "target": "3",
       "edgeTitle": "contains",
       "attributes": {
         "size": 1
       }
     },
     {
-      "key": "39",
-      "source": "27",
-      "target": "10",
-      "edgeTitle": "contains",
-      "attributes": {
-        "size": 1
-      }
-    },
-    {
-      "key": "40",
-      "source": "27",
+      "key": "31",
+      "source": "21",
       "target": "0",
       "edgeTitle": "contains",
       "attributes": {
@@ -370,9 +289,90 @@
       }
     },
     {
-      "key": "41",
+      "key": "32",
+      "source": "21",
+      "target": "11",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "33",
+      "source": "22",
+      "target": "16",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "34",
+      "source": "22",
+      "target": "19",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "35",
+      "source": "22",
+      "target": "0",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "36",
+      "source": "23",
+      "target": "28",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "37",
+      "source": "25",
+      "target": "29",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "38",
+      "source": "26",
+      "target": "20",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "39",
+      "source": "26",
+      "target": "9",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "40",
       "source": "28",
-      "target": "8",
+      "target": "7",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "41",
+      "source": "29",
+      "target": "27",
       "edgeTitle": "contains",
       "attributes": {
         "size": 1
@@ -380,8 +380,8 @@
     },
     {
       "key": "42",
-      "source": "29",
-      "target": "21",
+      "source": "30",
+      "target": "16",
       "edgeTitle": "root",
       "attributes": {
         "size": 1
@@ -389,9 +389,9 @@
     },
     {
       "key": "43",
-      "source": "29",
-      "target": "16",
-      "edgeTitle": "cname_record",
+      "source": "30",
+      "target": "24",
+      "edgeTitle": "a_record",
       "attributes": {
         "size": 1
       }
@@ -399,8 +399,8 @@
     {
       "key": "44",
       "source": "30",
-      "target": "2",
-      "edgeTitle": "prefix",
+      "target": "11",
+      "edgeTitle": "aaaa_record",
       "attributes": {
         "size": 1
       }
@@ -410,10 +410,10 @@
     {
       "key": "0",
       "attributes": {
-        "x": -0,
+        "x": 0,
         "y": 0,
-        "label": "2400:cb00:2049:1::adf5:3b29",
-        "pointTitle": "address: 2400:cb00:2049:1::adf5:3b29",
+        "label": "2400:cb00:2049:1::c629:dead",
+        "pointTitle": "address: 2400:cb00:2049:1::c629:dead",
         "color": "#8F3D32",
         "category": "address",
         "type": "border",
@@ -424,24 +424,10 @@
     {
       "key": "1",
       "attributes": {
-        "x": -1.3067373771781057,
-        "y": -1.9942202032582785,
-        "label": "ns2.digitalocean.com",
-        "pointTitle": "ns: ns2.digitalocean.com",
-        "color": "#E36414",
-        "category": "ns",
-        "type": "border",
-        "source": "DNS",
-        "size": 15
-      }
-    },
-    {
-      "key": "2",
-      "attributes": {
-        "x": 3.081473674478425,
-        "y": 3.6317120630373267,
-        "label": "34.83.0.0/16",
-        "pointTitle": "netblock: 34.83.0.0/16",
+        "x": -1.7846450098637558,
+        "y": -1.7958262603744282,
+        "label": "34.150.208.0/20",
+        "pointTitle": "netblock: 34.150.208.0/20",
         "color": "#CC301E",
         "category": "netblock",
         "type": "border",
@@ -450,14 +436,28 @@
       }
     },
     {
+      "key": "2",
+      "attributes": {
+        "x": -3.436531765383344,
+        "y": 3.9660186684295997,
+        "label": "ns1.digitalocean.com",
+        "pointTitle": "ns: ns1.digitalocean.com",
+        "color": "#E36414",
+        "category": "ns",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
       "key": "3",
       "attributes": {
-        "x": 4.048074198051113,
-        "y": -3.0059118182764584,
-        "label": "digitalocean.com",
-        "pointTitle": "domain: digitalocean.com",
-        "color": "#EDE4C7",
-        "category": "domain",
+        "x": -4.39143869031119,
+        "y": -5.16391579585897,
+        "label": "2400:cb00:2049:1::adf5:3a33",
+        "pointTitle": "address: 2400:cb00:2049:1::adf5:3a33",
+        "color": "#8F3D32",
+        "category": "address",
         "type": "border",
         "source": "DNS",
         "size": 15
@@ -466,8 +466,8 @@
     {
       "key": "4",
       "attributes": {
-        "x": -5.915426265299327,
-        "y": 7.335073401652982,
+        "x": -4.750908433599012,
+        "y": 5.283253839860121,
         "label": "mxa.mailgun.org",
         "pointTitle": "mx: mxa.mailgun.org",
         "color": "#F7727B",
@@ -480,8 +480,8 @@
     {
       "key": "5",
       "attributes": {
-        "x": -5.678825512032857,
-        "y": -7.098918931627098,
+        "x": 9.054870693861671,
+        "y": -6.438410022802307,
         "label": "34.86.80.0/20",
         "pointTitle": "netblock: 34.86.80.0/20",
         "color": "#CC301E",
@@ -494,10 +494,10 @@
     {
       "key": "6",
       "attributes": {
-        "x": -9.998964322416292,
-        "y": 11.514648790289172,
-        "label": "173.245.58.51",
-        "pointTitle": "address: 173.245.58.51",
+        "x": 11.040412199499576,
+        "y": 9.219898293387235,
+        "label": "34.86.85.56",
+        "pointTitle": "address: 34.86.85.56",
         "color": "#8F3D32",
         "category": "address",
         "type": "border",
@@ -508,22 +508,22 @@
     {
       "key": "7",
       "attributes": {
-        "x": 10.452332206099541,
-        "y": -8.466631902935594,
-        "label": "173.245.58.0/23",
-        "pointTitle": "netblock: 173.245.58.0/23",
-        "color": "#CC301E",
-        "category": "netblock",
+        "x": -7.2507413479417915,
+        "y": -12.992762121760837,
+        "label": "107.170.89.92",
+        "pointTitle": "address: 107.170.89.92",
+        "color": "#8F3D32",
+        "category": "address",
         "type": "border",
-        "source": "RIR",
+        "source": "DNS",
         "size": 15
       }
     },
     {
       "key": "8",
       "attributes": {
-        "x": 10.800320369344549,
-        "y": 8.98941876264337,
+        "x": -9.105358709194473,
+        "y": 9.000861455614327,
         "label": "34.150.216.144",
         "pointTitle": "address: 34.150.216.144",
         "color": "#8F3D32",
@@ -536,106 +536,8 @@
     {
       "key": "9",
       "attributes": {
-        "x": -15.231018730612325,
-        "y": -13.430075266620852,
-        "label": "2400:cb00:2049:1::adf5:3a33",
-        "pointTitle": "address: 2400:cb00:2049:1::adf5:3a33",
-        "color": "#8F3D32",
-        "category": "address",
-        "type": "border",
-        "source": "DNS",
-        "size": 15
-      }
-    },
-    {
-      "key": "10",
-      "attributes": {
-        "x": 13.753592546850713,
-        "y": 15.825323230586696,
-        "label": "2400:cb00:2049:1::c629:dead",
-        "pointTitle": "address: 2400:cb00:2049:1::c629:dead",
-        "color": "#8F3D32",
-        "category": "address",
-        "type": "border",
-        "source": "DNS",
-        "size": 15
-      }
-    },
-    {
-      "key": "11",
-      "attributes": {
-        "x": 15.282751686111391,
-        "y": -18.520415761150375,
-        "label": "198.41.222.173",
-        "pointTitle": "address: 198.41.222.173",
-        "color": "#8F3D32",
-        "category": "address",
-        "type": "border",
-        "source": "DNS",
-        "size": 15
-      }
-    },
-    {
-      "key": "12",
-      "attributes": {
-        "x": -12.496374549662274,
-        "y": 12.37925832445518,
-        "label": "ns3.digitalocean.com",
-        "pointTitle": "ns: ns3.digitalocean.com",
-        "color": "#E36414",
-        "category": "ns",
-        "type": "border",
-        "source": "DNS",
-        "size": 15
-      }
-    },
-    {
-      "key": "13",
-      "attributes": {
-        "x": -15.280878408941735,
-        "y": -19.25918801283722,
-        "label": "ns1.digitalocean.com",
-        "pointTitle": "ns: ns1.digitalocean.com",
-        "color": "#E36414",
-        "category": "ns",
-        "type": "border",
-        "source": "DNS",
-        "size": 15
-      }
-    },
-    {
-      "key": "14",
-      "attributes": {
-        "x": -15.238918150725986,
-        "y": 16.04095065214277,
-        "label": "396982",
-        "pointTitle": "as: 396982, Desc: GOOGLE-CLOUD-PLATFORM, US",
-        "color": "#ED7047",
-        "category": "as",
-        "type": "border",
-        "source": "RIR",
-        "size": 15
-      }
-    },
-    {
-      "key": "15",
-      "attributes": {
-        "x": -28.13418220193133,
-        "y": -29.270111176631463,
-        "label": "107.170.0.0/16",
-        "pointTitle": "netblock: 107.170.0.0/16",
-        "color": "#CC301E",
-        "category": "netblock",
-        "type": "border",
-        "source": "RIR",
-        "size": 15
-      }
-    },
-    {
-      "key": "16",
-      "attributes": {
-        "x": -25.390725862579338,
-        "y": 24.879059521661468,
+        "x": -9.980691151560805,
+        "y": -12.485575064660024,
         "label": "mailgun.org",
         "pointTitle": "domain: mailgun.org",
         "color": "#EDE4C7",
@@ -646,24 +548,10 @@
       }
     },
     {
-      "key": "17",
+      "key": "10",
       "attributes": {
-        "x": -32.77354356383768,
-        "y": -18.830659667617063,
-        "label": "14061",
-        "pointTitle": "as: 14061, Desc: DIGITALOCEAN-ASN - DigitalOcean, LLC",
-        "color": "#ED7047",
-        "category": "as",
-        "type": "border",
-        "source": "RIR",
-        "size": 15
-      }
-    },
-    {
-      "key": "18",
-      "attributes": {
-        "x": 31.950189881005414,
-        "y": 20.283235849160842,
+        "x": -16.204956370488386,
+        "y": 10.869934653341124,
         "label": "13335",
         "pointTitle": "as: 13335, Desc: CLOUDFLARENET - Cloudflare, Inc.",
         "color": "#ED7047",
@@ -674,26 +562,12 @@
       }
     },
     {
-      "key": "19",
+      "key": "11",
       "attributes": {
-        "x": -34.39983008873946,
-        "y": -31.542926284354266,
-        "label": "www.robust.email",
-        "pointTitle": "subdomain: www.robust.email",
-        "color": "#B30000",
-        "category": "subdomain",
-        "type": "border",
-        "source": "DuckDuckGo",
-        "size": 15
-      }
-    },
-    {
-      "key": "20",
-      "attributes": {
-        "x": 38.9812726264624,
-        "y": 29.150336774203133,
-        "label": "107.170.89.92",
-        "pointTitle": "address: 107.170.89.92",
+        "x": 20.440654307511483,
+        "y": -19.82504849557354,
+        "label": "2400:cb00:2049:1::adf5:3b29",
+        "pointTitle": "address: 2400:cb00:2049:1::adf5:3b29",
         "color": "#8F3D32",
         "category": "address",
         "type": "border",
@@ -702,38 +576,10 @@
       }
     },
     {
-      "key": "21",
+      "key": "12",
       "attributes": {
-        "x": -30.11009729629241,
-        "y": -29.77519980817205,
-        "label": "robust.email",
-        "pointTitle": "domain: robust.email",
-        "color": "#EDE4C7",
-        "category": "domain",
-        "type": "border",
-        "source": "DNS",
-        "size": 15
-      }
-    },
-    {
-      "key": "22",
-      "attributes": {
-        "x": 40.78037702584116,
-        "y": 34.535442303717225,
-        "label": "34.83.33.178",
-        "pointTitle": "address: 34.83.33.178",
-        "color": "#8F3D32",
-        "category": "address",
-        "type": "border",
-        "source": "DNS",
-        "size": 15
-      }
-    },
-    {
-      "key": "23",
-      "attributes": {
-        "x": -27.109326886029535,
-        "y": -25.176240509465572,
+        "x": 18.394241719062173,
+        "y": 12.643235111186385,
         "label": "198.41.222.0/24",
         "pointTitle": "netblock: 198.41.222.0/24",
         "color": "#CC301E",
@@ -744,10 +590,66 @@
       }
     },
     {
-      "key": "24",
+      "key": "13",
       "attributes": {
-        "x": 25.666683363837308,
-        "y": 31.07128253666403,
+        "x": -13.979031719446525,
+        "y": -23.565346592657875,
+        "label": "396982",
+        "pointTitle": "as: 396982, Desc: GOOGLE-CLOUD-PLATFORM, US",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "14",
+      "attributes": {
+        "x": -20.421515174048707,
+        "y": 14.34119450941906,
+        "label": "www.robust.email",
+        "pointTitle": "subdomain: www.robust.email",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "DuckDuckGo",
+        "size": 15
+      }
+    },
+    {
+      "key": "15",
+      "attributes": {
+        "x": -22.771725875366577,
+        "y": -18.78501651167689,
+        "label": "173.245.58.51",
+        "pointTitle": "address: 173.245.58.51",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "16",
+      "attributes": {
+        "x": -18.019916649390744,
+        "y": 19.235427091791426,
+        "label": "digitalocean.com",
+        "pointTitle": "domain: digitalocean.com",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "17",
+      "attributes": {
+        "x": -21.299055499100934,
+        "y": -20.16316804656874,
         "label": "mxb.mailgun.org",
         "pointTitle": "mx: mxb.mailgun.org",
         "color": "#F7727B",
@@ -758,12 +660,26 @@
       }
     },
     {
-      "key": "25",
+      "key": "18",
       "attributes": {
-        "x": 48.18004712736812,
-        "y": -28.587566434366863,
-        "label": "34.86.85.56",
-        "pointTitle": "address: 34.86.85.56",
+        "x": -30.95499515389531,
+        "y": 19.930049365754456,
+        "label": "173.245.58.0/23",
+        "pointTitle": "netblock: 173.245.58.0/23",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "19",
+      "attributes": {
+        "x": -23.006486359267083,
+        "y": -23.918948599236124,
+        "label": "198.41.222.173",
+        "pointTitle": "address: 198.41.222.173",
         "color": "#8F3D32",
         "category": "address",
         "type": "border",
@@ -772,24 +688,24 @@
       }
     },
     {
-      "key": "26",
+      "key": "20",
       "attributes": {
-        "x": -28.09638376399562,
-        "y": 26.029339115177457,
-        "label": "173.245.59.41",
-        "pointTitle": "address: 173.245.59.41",
-        "color": "#8F3D32",
-        "category": "address",
+        "x": 39.92288806355275,
+        "y": 39.32922501228394,
+        "label": "robust.email",
+        "pointTitle": "domain: robust.email",
+        "color": "#EDE4C7",
+        "category": "domain",
         "type": "border",
         "source": "DNS",
         "size": 15
       }
     },
     {
-      "key": "27",
+      "key": "21",
       "attributes": {
-        "x": -51.1904180074058,
-        "y": -47.251277725981936,
+        "x": 25.000553872367917,
+        "y": -22.570371507411316,
         "label": "2400:cb00:2049::/48",
         "pointTitle": "netblock: 2400:cb00:2049::/48",
         "color": "#CC301E",
@@ -800,24 +716,66 @@
       }
     },
     {
-      "key": "28",
+      "key": "22",
       "attributes": {
-        "x": 37.05114169975283,
-        "y": 48.4825401348822,
-        "label": "34.150.208.0/20",
-        "pointTitle": "netblock: 34.150.208.0/20",
-        "color": "#CC301E",
-        "category": "netblock",
+        "x": 26.012043630937665,
+        "y": 38.36503098635085,
+        "label": "ns3.digitalocean.com",
+        "pointTitle": "ns: ns3.digitalocean.com",
+        "color": "#E36414",
+        "category": "ns",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "23",
+      "attributes": {
+        "x": 44.90740304414997,
+        "y": -34.5691749977065,
+        "label": "14061",
+        "pointTitle": "as: 14061, Desc: DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "color": "#ED7047",
+        "category": "as",
         "type": "border",
         "source": "RIR",
         "size": 15
       }
     },
     {
-      "key": "29",
+      "key": "24",
       "attributes": {
-        "x": 38.55844168373794,
-        "y": -47.40953663692831,
+        "x": -37.72856974208631,
+        "y": 25.319091866717514,
+        "label": "173.245.59.41",
+        "pointTitle": "address: 173.245.59.41",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "25",
+      "attributes": {
+        "x": -33.261231167740455,
+        "y": -32.04649737172794,
+        "label": "15169",
+        "pointTitle": "as: 15169, Desc: Google Google, Inc - Google",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "26",
+      "attributes": {
+        "x": -41.132751947448654,
+        "y": 38.503670163054174,
         "label": "email.robust.email",
         "pointTitle": "subdomain: email.robust.email",
         "color": "#B30000",
@@ -828,16 +786,58 @@
       }
     },
     {
-      "key": "30",
+      "key": "27",
       "attributes": {
-        "x": 56.093841637264404,
-        "y": 41.37367021499558,
-        "label": "15169",
-        "pointTitle": "as: 15169, Desc: Google Google, Inc - Google",
-        "color": "#ED7047",
-        "category": "as",
+        "x": -28.50665552445142,
+        "y": -28.200909102836246,
+        "label": "34.83.33.178",
+        "pointTitle": "address: 34.83.33.178",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "28",
+      "attributes": {
+        "x": -38.11033676876034,
+        "y": 31.067145842777585,
+        "label": "107.170.0.0/16",
+        "pointTitle": "netblock: 107.170.0.0/16",
+        "color": "#CC301E",
+        "category": "netblock",
         "type": "border",
         "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "29",
+      "attributes": {
+        "x": 34.450583700169815,
+        "y": -49.11319194858848,
+        "label": "34.83.0.0/16",
+        "pointTitle": "netblock: 34.83.0.0/16",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "30",
+      "attributes": {
+        "x": -42.31952244781382,
+        "y": 56.31528221205604,
+        "label": "ns2.digitalocean.com",
+        "pointTitle": "ns: ns2.digitalocean.com",
+        "color": "#E36414",
+        "category": "ns",
+        "type": "border",
+        "source": "DNS",
         "size": 15
       }
     }

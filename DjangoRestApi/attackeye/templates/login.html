@@ -20,17 +20,6 @@ a {
   font-weight: 400;
 }
 
-h2 {
-  text-align: center;
-  font-size: 16px;
-  font-weight: 600;
-  text-transform: uppercase;
-  display:inline-block;
-  margin: 40px 8px 10px 8px; 
-  color: #cccccc;
-}
-
-
 
 /* STRUCTURE */
 
@@ -162,7 +151,7 @@ input:placeholder {
 }
 
 .underlineHover:hover {
-  color: #0d0d0d;
+  color: #56baed;
 }
 
 .underlineHover:hover:after{
@@ -209,7 +198,9 @@ form > input:autofill {
 
 
 #particles-js {
-  position: absolute;
+  position: fixed;
+  top: 0;
+  bottom: 0;
   width: 100%;
   height: 100%;
   background-image: url('{% static 'img/login-background.jpg' %}');
@@ -249,11 +240,6 @@ canvas {
     </div> {% endcomment %}
 
     <!-- Login Form -->
-    {% comment %} <form>
-      <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
-      <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
-      <input type="submit" class="fadeIn fourth" value="Log In">
-    </form> {% endcomment %}
     
     <form id="loginform" method="post" action="{% url 'login_user' %}">
       {% csrf_token %}
@@ -273,7 +259,7 @@ canvas {
 
     <!-- Remind Passowrd -->
     <div id="formFooter">
-      <a class="underlineHover" href="#">Forgot Password?</a>
+      <a class="underlineHover" href="{% url 'register' %}">Register for a new account</a>
     </div>
 
   </div>

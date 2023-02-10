@@ -67,6 +67,7 @@ def mainpage(request):
     for i in range(len(graph)):
         graph_list.append(graph[i])
     print(graph_list)
+
     return render(request, "mainpage.html", {"graph_list":graph_list})
 
 # logging.basicConfig(filename='/tmp/example.log', encoding='utf-8', level=logging.DEBUG)
@@ -82,25 +83,19 @@ def userlogin(request):
         if user is not None:
             auth_login(request, user)
             # return render(request,'front.html',{"graph_list":graph_list})
-            return redirect('/home')
+            return redirect('/')
         else:
             return render(request,'login.html')
             
     elif request.method == "GET":
         if request.user.is_authenticated:
-            print("fffffffffffffffffffffffiiiiiiiiiiiiiiiiiiiiffffffffffffffffffffff")
             user= request.session["_auth_user_id"]
-            print("userhamza",user)
             graph_list=[]
             graph=scan.objects.filter(UserId=user)
-            print(graph)
-            print("*****************************")
-            for i in range(len(graph)):
-                graph_list.append(graph[i])
-            print(graph_list)
-            return render(request,'mainpage.html',{"graph_list":graph_list})
+
+            return render(request,'mainpage.html', {"graph_list": graph, 'userLoggedIn': True})
         else:
-            return render(request,'login.html')
+            return render(request,'mainpage.html', {"graph_list": [], 'userLoggedIn': False})
 
 @api_view(['GET'])
 def graph_json(request,graphdomain):
@@ -274,9 +269,9 @@ def graphtable(request):
             #print(graph)
             return Response({'graph':graph})
         
-            for i in range(len(graph)):
-                graph_list.append(graph[i])
-            print("list",graph_list)
+            # for i in range(len(graph)):
+            #     graph_list.append(graph[i])
+            # print("list",graph_list)
             # return Response(graph)
             # return Response({'received data': request.data})
         # Response({"graph_list":graph_list})    
@@ -288,9 +283,8 @@ def graphtable(request):
 @api_view(["GET"])
 def userlogout(request):
     if request.method == 'GET':
-    #    print("loggedout")
        request.session.flush()
-       return render(request,'login.html')
+       return render(request,'mainpage.html')
 
 
 @api_view(["POST","GET"])   
@@ -329,7 +323,7 @@ def deletedomain(request):
         # return response 
         
  
-@api_view(["POST"])
+@api_view(["POST", "GET"])
 def registeruser(request):
     if request.method == 'POST':
         form = UserRegistrationForm(request.POST)
