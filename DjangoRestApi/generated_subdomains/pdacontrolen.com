@@ -2,8 +2,8 @@
   "edges": [
     {
       "key": "0",
-      "source": "0",
-      "target": "6",
+      "source": "1",
+      "target": "4",
       "edgeTitle": "root",
       "attributes": {
         "size": 1
@@ -11,8 +11,8 @@
     },
     {
       "key": "1",
-      "source": "0",
-      "target": "6",
+      "source": "1",
+      "target": "4",
       "edgeTitle": "cname_record",
       "attributes": {
         "size": 1
@@ -20,18 +20,18 @@
     },
     {
       "key": "2",
-      "source": "1",
-      "target": "13",
-      "edgeTitle": "root",
+      "source": "2",
+      "target": "0",
+      "edgeTitle": "a_record",
       "attributes": {
         "size": 1
       }
     },
     {
       "key": "3",
-      "source": "1",
-      "target": "18",
-      "edgeTitle": "a_record",
+      "source": "2",
+      "target": "17",
+      "edgeTitle": "root",
       "attributes": {
         "size": 1
       }
@@ -39,17 +39,17 @@
     {
       "key": "4",
       "source": "3",
-      "target": "6",
-      "edgeTitle": "root",
+      "target": "19",
+      "edgeTitle": "prefix",
       "attributes": {
         "size": 1
       }
     },
     {
       "key": "5",
-      "source": "3",
-      "target": "6",
-      "edgeTitle": "cname_record",
+      "source": "4",
+      "target": "16",
+      "edgeTitle": "a_record",
       "attributes": {
         "size": 1
       }
@@ -57,8 +57,8 @@
     {
       "key": "6",
       "source": "4",
-      "target": "6",
-      "edgeTitle": "root",
+      "target": "4",
+      "edgeTitle": "mx_record",
       "attributes": {
         "size": 1
       }
@@ -66,26 +66,26 @@
     {
       "key": "7",
       "source": "4",
-      "target": "2",
-      "edgeTitle": "a_record",
-      "attributes": {
-        "size": 1
-      }
-    },
-    {
-      "key": "8",
-      "source": "5",
-      "target": "6",
+      "target": "4",
       "edgeTitle": "root",
       "attributes": {
         "size": 1
       }
     },
     {
-      "key": "9",
-      "source": "5",
+      "key": "8",
+      "source": "4",
       "target": "2",
-      "edgeTitle": "a_record",
+      "edgeTitle": "ns_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "9",
+      "source": "4",
+      "target": "18",
+      "edgeTitle": "ns_record",
       "attributes": {
         "size": 1
       }
@@ -93,8 +93,8 @@
     {
       "key": "10",
       "source": "6",
-      "target": "9",
-      "edgeTitle": "ns_record",
+      "target": "16",
+      "edgeTitle": "a_record",
       "attributes": {
         "size": 1
       }
@@ -102,44 +102,44 @@
     {
       "key": "11",
       "source": "6",
-      "target": "1",
-      "edgeTitle": "ns_record",
-      "attributes": {
-        "size": 1
-      }
-    },
-    {
-      "key": "12",
-      "source": "6",
-      "target": "6",
-      "edgeTitle": "mx_record",
-      "attributes": {
-        "size": 1
-      }
-    },
-    {
-      "key": "13",
-      "source": "6",
-      "target": "6",
+      "target": "4",
       "edgeTitle": "root",
       "attributes": {
         "size": 1
       }
     },
     {
+      "key": "12",
+      "source": "7",
+      "target": "4",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "13",
+      "source": "7",
+      "target": "4",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
       "key": "14",
-      "source": "6",
-      "target": "2",
-      "edgeTitle": "a_record",
+      "source": "8",
+      "target": "5",
+      "edgeTitle": "contains",
       "attributes": {
         "size": 1
       }
     },
     {
       "key": "15",
-      "source": "7",
-      "target": "12",
-      "edgeTitle": "prefix",
+      "source": "8",
+      "target": "0",
+      "edgeTitle": "contains",
       "attributes": {
         "size": 1
       }
@@ -147,8 +147,8 @@
     {
       "key": "16",
       "source": "9",
-      "target": "13",
-      "edgeTitle": "root",
+      "target": "16",
+      "edgeTitle": "a_record",
       "attributes": {
         "size": 1
       }
@@ -156,8 +156,8 @@
     {
       "key": "17",
       "source": "9",
-      "target": "8",
-      "edgeTitle": "a_record",
+      "target": "4",
+      "edgeTitle": "root",
       "attributes": {
         "size": 1
       }
@@ -165,8 +165,8 @@
     {
       "key": "18",
       "source": "10",
-      "target": "6",
-      "edgeTitle": "root",
+      "target": "16",
+      "edgeTitle": "a_record",
       "attributes": {
         "size": 1
       }
@@ -174,8 +174,8 @@
     {
       "key": "19",
       "source": "10",
-      "target": "2",
-      "edgeTitle": "a_record",
+      "target": "4",
+      "edgeTitle": "root",
       "attributes": {
         "size": 1
       }
@@ -183,16 +183,16 @@
     {
       "key": "20",
       "source": "11",
-      "target": "6",
-      "edgeTitle": "root",
+      "target": "8",
+      "edgeTitle": "prefix",
       "attributes": {
         "size": 1
       }
     },
     {
       "key": "21",
-      "source": "11",
-      "target": "2",
+      "source": "12",
+      "target": "16",
       "edgeTitle": "a_record",
       "attributes": {
         "size": 1
@@ -201,25 +201,25 @@
     {
       "key": "22",
       "source": "12",
-      "target": "8",
-      "edgeTitle": "contains",
+      "target": "4",
+      "edgeTitle": "root",
       "attributes": {
         "size": 1
       }
     },
     {
       "key": "23",
-      "source": "12",
-      "target": "18",
-      "edgeTitle": "contains",
+      "source": "13",
+      "target": "16",
+      "edgeTitle": "a_record",
       "attributes": {
         "size": 1
       }
     },
     {
       "key": "24",
-      "source": "14",
-      "target": "6",
+      "source": "13",
+      "target": "4",
       "edgeTitle": "root",
       "attributes": {
         "size": 1
@@ -228,7 +228,7 @@
     {
       "key": "25",
       "source": "14",
-      "target": "2",
+      "target": "16",
       "edgeTitle": "a_record",
       "attributes": {
         "size": 1
@@ -236,8 +236,8 @@
     },
     {
       "key": "26",
-      "source": "15",
-      "target": "6",
+      "source": "14",
+      "target": "4",
       "edgeTitle": "root",
       "attributes": {
         "size": 1
@@ -246,7 +246,7 @@
     {
       "key": "27",
       "source": "15",
-      "target": "2",
+      "target": "16",
       "edgeTitle": "a_record",
       "attributes": {
         "size": 1
@@ -254,18 +254,54 @@
     },
     {
       "key": "28",
-      "source": "16",
-      "target": "17",
-      "edgeTitle": "prefix",
+      "source": "15",
+      "target": "4",
+      "edgeTitle": "root",
       "attributes": {
         "size": 1
       }
     },
     {
       "key": "29",
-      "source": "17",
-      "target": "2",
+      "source": "18",
+      "target": "5",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "30",
+      "source": "18",
+      "target": "17",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "31",
+      "source": "19",
+      "target": "16",
       "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "32",
+      "source": "20",
+      "target": "16",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "33",
+      "source": "20",
+      "target": "4",
+      "edgeTitle": "root",
       "attributes": {
         "size": 1
       }
@@ -277,118 +313,6 @@
       "attributes": {
         "x": -0,
         "y": 0,
-        "label": "mail.pdacontrolen.com",
-        "pointTitle": "subdomain: mail.pdacontrolen.com",
-        "color": "#B30000",
-        "category": "subdomain",
-        "type": "border",
-        "source": "AbuseIPDB",
-        "size": 15
-      }
-    },
-    {
-      "key": "1",
-      "attributes": {
-        "x": 1.7089619844921962,
-        "y": -1.5735700739805631,
-        "label": "ns1.arvixeshared.com",
-        "pointTitle": "ns: ns1.arvixeshared.com",
-        "color": "#E36414",
-        "category": "ns",
-        "type": "border",
-        "source": "DNS",
-        "size": 15
-      }
-    },
-    {
-      "key": "2",
-      "attributes": {
-        "x": 2.931309140960314,
-        "y": 3.797338783397172,
-        "label": "143.95.87.74",
-        "pointTitle": "address: 143.95.87.74",
-        "color": "#8F3D32",
-        "category": "address",
-        "type": "border",
-        "source": "DNS",
-        "size": 15
-      }
-    },
-    {
-      "key": "3",
-      "attributes": {
-        "x": 5.2793757084500825,
-        "y": -3.18971012501626,
-        "label": "www.pdacontrolen.com",
-        "pointTitle": "subdomain: www.pdacontrolen.com",
-        "color": "#B30000",
-        "category": "subdomain",
-        "type": "border",
-        "source": "DuckDuckGo",
-        "size": 15
-      }
-    },
-    {
-      "key": "4",
-      "attributes": {
-        "x": 5.545799211702492,
-        "y": 6.803919585962809,
-        "label": "cpcalendars.pdacontrolen.com",
-        "pointTitle": "subdomain: cpcalendars.pdacontrolen.com",
-        "color": "#B30000",
-        "category": "subdomain",
-        "type": "border",
-        "source": "AbuseIPDB",
-        "size": 15
-      }
-    },
-    {
-      "key": "5",
-      "attributes": {
-        "x": 6.53741778785664,
-        "y": -6.735535711366819,
-        "label": "pdacontroles.pdacontrolen.com",
-        "pointTitle": "subdomain: pdacontroles.pdacontrolen.com",
-        "color": "#B30000",
-        "category": "subdomain",
-        "type": "border",
-        "source": "HackerTarget",
-        "size": 15
-      }
-    },
-    {
-      "key": "6",
-      "attributes": {
-        "x": 10.338673707049239,
-        "y": 11.977673565756195,
-        "label": "pdacontrolen.com",
-        "pointTitle": "domain: pdacontrolen.com",
-        "color": "#EDE4C7",
-        "category": "domain",
-        "type": "border",
-        "source": "DNS",
-        "size": 15
-      }
-    },
-    {
-      "key": "7",
-      "attributes": {
-        "x": 8.35939311625175,
-        "y": -8.234217110214246,
-        "label": "46606",
-        "pointTitle": "as: 46606, Desc: UNIFIEDLAYER-NETWORK-15 - Unified Layer",
-        "color": "#ED7047",
-        "category": "as",
-        "type": "border",
-        "source": "RIR",
-        "size": 15
-      }
-    },
-    {
-      "key": "8",
-      "attributes": {
-        "x": -9.25531484146046,
-        "y": 13.458079513858769,
         "label": "162.214.129.78",
         "pointTitle": "address: 162.214.129.78",
         "color": "#8F3D32",
@@ -399,96 +323,12 @@
       }
     },
     {
-      "key": "9",
+      "key": "1",
       "attributes": {
-        "x": 14.276005168218598,
-        "y": -10.1074613196951,
-        "label": "ns2.arvixeshared.com",
-        "pointTitle": "ns: ns2.arvixeshared.com",
-        "color": "#E36414",
-        "category": "ns",
-        "type": "border",
-        "source": "DNS",
-        "size": 15
-      }
-    },
-    {
-      "key": "10",
-      "attributes": {
-        "x": -12.40735277615153,
-        "y": 13.22142830198029,
-        "label": "iot.pdacontrolen.com",
-        "pointTitle": "subdomain: iot.pdacontrolen.com",
-        "color": "#B30000",
-        "category": "subdomain",
-        "type": "border",
-        "source": "HackerTarget",
-        "size": 15
-      }
-    },
-    {
-      "key": "11",
-      "attributes": {
-        "x": -20.488518414813644,
-        "y": -18.034024611419756,
-        "label": "emoncms.pdacontrolen.com",
-        "pointTitle": "subdomain: emoncms.pdacontrolen.com",
-        "color": "#B30000",
-        "category": "subdomain",
-        "type": "border",
-        "source": "HackerTarget",
-        "size": 15
-      }
-    },
-    {
-      "key": "12",
-      "attributes": {
-        "x": 19.05570507674291,
-        "y": 21.96987831325263,
-        "label": "162.214.0.0/15",
-        "pointTitle": "netblock: 162.214.0.0/15",
-        "color": "#CC301E",
-        "category": "netblock",
-        "type": "border",
-        "source": "RIR",
-        "size": 15
-      }
-    },
-    {
-      "key": "13",
-      "attributes": {
-        "x": 25.11005195120076,
-        "y": -14.691643626110505,
-        "label": "arvixeshared.com",
-        "pointTitle": "domain: arvixeshared.com",
-        "color": "#EDE4C7",
-        "category": "domain",
-        "type": "border",
-        "source": "DNS",
-        "size": 15
-      }
-    },
-    {
-      "key": "14",
-      "attributes": {
-        "x": -18.284449799078217,
-        "y": 16.753217561501636,
-        "label": "webmail.pdacontrolen.com",
-        "pointTitle": "subdomain: webmail.pdacontrolen.com",
-        "color": "#B30000",
-        "category": "subdomain",
-        "type": "border",
-        "source": "Alterations",
-        "size": 15
-      }
-    },
-    {
-      "key": "15",
-      "attributes": {
-        "x": -28.714549453382038,
-        "y": -17.021894476743302,
-        "label": "cpcontacts.pdacontrolen.com",
-        "pointTitle": "subdomain: cpcontacts.pdacontrolen.com",
+        "x": 1.7198541251858321,
+        "y": -1.1477136060140627,
+        "label": "mail.pdacontrolen.com",
+        "pointTitle": "subdomain: mail.pdacontrolen.com",
         "color": "#B30000",
         "category": "subdomain",
         "type": "border",
@@ -497,10 +337,24 @@
       }
     },
     {
-      "key": "16",
+      "key": "2",
       "attributes": {
-        "x": -17.496520936046682,
-        "y": 28.64911970742464,
+        "x": -3.69477637598577,
+        "y": 3.8629281803803845,
+        "label": "ns2.arvixeshared.com",
+        "pointTitle": "ns: ns2.arvixeshared.com",
+        "color": "#E36414",
+        "category": "ns",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "3",
+      "attributes": {
+        "x": 3.7306721474911875,
+        "y": -5.442010312365555,
         "label": "62729",
         "pointTitle": "as: 62729, Desc: ASMALLORANGE1",
         "color": "#ED7047",
@@ -511,10 +365,220 @@
       }
     },
     {
+      "key": "4",
+      "attributes": {
+        "x": -4.9649579233506484,
+        "y": 4.719514794600825,
+        "label": "pdacontrolen.com",
+        "pointTitle": "domain: pdacontrolen.com",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "5",
+      "attributes": {
+        "x": 6.233089579952003,
+        "y": -6.612464707492903,
+        "label": "162.214.130.201",
+        "pointTitle": "address: 162.214.130.201",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "6",
+      "attributes": {
+        "x": -6.4947981644081185,
+        "y": 6.752179868076693,
+        "label": "cpcalendars.pdacontrolen.com",
+        "pointTitle": "subdomain: cpcalendars.pdacontrolen.com",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "7",
+      "attributes": {
+        "x": 9.182725763526452,
+        "y": -11.554278988872007,
+        "label": "www.pdacontrolen.com",
+        "pointTitle": "subdomain: www.pdacontrolen.com",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "8",
+      "attributes": {
+        "x": 11.184460496062872,
+        "y": 8.021064625245065,
+        "label": "162.214.0.0/15",
+        "pointTitle": "netblock: 162.214.0.0/15",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "9",
+      "attributes": {
+        "x": 10.562991851831784,
+        "y": -10.07582568885974,
+        "label": "cpcontacts.pdacontrolen.com",
+        "pointTitle": "subdomain: cpcontacts.pdacontrolen.com",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AbuseIPDB",
+        "size": 15
+      }
+    },
+    {
+      "key": "10",
+      "attributes": {
+        "x": -12.629842688624704,
+        "y": 14.107446342298063,
+        "label": "webmail.pdacontrolen.com",
+        "pointTitle": "subdomain: webmail.pdacontrolen.com",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Alterations",
+        "size": 15
+      }
+    },
+    {
+      "key": "11",
+      "attributes": {
+        "x": 11.067532429375422,
+        "y": -14.68832426685262,
+        "label": "46606",
+        "pointTitle": "as: 46606, Desc: UNIFIEDLAYER-AS-1 - Unified Layer",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "12",
+      "attributes": {
+        "x": 23.291503625327433,
+        "y": 15.539444048064976,
+        "label": "mant.pdacontrolen.com",
+        "pointTitle": "subdomain: mant.pdacontrolen.com",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Wayback",
+        "size": 15
+      }
+    },
+    {
+      "key": "13",
+      "attributes": {
+        "x": 25.514478360939023,
+        "y": -22.490176140890348,
+        "label": "emoncms.pdacontrolen.com",
+        "pointTitle": "subdomain: emoncms.pdacontrolen.com",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "HackerTarget",
+        "size": 15
+      }
+    },
+    {
+      "key": "14",
+      "attributes": {
+        "x": -20.815662058271677,
+        "y": 26.663780499286304,
+        "label": "iot.pdacontrolen.com",
+        "pointTitle": "subdomain: iot.pdacontrolen.com",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "HackerTarget",
+        "size": 15
+      }
+    },
+    {
+      "key": "15",
+      "attributes": {
+        "x": -25.754361685281264,
+        "y": -17.5421318956376,
+        "label": "pdacontroles.pdacontrolen.com",
+        "pointTitle": "subdomain: pdacontroles.pdacontrolen.com",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "HackerTarget",
+        "size": 15
+      }
+    },
+    {
+      "key": "16",
+      "attributes": {
+        "x": 16.941163227312032,
+        "y": 28.284606692359002,
+        "label": "143.95.87.74",
+        "pointTitle": "address: 143.95.87.74",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
       "key": "17",
       "attributes": {
-        "x": 29.075085391455765,
-        "y": -23.10807072803705,
+        "x": -21.732475120241645,
+        "y": -22.170519060808346,
+        "label": "arvixeshared.com",
+        "pointTitle": "domain: arvixeshared.com",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "18",
+      "attributes": {
+        "x": -28.136341601843895,
+        "y": 31.04268324683929,
+        "label": "ns1.arvixeshared.com",
+        "pointTitle": "ns: ns1.arvixeshared.com",
+        "color": "#E36414",
+        "category": "ns",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "19",
+      "attributes": {
+        "x": -35.49805321538494,
+        "y": -25.23098539995794,
         "label": "143.95.0.0/17",
         "pointTitle": "netblock: 143.95.0.0/17",
         "color": "#CC301E",
@@ -525,16 +589,16 @@
       }
     },
     {
-      "key": "18",
+      "key": "20",
       "attributes": {
-        "x": 26.540950945813513,
-        "y": 30.535350439690816,
-        "label": "162.214.130.201",
-        "pointTitle": "address: 162.214.130.201",
-        "color": "#8F3D32",
-        "category": "address",
+        "x": 38.18760841550437,
+        "y": 39.98286145654811,
+        "label": "webdisk.pdacontrolen.com",
+        "pointTitle": "subdomain: webdisk.pdacontrolen.com",
+        "color": "#B30000",
+        "category": "subdomain",
         "type": "border",
-        "source": "DNS",
+        "source": "AbuseIPDB",
         "size": 15
       }
     }
