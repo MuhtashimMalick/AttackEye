@@ -81,6 +81,7 @@ form.onsubmit = function() {
 	// cancel button
 	toolOverlay.querySelectorAll('button')[1].onclick = () => {
 		scanFormContainer.removeChild(toolOverlayContainer);
+		spinner.style.display = "none";
 	}
 
 	return startScan(domainInputValue);
