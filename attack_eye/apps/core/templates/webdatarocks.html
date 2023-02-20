@@ -1,0 +1,443 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Table View</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style type="text/css">
+        html,     body{
+            height:100%;
+            overflow-x: hidden !important;
+       margin:0;
+       padding:0;
+      
+     
+       {% comment %} background-image: url({% static 'img/1.jpg' %});  {% endcomment %}
+       /* font-family: 'Oxygen', sans-serif; */
+      }
+        #container {
+            position:absolute;
+            height:100%;
+            width:100%;
+            border:1px solid #999;
+            background-color: #4CAF50; 
+        }
+        #div1, #wdr-component {
+            position:absolute;
+        }
+        #div1 {
+            top:10px;
+            /*background-color: gray; */
+        }
+
+        .center {
+          display: block;
+          margin-left: 50%;
+      }
+
+      #wdr-component {
+        top:90px;
+        min-height:99%;
+    }
+</style>
+
+</head>
+<body>
+
+    <style>
+
+      html,
+      body,
+      :root{
+        --alternate_color:#767171;
+        --main_color:#a4c639;
+        --alternative_color:black;
+        --font_color:white;
+      },
+      #sigma-container {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        margin-left: auto; 
+        margin-right: auto;
+        background-color: #000;
+    }
+
+    .fa {
+      margin-left: -12px;
+      margin-right: 8px;
+  }
+
+  #buttons {
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    display: flex;
+}
+#buttons > button {
+    margin-right: 1em;
+    display: inline-block;
+    text-align: center;
+    background: white;
+    outline: none;
+    border: 1px solid dimgrey;
+    border-radius: 2px;
+    cursor: pointer;
+}
+#buttons > button img {
+    height: 2em;
+}
+#buttons > button > span {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+#buttons > button:last-child {
+    margin-right: 0;
+}
+
+.input {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+.input:not(:hover) label {
+    display: none;
+}
+.input label {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: black;
+    color: white;
+    padding: 0.2em;
+    border-radius: 2px;
+    margin-top: 0.3em;
+    font-size: 0.8em;
+    white-space: nowrap;
+}
+.input button {
+    width: 2.5em;
+    height: 2.5em;
+    display: inline-block;
+    text-align: center;
+    background: white;
+    outline: none;
+    border: 1px solid dimgrey;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+
+
+
+.download {
+  position: absolute;
+  left: 79em;
+  top: 1em;
+  background: #458ea0;
+  cursor: pointer;
+  color: white;
+  padding: 10px 20px;
+  margin: 2px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.graph {
+  position: absolute;
+  left: 88em;
+  top: 1em;
+  background: black;
+  cursor: pointer;
+  color: white;
+  padding: 10px 20px;
+  margin: 2px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=text], select {
+  position: absolute;
+  left: 50em;
+  top: 1em;
+  padding: 9px 20px;
+  margin: 2px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  position: absolute;
+  left: 70em;
+  top: 1em;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  margin: 2px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.buttonload:hover {
+  background-color: #45a049;
+}
+
+.buttonload {
+  position: absolute;
+  left: 58em;
+  top: 1em;
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  padding: 8px 24px; /* Some padding */
+  border: none;  
+  font-size: 16px; /* Set a font-size */
+  margin-right: 1em;
+  display: inline-block;
+  text-align: center;
+  outline: none;
+  border-radius: 2px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.buttonloader {
+  position: absolute;
+  left: 58em;
+  top: 1em;
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  padding: 8px 24px; /* Some padding */
+  border: none;  
+  font-size: 16px; /* Set a font-size */
+  margin-right: 1em;
+  display: inline-block;
+  text-align: center;
+  outline: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.topnav {
+  position:absolute;
+  top:0px;
+  width:100%;
+  display: flex;
+  padding: 4px;
+  color: white;
+  margin:0px;
+  padding: 0;
+  background-color: #263238c2;
+  border-bottom: 1px solid #444444;
+}
+.topnav a {
+    text-align: center;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .active {
+   /* background-color: black; */
+   color: var(--font_color);
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+   display: none;
+  }
+  .Navbar__Link a img {
+    width: 250px;
+    height: auto;
+}
+
+</style>
+<div class="topnav" id="myTopnav">
+<div class="left">
+  <div class="Navbar__Link Navbar__Link-brand" style="padding: 0.5em 1em;">        
+    <a href="/"><img src="{% static 'img/white2.png' %}" alt="logo" id="im"></a>
+  </div>
+</div>
+    
+</div>    
+
+<link href="https://cdn.webdatarocks.com/latest/webdatarocks.min.css" rel="stylesheet"/>
+<script src="https://cdn.webdatarocks.com/latest/webdatarocks.toolbar.min.js"></script>
+<script src="https://cdn.webdatarocks.com/latest/webdatarocks.js"></script>
+<link href="https://cdn.webdatarocks.com/latest/theme/default/webdatarocks.min.css" rel="stylesheet"/>
+
+<div id="wdr-component"></div>
+
+<div id="sigma-container"></div>
+{% comment %} <div id="app" >
+    <form id="myform" >
+      <fieldset>
+        <input type="text" name="textInput" placeholder="Enter domain name ...">
+    </fieldset>
+    <button class="buttonloader">
+        <i class="fa fa-spinner fa-spin"></i> Submit
+    </button>
+    <button class="buttonload">
+        Submit
+    </button>
+  </form>
+  
+  <button class="download">
+    Download
+  </button>
+  
+  <button class="graph" onclick="location.href='http://localhost:8080/index'" type="button">Graph</button>
+  
+  
+  </div> {% endcomment %}
+<script>
+    function customizeToolbar(toolbar) {
+        var tabs = toolbar.getTabs(); // get all tabs from the toolbar
+      
+        toolbar.getTabs = function() {
+            // There will be two new tabs at the beginning of the Toolbar 
+            
+            tabs.unshift({
+                id: "wdr-tab-graph",
+                title: "Graph",
+                handler: newtabHandlerGraph,
+                icon: `<svg xmlns="http://www.w3.org/2000/svg" width="30" height="36" fill="currentColor" class="bi bi-arrow-left-square-fill" viewBox="0 0 16 16">
+                    <path d="M16 14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12zm-4.5-6.5H5.707l2.147-2.146a.5.5 0 1 0-.708-.708l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708-.708L5.707 8.5H11.5a.5.5 0 0 0 0-1z"/>
+                  </svg>`});
+            {% comment %} delete tabs[0]; {% endcomment %}
+            delete tabs[1];
+            delete tabs[2];
+            delete tabs[5];
+            delete tabs[6];
+            tabs[3].icon=`<svg xmlns="http://www.w3.org/2000/svg" width="30" height="36" fill="currentColor" class="bi bi-save-fill" viewBox="0 0 16 16">
+                <path d="M8.5 1.5A1.5 1.5 0 0 1 10 0h4a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h6c-.314.418-.5.937-.5 1.5v7.793L4.854 6.646a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l3.5-3.5a.5.5 0 0 0-.708-.708L8.5 9.293V1.5z"/>
+              </svg>`;
+  
+            tabs[4].icon=`<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"/>
+                <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+              </svg>`
+            tabs[7].icon=`<svg xmlns="http://www.w3.org/2000/svg" width="30" height="36" fill="currentColor" class="bi bi-gear-fill" viewBox="0 0 16 16">
+                <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"/>
+              </svg>`  
+            tabs[8].icon=`<svg xmlns="http://www.w3.org/2000/svg" width="30" height="36" fill="currentColor" class="bi bi-aspect-ratio-fill" viewBox="0 0 16 16">
+                <path d="M0 12.5v-9A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5zM2.5 4a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 1 0V5h2.5a.5.5 0 0 0 0-1h-3zm11 8a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-1 0V11h-2.5a.5.5 0 0 0 0 1h3z"/>
+              </svg>`  
+            return tabs;
+        }
+        var newtabHandlerGraph = function() {
+            window.location.href="/surface"
+        };
+        
+
+    }
+    var graphname=window.localStorage.getItem("graphname")
+    console.log(graphname)
+ var pivot = new WebDataRocks({
+     container: "#wdr-component",
+      beforetoolbarcreated: customizeToolbar,
+     toolbar: true,
+     report: {
+         "dataSource": {
+             "dataSourceType": "csv",
+             "filename": `/api/download/csv/${graphname}`
+         // "filename": "https://cdn.webdatarocks.com/data/data.csv"
+     },
+     "slice": {
+         "rows": [
+         {
+             "uniqueName": "Domain"
+         },
+         {
+             "uniqueName": "DNSName"
+         },
+         {
+             "uniqueName": "IPv4Address"
+         },
+         {
+             "uniqueName": "Company",
+         },
+         {
+             "uniqueName": "AS"
+         },
+         {
+             "uniqueName": "MXRecord"
+         },
+         {
+             "uniqueName": "NSRecord"
+         },
+         {
+             "uniqueName": "Netblock"
+         }
+         ],
+         "columns": [
+         {
+             "uniqueName": "Measures"
+         }
+         ],
+         "measures": [
+         {
+             "uniqueName": "AS",
+             "aggregation": "sum",
+             "active": false,
+             "format": "4uebcnid"
+         }
+         ],
+         "flatOrder": [
+         "Domain",
+         "DNSName",
+         "IPv4Address",
+         "Company",
+         "AS",
+         "MXRecord",
+         "NSRecord",
+         "Netblock"
+         ]
+     },
+     "options": {
+         "grid": {
+             "type": "flat",
+             "showTotals": "off",
+             "showGrandTotals": "off"
+         }
+     },
+     "formats": [
+     {
+         "name": "4uebcnid",
+         "thousandsSeparator": " ",
+         "decimalSeparator": ".",
+         "currencySymbol": "",
+         "currencySymbolAlign": "right",
+         "nullValue": ".",
+         "textAlign": "right",
+         "isPercent": false
+     },
+     {
+         "name": "",
+         "thousandsSeparator": " ",
+         "decimalSeparator": ".",
+         "currencySymbol": "",
+         "currencySymbolAlign": "right",
+         "nullValue": "",
+         "textAlign": "right",
+         "isPercent": false
+     }
+     ]
+ }
+ });
+</script>

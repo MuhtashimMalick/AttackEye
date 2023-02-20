@@ -1,0 +1,135 @@
+{% extends "./base.html" %}
+{% load static %}
+
+{% block content %}
+<style>
+    #begining {
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+        color: white;
+        background: rgb(14, 32, 32);
+        background: radial-gradient(circle,
+                rgba(14, 32, 32, 1) 0%,
+                rgba(13, 4, 32, 1) 100%);
+    }
+
+    #begining1 {
+        border: 4px solid red !important;
+        border-radius: 5px !important;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        color: white !important;
+    }
+
+    #head {
+        margin-top: 20px !important;
+        text-decoration: underline;
+    }
+
+    #c1 {
+        font-weight: 500;
+        font-size: 18px;
+        margin-left: 2%;
+    }
+
+    .d1 {
+        font-weight: 300;
+        margin-left: 1%;
+    }
+</style>
+
+    <div class="container-fluid" id="begining">
+        <div class="container-lg" id="begining1" data-aos="fade-up">
+            <h1 id="head">Host Information</h1>
+            <p>
+                <span id="c1">Hostname: </span><span class="d1">{{ report.host }} </span>
+                <span id="c1">IP Address: </span><span class="d1">{{ report.address }} </span>
+            </p>
+            <h1 id="head">Ports Information</h1>
+            <p>
+                <span id="c1">Filtered Ports: </span><span class="d1">{{ report.filtered_ports }} </span>
+                <span id="c1">Closed Ports: </span><span class="d1">{{ report.closed_ports }} </span>
+                <span id="c1">Open Ports: </span><span class="d1">{{ report.open_ports|length }}</span>
+            </p>
+            {% for port in report.open_ports %}
+            <p>
+                <span id="c1">Protocol: </span><span class="d1">{{ port.protocol }}</span>
+                <span id="c1">Port ID: </span><span class="d1">{{ port.port_id }}</span>
+                <span id="c1">State: </span><span class="d1">{{ port.state }}</span>
+                <br>
+                <span id="c1">Service: </span><span class="d1">{{ port.services.name|default:"N/A" }}</span>
+                <span id="c1">Product: </span><span class="d1">{{ port.services.product|default:"N/A" }}</span>
+                <span id="c1">Version: </span><span class="d1">{{ port.services.version|default:"N/A" }}</span>
+                <span id="c1">Confidence: </span><span class="d1">{{ port.services.conf|default:"N/A" }}</span>
+                <span id="c1">Method: </span><span class="d1">{{ port.services.method|default:"N/A" }}</span>
+                <br />
+                <span id="c1">Common Platform Enumeration(CPE): </span>
+                <span class="d1">{{port.cpe|default:"N/A"}}</span>
+                <span id="c1">ExtraInfo: </span><span class="d1">{{ port.services.extrainfo|default:"N/A" }}</span>
+            </p>
+            {% endfor %}
+            <h1 id="head">Operating System Information</h1>
+            <p>
+                <span id="c1">Open Port used for OS Detection:</span>
+                <span id="c1">Protocol: </span><span class="d1">{{ report.open_port_used_os.proto }}</span>
+                <span id="c1">Port ID: </span><span class="d1">{{ report.open_port_used_os.portid }}</span>
+                <span id="c1">State: </span><span class="d1">{{ report.open_port_used_os.state }}</span>
+            </p>
+            {% if report.closed_port_used_os == None %}
+            <p>
+                <span id="c1">Closed Port used for OS Detection: </span><span class="d1">None</span>
+            </p>
+            {% else %}
+            <p>
+                <span id="c1">Closed Port used for OS Detection:</span>
+                <span id="c1">Protocol: </span>
+                <span class="d1">{{ report.closed_port_used_os.proto|default:"None"}}</span>
+                <span id="c1">Port ID: </span>
+                <span class="d1">{{ report.closed_port_used_os.portid|default:"None"}}</span>
+                <span id="c1">State: </span>
+                <span class="d1">{{ report.closed_port_used_os.state|default:"None"}}</span>
+            </p>
+            {% endif %} {% for os in report.os_detail %}
+            <p>
+                <span id="c1">Operating System:
+                    <span class="d1">{{ os.os_match.name|default:"None" }}</span>
+                </span>
+                <span id="c1">Accuracy: </span><span class="d1">{{ os.os_match.accuracy|default:"None" }}%</span>
+                <br />
+                <span id="c1">Type: </span><span class="d1">{{ os.os_class.type|default:"None" }}</span>
+                <span id="c1">Vendor: </span> <span>{{ os.os_class.vendor|default:"None" }}
+                </span>
+                <span id="c1">OS Family: </span><span class="d1">{{ os.os_class.osfamily|default:"None" }}</span>
+                <span id="c1">Accuracy: </span><span class="d1">{{ os.os_class.accuracy|default:"None" }}%</span>
+                <br />
+                <span id="c1">Common Platform Enumeration(CPE):
+                </span><span class="d1">{{ os.cpe|default:"None" }}</span>
+            </p>
+            {% endfor %}
+            <h1 id="head">Traceroute Information ({{ report.hops|length }} hops)</h1>
+            <p>
+                <span id="c1">Port Used: </span><span class="d1">{{ report.trace_route_port.port }}</span>
+                <span id="c1">Protocol: </span><span class="d1">{{ report.trace_route_port.proto }}</span>
+            </p>
+            {% for hop in report.hops %}
+            <p>
+                <span id="c1">Hostname: </span><span class="d1">{{ hop.host|default:"N/A" }}</span>
+                <span id="c1">IP Address: </span><span class="d1">{{ hop.ipaddr|default:"N/A" }}</span>
+                <span id="c1">Time To Live(TTL): </span> <span class="d1">{{ hop.ttl|default:"N/A" }}</span>
+                <span id="c1">Round Trip Time(RTT): </span><span class="d1">{{ hop.rtt|default:"N/A" }}</span>
+            </p>
+            {% endfor %}
+        </div>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init(
+            {
+                offset: 120,
+                duration: 1900,
+            }
+        );
+    </script>
+
+{% endblock %}

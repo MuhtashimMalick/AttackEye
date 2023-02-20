@@ -1,0 +1,5079 @@
+{
+  "edges": [
+    {
+      "key": "0",
+      "source": "0",
+      "target": "36",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "1",
+      "source": "0",
+      "target": "32",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "2",
+      "source": "0",
+      "target": "55",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "3",
+      "source": "1",
+      "target": "1",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "4",
+      "source": "2",
+      "target": "53",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "5",
+      "source": "2",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "6",
+      "source": "5",
+      "target": "100",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "7",
+      "source": "5",
+      "target": "35",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "8",
+      "source": "5",
+      "target": "153",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "9",
+      "source": "5",
+      "target": "3",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "10",
+      "source": "7",
+      "target": "177",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "11",
+      "source": "7",
+      "target": "26",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "12",
+      "source": "7",
+      "target": "55",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "13",
+      "source": "7",
+      "target": "16",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "14",
+      "source": "7",
+      "target": "158",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "15",
+      "source": "10",
+      "target": "97",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "16",
+      "source": "10",
+      "target": "125",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "17",
+      "source": "10",
+      "target": "121",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "18",
+      "source": "10",
+      "target": "65",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "19",
+      "source": "11",
+      "target": "26",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "20",
+      "source": "12",
+      "target": "79",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "21",
+      "source": "12",
+      "target": "38",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "22",
+      "source": "12",
+      "target": "140",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "23",
+      "source": "12",
+      "target": "9",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "24",
+      "source": "12",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "25",
+      "source": "12",
+      "target": "153",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "26",
+      "source": "12",
+      "target": "35",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "27",
+      "source": "12",
+      "target": "3",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "28",
+      "source": "12",
+      "target": "100",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "29",
+      "source": "13",
+      "target": "55",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "30",
+      "source": "13",
+      "target": "12",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "31",
+      "source": "17",
+      "target": "4",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "32",
+      "source": "17",
+      "target": "106",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "33",
+      "source": "17",
+      "target": "105",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "34",
+      "source": "17",
+      "target": "31",
+      "edgeTitle": "mx_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "35",
+      "source": "17",
+      "target": "40",
+      "edgeTitle": "mx_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "36",
+      "source": "17",
+      "target": "55",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "37",
+      "source": "17",
+      "target": "71",
+      "edgeTitle": "ns_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "38",
+      "source": "17",
+      "target": "70",
+      "edgeTitle": "ns_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "39",
+      "source": "17",
+      "target": "46",
+      "edgeTitle": "ns_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "40",
+      "source": "17",
+      "target": "182",
+      "edgeTitle": "ns_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "41",
+      "source": "18",
+      "target": "55",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "42",
+      "source": "18",
+      "target": "44",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "43",
+      "source": "20",
+      "target": "165",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "44",
+      "source": "20",
+      "target": "58",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "45",
+      "source": "20",
+      "target": "6",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "46",
+      "source": "20",
+      "target": "109",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "47",
+      "source": "20",
+      "target": "115",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "48",
+      "source": "21",
+      "target": "141",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "49",
+      "source": "21",
+      "target": "55",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "50",
+      "source": "22",
+      "target": "115",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "51",
+      "source": "22",
+      "target": "109",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "52",
+      "source": "23",
+      "target": "128",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "53",
+      "source": "30",
+      "target": "142",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "54",
+      "source": "30",
+      "target": "73",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "55",
+      "source": "31",
+      "target": "128",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "56",
+      "source": "31",
+      "target": "155",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "57",
+      "source": "31",
+      "target": "117",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "58",
+      "source": "34",
+      "target": "55",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "59",
+      "source": "34",
+      "target": "12",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "60",
+      "source": "37",
+      "target": "151",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "61",
+      "source": "39",
+      "target": "104",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "62",
+      "source": "39",
+      "target": "56",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "63",
+      "source": "39",
+      "target": "101",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "64",
+      "source": "39",
+      "target": "156",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "65",
+      "source": "39",
+      "target": "107",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "66",
+      "source": "39",
+      "target": "51",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "67",
+      "source": "39",
+      "target": "48",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "68",
+      "source": "39",
+      "target": "54",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "69",
+      "source": "39",
+      "target": "37",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "70",
+      "source": "39",
+      "target": "60",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "71",
+      "source": "39",
+      "target": "85",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "72",
+      "source": "40",
+      "target": "155",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "73",
+      "source": "40",
+      "target": "128",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "74",
+      "source": "40",
+      "target": "117",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "75",
+      "source": "41",
+      "target": "55",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "76",
+      "source": "41",
+      "target": "114",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "77",
+      "source": "42",
+      "target": "55",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "78",
+      "source": "42",
+      "target": "99",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "79",
+      "source": "43",
+      "target": "82",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "80",
+      "source": "43",
+      "target": "129",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "81",
+      "source": "43",
+      "target": "142",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "82",
+      "source": "43",
+      "target": "164",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "83",
+      "source": "43",
+      "target": "14",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "84",
+      "source": "43",
+      "target": "62",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "85",
+      "source": "43",
+      "target": "160",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "86",
+      "source": "44",
+      "target": "44",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "87",
+      "source": "46",
+      "target": "97",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "88",
+      "source": "46",
+      "target": "61",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "89",
+      "source": "46",
+      "target": "145",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "90",
+      "source": "48",
+      "target": "91",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "91",
+      "source": "49",
+      "target": "36",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "92",
+      "source": "50",
+      "target": "33",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "93",
+      "source": "50",
+      "target": "4",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "94",
+      "source": "50",
+      "target": "163",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "95",
+      "source": "51",
+      "target": "88",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "96",
+      "source": "52",
+      "target": "14",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "97",
+      "source": "52",
+      "target": "63",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "98",
+      "source": "54",
+      "target": "74",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "99",
+      "source": "55",
+      "target": "177",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "100",
+      "source": "55",
+      "target": "26",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "101",
+      "source": "55",
+      "target": "113",
+      "edgeTitle": "mx_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "102",
+      "source": "55",
+      "target": "83",
+      "edgeTitle": "mx_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "103",
+      "source": "55",
+      "target": "89",
+      "edgeTitle": "mx_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "104",
+      "source": "55",
+      "target": "166",
+      "edgeTitle": "mx_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "105",
+      "source": "55",
+      "target": "131",
+      "edgeTitle": "mx_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "106",
+      "source": "55",
+      "target": "55",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "107",
+      "source": "55",
+      "target": "158",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "108",
+      "source": "55",
+      "target": "16",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "109",
+      "source": "55",
+      "target": "43",
+      "edgeTitle": "ns_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "110",
+      "source": "55",
+      "target": "90",
+      "edgeTitle": "ns_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "111",
+      "source": "56",
+      "target": "138",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "112",
+      "source": "59",
+      "target": "157",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "113",
+      "source": "60",
+      "target": "53",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "114",
+      "source": "66",
+      "target": "158",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "115",
+      "source": "70",
+      "target": "121",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "116",
+      "source": "70",
+      "target": "110",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "117",
+      "source": "70",
+      "target": "76",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "118",
+      "source": "71",
+      "target": "65",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "119",
+      "source": "71",
+      "target": "172",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "120",
+      "source": "71",
+      "target": "47",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "121",
+      "source": "72",
+      "target": "62",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "122",
+      "source": "72",
+      "target": "28",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "123",
+      "source": "75",
+      "target": "129",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "124",
+      "source": "75",
+      "target": "86",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "125",
+      "source": "77",
+      "target": "160",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "126",
+      "source": "77",
+      "target": "147",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "127",
+      "source": "78",
+      "target": "16",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "128",
+      "source": "80",
+      "target": "58",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "129",
+      "source": "80",
+      "target": "165",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "130",
+      "source": "81",
+      "target": "145",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "131",
+      "source": "81",
+      "target": "167",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "132",
+      "source": "81",
+      "target": "76",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "133",
+      "source": "81",
+      "target": "47",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "134",
+      "source": "83",
+      "target": "91",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "135",
+      "source": "83",
+      "target": "68",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "136",
+      "source": "83",
+      "target": "111",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "137",
+      "source": "85",
+      "target": "25",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "138",
+      "source": "87",
+      "target": "141",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "139",
+      "source": "87",
+      "target": "55",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "140",
+      "source": "89",
+      "target": "139",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "141",
+      "source": "89",
+      "target": "68",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "142",
+      "source": "89",
+      "target": "27",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "143",
+      "source": "90",
+      "target": "86",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "144",
+      "source": "90",
+      "target": "29",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "145",
+      "source": "90",
+      "target": "73",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "146",
+      "source": "90",
+      "target": "164",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "147",
+      "source": "90",
+      "target": "147",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "148",
+      "source": "90",
+      "target": "28",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "149",
+      "source": "90",
+      "target": "63",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "150",
+      "source": "92",
+      "target": "55",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "151",
+      "source": "92",
+      "target": "143",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "152",
+      "source": "94",
+      "target": "55",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "153",
+      "source": "94",
+      "target": "137",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "154",
+      "source": "95",
+      "target": "55",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "155",
+      "source": "95",
+      "target": "161",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "156",
+      "source": "99",
+      "target": "67",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "157",
+      "source": "99",
+      "target": "127",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "158",
+      "source": "99",
+      "target": "152",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "159",
+      "source": "99",
+      "target": "99",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "160",
+      "source": "101",
+      "target": "139",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "161",
+      "source": "102",
+      "target": "5",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "162",
+      "source": "102",
+      "target": "168",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "163",
+      "source": "103",
+      "target": "8",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "164",
+      "source": "103",
+      "target": "64",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "165",
+      "source": "103",
+      "target": "57",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "166",
+      "source": "103",
+      "target": "175",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "167",
+      "source": "103",
+      "target": "141",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "168",
+      "source": "103",
+      "target": "24",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "169",
+      "source": "103",
+      "target": "98",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "170",
+      "source": "103",
+      "target": "152",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "171",
+      "source": "103",
+      "target": "127",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "172",
+      "source": "103",
+      "target": "67",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "173",
+      "source": "104",
+      "target": "155",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "174",
+      "source": "107",
+      "target": "27",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "175",
+      "source": "108",
+      "target": "55",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "176",
+      "source": "108",
+      "target": "1",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "177",
+      "source": "112",
+      "target": "93",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "178",
+      "source": "113",
+      "target": "138",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "179",
+      "source": "113",
+      "target": "68",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "180",
+      "source": "113",
+      "target": "179",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "181",
+      "source": "114",
+      "target": "96",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "182",
+      "source": "114",
+      "target": "33",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "183",
+      "source": "114",
+      "target": "69",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "184",
+      "source": "114",
+      "target": "114",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "185",
+      "source": "116",
+      "target": "10",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "186",
+      "source": "116",
+      "target": "81",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "187",
+      "source": "116",
+      "target": "146",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "188",
+      "source": "116",
+      "target": "126",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "189",
+      "source": "116",
+      "target": "169",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "190",
+      "source": "116",
+      "target": "181",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "191",
+      "source": "116",
+      "target": "50",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "192",
+      "source": "116",
+      "target": "136",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "193",
+      "source": "116",
+      "target": "49",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "194",
+      "source": "116",
+      "target": "112",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "195",
+      "source": "117",
+      "target": "31",
+      "edgeTitle": "mx_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "196",
+      "source": "117",
+      "target": "40",
+      "edgeTitle": "mx_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "197",
+      "source": "117",
+      "target": "117",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "198",
+      "source": "118",
+      "target": "23",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "199",
+      "source": "120",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "200",
+      "source": "120",
+      "target": "2",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "201",
+      "source": "122",
+      "target": "55",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "202",
+      "source": "122",
+      "target": "130",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "203",
+      "source": "123",
+      "target": "55",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "204",
+      "source": "123",
+      "target": "170",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "205",
+      "source": "126",
+      "target": "96",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "206",
+      "source": "130",
+      "target": "157",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "207",
+      "source": "130",
+      "target": "119",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "208",
+      "source": "130",
+      "target": "19",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "209",
+      "source": "130",
+      "target": "144",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "210",
+      "source": "130",
+      "target": "45",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "211",
+      "source": "131",
+      "target": "25",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "212",
+      "source": "131",
+      "target": "68",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "213",
+      "source": "131",
+      "target": "74",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "214",
+      "source": "132",
+      "target": "30",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "215",
+      "source": "132",
+      "target": "180",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "216",
+      "source": "132",
+      "target": "77",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "217",
+      "source": "132",
+      "target": "72",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "218",
+      "source": "132",
+      "target": "75",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "219",
+      "source": "132",
+      "target": "11",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "220",
+      "source": "132",
+      "target": "52",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "221",
+      "source": "132",
+      "target": "66",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "222",
+      "source": "132",
+      "target": "134",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "223",
+      "source": "132",
+      "target": "78",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "224",
+      "source": "133",
+      "target": "173",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "225",
+      "source": "133",
+      "target": "148",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "226",
+      "source": "133",
+      "target": "59",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "227",
+      "source": "133",
+      "target": "159",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "228",
+      "source": "134",
+      "target": "177",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "229",
+      "source": "135",
+      "target": "55",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "230",
+      "source": "135",
+      "target": "12",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "231",
+      "source": "136",
+      "target": "106",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "232",
+      "source": "137",
+      "target": "64",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "233",
+      "source": "137",
+      "target": "8",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "234",
+      "source": "137",
+      "target": "57",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "235",
+      "source": "137",
+      "target": "137",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "236",
+      "source": "143",
+      "target": "15",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "237",
+      "source": "143",
+      "target": "20",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "238",
+      "source": "146",
+      "target": "69",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "239",
+      "source": "146",
+      "target": "105",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "240",
+      "source": "148",
+      "target": "144",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "241",
+      "source": "149",
+      "target": "175",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "242",
+      "source": "149",
+      "target": "55",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "243",
+      "source": "150",
+      "target": "103",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "244",
+      "source": "154",
+      "target": "80",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "245",
+      "source": "154",
+      "target": "22",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "246",
+      "source": "156",
+      "target": "111",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "247",
+      "source": "156",
+      "target": "179",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "248",
+      "source": "159",
+      "target": "119",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "249",
+      "source": "161",
+      "target": "98",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "250",
+      "source": "161",
+      "target": "24",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "251",
+      "source": "161",
+      "target": "161",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "252",
+      "source": "162",
+      "target": "55",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "253",
+      "source": "162",
+      "target": "120",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "254",
+      "source": "166",
+      "target": "91",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "255",
+      "source": "166",
+      "target": "151",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "256",
+      "source": "166",
+      "target": "68",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "257",
+      "source": "166",
+      "target": "111",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "258",
+      "source": "166",
+      "target": "88",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "259",
+      "source": "168",
+      "target": "9",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "260",
+      "source": "168",
+      "target": "79",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "261",
+      "source": "168",
+      "target": "38",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "262",
+      "source": "168",
+      "target": "140",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "263",
+      "source": "169",
+      "target": "124",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "264",
+      "source": "170",
+      "target": "93",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "265",
+      "source": "170",
+      "target": "163",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "266",
+      "source": "170",
+      "target": "124",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "267",
+      "source": "170",
+      "target": "171",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "268",
+      "source": "173",
+      "target": "19",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "269",
+      "source": "174",
+      "target": "55",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "270",
+      "source": "174",
+      "target": "143",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "271",
+      "source": "178",
+      "target": "55",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "272",
+      "source": "178",
+      "target": "99",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "273",
+      "source": "180",
+      "target": "82",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "274",
+      "source": "180",
+      "target": "29",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "275",
+      "source": "181",
+      "target": "32",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "276",
+      "source": "182",
+      "target": "125",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "277",
+      "source": "182",
+      "target": "84",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "278",
+      "source": "182",
+      "target": "167",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "key": "0",
+      "attributes": {
+        "x": -0,
+        "y": 0,
+        "label": "uk.studio.iterative.ai",
+        "pointTitle": "subdomain: uk.studio.iterative.ai",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "1",
+      "attributes": {
+        "x": -1.9137392990052065,
+        "y": -1.0010705727611953,
+        "label": "internal-910d566c-stage-alb-8c78-1242925895.us-east-2.elb.amazonaws.com",
+        "pointTitle": "domain: internal-910d566c-stage-alb-8c78-1242925895.us-east-2.elb.amazonaws.com",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "Digitorus",
+        "size": 15
+      }
+    },
+    {
+      "key": "2",
+      "attributes": {
+        "x": 3.555910731375385,
+        "y": 2.820740595848523,
+        "label": "api.us-e1.learnworlds.com",
+        "pointTitle": "subdomain: api.us-e1.learnworlds.com",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "3",
+      "attributes": {
+        "x": 4.41941729352603,
+        "y": -5.365747411553846,
+        "label": "2606:50c0:8002::153",
+        "pointTitle": "address: 2606:50c0:8002::153",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "4",
+      "attributes": {
+        "x": -4.47178672253395,
+        "y": 6.800146020207778,
+        "label": "3.16.86.115",
+        "pointTitle": "address: 3.16.86.115",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "5",
+      "attributes": {
+        "x": -9.239002782688946,
+        "y": -7.473624413799447,
+        "label": "2606:50c0:8000::/46",
+        "pointTitle": "netblock: 2606:50c0:8000::/46",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "6",
+      "attributes": {
+        "x": -8.94482484327061,
+        "y": 6.2853429901876625,
+        "label": "hscoscdn10.net",
+        "pointTitle": "domain: hscoscdn10.net",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "7",
+      "attributes": {
+        "x": -10.371759027120657,
+        "y": -13.434523381967221,
+        "label": "www.iterative.ai",
+        "pointTitle": "subdomain: www.iterative.ai",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Bing",
+        "size": 15
+      }
+    },
+    {
+      "key": "8",
+      "attributes": {
+        "x": -12.55715126906105,
+        "y": 15.619585276542761,
+        "label": "10.0.3.161",
+        "pointTitle": "address: 10.0.3.161",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "9",
+      "attributes": {
+        "x": 13.661822879135968,
+        "y": -13.109216933225289,
+        "label": "185.199.111.153",
+        "pointTitle": "address: 185.199.111.153",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "10",
+      "attributes": {
+        "x": 16.104003942296387,
+        "y": 13.33473892753734,
+        "label": "205.251.192.0/21",
+        "pointTitle": "netblock: 205.251.192.0/21",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "11",
+      "attributes": {
+        "x": -19.698605667355146,
+        "y": -16.650687333757066,
+        "label": "172.67.0.0/16",
+        "pointTitle": "netblock: 172.67.0.0/16",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "12",
+      "attributes": {
+        "x": -12.741142940942359,
+        "y": 19.839256164263084,
+        "label": "iterative.github.io",
+        "pointTitle": "domain: iterative.github.io",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "13",
+      "attributes": {
+        "x": 19.92356426474448,
+        "y": -21.469208888133142,
+        "label": "docs.iterative.ai",
+        "pointTitle": "subdomain: docs.iterative.ai",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "14",
+      "attributes": {
+        "x": 27.729647972155885,
+        "y": 22.243877864691072,
+        "label": "2606:4700:50::adf5:3a45",
+        "pointTitle": "address: 2606:4700:50::adf5:3a45",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "15",
+      "attributes": {
+        "x": 29.519756735694813,
+        "y": -26.765834237998682,
+        "label": "hubspot.net",
+        "pointTitle": "domain: hubspot.net",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "16",
+      "attributes": {
+        "x": 25.411289062470757,
+        "y": 23.298828560367852,
+        "label": "2606:4700:3036::6815:53b0",
+        "pointTitle": "address: 2606:4700:3036::6815:53b0",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "17",
+      "attributes": {
+        "x": -25.400595828345693,
+        "y": -32.67584726303001,
+        "label": "studio.iterative.ai",
+        "pointTitle": "subdomain: studio.iterative.ai",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "18",
+      "attributes": {
+        "x": -32.793417318840824,
+        "y": 32.020151823214235,
+        "label": "ngrok.dev.iterative.ai",
+        "pointTitle": "subdomain: ngrok.dev.iterative.ai",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "19",
+      "attributes": {
+        "x": -32.62795484884032,
+        "y": -29.669540407760984,
+        "label": "54.209.91.188",
+        "pointTitle": "address: 54.209.91.188",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "20",
+      "attributes": {
+        "x": 26.423223568961372,
+        "y": 28.706478277582153,
+        "label": "group17.sites.hscoscdn10.net",
+        "pointTitle": "subdomain: group17.sites.hscoscdn10.net",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "21",
+      "attributes": {
+        "x": 21.708752356238897,
+        "y": -22.76647421865853,
+        "label": "bitbucket.iterative.ai",
+        "pointTitle": "subdomain: bitbucket.iterative.ai",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Crtsh",
+        "size": 15
+      }
+    },
+    {
+      "key": "22",
+      "attributes": {
+        "x": 28.80283275024646,
+        "y": 25.34021413308072,
+        "label": "2606:2c40::/48",
+        "pointTitle": "netblock: 2606:2c40::/48",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "23",
+      "attributes": {
+        "x": 24.78352460913222,
+        "y": -36.6998029913695,
+        "label": "34.150.208.0/20",
+        "pointTitle": "netblock: 34.150.208.0/20",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "24",
+      "attributes": {
+        "x": -26.502884916771645,
+        "y": 36.061967092103856,
+        "label": "10.3.2.91",
+        "pointTitle": "address: 10.3.2.91",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "25",
+      "attributes": {
+        "x": -27.988266557078163,
+        "y": -49.18614541148047,
+        "label": "209.85.202.26",
+        "pointTitle": "address: 209.85.202.26",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "26",
+      "attributes": {
+        "x": -42.03558719633841,
+        "y": 31.859798798313378,
+        "label": "172.67.179.177",
+        "pointTitle": "address: 172.67.179.177",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "27",
+      "attributes": {
+        "x": -41.75873923854421,
+        "y": -28.50050620057938,
+        "label": "2a00:1450:400c:c06::1b",
+        "pointTitle": "address: 2a00:1450:400c:c06::1b",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "28",
+      "attributes": {
+        "x": -39.82209156799154,
+        "y": 39.54947382764383,
+        "label": "2803:f800:50::6ca2:c1f8",
+        "pointTitle": "address: 2803:f800:50::6ca2:c1f8",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "29",
+      "attributes": {
+        "x": 47.388567776803555,
+        "y": -31.262403318592256,
+        "label": "172.64.33.248",
+        "pointTitle": "address: 172.64.33.248",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "30",
+      "attributes": {
+        "x": -38.640320500032075,
+        "y": 44.03236383214633,
+        "label": "173.245.58.0/23",
+        "pointTitle": "netblock: 173.245.58.0/23",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "31",
+      "attributes": {
+        "x": 55.2251762548603,
+        "y": -46.69525251862573,
+        "label": "mxa.mailgun.org",
+        "pointTitle": "mx: mxa.mailgun.org",
+        "color": "#F7727B",
+        "category": "mx",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "32",
+      "attributes": {
+        "x": 35.02275302216572,
+        "y": 48.33224390026846,
+        "label": "35.179.71.55",
+        "pointTitle": "address: 35.179.71.55",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "33",
+      "attributes": {
+        "x": -61.768426959047176,
+        "y": -58.53480594015466,
+        "label": "3.18.133.74",
+        "pointTitle": "address: 3.18.133.74",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "34",
+      "attributes": {
+        "x": 56.917644425752385,
+        "y": 58.195905641587004,
+        "label": "helm.iterative.ai",
+        "pointTitle": "subdomain: helm.iterative.ai",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "35",
+      "attributes": {
+        "x": 43.30557553802139,
+        "y": -61.76066303185644,
+        "label": "2606:50c0:8003::153",
+        "pointTitle": "address: 2606:50c0:8003::153",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "36",
+      "attributes": {
+        "x": -67.12714147208533,
+        "y": 38.437020678259515,
+        "label": "13.41.213.74",
+        "pointTitle": "address: 13.41.213.74",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "37",
+      "attributes": {
+        "x": -43.82938518784478,
+        "y": -54.59065155701424,
+        "label": "74.125.200.0/24",
+        "pointTitle": "netblock: 74.125.200.0/24",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "38",
+      "attributes": {
+        "x": -39.64416527117216,
+        "y": 63.85184802092503,
+        "label": "185.199.109.153",
+        "pointTitle": "address: 185.199.109.153",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "39",
+      "attributes": {
+        "x": 68.35903806446561,
+        "y": -40.572161636177654,
+        "label": "15169",
+        "pointTitle": "as: 15169, Desc: GOOGLE - Google LLC",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "40",
+      "attributes": {
+        "x": -52.8182203974389,
+        "y": 41.11790439791861,
+        "label": "mxb.mailgun.org",
+        "pointTitle": "mx: mxb.mailgun.org",
+        "color": "#F7727B",
+        "category": "mx",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "41",
+      "attributes": {
+        "x": 67.0645106959523,
+        "y": -73.12302600766782,
+        "label": "viewer.iterative.ai",
+        "pointTitle": "subdomain: viewer.iterative.ai",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "42",
+      "attributes": {
+        "x": -72.2715573798847,
+        "y": 48.38648467642052,
+        "label": "dev.iterative.ai",
+        "pointTitle": "subdomain: dev.iterative.ai",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "43",
+      "attributes": {
+        "x": 51.38717396899161,
+        "y": -51.150456246115404,
+        "label": "aron.ns.cloudflare.com",
+        "pointTitle": "ns: aron.ns.cloudflare.com",
+        "color": "#E36414",
+        "category": "ns",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "44",
+      "attributes": {
+        "x": -61.24203347615051,
+        "y": 69.36992371370036,
+        "label": "a86f2a0f5ace746d6bacd1d3e812456a-915866375.us-east-2.elb.amazonaws.com",
+        "pointTitle": "domain: a86f2a0f5ace746d6bacd1d3e812456a-915866375.us-east-2.elb.amazonaws.com",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "45",
+      "attributes": {
+        "x": -46.68627846442241,
+        "y": -62.869284820967565,
+        "label": "herokudns.com",
+        "pointTitle": "domain: herokudns.com",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "46",
+      "attributes": {
+        "x": -70.91493426299947,
+        "y": 54.5564661278318,
+        "label": "ns-604.awsdns-11.net",
+        "pointTitle": "ns: ns-604.awsdns-11.net",
+        "color": "#E36414",
+        "category": "ns",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "47",
+      "attributes": {
+        "x": -81.08456575574326,
+        "y": -51.14110550649559,
+        "label": "2600:9000:5304:7e00::1",
+        "pointTitle": "address: 2600:9000:5304:7e00::1",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "48",
+      "attributes": {
+        "x": -65.20846070475142,
+        "y": 66.15427423710904,
+        "label": "173.194.202.0/24",
+        "pointTitle": "netblock: 173.194.202.0/24",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "49",
+      "attributes": {
+        "x": -89.05245695012889,
+        "y": -69.4041359239748,
+        "label": "13.40.0.0/14",
+        "pointTitle": "netblock: 13.40.0.0/14",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "50",
+      "attributes": {
+        "x": -84.18863094639428,
+        "y": 88.56143837190879,
+        "label": "3.16.0.0/14",
+        "pointTitle": "netblock: 3.16.0.0/14",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "51",
+      "attributes": {
+        "x": 69.81394055479254,
+        "y": -54.603575198188615,
+        "label": "2404:6800:4003::/48",
+        "pointTitle": "netblock: 2404:6800:4003::/48",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "52",
+      "attributes": {
+        "x": -70.02232873680339,
+        "y": 74.72873738285273,
+        "label": "2606:4700::/32",
+        "pointTitle": "netblock: 2606:4700::/32",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "53",
+      "attributes": {
+        "x": -97.20300002196643,
+        "y": -90.10720024805147,
+        "label": "34.139.50.65",
+        "pointTitle": "address: 34.139.50.65",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "54",
+      "attributes": {
+        "x": 82.88628839538889,
+        "y": 85.13350919797668,
+        "label": "2a00:1450::/32",
+        "pointTitle": "netblock: 2a00:1450::/32",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "55",
+      "attributes": {
+        "x": -58.13456802851306,
+        "y": -67.55009807907962,
+        "label": "iterative.ai",
+        "pointTitle": "domain: iterative.ai",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "56",
+      "attributes": {
+        "x": -70.78128380229504,
+        "y": 60.84388875227427,
+        "label": "142.250.0.0/15",
+        "pointTitle": "netblock: 142.250.0.0/15",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "57",
+      "attributes": {
+        "x": 73.69699968202593,
+        "y": -65.94361624397979,
+        "label": "10.0.1.136",
+        "pointTitle": "address: 10.0.1.136",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "58",
+      "attributes": {
+        "x": -62.482301534198385,
+        "y": 99.84525632165794,
+        "label": "199.60.103.31",
+        "pointTitle": "address: 199.60.103.31",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "59",
+      "attributes": {
+        "x": -69.78542727056754,
+        "y": -88.02938665456317,
+        "label": "54.204.0.0/15",
+        "pointTitle": "netblock: 54.204.0.0/15",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "60",
+      "attributes": {
+        "x": 82.70538411108019,
+        "y": 107.6838388942953,
+        "label": "34.139.0.0/16",
+        "pointTitle": "netblock: 34.139.0.0/16",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "61",
+      "attributes": {
+        "x": -119.73124649373904,
+        "y": -95.78712506552606,
+        "label": "awsdns-11.net",
+        "pointTitle": "domain: awsdns-11.net",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "62",
+      "attributes": {
+        "x": -89.71524085870658,
+        "y": 120.14157378531874,
+        "label": "2803:f800:50::6ca2:c045",
+        "pointTitle": "address: 2803:f800:50::6ca2:c045",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "63",
+      "attributes": {
+        "x": 78.98098886539795,
+        "y": -123.71556009340486,
+        "label": "2606:4700:58::adf5:3bf8",
+        "pointTitle": "address: 2606:4700:58::adf5:3bf8",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "64",
+      "attributes": {
+        "x": 111.19527757113693,
+        "y": 76.22283193359299,
+        "label": "10.0.2.176",
+        "pointTitle": "address: 10.0.2.176",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "65",
+      "attributes": {
+        "x": 95.48474034573816,
+        "y": -89.39980167850109,
+        "label": "205.251.196.126",
+        "pointTitle": "address: 205.251.196.126",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "66",
+      "attributes": {
+        "x": 82.81139812000154,
+        "y": 97.69158953494711,
+        "label": "2606:4700:3030::/48",
+        "pointTitle": "netblock: 2606:4700:3030::/48",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "67",
+      "attributes": {
+        "x": 84.15136955585075,
+        "y": -131.04765007375886,
+        "label": "10.30.12.141",
+        "pointTitle": "address: 10.30.12.141",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "68",
+      "attributes": {
+        "x": 99.09045135051996,
+        "y": 128.7394688622834,
+        "label": "google.com",
+        "pointTitle": "domain: google.com",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "69",
+      "attributes": {
+        "x": -72.82017506827012,
+        "y": -92.9270123429769,
+        "label": "3.21.136.79",
+        "pointTitle": "address: 3.21.136.79",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "70",
+      "attributes": {
+        "x": -80.303916315966,
+        "y": 124.8078152321954,
+        "label": "ns-1946.awsdns-51.co.uk",
+        "pointTitle": "ns: ns-1946.awsdns-51.co.uk",
+        "color": "#E36414",
+        "category": "ns",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "71",
+      "attributes": {
+        "x": 92.49920433874433,
+        "y": -98.3279576191463,
+        "label": "ns-1150.awsdns-15.org",
+        "pointTitle": "ns: ns-1150.awsdns-15.org",
+        "color": "#E36414",
+        "category": "ns",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "72",
+      "attributes": {
+        "x": -96.47205414129,
+        "y": 114.19427794115506,
+        "label": "2803:f800:50::/45",
+        "pointTitle": "netblock: 2803:f800:50::/45",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "73",
+      "attributes": {
+        "x": 91.56537107520629,
+        "y": -118.58491480259997,
+        "label": "173.245.59.248",
+        "pointTitle": "address: 173.245.59.248",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "74",
+      "attributes": {
+        "x": 74.73070384003533,
+        "y": 89.19856047923118,
+        "label": "2a00:1450:4025:c03::1a",
+        "pointTitle": "address: 2a00:1450:4025:c03::1a",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "75",
+      "attributes": {
+        "x": -135.33430771195404,
+        "y": -116.21827791826709,
+        "label": "108.162.192.0/20",
+        "pointTitle": "netblock: 108.162.192.0/20",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "76",
+      "attributes": {
+        "x": -106.86547647429043,
+        "y": 133.4210338567715,
+        "label": "2600:9000:5307:9a00::1",
+        "pointTitle": "address: 2600:9000:5307:9a00::1",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "77",
+      "attributes": {
+        "x": 125.54281845122314,
+        "y": -116.63613734428259,
+        "label": "2a06:98c1:50::/46",
+        "pointTitle": "netblock: 2a06:98c1:50::/46",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "78",
+      "attributes": {
+        "x": -112.41007977553483,
+        "y": 127.87454079420228,
+        "label": "2606:4700:3036::/48",
+        "pointTitle": "netblock: 2606:4700:3036::/48",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "79",
+      "attributes": {
+        "x": -91.40276188766647,
+        "y": -142.9549106523791,
+        "label": "185.199.108.153",
+        "pointTitle": "address: 185.199.108.153",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "80",
+      "attributes": {
+        "x": 125.55519474654645,
+        "y": 101.41441154751135,
+        "label": "199.60.103.0/24",
+        "pointTitle": "netblock: 199.60.103.0/24",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "81",
+      "attributes": {
+        "x": -126.16416345315756,
+        "y": -128.94388105290446,
+        "label": "2600:9000:5300::/45",
+        "pointTitle": "netblock: 2600:9000:5300::/45",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "82",
+      "attributes": {
+        "x": -83.8771058763322,
+        "y": 151.24973365644644,
+        "label": "172.64.32.69",
+        "pointTitle": "address: 172.64.32.69",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "83",
+      "attributes": {
+        "x": -116.45925761044148,
+        "y": -100.73332618266402,
+        "label": "alt1.aspmx.l.google.com",
+        "pointTitle": "mx: alt1.aspmx.l.google.com",
+        "color": "#F7727B",
+        "category": "mx",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "84",
+      "attributes": {
+        "x": -124.73445987753601,
+        "y": 146.43824783704645,
+        "label": "awsdns-29.com",
+        "pointTitle": "domain: awsdns-29.com",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "85",
+      "attributes": {
+        "x": -86.37446683389796,
+        "y": -115.38403476589039,
+        "label": "209.85.202.0/24",
+        "pointTitle": "netblock: 209.85.202.0/24",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "86",
+      "attributes": {
+        "x": 99.85418105315172,
+        "y": 169.54157288281783,
+        "label": "108.162.193.248",
+        "pointTitle": "address: 108.162.193.248",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "87",
+      "attributes": {
+        "x": 141.99115286145832,
+        "y": -121.93888537904368,
+        "label": "jenkins.iterative.ai",
+        "pointTitle": "subdomain: jenkins.iterative.ai",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Crtsh",
+        "size": 15
+      }
+    },
+    {
+      "key": "88",
+      "attributes": {
+        "x": 89.38660870141935,
+        "y": 154.71693673467763,
+        "label": "2404:6800:4003:c00::1b",
+        "pointTitle": "address: 2404:6800:4003:c00::1b",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "89",
+      "attributes": {
+        "x": -143.21532367458693,
+        "y": -99.83838719110304,
+        "label": "aspmx.l.google.com",
+        "pointTitle": "mx: aspmx.l.google.com",
+        "color": "#F7727B",
+        "category": "mx",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "90",
+      "attributes": {
+        "x": 131.45233223436412,
+        "y": 131.51181768855653,
+        "label": "yichun.ns.cloudflare.com",
+        "pointTitle": "ns: yichun.ns.cloudflare.com",
+        "color": "#E36414",
+        "category": "ns",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "91",
+      "attributes": {
+        "x": 153.06494153945306,
+        "y": -102.48077495195025,
+        "label": "173.194.202.27",
+        "pointTitle": "address: 173.194.202.27",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "92",
+      "attributes": {
+        "x": -136.36052348981485,
+        "y": 154.5378999447347,
+        "label": "email.iterative.ai",
+        "pointTitle": "subdomain: email.iterative.ai",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "93",
+      "attributes": {
+        "x": -98.46240935438564,
+        "y": -151.7277251176387,
+        "label": "3.140.28.242",
+        "pointTitle": "address: 3.140.28.242",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "94",
+      "attributes": {
+        "x": 165.91492502733539,
+        "y": 160.12722546544398,
+        "label": "gitlab.iterative.ai",
+        "pointTitle": "subdomain: gitlab.iterative.ai",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Crtsh",
+        "size": 15
+      }
+    },
+    {
+      "key": "95",
+      "attributes": {
+        "x": 181.86347590870392,
+        "y": -182.71464514106458,
+        "label": "uk.admin.iterative.ai",
+        "pointTitle": "subdomain: uk.admin.iterative.ai",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "96",
+      "attributes": {
+        "x": 187.34054075136692,
+        "y": 162.55739036596248,
+        "label": "18.189.253.99",
+        "pointTitle": "address: 18.189.253.99",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "97",
+      "attributes": {
+        "x": -144.1936497107521,
+        "y": -179.68892489421853,
+        "label": "205.251.194.92",
+        "pointTitle": "address: 205.251.194.92",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "98",
+      "attributes": {
+        "x": 140.21848134617701,
+        "y": 148.14979224133975,
+        "label": "10.3.1.227",
+        "pointTitle": "address: 10.3.1.227",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "99",
+      "attributes": {
+        "x": 188.39670387767177,
+        "y": -129.79963016018291,
+        "label": "internal-k8s-internal-124e9c2232-932171135.us-east-2.elb.amazonaws.com",
+        "pointTitle": "domain: internal-k8s-internal-124e9c2232-932171135.us-east-2.elb.amazonaws.com",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "100",
+      "attributes": {
+        "x": -121.81586750550821,
+        "y": 162.2607410966152,
+        "label": "2606:50c0:8001::153",
+        "pointTitle": "address: 2606:50c0:8001::153",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "101",
+      "attributes": {
+        "x": -193.30016667702185,
+        "y": -187.049538908977,
+        "label": "66.102.0.0/21",
+        "pointTitle": "netblock: 66.102.0.0/21",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "102",
+      "attributes": {
+        "x": -180.65922101596584,
+        "y": 111.49308516071692,
+        "label": "54113",
+        "pointTitle": "as: 54113, Desc: FASTLY - Fastly",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "103",
+      "attributes": {
+        "x": -150.12412600985087,
+        "y": -204.57922471522983,
+        "label": "10.0.0.0/8",
+        "pointTitle": "netblock: 10.0.0.0/8",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "104",
+      "attributes": {
+        "x": 202.63784492916128,
+        "y": 164.80077215594207,
+        "label": "34.83.0.0/16",
+        "pointTitle": "netblock: 34.83.0.0/16",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "105",
+      "attributes": {
+        "x": 185.24774269650405,
+        "y": -171.50503233251885,
+        "label": "3.22.44.90",
+        "pointTitle": "address: 3.22.44.90",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "106",
+      "attributes": {
+        "x": -133.9803204859055,
+        "y": 187.67895529013038,
+        "label": "3.12.187.248",
+        "pointTitle": "address: 3.12.187.248",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "107",
+      "attributes": {
+        "x": -156.61842224168757,
+        "y": -197.6132763969714,
+        "label": "2a00:1450:400c::/48",
+        "pointTitle": "netblock: 2a00:1450:400c::/48",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "108",
+      "attributes": {
+        "x": 194.22919036652024,
+        "y": 147.32387713672222,
+        "label": "stage.iterative.ai",
+        "pointTitle": "subdomain: stage.iterative.ai",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Crtsh",
+        "size": 15
+      }
+    },
+    {
+      "key": "109",
+      "attributes": {
+        "x": -214.9275554637266,
+        "y": -198.79572863622894,
+        "label": "2606:2c40::c73c:67e1",
+        "pointTitle": "address: 2606:2c40::c73c:67e1",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "110",
+      "attributes": {
+        "x": -209.09887277340943,
+        "y": 119.13033411607309,
+        "label": "awsdns-51.co.uk",
+        "pointTitle": "domain: awsdns-51.co.uk",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "111",
+      "attributes": {
+        "x": -171.8769000475362,
+        "y": -163.8260437951154,
+        "label": "2607:f8b0:400e:c00::1b",
+        "pointTitle": "address: 2607:f8b0:400e:c00::1b",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "112",
+      "attributes": {
+        "x": 144.82123418070776,
+        "y": 203.64137510644332,
+        "label": "3.136.0.0/13",
+        "pointTitle": "netblock: 3.136.0.0/13",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "113",
+      "attributes": {
+        "x": -206.2228972042975,
+        "y": -182.1374087155918,
+        "label": "alt3.aspmx.l.google.com",
+        "pointTitle": "mx: alt3.aspmx.l.google.com",
+        "color": "#F7727B",
+        "category": "mx",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "114",
+      "attributes": {
+        "x": 137.7195530982426,
+        "y": 227.7775790321251,
+        "label": "815ab6cc-default-alb-0b8b-1912014747.us-east-2.elb.amazonaws.com",
+        "pointTitle": "domain: 815ab6cc-default-alb-0b8b-1912014747.us-east-2.elb.amazonaws.com",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "115",
+      "attributes": {
+        "x": 172.55440858692342,
+        "y": -142.36777862725907,
+        "label": "2606:2c40::c73c:671f",
+        "pointTitle": "address: 2606:2c40::c73c:671f",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "116",
+      "attributes": {
+        "x": -125.76359561952555,
+        "y": 222.52813550186536,
+        "label": "16509",
+        "pointTitle": "as: 16509, Desc: AMAZON-02 - Amazon.com, Inc.",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "117",
+      "attributes": {
+        "x": -189.88169775697435,
+        "y": -166.32824317612523,
+        "label": "mailgun.org",
+        "pointTitle": "domain: mailgun.org",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "118",
+      "attributes": {
+        "x": -181.3118063831102,
+        "y": 206.0668836565382,
+        "label": "396982",
+        "pointTitle": "as: 396982, Desc: GOOGLE-CLOUD-PLATFORM, US",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "119",
+      "attributes": {
+        "x": -208.46276391934032,
+        "y": -156.0842450053543,
+        "label": "54.221.251.148",
+        "pointTitle": "address: 54.221.251.148",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "120",
+      "attributes": {
+        "x": 143.40862207858433,
+        "y": 172.79980753135698,
+        "label": "iterative.learnworlds.com",
+        "pointTitle": "subdomain: iterative.learnworlds.com",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "121",
+      "attributes": {
+        "x": 220.89759376457548,
+        "y": -237.64165144694414,
+        "label": "205.251.199.154",
+        "pointTitle": "address: 205.251.199.154",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "122",
+      "attributes": {
+        "x": 202.378254164017,
+        "y": 169.28863006177522,
+        "label": "papercups.studio.iterative.ai",
+        "pointTitle": "subdomain: papercups.studio.iterative.ai",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "123",
+      "attributes": {
+        "x": 214.4501196380019,
+        "y": -196.3645802798434,
+        "label": "docker.iterative.ai",
+        "pointTitle": "subdomain: docker.iterative.ai",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "124",
+      "attributes": {
+        "x": 178.46555125799574,
+        "y": 132.67773743714827,
+        "label": "18.117.56.11",
+        "pointTitle": "address: 18.117.56.11",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "125",
+      "attributes": {
+        "x": 182.70538076006628,
+        "y": -245.16001285265207,
+        "label": "205.251.192.237",
+        "pointTitle": "address: 205.251.192.237",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "126",
+      "attributes": {
+        "x": 181.9732350615617,
+        "y": 132.96104452993671,
+        "label": "18.188.0.0/14",
+        "pointTitle": "netblock: 18.188.0.0/14",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "127",
+      "attributes": {
+        "x": 214.61743014877703,
+        "y": -133.03955172626408,
+        "label": "10.30.22.37",
+        "pointTitle": "address: 10.30.22.37",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "128",
+      "attributes": {
+        "x": -182.14674148826924,
+        "y": 166.89336198374053,
+        "label": "34.150.216.144",
+        "pointTitle": "address: 34.150.216.144",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "129",
+      "attributes": {
+        "x": 225.4750456180353,
+        "y": -238.06288232497565,
+        "label": "108.162.192.69",
+        "pointTitle": "address: 108.162.192.69",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "130",
+      "attributes": {
+        "x": 218.17320851454795,
+        "y": 233.41096190005968,
+        "label": "rigid-cow-q190t68lo1gglmjsnf3nj0gj.herokudns.com",
+        "pointTitle": "subdomain: rigid-cow-q190t68lo1gglmjsnf3nj0gj.herokudns.com",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "131",
+      "attributes": {
+        "x": 242.7813775290411,
+        "y": -218.888909405251,
+        "label": "alt2.aspmx.l.google.com",
+        "pointTitle": "mx: alt2.aspmx.l.google.com",
+        "color": "#F7727B",
+        "category": "mx",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "132",
+      "attributes": {
+        "x": 175.78521383334464,
+        "y": 146.56953010073894,
+        "label": "13335",
+        "pointTitle": "as: 13335, Desc: CLOUDFLARENET - Cloudflare, Inc.",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "133",
+      "attributes": {
+        "x": -172.7614971144094,
+        "y": -220.7401582146008,
+        "label": "14618",
+        "pointTitle": "as: 14618, Desc: AMAZON-IAD - Amazon Data Services NoVa",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "134",
+      "attributes": {
+        "x": 240.49621233673184,
+        "y": 258.6797398369635,
+        "label": "104.21.80.0/20",
+        "pointTitle": "netblock: 104.21.80.0/20",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "135",
+      "attributes": {
+        "x": -183.33752303750708,
+        "y": -208.16625487326016,
+        "label": "static.iterative.ai",
+        "pointTitle": "subdomain: static.iterative.ai",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Crtsh",
+        "size": 15
+      }
+    },
+    {
+      "key": "136",
+      "attributes": {
+        "x": 269.11918903628947,
+        "y": 220.8834955080324,
+        "label": "3.12.0.0/16",
+        "pointTitle": "netblock: 3.12.0.0/16",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "137",
+      "attributes": {
+        "x": 199.49603659632317,
+        "y": -163.1450365568926,
+        "label": "internal-ac386b1c26a954cb698d4d5f1b257009-1977295361.us-east-2.elb.amazonaws.com",
+        "pointTitle": "domain: internal-ac386b1c26a954cb698d4d5f1b257009-1977295361.us-east-2.elb.amazonaws.com",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "138",
+      "attributes": {
+        "x": -168.34814806545702,
+        "y": 239.9231631952875,
+        "label": "142.250.150.27",
+        "pointTitle": "address: 142.250.150.27",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "139",
+      "attributes": {
+        "x": 163.16304905355707,
+        "y": -190.14963339867143,
+        "label": "66.102.1.27",
+        "pointTitle": "address: 66.102.1.27",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "140",
+      "attributes": {
+        "x": -247.69224801467055,
+        "y": 206.2648002336679,
+        "label": "185.199.110.153",
+        "pointTitle": "address: 185.199.110.153",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "141",
+      "attributes": {
+        "x": 246.91309182014277,
+        "y": -170.5578050076174,
+        "label": "10.0.1.100",
+        "pointTitle": "address: 10.0.1.100",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "142",
+      "attributes": {
+        "x": -147.98249723475922,
+        "y": 270.14748572958496,
+        "label": "173.245.58.69",
+        "pointTitle": "address: 173.245.58.69",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "143",
+      "attributes": {
+        "x": -221.10041560840517,
+        "y": -204.60706027272477,
+        "label": "21087317.group17.sites.hubspot.net",
+        "pointTitle": "subdomain: 21087317.group17.sites.hubspot.net",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "144",
+      "attributes": {
+        "x": 183.42267708815766,
+        "y": 262.5168477587187,
+        "label": "75.101.184.39",
+        "pointTitle": "address: 75.101.184.39",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "145",
+      "attributes": {
+        "x": -171.05236207564735,
+        "y": -207.13826531660246,
+        "label": "2600:9000:5302:5c00::1",
+        "pointTitle": "address: 2600:9000:5302:5c00::1",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "146",
+      "attributes": {
+        "x": -178.3922902363392,
+        "y": 243.54076519493896,
+        "label": "3.20.0.0/14",
+        "pointTitle": "netblock: 3.20.0.0/14",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "147",
+      "attributes": {
+        "x": 160.68137161034295,
+        "y": -246.42980515205053,
+        "label": "2a06:98c1:50::ac40:21f8",
+        "pointTitle": "address: 2a06:98c1:50::ac40:21f8",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "148",
+      "attributes": {
+        "x": 246.08779822259646,
+        "y": 181.51125510850193,
+        "label": "75.101.128.0/17",
+        "pointTitle": "netblock: 75.101.128.0/17",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "149",
+      "attributes": {
+        "x": 160.53069377263435,
+        "y": -280.3338137266742,
+        "label": "github.iterative.ai",
+        "pointTitle": "subdomain: github.iterative.ai",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "150",
+      "attributes": {
+        "x": 258.211012566476,
+        "y": 286.208606443836,
+        "label": "0",
+        "pointTitle": "as: 0, Desc: Reserved Network Address Blocks",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "151",
+      "attributes": {
+        "x": -192.08203156379633,
+        "y": -196.87842306462335,
+        "label": "74.125.200.26",
+        "pointTitle": "address: 74.125.200.26",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "152",
+      "attributes": {
+        "x": -262.98882777186805,
+        "y": 190.7341964837058,
+        "label": "10.30.33.223",
+        "pointTitle": "address: 10.30.33.223",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "153",
+      "attributes": {
+        "x": 271.4578764659046,
+        "y": -252.8144503856724,
+        "label": "2606:50c0:8000::153",
+        "pointTitle": "address: 2606:50c0:8000::153",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "154",
+      "attributes": {
+        "x": -230.05318495586334,
+        "y": 284.63599714759755,
+        "label": "209242",
+        "pointTitle": "as: 209242, Desc: AS209242",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "155",
+      "attributes": {
+        "x": 223.31246608542133,
+        "y": -309.8103009211069,
+        "label": "34.83.33.178",
+        "pointTitle": "address: 34.83.33.178",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "156",
+      "attributes": {
+        "x": 243.7875033158115,
+        "y": 211.87142902516092,
+        "label": "2607:f8b0::/32",
+        "pointTitle": "netblock: 2607:f8b0::/32",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "157",
+      "attributes": {
+        "x": -162.38878035322657,
+        "y": -196.82110619359986,
+        "label": "54.204.238.15",
+        "pointTitle": "address: 54.204.238.15",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "158",
+      "attributes": {
+        "x": 253.03287900656335,
+        "y": 244.70621157395948,
+        "label": "2606:4700:3030::ac43:b3b1",
+        "pointTitle": "address: 2606:4700:3030::ac43:b3b1",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "159",
+      "attributes": {
+        "x": 203.05602061004976,
+        "y": -229.60015487123576,
+        "label": "54.221.0.0/16",
+        "pointTitle": "netblock: 54.221.0.0/16",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "160",
+      "attributes": {
+        "x": -302.04377695052636,
+        "y": 286.67067755278737,
+        "label": "2a06:98c1:50::ac40:2045",
+        "pointTitle": "address: 2a06:98c1:50::ac40:2045",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "161",
+      "attributes": {
+        "x": -200.74296918015585,
+        "y": -284.2400829058664,
+        "label": "internal-k8s-default-internal-c930123b20-685386876.eu-west-2.elb.amazonaws.com",
+        "pointTitle": "domain: internal-k8s-default-internal-c930123b20-685386876.eu-west-2.elb.amazonaws.com",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "162",
+      "attributes": {
+        "x": 269.424436177987,
+        "y": 315.137618497188,
+        "label": "learn.iterative.ai",
+        "pointTitle": "subdomain: learn.iterative.ai",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "163",
+      "attributes": {
+        "x": 230.35112441606066,
+        "y": -283.6851749152243,
+        "label": "3.18.28.113",
+        "pointTitle": "address: 3.18.28.113",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "164",
+      "attributes": {
+        "x": 242.8937542974288,
+        "y": 262.3541821565968,
+        "label": "cloudflare.com",
+        "pointTitle": "domain: cloudflare.com",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "165",
+      "attributes": {
+        "x": 267.11585593060624,
+        "y": -257.4228036598705,
+        "label": "199.60.103.225",
+        "pointTitle": "address: 199.60.103.225",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "166",
+      "attributes": {
+        "x": 182.56578024616903,
+        "y": 227.49662640818946,
+        "label": "alt4.aspmx.l.google.com",
+        "pointTitle": "mx: alt4.aspmx.l.google.com",
+        "color": "#F7727B",
+        "category": "mx",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "167",
+      "attributes": {
+        "x": 189.6179077762842,
+        "y": -210.5836194331867,
+        "label": "2600:9000:5300:ed00::1",
+        "pointTitle": "address: 2600:9000:5300:ed00::1",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "168",
+      "attributes": {
+        "x": -269.5720622675944,
+        "y": 266.3233753455512,
+        "label": "185.199.108.0/22",
+        "pointTitle": "netblock: 185.199.108.0/22",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "169",
+      "attributes": {
+        "x": -262.66129020237446,
+        "y": -251.04257466333078,
+        "label": "18.116.0.0/14",
+        "pointTitle": "netblock: 18.116.0.0/14",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "170",
+      "attributes": {
+        "x": 218.1356146363139,
+        "y": 317.8222514240375,
+        "label": "d-3gdt971mv1.execute-api.us-east-2.amazonaws.com",
+        "pointTitle": "subdomain: d-3gdt971mv1.execute-api.us-east-2.amazonaws.com",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "171",
+      "attributes": {
+        "x": -182.5299914608296,
+        "y": -204.45750811717332,
+        "label": "amazonaws.com",
+        "pointTitle": "domain: amazonaws.com",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "172",
+      "attributes": {
+        "x": 253.41062201750486,
+        "y": 189.8976237324835,
+        "label": "awsdns-15.org",
+        "pointTitle": "domain: awsdns-15.org",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "173",
+      "attributes": {
+        "x": -214.32771545242193,
+        "y": -198.88146501488023,
+        "label": "54.208.0.0/14",
+        "pointTitle": "netblock: 54.208.0.0/14",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "174",
+      "attributes": {
+        "x": -200.72816139782628,
+        "y": 206.9989267024554,
+        "label": "go.iterative.ai",
+        "pointTitle": "subdomain: go.iterative.ai",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "175",
+      "attributes": {
+        "x": 294.1821560710421,
+        "y": -216.84269291741256,
+        "label": "10.20.0.82",
+        "pointTitle": "address: 10.20.0.82",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "176",
+      "attributes": {
+        "x": -348.03423472571546,
+        "y": 194.78069128210996,
+        "label": "learnworlds.com",
+        "pointTitle": "domain: learnworlds.com",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "177",
+      "attributes": {
+        "x": 222.18918589770738,
+        "y": -214.47584160697107,
+        "label": "104.21.83.176",
+        "pointTitle": "address: 104.21.83.176",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "178",
+      "attributes": {
+        "x": -274.08346339014827,
+        "y": 298.51839981876236,
+        "label": "localtunnel.dev.iterative.ai",
+        "pointTitle": "subdomain: localtunnel.dev.iterative.ai",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Crtsh",
+        "size": 15
+      }
+    },
+    {
+      "key": "179",
+      "attributes": {
+        "x": 214.40255584999895,
+        "y": -195.06969151430022,
+        "label": "2607:f8b0:4023:1004::1b",
+        "pointTitle": "address: 2607:f8b0:4023:1004::1b",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "180",
+      "attributes": {
+        "x": -256.7004611607764,
+        "y": 338.3131439964371,
+        "label": "172.64.0.0/18",
+        "pointTitle": "netblock: 172.64.0.0/18",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "181",
+      "attributes": {
+        "x": 203.19606886634418,
+        "y": -231.03387234841077,
+        "label": "35.176.0.0/13",
+        "pointTitle": "netblock: 35.176.0.0/13",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "182",
+      "attributes": {
+        "x": -283.0523847399067,
+        "y": 215.38258790782686,
+        "label": "ns-237.awsdns-29.com",
+        "pointTitle": "ns: ns-237.awsdns-29.com",
+        "color": "#E36414",
+        "category": "ns",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    }
+  ]
+}

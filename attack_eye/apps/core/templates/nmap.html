@@ -1,0 +1,25 @@
+{% extends "./base.html" %}
+{% load static %}
+
+{% block content %}
+
+ {% comment %} 
+ <div>
+     {%csrf_token%}
+     <table id='table'>
+     </table>
+ </div> 
+ <div>
+    <h1>example.com</h1>
+ <div>
+    <button type="submit"  onclick="location.href='{% url 'nmapreport' %}'" name='mybtn2'>Subdomain Report</button>
+ </div> 
+</div>
+ <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+
+<script src="{% static 'js/nmap.js' %}"></script>
+{% endcomment %}
+
+{% endblock %}

@@ -1,0 +1,44 @@
+# Makefile
+
+# Set the default target to "help", which prints a list of available targets
+.DEFAULT_GOAL := help
+
+# Variables
+VENV_NAME = env
+DJANGO_SETTINGS_MODULE = config.settings.local
+
+# Targets
+.PHONY: help
+help:  ## Print this help message
+	@awk 'BEGIN {FS = ":.*?## "} /^[a-zA-Z0-9_\/-]+:.*?## / {printf "%-20s %s\n", $$1, $$2}' $(MAKEFILE_LIST)
+
+.PHONY: venv
+venv:  ## Create a new virtual environment
+	python3 -m venv $(VENV_NAME)
+	@echo "Virtual environment created. Activate it with: source $(VENV_NAME)/bin/activate"
+
+.PHONY: install
+install:  ## Install packages
+	pip install -r requirements.txt
+
+.PHONY: runserver
+runserver:  ## Run the development server
+	DJANGO_SETTINGS_MODULE=$(DJANGO_SETTINGS_MODULE) python manage.py runserver
+
+.PHONY: migrate
+migrate:  ## Apply database migrations
+	DJANGO_SETTINGS_MODULE=$(DJANGO_SETTINGS_MODULE) python manage.py migrate
+
+.PHONY: collectstatic
+collectstatic:  ## Collect static files
+	DJANGO_SETTINGS_MODULE=$(DJANGO_SETTINGS_MODULE) python manage.py collectstatic --noinput
+
+.PHONY: set-production
+set-production:  ## Set DJANGO_SETTINGS_MODULE to production
+	$(eval DJANGO_SETTINGS_MODULE = config.settings.production)
+	@echo "DJANGO_SETTINGS_MODULE set to $(DJANGO_SETTINGS_MODULE)"
+
+.PHONY: set-local
+set-local:  ## Set DJANGO_SETTINGS_MODULE to local
+	$(eval DJANGO_SETTINGS_MODULE = config.settings.local)
+	@echo "DJANGO_SETTINGS_MODULE set to $(DJANGO_SETTINGS_MODULE)"

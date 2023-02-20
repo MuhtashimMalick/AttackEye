@@ -1,0 +1,2706 @@
+{
+  "edges": [
+    {
+      "key": "0",
+      "source": "0",
+      "target": "62",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "1",
+      "source": "0",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "2",
+      "source": "1",
+      "target": "39",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "3",
+      "source": "1",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "4",
+      "source": "2",
+      "target": "73",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "5",
+      "source": "2",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "6",
+      "source": "3",
+      "target": "49",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "7",
+      "source": "3",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "8",
+      "source": "4",
+      "target": "40",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "9",
+      "source": "7",
+      "target": "35",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "10",
+      "source": "7",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "11",
+      "source": "9",
+      "target": "54",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "12",
+      "source": "9",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "13",
+      "source": "10",
+      "target": "84",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "14",
+      "source": "10",
+      "target": "52",
+      "edgeTitle": "ptr_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "15",
+      "source": "11",
+      "target": "41",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "16",
+      "source": "12",
+      "target": "35",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "17",
+      "source": "12",
+      "target": "2",
+      "edgeTitle": "mx_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "18",
+      "source": "12",
+      "target": "61",
+      "edgeTitle": "mx_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "19",
+      "source": "12",
+      "target": "63",
+      "edgeTitle": "mx_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "20",
+      "source": "12",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "21",
+      "source": "12",
+      "target": "89",
+      "edgeTitle": "ns_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "22",
+      "source": "12",
+      "target": "42",
+      "edgeTitle": "ns_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "23",
+      "source": "14",
+      "target": "19",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "24",
+      "source": "14",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "25",
+      "source": "16",
+      "target": "25",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "26",
+      "source": "16",
+      "target": "4",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "27",
+      "source": "17",
+      "target": "60",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "28",
+      "source": "17",
+      "target": "76",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "29",
+      "source": "17",
+      "target": "66",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "30",
+      "source": "17",
+      "target": "85",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "31",
+      "source": "18",
+      "target": "84",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "32",
+      "source": "18",
+      "target": "48",
+      "edgeTitle": "ptr_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "33",
+      "source": "20",
+      "target": "84",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "34",
+      "source": "20",
+      "target": "9",
+      "edgeTitle": "ptr_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "35",
+      "source": "21",
+      "target": "49",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "36",
+      "source": "21",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "37",
+      "source": "22",
+      "target": "84",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "38",
+      "source": "22",
+      "target": "46",
+      "edgeTitle": "ptr_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "39",
+      "source": "24",
+      "target": "23",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "40",
+      "source": "25",
+      "target": "35",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "41",
+      "source": "25",
+      "target": "34",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "42",
+      "source": "25",
+      "target": "91",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "43",
+      "source": "25",
+      "target": "50",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "44",
+      "source": "25",
+      "target": "5",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "45",
+      "source": "25",
+      "target": "97",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "46",
+      "source": "25",
+      "target": "96",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "47",
+      "source": "25",
+      "target": "53",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "48",
+      "source": "25",
+      "target": "70",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "49",
+      "source": "25",
+      "target": "39",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "50",
+      "source": "25",
+      "target": "69",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "51",
+      "source": "25",
+      "target": "51",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "52",
+      "source": "25",
+      "target": "93",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "53",
+      "source": "25",
+      "target": "19",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "54",
+      "source": "25",
+      "target": "15",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "55",
+      "source": "25",
+      "target": "8",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "56",
+      "source": "25",
+      "target": "30",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "57",
+      "source": "25",
+      "target": "82",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "58",
+      "source": "25",
+      "target": "13",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "59",
+      "source": "25",
+      "target": "62",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "60",
+      "source": "25",
+      "target": "54",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "61",
+      "source": "26",
+      "target": "30",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "62",
+      "source": "26",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "63",
+      "source": "27",
+      "target": "29",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "64",
+      "source": "27",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "65",
+      "source": "31",
+      "target": "79",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "66",
+      "source": "31",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "67",
+      "source": "32",
+      "target": "84",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "68",
+      "source": "32",
+      "target": "64",
+      "edgeTitle": "ptr_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "69",
+      "source": "33",
+      "target": "84",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "70",
+      "source": "33",
+      "target": "67",
+      "edgeTitle": "ptr_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "71",
+      "source": "36",
+      "target": "70",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "72",
+      "source": "36",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "73",
+      "source": "37",
+      "target": "84",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "74",
+      "source": "37",
+      "target": "0",
+      "edgeTitle": "ptr_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "75",
+      "source": "38",
+      "target": "24",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "76",
+      "source": "42",
+      "target": "23",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "77",
+      "source": "42",
+      "target": "28",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "78",
+      "source": "43",
+      "target": "34",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "79",
+      "source": "43",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "80",
+      "source": "44",
+      "target": "49",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "81",
+      "source": "44",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "82",
+      "source": "45",
+      "target": "84",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "83",
+      "source": "45",
+      "target": "65",
+      "edgeTitle": "ptr_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "84",
+      "source": "46",
+      "target": "8",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "85",
+      "source": "46",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "86",
+      "source": "47",
+      "target": "78",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "87",
+      "source": "48",
+      "target": "53",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "88",
+      "source": "48",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "89",
+      "source": "52",
+      "target": "69",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "90",
+      "source": "52",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "91",
+      "source": "55",
+      "target": "40",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "92",
+      "source": "55",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "93",
+      "source": "57",
+      "target": "84",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "94",
+      "source": "57",
+      "target": "26",
+      "edgeTitle": "ptr_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "95",
+      "source": "58",
+      "target": "56",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "96",
+      "source": "58",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "97",
+      "source": "59",
+      "target": "41",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "98",
+      "source": "59",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "99",
+      "source": "60",
+      "target": "56",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "100",
+      "source": "60",
+      "target": "6",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "101",
+      "source": "61",
+      "target": "91",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "102",
+      "source": "61",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "103",
+      "source": "63",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "104",
+      "source": "64",
+      "target": "82",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "105",
+      "source": "64",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "106",
+      "source": "65",
+      "target": "97",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "107",
+      "source": "65",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "108",
+      "source": "66",
+      "target": "29",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "109",
+      "source": "67",
+      "target": "13",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "110",
+      "source": "67",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "111",
+      "source": "68",
+      "target": "51",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "112",
+      "source": "68",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "113",
+      "source": "71",
+      "target": "15",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "114",
+      "source": "71",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "115",
+      "source": "72",
+      "target": "84",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "116",
+      "source": "72",
+      "target": "95",
+      "edgeTitle": "ptr_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "117",
+      "source": "74",
+      "target": "19",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "118",
+      "source": "74",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "119",
+      "source": "75",
+      "target": "84",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "120",
+      "source": "75",
+      "target": "68",
+      "edgeTitle": "ptr_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "121",
+      "source": "76",
+      "target": "73",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "122",
+      "source": "76",
+      "target": "83",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "123",
+      "source": "77",
+      "target": "49",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "124",
+      "source": "77",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "125",
+      "source": "78",
+      "target": "49",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "126",
+      "source": "78",
+      "target": "79",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "127",
+      "source": "80",
+      "target": "11",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "128",
+      "source": "81",
+      "target": "5",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "129",
+      "source": "81",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "130",
+      "source": "85",
+      "target": "86",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "131",
+      "source": "87",
+      "target": "83",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "132",
+      "source": "87",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "133",
+      "source": "88",
+      "target": "49",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "134",
+      "source": "88",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "135",
+      "source": "89",
+      "target": "86",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "136",
+      "source": "89",
+      "target": "28",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "137",
+      "source": "90",
+      "target": "96",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "138",
+      "source": "90",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "139",
+      "source": "92",
+      "target": "50",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "140",
+      "source": "92",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "141",
+      "source": "94",
+      "target": "93",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "142",
+      "source": "94",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "143",
+      "source": "95",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "144",
+      "source": "98",
+      "target": "6",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "145",
+      "source": "98",
+      "target": "12",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "key": "0",
+      "attributes": {
+        "x": 0,
+        "y": 0,
+        "label": "ece.solutions.com.sa",
+        "pointTitle": "subdomain: ece.solutions.com.sa",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Wayback",
+        "size": 15
+      }
+    },
+    {
+      "key": "1",
+      "attributes": {
+        "x": 1.274261330083984,
+        "y": -1.9625783928869756,
+        "label": "now.solutions.com.sa",
+        "pointTitle": "subdomain: now.solutions.com.sa",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Wayback",
+        "size": 15
+      }
+    },
+    {
+      "key": "2",
+      "attributes": {
+        "x": 3.7693343026986614,
+        "y": 3.9380473603154367,
+        "label": "mx03.solutions.com.sa",
+        "pointTitle": "mx: mx03.solutions.com.sa",
+        "color": "#F7727B",
+        "category": "mx",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "3",
+      "attributes": {
+        "x": 4.755795477358227,
+        "y": -3.8295568110315115,
+        "label": "api.staging.makenhr.solutions.com.sa",
+        "pointTitle": "subdomain: api.staging.makenhr.solutions.com.sa",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Crtsh",
+        "size": 15
+      }
+    },
+    {
+      "key": "4",
+      "attributes": {
+        "x": -4.116134034843026,
+        "y": 6.029816449170941,
+        "label": "86.60.112.0/21",
+        "pointTitle": "netblock: 86.60.112.0/21",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "5",
+      "attributes": {
+        "x": -6.140378053992913,
+        "y": -6.516380498558137,
+        "label": "78.93.18.1",
+        "pointTitle": "address: 78.93.18.1",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "6",
+      "attributes": {
+        "x": -11.016946837710229,
+        "y": 10.471783794059611,
+        "label": "46.49.154.84",
+        "pointTitle": "address: 46.49.154.84",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "7",
+      "attributes": {
+        "x": -13.888060513822234,
+        "y": -7.292818412110595,
+        "label": "www.solutions.com.sa",
+        "pointTitle": "subdomain: www.solutions.com.sa",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Bing",
+        "size": 15
+      }
+    },
+    {
+      "key": "8",
+      "attributes": {
+        "x": 10.024511851957648,
+        "y": 10.77756513117053,
+        "label": "78.93.50.197",
+        "pointTitle": "address: 78.93.50.197",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "9",
+      "attributes": {
+        "x": 11.42206267688872,
+        "y": -17.141561844753152,
+        "label": "whatsappservices.solutions.com.sa",
+        "pointTitle": "subdomain: whatsappservices.solutions.com.sa",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "DNSDumpster",
+        "size": 15
+      }
+    },
+    {
+      "key": "10",
+      "attributes": {
+        "x": 11.797250631160237,
+        "y": 16.550143989156133,
+        "label": "148.50.93.78.in-addr.arpa",
+        "pointTitle": "ptr: 148.50.93.78.in-addr.arpa",
+        "color": "#E33E14",
+        "category": "ptr",
+        "type": "border",
+        "source": "Reverse DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "11",
+      "attributes": {
+        "x": -15.35018022466722,
+        "y": -17.328248106831587,
+        "label": "193.122.0.0/16",
+        "pointTitle": "netblock: 193.122.0.0/16",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "12",
+      "attributes": {
+        "x": -20.553169671692594,
+        "y": 12.482305536803521,
+        "label": "solutions.com.sa",
+        "pointTitle": "domain: solutions.com.sa",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "13",
+      "attributes": {
+        "x": 15.201954229272328,
+        "y": -21.74903799093552,
+        "label": "78.93.50.219",
+        "pointTitle": "address: 78.93.50.219",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "14",
+      "attributes": {
+        "x": -22.996116637100023,
+        "y": 15.206879578919308,
+        "label": "bi.solutions.com.sa",
+        "pointTitle": "subdomain: bi.solutions.com.sa",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Wayback",
+        "size": 15
+      }
+    },
+    {
+      "key": "15",
+      "attributes": {
+        "x": 18.02367527347862,
+        "y": -28.89614864104795,
+        "label": "78.93.50.193",
+        "pointTitle": "address: 78.93.50.193",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "16",
+      "attributes": {
+        "x": 29.848230511864287,
+        "y": 26.17572056082093,
+        "label": "25233",
+        "pointTitle": "as: 25233, Desc: AS25233 - ARABIAN INTERNET \u0026 COMMUNICATIONS SERVICES CO.LTD",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "17",
+      "attributes": {
+        "x": 18.211747102538855,
+        "y": -25.348489622101873,
+        "label": "201771",
+        "pointTitle": "as: 201771, Desc: AS201771",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "18",
+      "attributes": {
+        "x": 22.417261697071687,
+        "y": 24.118589172399005,
+        "label": "218.50.93.78.in-addr.arpa",
+        "pointTitle": "ptr: 218.50.93.78.in-addr.arpa",
+        "color": "#E33E14",
+        "category": "ptr",
+        "type": "border",
+        "source": "Reverse DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "19",
+      "attributes": {
+        "x": -33.90715774647809,
+        "y": -20.46102509054574,
+        "label": "78.93.50.156",
+        "pointTitle": "address: 78.93.50.156",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "20",
+      "attributes": {
+        "x": 24.444868814701483,
+        "y": 31.588689532555577,
+        "label": "213.50.93.78.in-addr.arpa",
+        "pointTitle": "ptr: 213.50.93.78.in-addr.arpa",
+        "color": "#E33E14",
+        "category": "ptr",
+        "type": "border",
+        "source": "Reverse DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "21",
+      "attributes": {
+        "x": -35.14207830858018,
+        "y": -31.77161326033307,
+        "label": "assetmanager.staging.makenhr.solutions.com.sa",
+        "pointTitle": "subdomain: assetmanager.staging.makenhr.solutions.com.sa",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Crtsh",
+        "size": 15
+      }
+    },
+    {
+      "key": "22",
+      "attributes": {
+        "x": -33.58095616733038,
+        "y": 23.076382624650527,
+        "label": "197.50.93.78.in-addr.arpa",
+        "pointTitle": "ptr: 197.50.93.78.in-addr.arpa",
+        "color": "#E33E14",
+        "category": "ptr",
+        "type": "border",
+        "source": "Reverse DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "23",
+      "attributes": {
+        "x": 23.370551551479462,
+        "y": -31.884426300847313,
+        "label": "46.49.140.146",
+        "pointTitle": "address: 46.49.140.146",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "24",
+      "attributes": {
+        "x": 24.923721518168673,
+        "y": 46.784931820962825,
+        "label": "46.49.140.0/23",
+        "pointTitle": "netblock: 46.49.140.0/23",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "25",
+      "attributes": {
+        "x": 28.05397691521447,
+        "y": -42.69418414667876,
+        "label": "78.93.0.0/16",
+        "pointTitle": "netblock: 78.93.0.0/16",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "26",
+      "attributes": {
+        "x": -34.820084383254034,
+        "y": 41.50504305831606,
+        "label": "whatsappservices-test.solutions.com.sa",
+        "pointTitle": "subdomain: whatsappservices-test.solutions.com.sa",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "DNSDumpster",
+        "size": 15
+      }
+    },
+    {
+      "key": "27",
+      "attributes": {
+        "x": -29.78443405915699,
+        "y": -51.74570986510243,
+        "label": "bpo.solutions.com.sa",
+        "pointTitle": "subdomain: bpo.solutions.com.sa",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "28",
+      "attributes": {
+        "x": 54.69858768613028,
+        "y": 36.44691845251757,
+        "label": "bluvalt.sa",
+        "pointTitle": "domain: bluvalt.sa",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "29",
+      "attributes": {
+        "x": -53.87482818401483,
+        "y": -40.850182731933245,
+        "label": "95.177.171.87",
+        "pointTitle": "address: 95.177.171.87",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "30",
+      "attributes": {
+        "x": 35.71579086698009,
+        "y": 49.60353065147709,
+        "label": "78.93.50.214",
+        "pointTitle": "address: 78.93.50.214",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "31",
+      "attributes": {
+        "x": -52.20321367927184,
+        "y": -31.961661535168616,
+        "label": "www.maken-services.solutions.com.sa",
+        "pointTitle": "subdomain: www.maken-services.solutions.com.sa",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "32",
+      "attributes": {
+        "x": -56.97086292030687,
+        "y": 46.44121337690514,
+        "label": "212.50.93.78.in-addr.arpa",
+        "pointTitle": "ptr: 212.50.93.78.in-addr.arpa",
+        "color": "#E33E14",
+        "category": "ptr",
+        "type": "border",
+        "source": "Reverse DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "33",
+      "attributes": {
+        "x": 41.99249913470864,
+        "y": -35.565526260393206,
+        "label": "219.50.93.78.in-addr.arpa",
+        "pointTitle": "ptr: 219.50.93.78.in-addr.arpa",
+        "color": "#E33E14",
+        "category": "ptr",
+        "type": "border",
+        "source": "Reverse DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "34",
+      "attributes": {
+        "x": 58.84090785891459,
+        "y": 51.64436846626322,
+        "label": "78.93.50.210",
+        "pointTitle": "address: 78.93.50.210",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "35",
+      "attributes": {
+        "x": 66.83085285814425,
+        "y": -62.28049320349339,
+        "label": "78.93.50.152",
+        "pointTitle": "address: 78.93.50.152",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "36",
+      "attributes": {
+        "x": -51.66201244901323,
+        "y": 70.18647363581151,
+        "label": "selfservice.solutions.com.sa",
+        "pointTitle": "subdomain: selfservice.solutions.com.sa",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Wayback",
+        "size": 15
+      }
+    },
+    {
+      "key": "37",
+      "attributes": {
+        "x": -57.983026839110806,
+        "y": -67.2986229302699,
+        "label": "226.50.93.78.in-addr.arpa",
+        "pointTitle": "ptr: 226.50.93.78.in-addr.arpa",
+        "color": "#E33E14",
+        "category": "ptr",
+        "type": "border",
+        "source": "Reverse DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "38",
+      "attributes": {
+        "x": -44.993960894843454,
+        "y": 46.02080326798995,
+        "label": "43987",
+        "pointTitle": "as: 43987, Desc: STCS-AS",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "39",
+      "attributes": {
+        "x": 52.65075307586521,
+        "y": -40.696768620205994,
+        "label": "78.93.50.209",
+        "pointTitle": "address: 78.93.50.209",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "40",
+      "attributes": {
+        "x": 65.94554209425922,
+        "y": 69.22577089025489,
+        "label": "86.60.119.104",
+        "pointTitle": "address: 86.60.119.104",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "41",
+      "attributes": {
+        "x": 75.02075821373307,
+        "y": -49.29844607469148,
+        "label": "193.122.69.8",
+        "pointTitle": "address: 193.122.69.8",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "42",
+      "attributes": {
+        "x": -64.13942420216247,
+        "y": 52.01279879354882,
+        "label": "ns2.bluvalt.sa",
+        "pointTitle": "ns: ns2.bluvalt.sa",
+        "color": "#E36414",
+        "category": "ns",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "43",
+      "attributes": {
+        "x": -70.68548660171975,
+        "y": -81.06511456380645,
+        "label": "sahlprojects.solutions.com.sa",
+        "pointTitle": "subdomain: sahlprojects.solutions.com.sa",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "44",
+      "attributes": {
+        "x": -57.83184610936168,
+        "y": 78.24816415196663,
+        "label": "pm.staging.makenhr.solutions.com.sa",
+        "pointTitle": "subdomain: pm.staging.makenhr.solutions.com.sa",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Crtsh",
+        "size": 15
+      }
+    },
+    {
+      "key": "45",
+      "attributes": {
+        "x": 57.08283973769555,
+        "y": -77.3136782392854,
+        "label": "194.50.93.78.in-addr.arpa",
+        "pointTitle": "ptr: 194.50.93.78.in-addr.arpa",
+        "color": "#E33E14",
+        "category": "ptr",
+        "type": "border",
+        "source": "Reverse DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "46",
+      "attributes": {
+        "x": 48.72713128885514,
+        "y": 86.04167011905683,
+        "label": "maakom.solutions.com.sa",
+        "pointTitle": "subdomain: maakom.solutions.com.sa",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Wayback",
+        "size": 15
+      }
+    },
+    {
+      "key": "47",
+      "attributes": {
+        "x": -61.57644776559732,
+        "y": -70.9554746003665,
+        "label": "0",
+        "pointTitle": "as: 0, Desc: Reserved Network Address Blocks",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "48",
+      "attributes": {
+        "x": -93.10577839324985,
+        "y": 51.773672807722654,
+        "label": "takyah.solutions.com.sa",
+        "pointTitle": "subdomain: takyah.solutions.com.sa",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AlienVault",
+        "size": 15
+      }
+    },
+    {
+      "key": "49",
+      "attributes": {
+        "x": 97.28178621637454,
+        "y": -91.87367986227889,
+        "label": "141.147.131.71",
+        "pointTitle": "address: 141.147.131.71",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "50",
+      "attributes": {
+        "x": 98.12054362199456,
+        "y": 73.2950107628985,
+        "label": "78.93.33.144",
+        "pointTitle": "address: 78.93.33.144",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "51",
+      "attributes": {
+        "x": 62.55710738676699,
+        "y": -86.69933041369518,
+        "label": "78.93.50.184",
+        "pointTitle": "address: 78.93.50.184",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "52",
+      "attributes": {
+        "x": 64.24603071166142,
+        "y": 64.34637881078841,
+        "label": "et.solutions.com.sa",
+        "pointTitle": "subdomain: et.solutions.com.sa",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "DNSDumpster",
+        "size": 15
+      }
+    },
+    {
+      "key": "53",
+      "attributes": {
+        "x": -97.47033280606104,
+        "y": -89.798398657865,
+        "label": "78.93.50.218",
+        "pointTitle": "address: 78.93.50.218",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "54",
+      "attributes": {
+        "x": 85.82992451646822,
+        "y": 83.20695519205452,
+        "label": "78.93.50.213",
+        "pointTitle": "address: 78.93.50.213",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "55",
+      "attributes": {
+        "x": 75.12763662427112,
+        "y": -59.81951890399506,
+        "label": "insite.solutions.com.sa",
+        "pointTitle": "subdomain: insite.solutions.com.sa",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "56",
+      "attributes": {
+        "x": 69.62813236704741,
+        "y": 104.22319269257059,
+        "label": "46.49.154.249",
+        "pointTitle": "address: 46.49.154.249",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "57",
+      "attributes": {
+        "x": 109.57263034778886,
+        "y": -85.74204268762443,
+        "label": "214.50.93.78.in-addr.arpa",
+        "pointTitle": "ptr: 214.50.93.78.in-addr.arpa",
+        "color": "#E33E14",
+        "category": "ptr",
+        "type": "border",
+        "source": "Reverse DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "58",
+      "attributes": {
+        "x": -84.60409764771497,
+        "y": 71.70941572356173,
+        "label": "authenticator-dev.solutions.com.sa",
+        "pointTitle": "subdomain: authenticator-dev.solutions.com.sa",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "59",
+      "attributes": {
+        "x": 85.886238821201,
+        "y": -81.08620397109082,
+        "label": "makenhr.solutions.com.sa",
+        "pointTitle": "subdomain: makenhr.solutions.com.sa",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "60",
+      "attributes": {
+        "x": 91.44913792315255,
+        "y": 98.89730561423872,
+        "label": "46.49.154.0/24",
+        "pointTitle": "netblock: 46.49.154.0/24",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "61",
+      "attributes": {
+        "x": -102.01648361874156,
+        "y": -113.31092698695119,
+        "label": "mx02.solutions.com.sa",
+        "pointTitle": "mx: mx02.solutions.com.sa",
+        "color": "#F7727B",
+        "category": "mx",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "62",
+      "attributes": {
+        "x": -96.77133545049378,
+        "y": 63.355981233324094,
+        "label": "78.93.50.226",
+        "pointTitle": "address: 78.93.50.226",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "63",
+      "attributes": {
+        "x": 121.89759414275905,
+        "y": -119.60206074776156,
+        "label": "mx01.solutions.com.sa",
+        "pointTitle": "mx: mx01.solutions.com.sa",
+        "color": "#F7727B",
+        "category": "mx",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "64",
+      "attributes": {
+        "x": 115.23248907613981,
+        "y": 121.689161278834,
+        "label": "authcrmapp.solutions.com.sa",
+        "pointTitle": "subdomain: authcrmapp.solutions.com.sa",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Wayback",
+        "size": 15
+      }
+    },
+    {
+      "key": "65",
+      "attributes": {
+        "x": 114.70330257881145,
+        "y": -95.70646903053517,
+        "label": "ebsdmz.solutions.com.sa",
+        "pointTitle": "subdomain: ebsdmz.solutions.com.sa",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Wayback",
+        "size": 15
+      }
+    },
+    {
+      "key": "66",
+      "attributes": {
+        "x": -117.1106839416949,
+        "y": 118.39717455737696,
+        "label": "95.177.160.0/19",
+        "pointTitle": "netblock: 95.177.160.0/19",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "67",
+      "attributes": {
+        "x": -109.25579705713756,
+        "y": -81.7890987222777,
+        "label": "takyahdev.solutions.com.sa",
+        "pointTitle": "subdomain: takyahdev.solutions.com.sa",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "DNSDumpster",
+        "size": 15
+      }
+    },
+    {
+      "key": "68",
+      "attributes": {
+        "x": -129.20850359643262,
+        "y": 74.02888558768286,
+        "label": "onboarding.solutions.com.sa",
+        "pointTitle": "subdomain: onboarding.solutions.com.sa",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Wayback",
+        "size": 15
+      }
+    },
+    {
+      "key": "69",
+      "attributes": {
+        "x": 104.49339894129946,
+        "y": -81.95855097816536,
+        "label": "78.93.50.148",
+        "pointTitle": "address: 78.93.50.148",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "70",
+      "attributes": {
+        "x": -125.63735230090595,
+        "y": 87.34823796058265,
+        "label": "78.93.50.142",
+        "pointTitle": "address: 78.93.50.142",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "71",
+      "attributes": {
+        "x": -78.1409448968107,
+        "y": -134.11447922585,
+        "label": "sahlapp.solutions.com.sa",
+        "pointTitle": "subdomain: sahlapp.solutions.com.sa",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Wayback",
+        "size": 15
+      }
+    },
+    {
+      "key": "72",
+      "attributes": {
+        "x": -125.92658873450134,
+        "y": 131.37272686651505,
+        "label": "227.50.93.78.in-addr.arpa",
+        "pointTitle": "ptr: 227.50.93.78.in-addr.arpa",
+        "color": "#E33E14",
+        "category": "ptr",
+        "type": "border",
+        "source": "Reverse DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "73",
+      "attributes": {
+        "x": -102.9191833908243,
+        "y": -76.10686099909759,
+        "label": "46.49.201.174",
+        "pointTitle": "address: 46.49.201.174",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "74",
+      "attributes": {
+        "x": 95.83841109816495,
+        "y": 103.52276834417022,
+        "label": "sbi.solutions.com.sa",
+        "pointTitle": "subdomain: sbi.solutions.com.sa",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Wayback",
+        "size": 15
+      }
+    },
+    {
+      "key": "75",
+      "attributes": {
+        "x": 109.32977506715112,
+        "y": -114.02242572017228,
+        "label": "184.50.93.78.in-addr.arpa",
+        "pointTitle": "ptr: 184.50.93.78.in-addr.arpa",
+        "color": "#E33E14",
+        "category": "ptr",
+        "type": "border",
+        "source": "Reverse DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "76",
+      "attributes": {
+        "x": 130.48484829645713,
+        "y": 125.48602816725327,
+        "label": "46.49.200.0/22",
+        "pointTitle": "netblock: 46.49.200.0/22",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "77",
+      "attributes": {
+        "x": -131.2461002161018,
+        "y": -132.07433138703402,
+        "label": "test.staging.makenhr.solutions.com.sa",
+        "pointTitle": "subdomain: test.staging.makenhr.solutions.com.sa",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Crtsh",
+        "size": 15
+      }
+    },
+    {
+      "key": "78",
+      "attributes": {
+        "x": 88.8357830005808,
+        "y": 97.87379705920766,
+        "label": "141.147.0.0/16",
+        "pointTitle": "netblock: 141.147.0.0/16",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "79",
+      "attributes": {
+        "x": -127.23994601482397,
+        "y": -119.27287880472701,
+        "label": "141.147.135.54",
+        "pointTitle": "address: 141.147.135.54",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "80",
+      "attributes": {
+        "x": -117.85983288378291,
+        "y": 129.90136726946224,
+        "label": "31898",
+        "pointTitle": "as: 31898, Desc: ORACLE-BMC-31898 - Oracle Corporation",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "81",
+      "attributes": {
+        "x": 120.19374684577997,
+        "y": -88.25029379727789,
+        "label": "coe.solutions.com.sa",
+        "pointTitle": "subdomain: coe.solutions.com.sa",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "82",
+      "attributes": {
+        "x": 97.8088196439634,
+        "y": 94.221472784807,
+        "label": "78.93.50.212",
+        "pointTitle": "address: 78.93.50.212",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "83",
+      "attributes": {
+        "x": -138.3278498252575,
+        "y": -139.07530708281962,
+        "label": "46.49.203.85",
+        "pointTitle": "address: 46.49.203.85",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "84",
+      "attributes": {
+        "x": 88.71730688943278,
+        "y": 152.77595833159793,
+        "label": "78.in-addr.arpa",
+        "pointTitle": "domain: 78.in-addr.arpa",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "Reverse DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "85",
+      "attributes": {
+        "x": -146.0219564551706,
+        "y": -145.96338055526383,
+        "label": "46.49.128.0/24",
+        "pointTitle": "netblock: 46.49.128.0/24",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "86",
+      "attributes": {
+        "x": -123.64514330074118,
+        "y": 153.53197222376613,
+        "label": "46.49.128.130",
+        "pointTitle": "address: 46.49.128.130",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "87",
+      "attributes": {
+        "x": 140.02987121517108,
+        "y": -172.8777102611926,
+        "label": "modar.solutions.com.sa",
+        "pointTitle": "subdomain: modar.solutions.com.sa",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "88",
+      "attributes": {
+        "x": 155.15119003267006,
+        "y": 129.68685421384765,
+        "label": "cs.staging.makenhr.solutions.com.sa",
+        "pointTitle": "subdomain: cs.staging.makenhr.solutions.com.sa",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Crtsh",
+        "size": 15
+      }
+    },
+    {
+      "key": "89",
+      "attributes": {
+        "x": -111.96187323115625,
+        "y": -174.15195178191294,
+        "label": "ns1.bluvalt.sa",
+        "pointTitle": "ns: ns1.bluvalt.sa",
+        "color": "#E36414",
+        "category": "ns",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "90",
+      "attributes": {
+        "x": -120.64290951674462,
+        "y": 178.35370523087332,
+        "label": "azer.solutions.com.sa",
+        "pointTitle": "subdomain: azer.solutions.com.sa",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "HyperStat",
+        "size": 15
+      }
+    },
+    {
+      "key": "91",
+      "attributes": {
+        "x": -139.65524754409836,
+        "y": -161.21753984652457,
+        "label": "78.93.50.136",
+        "pointTitle": "address: 78.93.50.136",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "92",
+      "attributes": {
+        "x": -97.71656092628156,
+        "y": 137.424673960074,
+        "label": "sahl.solutions.com.sa",
+        "pointTitle": "subdomain: sahl.solutions.com.sa",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Ask",
+        "size": 15
+      }
+    },
+    {
+      "key": "93",
+      "attributes": {
+        "x": -142.56433423685357,
+        "y": -129.5578220840734,
+        "label": "78.93.50.162",
+        "pointTitle": "address: 78.93.50.162",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "94",
+      "attributes": {
+        "x": -95.0893731303184,
+        "y": 97.60777744608053,
+        "label": "altakyah.solutions.com.sa",
+        "pointTitle": "subdomain: altakyah.solutions.com.sa",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "HyperStat",
+        "size": 15
+      }
+    },
+    {
+      "key": "95",
+      "attributes": {
+        "x": 175.3782114890048,
+        "y": -180.0619507673946,
+        "label": "ms-chatbot.solutions.com.sa",
+        "pointTitle": "subdomain: ms-chatbot.solutions.com.sa",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Reverse DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "96",
+      "attributes": {
+        "x": 152.2957388993862,
+        "y": 101.22384002235391,
+        "label": "78.93.50.166",
+        "pointTitle": "address: 78.93.50.166",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "97",
+      "attributes": {
+        "x": 180.17841209677172,
+        "y": -104.38154708035636,
+        "label": "78.93.50.194",
+        "pointTitle": "address: 78.93.50.194",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "98",
+      "attributes": {
+        "x": -155.68699206588227,
+        "y": 133.9850992126445,
+        "label": "authenticator.solutions.com.sa",
+        "pointTitle": "subdomain: authenticator.solutions.com.sa",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    }
+  ]
+}
