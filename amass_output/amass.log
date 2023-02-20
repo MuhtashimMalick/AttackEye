@@ -1,113 +1,188 @@
-18:30:46.310665 ZoomEye: check callback failed for the configuration
-18:30:46.310953 Shodan: check callback failed for the configuration
-18:30:46.310981 AlienVault: API key data was not provided
-18:30:46.310980 Spamhaus: check callback failed for the configuration
-18:30:46.310993 Spyse: check callback failed for the configuration
-18:30:46.311013 ThreatBook: check callback failed for the configuration
-18:30:46.311029 Twitter: API key data was not provided
-18:30:46.311042 SecurityTrails: check callback failed for the configuration
-18:30:46.311079 C99: check callback failed for the configuration
-18:30:46.311076 Hunter: check callback failed for the configuration
-18:30:46.311093 CIRCL: check callback failed for the configuration
-18:30:46.311082 ZETAlytics: check callback failed for the configuration
-18:30:46.310837 360PassiveDNS: check callback failed for the configuration
-18:30:46.310977 Ahrefs: check callback failed for the configuration
-18:30:46.311113 Chaos: check callback failed for the configuration
-18:30:46.311103 Cloudflare: API key data was not provided
-18:30:46.311127 GitHub: check callback failed for the configuration
-18:30:46.311119 DNSDB: API key data was not provided
-18:30:46.311125 DNSDB: check callback failed for the configuration
-18:30:46.311135 NetworksDB: API key data was not provided
-18:30:46.311140 DNSRepo: check callback failed for the configuration
-18:30:46.311150 ONYPHE: check callback failed for the configuration
-18:30:46.311151 DNSlytics: check callback failed for the configuration
-18:30:46.311163 Detectify: check callback failed for the configuration
-18:30:46.311051 BinaryEdge: check callback failed for the configuration
-18:30:46.311071 WhoisXMLAPI: check callback failed for the configuration
-18:30:46.311175 FOFA: Email address or API key data was not provided
-18:30:46.311141 GitLab: check callback failed for the configuration
-18:30:46.311116 IntelX: check callback failed for the configuration
-18:30:46.311037 Twitter: check callback failed for the configuration
-18:30:46.311062 VirusTotal: check callback failed for the configuration
-18:30:46.311047 Umbrella: API key data was not provided
-18:30:46.311483 Umbrella: check callback failed for the configuration
-18:30:46.311069 BuiltWith: check callback failed for the configuration
-18:30:46.311102 IPinfo: check callback failed for the configuration
-18:30:46.311094 IPdata: check callback failed for the configuration
-18:30:46.311225 FacebookCT: check callback failed for the configuration
-18:30:46.311264 PentestTools: check callback failed for the configuration
-18:30:46.311270 PassiveTotal: check callback failed for the configuration
-18:30:46.311249 Quake: check callback failed for the configuration
-18:30:52.027867 Querying Yahoo for muet.edu.pk subdomains
-18:30:52.027898 Querying Crtsh for muet.edu.pk subdomains
-18:30:52.027903 Querying DNSDumpster for muet.edu.pk subdomains
-18:30:52.027905 Querying AbuseIPDB for muet.edu.pk subdomains
-18:30:52.027908 Querying RapidDNS for muet.edu.pk subdomains
-18:30:52.027911 Querying Riddler for muet.edu.pk subdomains
-18:30:52.027913 Querying ThreatMiner for muet.edu.pk subdomains
-18:30:52.027916 Querying Sublist3rAPI for muet.edu.pk subdomains
-18:30:52.027919 Querying HackerOne for muet.edu.pk subdomains
-18:30:52.027921 Querying Searx for muet.edu.pk subdomains
-18:30:52.027924 Querying Robtex for muet.edu.pk subdomains
-18:30:52.027928 Querying Searchcode for muet.edu.pk subdomains
-18:30:52.027930 Querying Maltiverse for muet.edu.pk subdomains
-18:30:52.027932 Querying AlienVault for muet.edu.pk subdomains
-18:30:52.027935 Querying URLScan for muet.edu.pk subdomains
-18:30:52.027937 Querying UKWebArchive for muet.edu.pk subdomains
-18:30:52.027939 Querying BufferOver for muet.edu.pk subdomains
-18:30:52.027942 Querying Baidu for muet.edu.pk subdomains
-18:30:52.027944 Querying Bing for muet.edu.pk subdomains
-18:30:52.027947 Querying Brute Forcing for muet.edu.pk subdomains
-18:30:52.027951 Querying HackerTarget for muet.edu.pk subdomains
-18:30:52.027953 Querying HyperStat for muet.edu.pk subdomains
-18:30:52.027956 Querying IPv4Info for muet.edu.pk subdomains
-18:30:52.028071 Querying Digitorus for muet.edu.pk subdomains
-18:30:52.028076 Querying DuckDuckGo for muet.edu.pk subdomains
-18:30:52.028079 Querying SiteDossier for muet.edu.pk subdomains
-18:30:52.028081 Querying SonarSearch for muet.edu.pk subdomains
-18:30:52.028084 Querying Censys for muet.edu.pk subdomains
-18:30:52.028087 Querying CertSpotter for muet.edu.pk subdomains
-18:30:52.028089 Querying ThreatCrowd for muet.edu.pk subdomains
-18:30:52.028092 Querying CommonCrawl for muet.edu.pk subdomains
-18:30:52.028094 Querying Mnemonic for muet.edu.pk subdomains
-18:30:52.028096 Querying Wayback for muet.edu.pk subdomains
-18:30:52.028098 Querying FullHunt for muet.edu.pk subdomains
-18:30:52.028101 Querying N45HT for muet.edu.pk subdomains
-18:30:52.028104 Querying ArchiveIt for muet.edu.pk subdomains
-18:30:52.028106 Querying AnubisDB for muet.edu.pk subdomains
-18:30:52.028109 Querying PKey for muet.edu.pk subdomains
-18:30:52.028111 Querying HAW for muet.edu.pk subdomains
-18:30:52.028113 Querying Gists for muet.edu.pk subdomains
-18:30:52.028117 Querying GoogleCT for muet.edu.pk subdomains
-18:30:52.028119 Querying Arquivo for muet.edu.pk subdomains
-18:30:52.028122 Querying Ask for muet.edu.pk subdomains
-18:30:52.028124 Querying Greynoise for muet.edu.pk subdomains
-18:30:52.028127 FullHunt: vertical request to service failed: 401: 401 Unauthorized
-18:30:52.028131 GoogleCT: vertical request to service failed: 400: 400 Bad Request
-18:30:52.028134 Riddler: scrape: 503: 503 Service Unavailable
-18:30:52.028137 IPv4Info: get_path request to service failed: 404: 404 Not Found
-18:30:52.028140 Greynoise: vertical request to service failed: 502: 502 Bad Gateway
-18:30:52.028143 PKey: scrape: 503: 503 Service Temporarily Unavailable
-18:30:52.028145 ArchiveIt: scrape: 403: 403 Forbidden
-18:30:52.028148 Digitorus: scrape: 500: 500 Internal Server Error
-18:30:52.028150 N45HT: vertical request to service failed: 404: 404 Not Found
-18:30:52.028153 Censys: vertical request to service failed: 403: 403 Forbidden
-18:30:52.028155 UKWebArchive: scrape: 429: 429 Too Many Requests
-18:30:57.043097 BufferOver: scrape: Get "https://dns.bufferover.run/dns?q=.muet.edu.pk": dial tcp: lookup dns.bufferover.run: no such host
-18:30:57.066302 Arquivo: vertical request to service failed: 400: 400 Bad Request
-18:30:57.066328 SiteDossier: scrape: 404: 404 No data available
-18:31:02.066777 ThreatCrowd: vertical request to service failed: 503: 503 Service Temporarily Unavailable
-18:31:22.072078 Sublist3rAPI: vertical request to service failed: 522: 522 
-18:31:22.072110 SonarSearch: vertical request to service failed: 522: 522 
-18:31:27.073036 Ask: scrape: Get "https://www.ask.com/web?l=dir&o=0&page=10&q=site%3Amuet.edu.pk+-www.muet.edu.pk&qo=pagination": net/http: TLS handshake timeout
-18:31:52.125515 Searx: scrape: Post "https://searx.run/search": EOF
-18:31:57.126113 Robtex: vertical request to service failed: Get "https://freeapi.robtex.com/pdns/forward/muet.edu.pk": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
-18:32:02.130248 RADb: https://rdap.arin.net/registry/arin_originas0_networksbyoriginas/13335: unexpected end of JSON input
-18:32:02.130282 CommonCrawl: scrape: Get "https://index.commoncrawl.org/CC-MAIN-2023-06-index?output=json&fl=url&url=*.muet.edu.pk": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
-18:32:07.130299 BGPView: get_asn request to service failed: Get "https://api.bgpview.io/prefix/2606:4700::/32": EOF
-18:32:07.130328 Bing: scrape: Get "https://www.bing.com/search?FORM=PORE&first=151&q=domain%3Amuet.edu.pk+-site%3Awww.muet.edu.pk": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
-18:32:22.133165 DNS: query on resolver 49.255.44.62:53, for eesd-2017.muet.edu.pk type 5 returned error FORMERR
-18:32:57.160641 Searchcode: vertical request to service failed: Get "https://searchcode.com/?q=.muet.edu.pk&p=8": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
-18:33:02.161332 Robtex: ip_info request to service failed: Get "https://freeapi.robtex.com/ipquery/104.26.15.132": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
-18:34:07.185459 Robtex: ip_info request to service failed: Get "https://freeapi.robtex.com/ipquery/2606:4700:20::681a:e84": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
-18:34:12.186354 ArchiveIt: scrape: 429: 429 Too Many Requests
+21:39:57.709990 ZoomEye: check callback failed for the configuration
+21:39:57.710071 360PassiveDNS: check callback failed for the configuration
+21:39:57.710102 Ahrefs: check callback failed for the configuration
+21:39:57.710108 AlienVault: API key data was not provided
+21:39:57.710139 NetworksDB: API key data was not provided
+21:39:57.710154 ONYPHE: check callback failed for the configuration
+21:39:57.710172 PassiveTotal: check callback failed for the configuration
+21:39:57.710182 PentestTools: check callback failed for the configuration
+21:39:57.710192 Quake: check callback failed for the configuration
+21:39:57.710192 BinaryEdge: check callback failed for the configuration
+21:39:57.710335 FOFA: Email address or API key data was not provided
+21:39:57.710362 Hunter: check callback failed for the configuration
+21:39:57.710370 FacebookCT: check callback failed for the configuration
+21:39:57.710384 IPdata: check callback failed for the configuration
+21:39:57.710424 BuiltWith: check callback failed for the configuration
+21:39:57.715323 CIRCL: check callback failed for the configuration
+21:39:57.715363 Chaos: check callback failed for the configuration
+21:39:57.715376 Cloudflare: API key data was not provided
+21:39:57.715407 DNSRepo: check callback failed for the configuration
+21:39:57.715413 DNSDB: API key data was not provided
+21:39:57.715420 DNSDB: check callback failed for the configuration
+21:39:57.715440 GitLab: check callback failed for the configuration
+21:39:57.715494 SecurityTrails: check callback failed for the configuration
+21:39:57.715510 Shodan: check callback failed for the configuration
+21:39:57.715527 Spamhaus: check callback failed for the configuration
+21:39:57.715543 Spyse: check callback failed for the configuration
+21:39:57.715568 ThreatBook: check callback failed for the configuration
+21:39:57.715584 Twitter: API key data was not provided
+21:39:57.715590 Twitter: check callback failed for the configuration
+21:39:57.715602 Umbrella: API key data was not provided
+21:39:57.715608 Umbrella: check callback failed for the configuration
+21:39:57.715619 VirusTotal: check callback failed for the configuration
+21:39:57.715632 WhoisXMLAPI: check callback failed for the configuration
+21:39:57.715646 ZETAlytics: check callback failed for the configuration
+21:39:57.715666 IntelX: check callback failed for the configuration
+21:39:57.715678 Detectify: check callback failed for the configuration
+21:39:57.715690 DNSlytics: check callback failed for the configuration
+21:39:57.720891 C99: check callback failed for the configuration
+21:39:57.720910 IPinfo: check callback failed for the configuration
+21:39:57.721035 GitHub: check callback failed for the configuration
+21:40:03.096863 Querying Yahoo for aku.edu subdomains
+21:40:03.096899 Querying Greynoise for aku.edu subdomains
+21:40:03.096903 Querying Robtex for aku.edu subdomains
+21:40:03.096905 Querying HAW for aku.edu subdomains
+21:40:03.096908 Querying HackerOne for aku.edu subdomains
+21:40:03.096911 Querying Sublist3rAPI for aku.edu subdomains
+21:40:03.096914 Querying Searchcode for aku.edu subdomains
+21:40:03.096916 Querying Searx for aku.edu subdomains
+21:40:03.096919 Querying SiteDossier for aku.edu subdomains
+21:40:03.096921 Querying SonarSearch for aku.edu subdomains
+21:40:03.096924 Querying UKWebArchive for aku.edu subdomains
+21:40:03.096926 Querying ThreatCrowd for aku.edu subdomains
+21:40:03.096929 Querying ThreatMiner for aku.edu subdomains
+21:40:03.096932 Querying Bing for aku.edu subdomains
+21:40:03.096935 Querying Wayback for aku.edu subdomains
+21:40:03.096938 Querying URLScan for aku.edu subdomains
+21:40:03.096942 Querying AnubisDB for aku.edu subdomains
+21:40:03.096945 Querying Crtsh for aku.edu subdomains
+21:40:03.096947 Querying Brute Forcing for aku.edu subdomains
+21:40:03.096950 Querying BufferOver for aku.edu subdomains
+21:40:03.096953 Querying Ask for aku.edu subdomains
+21:40:03.096955 Querying DNSDumpster for aku.edu subdomains
+21:40:03.096957 Querying AbuseIPDB for aku.edu subdomains
+21:40:03.096960 Querying Censys for aku.edu subdomains
+21:40:03.096962 Querying CertSpotter for aku.edu subdomains
+21:40:03.096974 Querying CommonCrawl for aku.edu subdomains
+21:40:03.096977 Querying AlienVault for aku.edu subdomains
+21:40:03.096979 Querying HackerTarget for aku.edu subdomains
+21:40:03.096982 Querying HyperStat for aku.edu subdomains
+21:40:03.096944 Querying IPv4Info for aku.edu subdomains
+21:40:03.096958 Querying Maltiverse for aku.edu subdomains
+21:40:03.096963 Querying Baidu for aku.edu subdomains
+21:40:03.096966 Querying Mnemonic for aku.edu subdomains
+21:40:03.096968 Querying N45HT for aku.edu subdomains
+21:40:03.096971 Querying ArchiveIt for aku.edu subdomains
+21:40:03.096973 Querying PKey for aku.edu subdomains
+21:40:03.096976 Querying Arquivo for aku.edu subdomains
+21:40:03.096978 Querying RapidDNS for aku.edu subdomains
+21:40:03.096980 Querying Digitorus for aku.edu subdomains
+21:40:03.096983 Querying Riddler for aku.edu subdomains
+21:40:03.096985 Querying DuckDuckGo for aku.edu subdomains
+21:40:03.096987 Querying FullHunt for aku.edu subdomains
+21:40:03.096989 Querying Gists for aku.edu subdomains
+21:40:03.096992 Querying GoogleCT for aku.edu subdomains
+21:40:03.096995 BufferOver: scrape: Get "https://dns.bufferover.run/dns?q=.aku.edu": dial tcp: lookup dns.bufferover.run: no such host
+21:40:03.097001 FullHunt: vertical request to service failed: 401: 401 Unauthorized
+21:40:03.097006 GoogleCT: vertical request to service failed: 400: 400 Bad Request
+21:40:03.097009 Greynoise: vertical request to service failed: 502: 502 Bad Gateway
+21:40:03.097012 IPv4Info: get_path request to service failed: 404: 404 Not Found
+21:40:03.097015 Digitorus: scrape: 500: 500 Internal Server Error
+21:40:03.097018 PKey: scrape: 503: 503 Service Temporarily Unavailable
+21:40:03.097021 N45HT: vertical request to service failed: 404: 404 Not Found
+21:40:03.097024 ArchiveIt: scrape: 403: 403 Forbidden
+21:40:03.097028 UKWebArchive: scrape: 429: 429 Too Many Requests
+21:40:03.097030 Censys: vertical request to service failed: 403: 403 Forbidden
+21:40:08.150097 SiteDossier: scrape: 404: 404 No data available
+21:40:08.150128 Arquivo: vertical request to service failed: 400: 400 Bad Request
+21:40:13.162577 ThreatCrowd: vertical request to service failed: 503: 503 Service Temporarily Unavailable
+21:40:23.165630 BGPView: get_asn request to service failed: Get "https://api.bgpview.io/prefix/76.12.0.0/16": read tcp 172.16.16.68:45198->172.67.183.197:443: read: connection reset by peer
+21:40:23.165660 DNS: query on resolver 110.77.142.209:53, for ipathloadbalancer.aku.edu type 5 returned error FORMERR
+21:40:23.165665 DNS: query on resolver 110.77.142.209:53, for lax1-travelcheck.aku.edu type 5 returned error FORMERR
+21:40:33.170560 SonarSearch: vertical request to service failed: 522: 522 
+21:40:33.170600 DNS: query on resolver 110.77.142.209:53, for hisapimpconnectxyzelasticbeanstalk.aku.edu type 5 returned error FORMERR
+21:40:33.170607 Sublist3rAPI: vertical request to service failed: 522: 522 
+21:40:33.170611 DNS: query on resolver 110.77.142.209:53, for hisapimpconnectxyzgh.aku.edu type 5 returned error FORMERR
+21:40:33.170614 DNS: query on resolver 110.77.142.209:53, for akuhoptheatre-ids.aku.edu type 28 returned error FORMERR
+21:40:33.170619 DNS: query on resolver 81.26.23.193:53, for ict0.aku.edu type 28 returned error FORMERR
+21:40:38.172939 AlienVault: https://otx.alienvault.com/api/v1/indicators/domain/aku.edu/url_list?page=10: Get "https://otx.alienvault.com/api/v1/indicators/domain/aku.edu/url_list?page=10": net/http: TLS handshake timeout
+21:40:48.175042 DNS: query on resolver 113.28.71.243:53, for verphdmo-github.aku.edu type 5 returned error FORMERR
+21:40:58.175923 DNS: query on resolver 49.255.44.62:53, for admin1medforms.aku.edu type 5 returned error FORMERR
+21:41:03.178004 DNS: query on resolver 110.77.142.209:53, for testfamilyhifazatadmin.aku.edu type 1 returned error FORMERR
+21:41:08.180162 DNS: query on resolver 195.19.194.170:53, for akuupl-firewall.aku.edu type 28 returned error FORMERR
+21:41:08.180192 Robtex: netblocks request to service failed: Get "https://freeapi.robtex.com/asquery/8075": EOF
+21:41:13.188905 CommonCrawl: scrape: Get "https://index.commoncrawl.org/CC-MAIN-2023-06-index?output=json&fl=url&url=*.aku.edu": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+21:41:33.200728 NetworksDB: https://networksdb.io/autonomous-system/AS20021: Get "https://networksdb.io/autonomous-system/AS20021": net/http: TLS handshake timeout
+21:41:33.200765 DNS: query on resolver 195.19.194.170:53, for serviceboard-turkey.aku.edu type 28 returned error FORMERR
+21:41:38.201429 RADb: https://rdap.arin.net/registry/arin_originas0_networksbyoriginas/20021: unexpected end of JSON input
+21:41:38.201465 ARIN: asn request to service failed: Get "https://rdap.arin.net/registry/ip/151.101.65.195": read tcp 172.16.16.68:37736->199.71.0.160:443: read: connection reset by peer
+21:41:48.223616 DNS: query on resolver 110.77.142.209:53, for 2016vredcap.aku.edu type 5 returned error FORMERR
+21:41:48.225233 DNS: query on resolver 110.77.142.209:53, for fimages.aku.edu type 1 returned error FORMERR
+21:41:53.275896 DNS: query on resolver 49.255.44.62:53, for boardsrvpn.aku.edu type 5 returned error FORMERR
+21:41:58.276880 DNS: query on resolver 110.77.142.209:53, for akueb-developer.aku.edu type 5 returned error FORMERR
+21:42:03.277279 HackerTarget: asn request to service failed: Get "https://api.hackertarget.com/aslookup/?q=41.139.212.136": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+21:42:08.297254 RADb: https://rdap.arin.net/registry/ip/216.74.36.1: Get "https://rdap.arin.net/registry/ip/216.74.36.1": read tcp 172.16.16.68:58496->199.71.0.160:443: read: connection reset by peer
+21:42:13.297301 DNS: query on resolver 110.77.142.209:53, for 2017-scholars.aku.edu type 28 returned error FORMERR
+21:42:13.297337 BGPView: get_asn request to service failed: Get "https://api.bgpview.io/prefix/41.139.128.0/17": read tcp 172.16.16.68:57682->172.67.183.197:443: read: connection reset by peer
+21:42:18.300765 Gists: scrape: Get "https://gist.github.com/adamgold123/66a57f00639fa7f2142b561eafcc7297": net/http: TLS handshake timeout
+21:42:43.304936 URLScan: result request to service failed: Get "https://urlscan.io/api/v1/result/ba7e3403-675e-44f4-80ad-03534a00de19/": net/http: TLS handshake timeout
+21:42:48.306056 NetworksDB: https://networksdb.io/autonomous-system/AS20021: Get "https://networksdb.io/autonomous-system/AS20021": net/http: TLS handshake timeout
+21:42:48.306085 DNS: query on resolver 110.77.142.209:53, for e-vakutsgw1.aku.edu type 5 returned error FORMERR
+21:42:48.306091 DNS: query on resolver 195.19.194.170:53, for w3communications.aku.edu type 5 returned error FORMERR
+21:42:48.306097 DNS: query on resolver 110.77.142.209:53, for smtp4-euw.aku.edu type 28 returned error FORMERR
+21:42:53.307724 Searchcode: vertical request to service failed: Get "https://searchcode.com/?q=.aku.edu&p=14": net/http: TLS handshake timeout
+21:43:03.310302 DNS: query on resolver 110.77.142.209:53, for fw-mca.aku.edu type 1 returned error FORMERR
+21:43:18.313190 BGPView: get_asn request to service failed: Get "https://api.bgpview.io/prefix/196.43.128.0/18": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+21:43:18.313231 RADb: https://rdap.arin.net/registry/autnum/8075: Get "https://rdap.arin.net/registry/autnum/8075": read tcp 172.16.16.68:56210->199.71.0.160:443: read: connection reset by peer
+21:43:18.313241 NetworksDB: https://networksdb.io/autonomous-system/AS8075: Get "https://networksdb.io/autonomous-system/AS8075": net/http: TLS handshake timeout
+21:43:23.320216 Gists: scrape: Get "https://gist.github.com/saumyaagnihotri/9b8f202ff913fea728b3a0f30778e54d": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+21:43:23.320257 Robtex: ip_info request to service failed: Get "https://freeapi.robtex.com/ipquery/104.47.51.138": net/http: TLS handshake timeout
+21:43:33.328270 DNS: query on resolver 195.19.194.170:53, for akusm5l.aku.edu type 28 returned error FORMERR
+21:43:33.328308 URLScan: result request to service failed: Get "https://urlscan.io/api/v1/result/9051bfa7-bd6b-40c5-b431-4fc3458becd7/": net/http: TLS handshake timeout
+21:43:38.328711 Robtex: ip_info request to service failed: Get "https://freeapi.robtex.com/ipquery/41.89.58.25": read tcp 172.16.16.68:56780->172.66.40.130:443: read: connection reset by peer
+21:43:38.328758 ARIN: asn request to service failed: Get "https://rdap.afrinic.net/rdap/ip/196.43.158.8": net/http: TLS handshake timeout
+21:43:38.328764 RADb: https://rdap.arin.net/registry/ip/41.89.58.25: Get "https://rdap.arin.net/registry/ip/41.89.58.25": read tcp 172.16.16.68:55124->199.71.0.160:443: read: connection reset by peer
+21:43:38.328771 BGPView: get_cidr request to service failed: Get "https://api.bgpview.io/ip/197.157.23.195": read tcp 172.16.16.68:41266->172.67.183.197:443: read: connection reset by peer
+21:43:53.330521 DNS: query on resolver 195.19.194.170:53, for singed-servicedesk.aku.edu type 28 returned error FORMERR
+21:43:53.330559 DNS: query on resolver 49.255.44.62:53, for vcode42ci.aku.edu type 28 returned error FORMERR
+21:43:53.330564 DNS: query on resolver 177.184.105.134:53, for akali-vftp.aku.edu type 5 returned error FORMERR
+21:43:58.330783 CommonCrawl: scrape: Get "https://index.commoncrawl.org/CC-MAIN-2022-33-index?output=json&fl=url&url=*.aku.edu": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+21:44:03.334103 DNS: query on resolver 110.77.142.209:53, for bltest-internal.aku.edu type 5 returned error FORMERR
+21:44:03.334079 DNS: query on resolver 110.77.142.209:53, for bltestj.aku.edu type 1 returned error FORMERR
+21:44:08.337587 ARIN: asn request to service failed: Get "https://rdap.arin.net/registry/ip/13.57.92.51": read tcp 172.16.16.68:40570->199.71.0.160:443: read: connection reset by peer
+21:44:08.338697 DNS: query on resolver 49.255.44.62:53, for aetapi3-jenkins.aku.edu type 1 returned error FORMERR
+21:44:08.342296 DNS: query on resolver 49.255.44.62:53, for pre-nginx.aku.edu type 1 returned error FORMERR
+21:44:18.345369 DNS: query on resolver 49.255.44.62:53, for akutsgwjuly.aku.edu type 28 returned error FORMERR
+21:44:18.345404 DNS: query on resolver 49.255.44.62:53, for ftpaetapinew.aku.edu type 1 returned error FORMERR
+21:44:18.345411 RADb: https://rdap.arin.net/registry/autnum/54113: unexpected end of JSON input
+21:44:23.345671 Robtex: ip_info request to service failed: Get "https://freeapi.robtex.com/ipquery/202.63.198.234": read tcp 172.16.16.68:54828->172.66.40.130:443: read: connection reset by peer
+21:44:28.346706 ARIN: asn request to service failed: Get "https://rdap.arin.net/registry/ip/197.157.23.195": read tcp 172.16.16.68:57522->199.71.0.160:443: read: connection reset by peer
+21:44:33.346848 DNS: query on resolver 195.19.194.170:53, for internal-hisapptesting.aku.edu type 1 returned error FORMERR
+21:44:33.346878 CommonCrawl: scrape: Get "https://index.commoncrawl.org/CC-MAIN-2022-27-index?output=json&fl=url&url=*.aku.edu": net/http: TLS handshake timeout
+21:44:33.346884 Robtex: ip_info request to service failed: Get "https://freeapi.robtex.com/ipquery/18.213.172.150": read tcp 172.16.16.68:45756->172.66.40.130:443: read: connection reset by peer
+21:44:38.348823 DNS: query on resolver 113.28.71.243:53, for europesmtpptc1.aku.edu type 5 returned error FORMERR
+21:44:38.348861 DNS: query on resolver 177.184.105.134:53, for biprdappweb.aku.edu type 28 returned error FORMERR
+21:44:48.349283 DNS: query on resolver 110.77.142.209:53, for erpedev-skins.aku.edu type 28 returned error FORMERR
+21:44:48.349320 DNS: query on resolver 49.255.44.62:53, for developer-baobab.ea.aku.edu type 1 returned error FORMERR
+21:44:48.349325 DNS: query on resolver 110.77.142.209:53, for authoringfmic-ftp.aku.edu type 1 returned error FORMERR
+21:44:53.349458 DNS: query on resolver 49.255.44.62:53, for pgmeonline-april.aku.edu type 5 returned error FORMERR
+21:44:53.349483 DNS: query on resolver 49.255.44.62:53, for www-authoringblogs.aku.edu type 28 returned error FORMERR
+21:44:58.359700 DNS: query on resolver 110.77.142.209:53, for vrsappserverbucky.aku.edu type 5 returned error FORMERR
+21:44:58.359742 DNS: query on resolver 110.77.142.209:53, for safarichef.library.aku.edu type 5 returned error FORMERR
+21:44:58.359747 DNS: query on resolver 113.28.71.243:53, for mirrorsharepoint.ismc.aku.edu type 1 returned error FORMERR
+21:44:58.359750 DNS: query on resolver 113.28.71.243:53, for mail-2011.ea.aku.edu type 5 returned error FORMERR
+21:45:03.359934 DNS: query on resolver 113.28.71.243:53, for omail.ea.aku.edu type 1 returned error FORMERR
+21:45:03.359968 RADb: https://rdap.arin.net/registry/autnum/38193: Get "https://rdap.arin.net/registry/autnum/38193": read tcp 172.16.16.68:41908->199.71.0.160:443: read: connection reset by peer
+21:45:08.369432 DNS: query on resolver 113.28.71.243:53, for rpchttpsauth.ismc.aku.edu type 5 returned error FORMERR
+21:45:13.380393 DNS: query on resolver 49.255.44.62:53, for testing1nmspk.aku.edu type 28 returned error FORMERR
+21:45:23.380890 DNS: query on resolver 113.28.71.243:53, for erserviceuat-e.aku.edu type 5 returned error FORMERR
+21:45:28.384085 DNS: query on resolver 110.77.142.209:53, for aprilexambank.ea.aku.edu type 1 returned error FORMERR
+21:45:28.384122 DNS: query on resolver 113.28.71.243:53, for dev1erservice.aku.edu type 5 returned error FORMERR
+21:45:33.385618 DNS: query on resolver 110.77.142.209:53, for erserviceuat-accounts.aku.edu type 1 returned error FORMERR
+21:45:33.385652 DNS: query on resolver 113.28.71.243:53, for mtappnginx.ea.aku.edu type 5 returned error FORMERR
+21:45:33.385657 DNS: query on resolver 113.28.71.243:53, for team-globalportalservices.aku.edu type 28 returned error FORMERR
+21:45:43.385898 DNS: query on resolver 113.28.71.243:53, for 16-m.mca.aku.edu type 28 returned error FORMERR
+21:45:43.385932 DNS: query on resolver 110.77.142.209:53, for mtappuat.ea.aku.edu type 28 returned error FORMERR
+21:45:53.386242 RADb: https://rdap.arin.net/registry/arin_originas0_networksbyoriginas/37061: 404: 404 
+21:46:25.683127 RADb: https://rdap.arin.net/registry/arin_originas0_networksbyoriginas/327687: 404: 404 
+21:46:25.683165 NetworksDB: https://networksdb.io/autonomous-system/AS16509: Get "https://networksdb.io/autonomous-system/AS16509": context canceled

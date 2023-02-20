@@ -42,13 +42,28 @@ celery:
 	celery -A config worker --pool=prefork --concurrency=4 --loglevel=info
 
 set-env-local:
-	@echo "DEBUG=False" > .env
-	@echo "DATABASE_URL=postgres://user:password@localhost/dbname" >> .env
-	
-
-set-env:
-	@bash -c 'make set-env-local && source .env && export DEBUG && export DATABASE_URL && exec bash' > /dev/null 2>&1 
+	@echo "DEBUG=True" > .env
+	@echo "DATABASE_URL=mysql://admin:password@localhost:3306/attackeye" >> .env
+	@bash -c 'source .env && export DEBUG && export DATABASE_URL && export DJANGO_SETTINGS_MODULE=config.settings.local && make attackeye && exec bash'
 	@echo "Local environment set successfully."
+
+set-env-production:
+	@echo "DEBUG=False" > .env
+	@echo "DATABASE_URL=mysql://admin:password@localhost:3306/attackeye" >> .env
+	@bash -c 'source .env && export DEBUG && export DATABASE_URL && export DJANGO_SETTINGS_MODULE=config.settings.production && make attackeye && exec bash'
+	@echo "Production environment set successfully."
+
+set-env-test:
+	@echo "DEBUG=True" > .env
+	@echo "DATABASE_URL=mysql://admin:password@localhost:3306/attackeye" >> .env
+	@bash -c 'source .env && export DEBUG && export DATABASE_URL && make attackeye && exec bash'
+	@echo "Local environment set successfully."
+
+set-env-stagging:
+	@echo "DEBUG=False" > .env
+	@echo "DATABASE_URL=mysql://admin:password@localhost:3306/attackeye" >> .env
+	@bash -c 'source .env && export DEBUG && export DATABASE_URL && make attackeye && exec bash'
+	@echo "Production environment set successfully."
 
 
 # Define phony targets

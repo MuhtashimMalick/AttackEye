@@ -1,0 +1,5088 @@
+{
+  "edges": [
+    {
+      "key": "0",
+      "source": "0",
+      "target": "30",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "1",
+      "source": "0",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "2",
+      "source": "1",
+      "target": "174",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "3",
+      "source": "1",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "4",
+      "source": "2",
+      "target": "5",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "5",
+      "source": "2",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "6",
+      "source": "3",
+      "target": "3",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "7",
+      "source": "3",
+      "target": "165",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "8",
+      "source": "4",
+      "target": "91",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "9",
+      "source": "4",
+      "target": "77",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "10",
+      "source": "4",
+      "target": "112",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "11",
+      "source": "4",
+      "target": "182",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "12",
+      "source": "6",
+      "target": "6",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "13",
+      "source": "6",
+      "target": "26",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "14",
+      "source": "7",
+      "target": "30",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "15",
+      "source": "7",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "16",
+      "source": "9",
+      "target": "40",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "17",
+      "source": "11",
+      "target": "125",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "18",
+      "source": "11",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "19",
+      "source": "12",
+      "target": "125",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "20",
+      "source": "12",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "21",
+      "source": "13",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "22",
+      "source": "13",
+      "target": "3",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "23",
+      "source": "14",
+      "target": "158",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "24",
+      "source": "14",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "25",
+      "source": "15",
+      "target": "168",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "26",
+      "source": "16",
+      "target": "79",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "27",
+      "source": "16",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "28",
+      "source": "17",
+      "target": "9",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "29",
+      "source": "18",
+      "target": "61",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "30",
+      "source": "18",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "31",
+      "source": "19",
+      "target": "47",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "32",
+      "source": "20",
+      "target": "102",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "33",
+      "source": "20",
+      "target": "100",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "34",
+      "source": "20",
+      "target": "95",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "35",
+      "source": "20",
+      "target": "38",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "36",
+      "source": "21",
+      "target": "110",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "37",
+      "source": "21",
+      "target": "121",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "38",
+      "source": "22",
+      "target": "178",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "39",
+      "source": "22",
+      "target": "32",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "40",
+      "source": "23",
+      "target": "177",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "41",
+      "source": "23",
+      "target": "103",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "42",
+      "source": "23",
+      "target": "169",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "43",
+      "source": "23",
+      "target": "112",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "44",
+      "source": "24",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "45",
+      "source": "24",
+      "target": "88",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "46",
+      "source": "25",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "47",
+      "source": "25",
+      "target": "96",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "48",
+      "source": "26",
+      "target": "27",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "49",
+      "source": "26",
+      "target": "6",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "50",
+      "source": "31",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "51",
+      "source": "31",
+      "target": "46",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "52",
+      "source": "33",
+      "target": "22",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "53",
+      "source": "34",
+      "target": "8",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "54",
+      "source": "34",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "55",
+      "source": "35",
+      "target": "125",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "56",
+      "source": "35",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "57",
+      "source": "36",
+      "target": "125",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "58",
+      "source": "36",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "59",
+      "source": "37",
+      "target": "141",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "60",
+      "source": "38",
+      "target": "157",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "61",
+      "source": "39",
+      "target": "146",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "62",
+      "source": "39",
+      "target": "94",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "63",
+      "source": "41",
+      "target": "150",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "64",
+      "source": "41",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "65",
+      "source": "42",
+      "target": "125",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "66",
+      "source": "42",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "67",
+      "source": "43",
+      "target": "5",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "68",
+      "source": "43",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "69",
+      "source": "44",
+      "target": "40",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "70",
+      "source": "44",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "71",
+      "source": "45",
+      "target": "45",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "72",
+      "source": "45",
+      "target": "86",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "73",
+      "source": "46",
+      "target": "121",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "74",
+      "source": "46",
+      "target": "21",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "75",
+      "source": "48",
+      "target": "78",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "76",
+      "source": "48",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "77",
+      "source": "49",
+      "target": "29",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "78",
+      "source": "49",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "79",
+      "source": "50",
+      "target": "54",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "80",
+      "source": "50",
+      "target": "96",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "81",
+      "source": "51",
+      "target": "125",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "82",
+      "source": "51",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "83",
+      "source": "52",
+      "target": "125",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "84",
+      "source": "52",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "85",
+      "source": "53",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "86",
+      "source": "53",
+      "target": "108",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "87",
+      "source": "56",
+      "target": "152",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "88",
+      "source": "56",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "89",
+      "source": "57",
+      "target": "106",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "90",
+      "source": "57",
+      "target": "68",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "91",
+      "source": "57",
+      "target": "28",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "92",
+      "source": "57",
+      "target": "150",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "93",
+      "source": "57",
+      "target": "29",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "94",
+      "source": "57",
+      "target": "80",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "95",
+      "source": "57",
+      "target": "152",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "96",
+      "source": "58",
+      "target": "27",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "97",
+      "source": "59",
+      "target": "5",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "98",
+      "source": "60",
+      "target": "125",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "99",
+      "source": "60",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "100",
+      "source": "64",
+      "target": "125",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "101",
+      "source": "64",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "102",
+      "source": "65",
+      "target": "65",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "103",
+      "source": "65",
+      "target": "165",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "104",
+      "source": "66",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "105",
+      "source": "66",
+      "target": "39",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "106",
+      "source": "67",
+      "target": "177",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "107",
+      "source": "67",
+      "target": "103",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "108",
+      "source": "67",
+      "target": "77",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "109",
+      "source": "67",
+      "target": "63",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "110",
+      "source": "69",
+      "target": "68",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "111",
+      "source": "69",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "112",
+      "source": "70",
+      "target": "83",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "113",
+      "source": "70",
+      "target": "113",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "114",
+      "source": "70",
+      "target": "149",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "115",
+      "source": "71",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "116",
+      "source": "71",
+      "target": "176",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "117",
+      "source": "72",
+      "target": "62",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "118",
+      "source": "72",
+      "target": "44",
+      "edgeTitle": "ptr_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "119",
+      "source": "73",
+      "target": "182",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "120",
+      "source": "74",
+      "target": "125",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "121",
+      "source": "74",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "122",
+      "source": "75",
+      "target": "125",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "123",
+      "source": "75",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "124",
+      "source": "81",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "125",
+      "source": "81",
+      "target": "3",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "126",
+      "source": "82",
+      "target": "125",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "127",
+      "source": "82",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "128",
+      "source": "84",
+      "target": "145",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "129",
+      "source": "84",
+      "target": "125",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "130",
+      "source": "84",
+      "target": "97",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "131",
+      "source": "84",
+      "target": "174",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "132",
+      "source": "84",
+      "target": "54",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "133",
+      "source": "86",
+      "target": "85",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "134",
+      "source": "86",
+      "target": "131",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "135",
+      "source": "87",
+      "target": "28",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "136",
+      "source": "87",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "137",
+      "source": "88",
+      "target": "88",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "138",
+      "source": "88",
+      "target": "93",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "139",
+      "source": "89",
+      "target": "89",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "140",
+      "source": "89",
+      "target": "86",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "141",
+      "source": "90",
+      "target": "112",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "142",
+      "source": "90",
+      "target": "76",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "143",
+      "source": "92",
+      "target": "148",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "144",
+      "source": "92",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "145",
+      "source": "93",
+      "target": "97",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "146",
+      "source": "93",
+      "target": "88",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "147",
+      "source": "94",
+      "target": "178",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "148",
+      "source": "94",
+      "target": "32",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "149",
+      "source": "94",
+      "target": "179",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "150",
+      "source": "95",
+      "target": "101",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "151",
+      "source": "96",
+      "target": "96",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "152",
+      "source": "96",
+      "target": "50",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "153",
+      "source": "98",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "154",
+      "source": "98",
+      "target": "6",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "155",
+      "source": "99",
+      "target": "30",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "156",
+      "source": "99",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "157",
+      "source": "100",
+      "target": "149",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "158",
+      "source": "102",
+      "target": "83",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "159",
+      "source": "104",
+      "target": "168",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "160",
+      "source": "104",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "161",
+      "source": "105",
+      "target": "126",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "162",
+      "source": "107",
+      "target": "5",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "163",
+      "source": "107",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "164",
+      "source": "108",
+      "target": "108",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "165",
+      "source": "108",
+      "target": "86",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "166",
+      "source": "109",
+      "target": "10",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "167",
+      "source": "109",
+      "target": "8",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "168",
+      "source": "109",
+      "target": "78",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "169",
+      "source": "109",
+      "target": "61",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "170",
+      "source": "109",
+      "target": "153",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "171",
+      "source": "109",
+      "target": "79",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "172",
+      "source": "109",
+      "target": "158",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "173",
+      "source": "111",
+      "target": "10",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "174",
+      "source": "111",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "175",
+      "source": "114",
+      "target": "171",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "176",
+      "source": "115",
+      "target": "59",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "177",
+      "source": "116",
+      "target": "15",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "178",
+      "source": "117",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "179",
+      "source": "117",
+      "target": "45",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "180",
+      "source": "118",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "181",
+      "source": "118",
+      "target": "162",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "182",
+      "source": "119",
+      "target": "30",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "183",
+      "source": "119",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "184",
+      "source": "120",
+      "target": "153",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "185",
+      "source": "120",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "186",
+      "source": "123",
+      "target": "125",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "187",
+      "source": "123",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "188",
+      "source": "124",
+      "target": "55",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "189",
+      "source": "126",
+      "target": "110",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "190",
+      "source": "127",
+      "target": "106",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "191",
+      "source": "127",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "192",
+      "source": "128",
+      "target": "125",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "193",
+      "source": "128",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "194",
+      "source": "129",
+      "target": "55",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "195",
+      "source": "129",
+      "target": "77",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "196",
+      "source": "129",
+      "target": "171",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "197",
+      "source": "130",
+      "target": "63",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "198",
+      "source": "131",
+      "target": "145",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "199",
+      "source": "131",
+      "target": "131",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "200",
+      "source": "132",
+      "target": "141",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "201",
+      "source": "132",
+      "target": "122",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "202",
+      "source": "133",
+      "target": "125",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "203",
+      "source": "133",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "204",
+      "source": "134",
+      "target": "177",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "205",
+      "source": "134",
+      "target": "91",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "206",
+      "source": "135",
+      "target": "143",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "207",
+      "source": "135",
+      "target": "5",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "208",
+      "source": "135",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "209",
+      "source": "136",
+      "target": "125",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "210",
+      "source": "136",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "211",
+      "source": "137",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "212",
+      "source": "137",
+      "target": "89",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "213",
+      "source": "139",
+      "target": "84",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "214",
+      "source": "139",
+      "target": "58",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "215",
+      "source": "139",
+      "target": "37",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "216",
+      "source": "140",
+      "target": "101",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "217",
+      "source": "140",
+      "target": "113",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "218",
+      "source": "140",
+      "target": "157",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "219",
+      "source": "142",
+      "target": "125",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "220",
+      "source": "142",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "221",
+      "source": "144",
+      "target": "138",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "222",
+      "source": "147",
+      "target": "109",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "223",
+      "source": "151",
+      "target": "5",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "224",
+      "source": "151",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "225",
+      "source": "154",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "226",
+      "source": "154",
+      "target": "65",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "227",
+      "source": "155",
+      "target": "103",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "228",
+      "source": "156",
+      "target": "125",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "229",
+      "source": "156",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "230",
+      "source": "159",
+      "target": "80",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "231",
+      "source": "159",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "232",
+      "source": "160",
+      "target": "30",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "233",
+      "source": "160",
+      "target": "143",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "234",
+      "source": "160",
+      "target": "148",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "235",
+      "source": "161",
+      "target": "125",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "236",
+      "source": "161",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "237",
+      "source": "162",
+      "target": "47",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "238",
+      "source": "162",
+      "target": "77",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "239",
+      "source": "162",
+      "target": "138",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "240",
+      "source": "163",
+      "target": "163",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "241",
+      "source": "163",
+      "target": "86",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "242",
+      "source": "164",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "243",
+      "source": "164",
+      "target": "163",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "244",
+      "source": "165",
+      "target": "85",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "245",
+      "source": "165",
+      "target": "132",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "246",
+      "source": "166",
+      "target": "134",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "247",
+      "source": "166",
+      "target": "114",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "248",
+      "source": "166",
+      "target": "155",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "249",
+      "source": "166",
+      "target": "90",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "250",
+      "source": "166",
+      "target": "73",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "251",
+      "source": "166",
+      "target": "130",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "252",
+      "source": "166",
+      "target": "19",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "253",
+      "source": "166",
+      "target": "124",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "254",
+      "source": "166",
+      "target": "144",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "255",
+      "source": "167",
+      "target": "91",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "256",
+      "source": "167",
+      "target": "169",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "257",
+      "source": "167",
+      "target": "112",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "258",
+      "source": "167",
+      "target": "76",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "259",
+      "source": "170",
+      "target": "160",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "260",
+      "source": "170",
+      "target": "57",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "261",
+      "source": "172",
+      "target": "125",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "262",
+      "source": "172",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "263",
+      "source": "173",
+      "target": "125",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "264",
+      "source": "173",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "265",
+      "source": "175",
+      "target": "28",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "266",
+      "source": "175",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "267",
+      "source": "176",
+      "target": "125",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "268",
+      "source": "176",
+      "target": "23",
+      "edgeTitle": "mx_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "269",
+      "source": "176",
+      "target": "167",
+      "edgeTitle": "mx_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "270",
+      "source": "176",
+      "target": "129",
+      "edgeTitle": "mx_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "271",
+      "source": "176",
+      "target": "4",
+      "edgeTitle": "mx_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "272",
+      "source": "176",
+      "target": "67",
+      "edgeTitle": "mx_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "273",
+      "source": "176",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "274",
+      "source": "176",
+      "target": "70",
+      "edgeTitle": "ns_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "275",
+      "source": "176",
+      "target": "140",
+      "edgeTitle": "ns_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "276",
+      "source": "180",
+      "target": "125",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "277",
+      "source": "180",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "278",
+      "source": "181",
+      "target": "125",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "279",
+      "source": "181",
+      "target": "176",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "key": "0",
+      "attributes": {
+        "x": 0,
+        "y": 0,
+        "label": "ajest.iqra.edu.pk",
+        "pointTitle": "subdomain: ajest.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Crtsh",
+        "size": 15
+      }
+    },
+    {
+      "key": "1",
+      "attributes": {
+        "x": -1.7727244894496135,
+        "y": -1.4964805060172344,
+        "label": "international.iqra.edu.pk",
+        "pointTitle": "subdomain: international.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "2",
+      "attributes": {
+        "x": -3.898229065095453,
+        "y": 3.402124569160282,
+        "label": "admission.iqra.edu.pk",
+        "pointTitle": "subdomain: admission.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Crtsh",
+        "size": 15
+      }
+    },
+    {
+      "key": "3",
+      "attributes": {
+        "x": -4.012529437749412,
+        "y": -3.8183628723751304,
+        "label": "iuadmissionportaldlic.azurewebsites.net",
+        "pointTitle": "domain: iuadmissionportaldlic.azurewebsites.net",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "4",
+      "attributes": {
+        "x": -6.9967456408233435,
+        "y": 7.216372102781328,
+        "label": "alt2.aspmx.l.google.com",
+        "pointTitle": "mx: alt2.aspmx.l.google.com",
+        "color": "#F7727B",
+        "category": "mx",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "5",
+      "attributes": {
+        "x": -8.2762127875859,
+        "y": -7.517932382867863,
+        "label": "192.124.249.10",
+        "pointTitle": "address: 192.124.249.10",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "6",
+      "attributes": {
+        "x": 7.062671705933228,
+        "y": 10.458000507490283,
+        "label": "iuvlechat.azurewebsites.net",
+        "pointTitle": "domain: iuvlechat.azurewebsites.net",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "7",
+      "attributes": {
+        "x": -13.054284797589936,
+        "y": -13.674155600937512,
+        "label": "education.iqra.edu.pk",
+        "pointTitle": "subdomain: education.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "8",
+      "attributes": {
+        "x": -12.499402377272169,
+        "y": 9.987581078936559,
+        "label": "103.138.162.51",
+        "pointTitle": "address: 103.138.162.51",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "9",
+      "attributes": {
+        "x": -13.755593784471014,
+        "y": -16.0092929008683,
+        "label": "203.101.160.0/21",
+        "pointTitle": "netblock: 203.101.160.0/21",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "10",
+      "attributes": {
+        "x": -11.40587694727839,
+        "y": 17.791455775561253,
+        "label": "103.138.162.43",
+        "pointTitle": "address: 103.138.162.43",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "11",
+      "attributes": {
+        "x": 19.912757384984133,
+        "y": -21.288722404504796,
+        "label": "yic.iqra.edu.pk",
+        "pointTitle": "subdomain: yic.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "12",
+      "attributes": {
+        "x": -15.736340223243314,
+        "y": 20.363891008412224,
+        "label": "beta.iqra.edu.pk",
+        "pointTitle": "subdomain: beta.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "DNSDumpster",
+        "size": 15
+      }
+    },
+    {
+      "key": "13",
+      "attributes": {
+        "x": 13.439657683821249,
+        "y": -18.787616850748506,
+        "label": "admissions.iqra.edu.pk",
+        "pointTitle": "subdomain: admissions.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "14",
+      "attributes": {
+        "x": -15.004499772338665,
+        "y": 18.88453586000135,
+        "label": "iulms-bck.iqra.edu.pk",
+        "pointTitle": "subdomain: iulms-bck.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Crtsh",
+        "size": 15
+      }
+    },
+    {
+      "key": "15",
+      "attributes": {
+        "x": 25.83468143133772,
+        "y": -20.987643737772963,
+        "label": "116.71.128.0/24",
+        "pointTitle": "netblock: 116.71.128.0/24",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "16",
+      "attributes": {
+        "x": -29.02381777184665,
+        "y": 22.494475755324565,
+        "label": "iulms-qc.iqra.edu.pk",
+        "pointTitle": "subdomain: iulms-qc.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Crtsh",
+        "size": 15
+      }
+    },
+    {
+      "key": "17",
+      "attributes": {
+        "x": 31.602032872171765,
+        "y": -33.591740784647214,
+        "label": "9541",
+        "pointTitle": "as: 9541, Desc: CYBERNET-AP Cyber Internet Services Pvt Ltd., PK",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "18",
+      "attributes": {
+        "x": -22.595574077069053,
+        "y": 18.616818937880485,
+        "label": "fileserver.iqra.edu.pk",
+        "pointTitle": "subdomain: fileserver.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Crtsh",
+        "size": 15
+      }
+    },
+    {
+      "key": "19",
+      "attributes": {
+        "x": 22.562073044453296,
+        "y": -30.668332004417984,
+        "label": "172.217.0.0/19",
+        "pointTitle": "netblock: 172.217.0.0/19",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "20",
+      "attributes": {
+        "x": 29.654136098255336,
+        "y": 27.6422552834209,
+        "label": "44273",
+        "pointTitle": "as: 44273, Desc: GODADDY-DNS, DE",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "21",
+      "attributes": {
+        "x": -41.069682604052865,
+        "y": -29.127612083180807,
+        "label": "c167.bayt.com",
+        "pointTitle": "subdomain: c167.bayt.com",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "22",
+      "attributes": {
+        "x": 23.868949188246788,
+        "y": 38.31212676455868,
+        "label": "18.198.0.0/15",
+        "pointTitle": "netblock: 18.198.0.0/15",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "23",
+      "attributes": {
+        "x": 26.901918920644697,
+        "y": -42.315099020883686,
+        "label": "aspmx2.googlemail.com",
+        "pointTitle": "mx: aspmx2.googlemail.com",
+        "color": "#F7727B",
+        "category": "mx",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "24",
+      "attributes": {
+        "x": -45.85421282208506,
+        "y": 47.692851601573786,
+        "label": "jobfair.iqra.edu.pk",
+        "pointTitle": "subdomain: jobfair.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "25",
+      "attributes": {
+        "x": -47.084886178596506,
+        "y": -28.618104783885748,
+        "label": "lms.iqra.edu.pk",
+        "pointTitle": "subdomain: lms.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "26",
+      "attributes": {
+        "x": -47.170253681631195,
+        "y": 33.478242265593266,
+        "label": "ssl.iuvlechat.azurewebsites.net",
+        "pointTitle": "subdomain: ssl.iuvlechat.azurewebsites.net",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "27",
+      "attributes": {
+        "x": 52.47718087093335,
+        "y": -50.934272036092864,
+        "label": "52.163.53.106",
+        "pointTitle": "address: 52.163.53.106",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "28",
+      "attributes": {
+        "x": -31.188099314613176,
+        "y": 54.64989239535862,
+        "label": "43.231.60.53",
+        "pointTitle": "address: 43.231.60.53",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "29",
+      "attributes": {
+        "x": 50.014377149852066,
+        "y": -29.212830282945017,
+        "label": "43.231.60.58",
+        "pointTitle": "address: 43.231.60.58",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "30",
+      "attributes": {
+        "x": -53.87148761846177,
+        "y": 58.3072737921693,
+        "label": "150.129.4.99",
+        "pointTitle": "address: 150.129.4.99",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "31",
+      "attributes": {
+        "x": 57.360870397258985,
+        "y": -54.56882058830672,
+        "label": "internationalcareers.iqra.edu.pk",
+        "pointTitle": "subdomain: internationalcareers.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "32",
+      "attributes": {
+        "x": 41.07245757245632,
+        "y": 32.947829002407275,
+        "label": "18.198.218.66",
+        "pointTitle": "address: 18.198.218.66",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "33",
+      "attributes": {
+        "x": -48.71168365184697,
+        "y": -54.71284059725461,
+        "label": "16509",
+        "pointTitle": "as: 16509, Desc: AMAZON-02 - Amazon.com, Inc.",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "34",
+      "attributes": {
+        "x": 44.21999144631461,
+        "y": 54.486498776246734,
+        "label": "research.iqra.edu.pk",
+        "pointTitle": "subdomain: research.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Crtsh",
+        "size": 15
+      }
+    },
+    {
+      "key": "35",
+      "attributes": {
+        "x": -66.83171221317254,
+        "y": -47.99687087174428,
+        "label": "online.iqra.edu.pk",
+        "pointTitle": "subdomain: online.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "36",
+      "attributes": {
+        "x": 43.77436517372638,
+        "y": 51.7400072604912,
+        "label": "icscm.iqra.edu.pk",
+        "pointTitle": "subdomain: icscm.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "37",
+      "attributes": {
+        "x": 67.76346607515308,
+        "y": -73.879993806236,
+        "label": "104.208.0.0/13",
+        "pointTitle": "netblock: 104.208.0.0/13",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "38",
+      "attributes": {
+        "x": 48.27064972972379,
+        "y": 54.60098170240134,
+        "label": "2603:5:22f0::/44",
+        "pointTitle": "netblock: 2603:5:22f0::/44",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "39",
+      "attributes": {
+        "x": -41.434478158526694,
+        "y": -60.36750671626537,
+        "label": "emailtracking.email-messaging.com",
+        "pointTitle": "subdomain: emailtracking.email-messaging.com",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "40",
+      "attributes": {
+        "x": -60.97572539443522,
+        "y": 44.713138413330825,
+        "label": "203.101.161.83",
+        "pointTitle": "address: 203.101.161.83",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "41",
+      "attributes": {
+        "x": 58.68653168730186,
+        "y": -58.49555166204843,
+        "label": "vle-old.iqra.edu.pk",
+        "pointTitle": "subdomain: vle-old.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Alterations",
+        "size": 15
+      }
+    },
+    {
+      "key": "42",
+      "attributes": {
+        "x": 68.4370022024745,
+        "y": 43.45510394396273,
+        "label": "iunc.iqra.edu.pk",
+        "pointTitle": "subdomain: iunc.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "43",
+      "attributes": {
+        "x": -66.66780028716465,
+        "y": -83.88486343269489,
+        "label": "medical.iqra.edu.pk",
+        "pointTitle": "subdomain: medical.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "DNSDumpster",
+        "size": 15
+      }
+    },
+    {
+      "key": "44",
+      "attributes": {
+        "x": 58.65340493973127,
+        "y": 62.16260837066713,
+        "label": "mail.iqra.edu.pk",
+        "pointTitle": "subdomain: mail.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "SiteDossier",
+        "size": 15
+      }
+    },
+    {
+      "key": "45",
+      "attributes": {
+        "x": 80.60370564842205,
+        "y": -55.504671496855686,
+        "label": "virtuallearningenvironment.azurewebsites.net",
+        "pointTitle": "domain: virtuallearningenvironment.azurewebsites.net",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "46",
+      "attributes": {
+        "x": 83.20597861876989,
+        "y": 86.49556206493372,
+        "label": "waf2.bayt.com",
+        "pointTitle": "subdomain: waf2.bayt.com",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "47",
+      "attributes": {
+        "x": 54.20209792026276,
+        "y": -59.28913609587557,
+        "label": "172.217.16.147",
+        "pointTitle": "address: 172.217.16.147",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "48",
+      "attributes": {
+        "x": 76.80523205856434,
+        "y": 61.07283395004582,
+        "label": "electures.iqra.edu.pk",
+        "pointTitle": "subdomain: electures.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "SiteDossier",
+        "size": 15
+      }
+    },
+    {
+      "key": "49",
+      "attributes": {
+        "x": 97.79272315777206,
+        "y": -53.453171801841364,
+        "label": "adfs.iqra.edu.pk",
+        "pointTitle": "subdomain: adfs.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Crtsh",
+        "size": 15
+      }
+    },
+    {
+      "key": "50",
+      "attributes": {
+        "x": 65.2739096859464,
+        "y": 90.89671274426289,
+        "label": "ssl.iulms.azurewebsites.net",
+        "pointTitle": "subdomain: ssl.iulms.azurewebsites.net",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "51",
+      "attributes": {
+        "x": -94.01748306085685,
+        "y": -77.93566497886701,
+        "label": "salc.iqra.edu.pk",
+        "pointTitle": "subdomain: salc.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "52",
+      "attributes": {
+        "x": 91.65656649482784,
+        "y": 62.20410609136375,
+        "label": "alumni.iqra.edu.pk",
+        "pointTitle": "subdomain: alumni.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "53",
+      "attributes": {
+        "x": 102.65478313993623,
+        "y": -72.6956514727765,
+        "label": "examprep.iqra.edu.pk",
+        "pointTitle": "subdomain: examprep.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "54",
+      "attributes": {
+        "x": -95.09444054132057,
+        "y": 59.224447100236546,
+        "label": "13.67.61.24",
+        "pointTitle": "address: 13.67.61.24",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "55",
+      "attributes": {
+        "x": 79.13070429530356,
+        "y": -97.64004606773764,
+        "label": "108.177.127.27",
+        "pointTitle": "address: 108.177.127.27",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "56",
+      "attributes": {
+        "x": -57.58285610686742,
+        "y": 99.3955419040119,
+        "label": "vle2.iqra.edu.pk",
+        "pointTitle": "subdomain: vle2.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "DNSDumpster",
+        "size": 15
+      }
+    },
+    {
+      "key": "57",
+      "attributes": {
+        "x": -85.3779156065427,
+        "y": -113.75324018648408,
+        "label": "43.231.60.0/22",
+        "pointTitle": "netblock: 43.231.60.0/22",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "58",
+      "attributes": {
+        "x": 75.07098722839072,
+        "y": 99.50982110595427,
+        "label": "52.160.0.0/11",
+        "pointTitle": "netblock: 52.160.0.0/11",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "59",
+      "attributes": {
+        "x": 65.68692810486621,
+        "y": -67.39956484218553,
+        "label": "192.124.249.0/24",
+        "pointTitle": "netblock: 192.124.249.0/24",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "60",
+      "attributes": {
+        "x": -116.56475295487407,
+        "y": 65.3658130043669,
+        "label": "iuisl.iqra.edu.pk",
+        "pointTitle": "subdomain: iuisl.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "61",
+      "attributes": {
+        "x": 113.76206515321154,
+        "y": -65.05986784081102,
+        "label": "103.138.162.53",
+        "pointTitle": "address: 103.138.162.53",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "62",
+      "attributes": {
+        "x": -71.56724351742874,
+        "y": 95.83797185040916,
+        "label": "203.in-addr.arpa",
+        "pointTitle": "domain: 203.in-addr.arpa",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "Reverse DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "63",
+      "attributes": {
+        "x": -78.19613638247412,
+        "y": -88.14492157665788,
+        "label": "2404:6800:4008:c13::1a",
+        "pointTitle": "address: 2404:6800:4008:c13::1a",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "64",
+      "attributes": {
+        "x": -94.01108153913144,
+        "y": 92.75573635273602,
+        "label": "verify.iqra.edu.pk",
+        "pointTitle": "subdomain: verify.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Crtsh",
+        "size": 15
+      }
+    },
+    {
+      "key": "65",
+      "attributes": {
+        "x": 122.89663555383174,
+        "y": -72.66693753338869,
+        "label": "adiu.azurewebsites.net",
+        "pointTitle": "domain: adiu.azurewebsites.net",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "66",
+      "attributes": {
+        "x": -107.7210984943765,
+        "y": 66.89147651713404,
+        "label": "tracking.iqra.edu.pk",
+        "pointTitle": "subdomain: tracking.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "67",
+      "attributes": {
+        "x": -118.50430089907682,
+        "y": -116.02825814725372,
+        "label": "alt1.aspmx.l.google.com",
+        "pointTitle": "mx: alt1.aspmx.l.google.com",
+        "color": "#F7727B",
+        "category": "mx",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "68",
+      "attributes": {
+        "x": 93.72589493698791,
+        "y": 100.24632266036002,
+        "label": "43.231.60.52",
+        "pointTitle": "address: 43.231.60.52",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "69",
+      "attributes": {
+        "x": -134.3382690791214,
+        "y": -105.59694071562845,
+        "label": "iux.iqra.edu.pk",
+        "pointTitle": "subdomain: iux.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AlienVault",
+        "size": 15
+      }
+    },
+    {
+      "key": "70",
+      "attributes": {
+        "x": -127.15869723826904,
+        "y": 135.17929185051005,
+        "label": "pdns03.domaincontrol.com",
+        "pointTitle": "ns: pdns03.domaincontrol.com",
+        "color": "#E36414",
+        "category": "ns",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "71",
+      "attributes": {
+        "x": 86.97048817659747,
+        "y": -140.6218757697309,
+        "label": "www.iqra.edu.pk",
+        "pointTitle": "subdomain: www.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "72",
+      "attributes": {
+        "x": 128.70640214488725,
+        "y": 108.73662054863036,
+        "label": "83.161.101.203.in-addr.arpa",
+        "pointTitle": "ptr: 83.161.101.203.in-addr.arpa",
+        "color": "#E33E14",
+        "category": "ptr",
+        "type": "border",
+        "source": "Reverse DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "73",
+      "attributes": {
+        "x": 106.07533597011366,
+        "y": -119.26317991105634,
+        "label": "2a00:1450:400b::/48",
+        "pointTitle": "netblock: 2a00:1450:400b::/48",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "74",
+      "attributes": {
+        "x": -119.26186936382086,
+        "y": 84.16162836072533,
+        "label": "ce2.iqra.edu.pk",
+        "pointTitle": "subdomain: ce2.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "75",
+      "attributes": {
+        "x": -118.42144938791193,
+        "y": -120.84621784693739,
+        "label": "ad.iqra.edu.pk",
+        "pointTitle": "subdomain: ad.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "76",
+      "attributes": {
+        "x": 119.97453459092108,
+        "y": 101.44361638139674,
+        "label": "2a00:1450:4025:c03::1b",
+        "pointTitle": "address: 2a00:1450:4025:c03::1b",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "77",
+      "attributes": {
+        "x": 135.54731978239346,
+        "y": -113.0148354836784,
+        "label": "google.com",
+        "pointTitle": "domain: google.com",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "78",
+      "attributes": {
+        "x": 143.83254140598672,
+        "y": 127.17868350039817,
+        "label": "103.138.162.36",
+        "pointTitle": "address: 103.138.162.36",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "79",
+      "attributes": {
+        "x": -112.76254796847188,
+        "y": -91.02134291129765,
+        "label": "103.138.162.142",
+        "pointTitle": "address: 103.138.162.142",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "80",
+      "attributes": {
+        "x": -108.06666447313314,
+        "y": 108.75628287918197,
+        "label": "43.231.60.42",
+        "pointTitle": "address: 43.231.60.42",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "81",
+      "attributes": {
+        "x": -121.2251404340098,
+        "y": -109.75031564200388,
+        "label": "phdadmissions.iqra.edu.pk",
+        "pointTitle": "subdomain: phdadmissions.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "82",
+      "attributes": {
+        "x": -137.74367754751165,
+        "y": 158.14086697926706,
+        "label": "uniprep.iqra.edu.pk",
+        "pointTitle": "subdomain: uniprep.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "83",
+      "attributes": {
+        "x": 127.78722217713607,
+        "y": -144.29183487736498,
+        "label": "97.74.111.51",
+        "pointTitle": "address: 97.74.111.51",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "84",
+      "attributes": {
+        "x": 99.10043681520901,
+        "y": 157.12474504326372,
+        "label": "13.64.0.0/11",
+        "pointTitle": "netblock: 13.64.0.0/11",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "85",
+      "attributes": {
+        "x": 105.04989670304394,
+        "y": -146.95664692126527,
+        "label": "windows.net",
+        "pointTitle": "domain: windows.net",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "86",
+      "attributes": {
+        "x": -115.8054926904478,
+        "y": 118.36445206345897,
+        "label": "waws-prod-sg1-045.sip.azurewebsites.windows.net",
+        "pointTitle": "subdomain: waws-prod-sg1-045.sip.azurewebsites.windows.net",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "87",
+      "attributes": {
+        "x": -99.40817438427285,
+        "y": -91.58141275560914,
+        "label": "iudesk-ms.iqra.edu.pk",
+        "pointTitle": "subdomain: iudesk-ms.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "DNSDumpster",
+        "size": 15
+      }
+    },
+    {
+      "key": "88",
+      "attributes": {
+        "x": -171.9684741178636,
+        "y": 149.96380360049855,
+        "label": "virtuallearningenvironment20210217092419.azurewebsites.net",
+        "pointTitle": "domain: virtuallearningenvironment20210217092419.azurewebsites.net",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "89",
+      "attributes": {
+        "x": -147.67264089463538,
+        "y": -111.29779495524727,
+        "label": "iutas.azurewebsites.net",
+        "pointTitle": "domain: iutas.azurewebsites.net",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "90",
+      "attributes": {
+        "x": 125.72563698144214,
+        "y": 134.24362649762608,
+        "label": "2a00:1450::/32",
+        "pointTitle": "netblock: 2a00:1450::/32",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "91",
+      "attributes": {
+        "x": -92.96948870427245,
+        "y": -126.91713944456421,
+        "label": "142.250.141.26",
+        "pointTitle": "address: 142.250.141.26",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "92",
+      "attributes": {
+        "x": -133.45634776671912,
+        "y": 145.1013997056995,
+        "label": "transfer.iqra.edu.pk",
+        "pointTitle": "subdomain: transfer.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "DNSDumpster",
+        "size": 15
+      }
+    },
+    {
+      "key": "93",
+      "attributes": {
+        "x": -179.31839041897058,
+        "y": -132.79281060331,
+        "label": "ssl.virtuallearningenvironment20210217092419.azurewebsites.net",
+        "pointTitle": "subdomain: ssl.virtuallearningenvironment20210217092419.azurewebsites.net",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "94",
+      "attributes": {
+        "x": 160.94430789988445,
+        "y": 128.25415983576733,
+        "label": "email-tracking.infobip.com",
+        "pointTitle": "subdomain: email-tracking.infobip.com",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "95",
+      "attributes": {
+        "x": 147.5547759714854,
+        "y": -153.39452812257906,
+        "label": "173.201.64.0/20",
+        "pointTitle": "netblock: 173.201.64.0/20",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "96",
+      "attributes": {
+        "x": 129.70426405953668,
+        "y": 96.01908719638855,
+        "label": "iulms.azurewebsites.net",
+        "pointTitle": "domain: iulms.azurewebsites.net",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "97",
+      "attributes": {
+        "x": 188.85915622444992,
+        "y": -117.6456143925569,
+        "label": "13.76.215.121",
+        "pointTitle": "address: 13.76.215.121",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "98",
+      "attributes": {
+        "x": 124.80634091964662,
+        "y": 108.66568732455677,
+        "label": "iuvlechat.iqra.edu.pk",
+        "pointTitle": "subdomain: iuvlechat.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "99",
+      "attributes": {
+        "x": 122.41171113410442,
+        "y": -169.71116620645037,
+        "label": "placement.iqra.edu.pk",
+        "pointTitle": "subdomain: placement.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "100",
+      "attributes": {
+        "x": -122.5628143190954,
+        "y": 169.02183357687898,
+        "label": "2603:5:2100::/40",
+        "pointTitle": "netblock: 2603:5:2100::/40",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "101",
+      "attributes": {
+        "x": 166.21329305813646,
+        "y": -131.76229495403982,
+        "label": "173.201.79.51",
+        "pointTitle": "address: 173.201.79.51",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "102",
+      "attributes": {
+        "x": 120.87574711882493,
+        "y": 134.6474923141364,
+        "label": "97.74.96.0/20",
+        "pointTitle": "netblock: 97.74.96.0/20",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "103",
+      "attributes": {
+        "x": -108.35061676296874,
+        "y": -145.48831468077248,
+        "label": "64.233.186.27",
+        "pointTitle": "address: 64.233.186.27",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "104",
+      "attributes": {
+        "x": 205.67159141798507,
+        "y": 187.0405811943466,
+        "label": "blackboard.iqra.edu.pk",
+        "pointTitle": "subdomain: blackboard.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "DNSDumpster",
+        "size": 15
+      }
+    },
+    {
+      "key": "105",
+      "attributes": {
+        "x": 202.9572678564454,
+        "y": -140.45936249481343,
+        "label": "14453",
+        "pointTitle": "as: 14453, Desc: AS-AKN",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "106",
+      "attributes": {
+        "x": 137.03566079064407,
+        "y": 137.3887242909347,
+        "label": "43.231.60.23",
+        "pointTitle": "address: 43.231.60.23",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "107",
+      "attributes": {
+        "x": -180.542191776771,
+        "y": -131.8510346500148,
+        "label": "admissions2.iqra.edu.pk",
+        "pointTitle": "subdomain: admissions2.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Alterations",
+        "size": 15
+      }
+    },
+    {
+      "key": "108",
+      "attributes": {
+        "x": 110.84347090379333,
+        "y": 140.58919205650392,
+        "label": "virtuallearningenvironment20210121174545.azurewebsites.net",
+        "pointTitle": "domain: virtuallearningenvironment20210121174545.azurewebsites.net",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "109",
+      "attributes": {
+        "x": 187.87903341671975,
+        "y": -177.4139638648035,
+        "label": "103.138.162.0/23",
+        "pointTitle": "netblock: 103.138.162.0/23",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "110",
+      "attributes": {
+        "x": 215.019550553295,
+        "y": 142.92841944153847,
+        "label": "209.251.59.167",
+        "pointTitle": "address: 209.251.59.167",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "111",
+      "attributes": {
+        "x": -115.50313626777194,
+        "y": -113.64188105359572,
+        "label": "iulms-ac.iqra.edu.pk",
+        "pointTitle": "subdomain: iulms-ac.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "112",
+      "attributes": {
+        "x": 218.02325538679827,
+        "y": 186.34411260794786,
+        "label": "2a00:1450:4025:c03::1a",
+        "pointTitle": "address: 2a00:1450:4025:c03::1a",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "113",
+      "attributes": {
+        "x": 184.07055081384146,
+        "y": -138.1316122326356,
+        "label": "domaincontrol.com",
+        "pointTitle": "domain: domaincontrol.com",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "114",
+      "attributes": {
+        "x": -212.97730493211026,
+        "y": 140.23005510440737,
+        "label": "2404:6800:4003::/48",
+        "pointTitle": "netblock: 2404:6800:4003::/48",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "115",
+      "attributes": {
+        "x": -219.0484466167149,
+        "y": -159.06176393022247,
+        "label": "30148",
+        "pointTitle": "as: 30148, Desc: SUCURI-SEC - Sucuri",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "116",
+      "attributes": {
+        "x": 146.2325514943551,
+        "y": 198.86556298244727,
+        "label": "17557",
+        "pointTitle": "as: 17557, Desc: PKTELECOM-AS-PK Pakistan Telecommunicati - PTCL Triple Play Project",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "117",
+      "attributes": {
+        "x": 123.4840747033071,
+        "y": -127.36553683911936,
+        "label": "exam.iqra.edu.pk",
+        "pointTitle": "subdomain: exam.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "118",
+      "attributes": {
+        "x": 181.28702345976188,
+        "y": 202.2784493876842,
+        "label": "email.iqra.edu.pk",
+        "pointTitle": "subdomain: email.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Alterations",
+        "size": 15
+      }
+    },
+    {
+      "key": "119",
+      "attributes": {
+        "x": 228.34044610417334,
+        "y": -139.79847745204114,
+        "label": "journals.iqra.edu.pk",
+        "pointTitle": "subdomain: journals.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "120",
+      "attributes": {
+        "x": -125.10733560630592,
+        "y": 136.89743457280846,
+        "label": "iuxlms.iqra.edu.pk",
+        "pointTitle": "subdomain: iuxlms.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Crtsh",
+        "size": 15
+      }
+    },
+    {
+      "key": "121",
+      "attributes": {
+        "x": -179.07561644795538,
+        "y": -220.2722992264915,
+        "label": "bayt.com",
+        "pointTitle": "domain: bayt.com",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "122",
+      "attributes": {
+        "x": -218.59394022476,
+        "y": 227.87722552088857,
+        "label": "azure.com",
+        "pointTitle": "domain: azure.com",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "123",
+      "attributes": {
+        "x": -128.87921014543124,
+        "y": -213.0469175316797,
+        "label": "isl.iqra.edu.pk",
+        "pointTitle": "subdomain: isl.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "124",
+      "attributes": {
+        "x": 142.2004002187735,
+        "y": 183.6587276013491,
+        "label": "108.177.0.0/17",
+        "pointTitle": "netblock: 108.177.0.0/17",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "125",
+      "attributes": {
+        "x": -202.67242424878074,
+        "y": -222.7805568921306,
+        "label": "13.67.90.144",
+        "pointTitle": "address: 13.67.90.144",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "126",
+      "attributes": {
+        "x": -188.04050930836212,
+        "y": 185.05043311202706,
+        "label": "209.251.56.0/22",
+        "pointTitle": "netblock: 209.251.56.0/22",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "127",
+      "attributes": {
+        "x": 143.80735637964173,
+        "y": -153.41470911615463,
+        "label": "dynamics.iqra.edu.pk",
+        "pointTitle": "subdomain: dynamics.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Crtsh",
+        "size": 15
+      }
+    },
+    {
+      "key": "128",
+      "attributes": {
+        "x": 158.22866839785945,
+        "y": 149.29750064026922,
+        "label": "oric.iqra.edu.pk",
+        "pointTitle": "subdomain: oric.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "129",
+      "attributes": {
+        "x": 194.09186313716762,
+        "y": -220.5759792527268,
+        "label": "aspmx.l.google.com",
+        "pointTitle": "mx: aspmx.l.google.com",
+        "color": "#F7727B",
+        "category": "mx",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "130",
+      "attributes": {
+        "x": -242.36556327020529,
+        "y": 159.91989198950876,
+        "label": "2404:6800:4008::/48",
+        "pointTitle": "netblock: 2404:6800:4008::/48",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "131",
+      "attributes": {
+        "x": -136.74276847172592,
+        "y": -193.03605428520825,
+        "label": "waws-prod-sg1-045.cloudapp.net",
+        "pointTitle": "domain: waws-prod-sg1-045.cloudapp.net",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "132",
+      "attributes": {
+        "x": -262.34505931679155,
+        "y": 233.32043765658176,
+        "label": "waws-prod-ma1-009.southindia.cloudapp.azure.com",
+        "pointTitle": "subdomain: waws-prod-ma1-009.southindia.cloudapp.azure.com",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "133",
+      "attributes": {
+        "x": 246.76637377524492,
+        "y": -207.26554267896682,
+        "label": "globalmba.iqra.edu.pk",
+        "pointTitle": "subdomain: globalmba.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "134",
+      "attributes": {
+        "x": -254.4076123151003,
+        "y": 216.3520274337812,
+        "label": "142.250.0.0/15",
+        "pointTitle": "netblock: 142.250.0.0/15",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "135",
+      "attributes": {
+        "x": 246.81644782535375,
+        "y": -177.29670642581917,
+        "label": "sajms.iqra.edu.pk",
+        "pointTitle": "subdomain: sajms.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Crtsh",
+        "size": 15
+      }
+    },
+    {
+      "key": "136",
+      "attributes": {
+        "x": -175.88694303279462,
+        "y": 184.78355568448188,
+        "label": "psp-chs.iqra.edu.pk",
+        "pointTitle": "subdomain: psp-chs.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "137",
+      "attributes": {
+        "x": 203.12584750779286,
+        "y": -182.21439372638173,
+        "label": "tas.iqra.edu.pk",
+        "pointTitle": "subdomain: tas.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "138",
+      "attributes": {
+        "x": 169.2142072876522,
+        "y": 156.54112967014495,
+        "label": "2a00:1450:4001:813::2013",
+        "pointTitle": "address: 2a00:1450:4001:813::2013",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "139",
+      "attributes": {
+        "x": 275.265529127053,
+        "y": -185.2949394476274,
+        "label": "8075",
+        "pointTitle": "as: 8075, Desc: MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "140",
+      "attributes": {
+        "x": -153.59970273922426,
+        "y": 253.00833781735622,
+        "label": "pdns04.domaincontrol.com",
+        "pointTitle": "ns: pdns04.domaincontrol.com",
+        "color": "#E36414",
+        "category": "ns",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "141",
+      "attributes": {
+        "x": 234.44794917760143,
+        "y": -256.6350537807484,
+        "label": "104.211.225.167",
+        "pointTitle": "address: 104.211.225.167",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "142",
+      "attributes": {
+        "x": -194.92241827482098,
+        "y": 240.8363461758874,
+        "label": "bic.iqra.edu.pk",
+        "pointTitle": "subdomain: bic.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "143",
+      "attributes": {
+        "x": -223.54379856239632,
+        "y": -281.1858037948884,
+        "label": "150.129.4.101",
+        "pointTitle": "address: 150.129.4.101",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "144",
+      "attributes": {
+        "x": -166.6228826087546,
+        "y": 175.50628760158372,
+        "label": "2a00:1450:4001::/48",
+        "pointTitle": "netblock: 2a00:1450:4001::/48",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "145",
+      "attributes": {
+        "x": 162.38212959708255,
+        "y": -169.8304544616302,
+        "label": "13.67.9.2",
+        "pointTitle": "address: 13.67.9.2",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "146",
+      "attributes": {
+        "x": 164.81608471603656,
+        "y": 241.1834214377884,
+        "label": "email-messaging.com",
+        "pointTitle": "domain: email-messaging.com",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "147",
+      "attributes": {
+        "x": -264.04219904292233,
+        "y": -245.79985098827075,
+        "label": "139024",
+        "pointTitle": "as: 139024, Desc: AS139024",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "148",
+      "attributes": {
+        "x": -238.06092285668902,
+        "y": 295.43016495614756,
+        "label": "150.129.4.103",
+        "pointTitle": "address: 150.129.4.103",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "149",
+      "attributes": {
+        "x": -207.64899023166666,
+        "y": -271.5030208444323,
+        "label": "2603:5:21f0::33",
+        "pointTitle": "address: 2603:5:21f0::33",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "150",
+      "attributes": {
+        "x": 286.3504941258579,
+        "y": 165.2693627132479,
+        "label": "43.231.60.44",
+        "pointTitle": "address: 43.231.60.44",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "151",
+      "attributes": {
+        "x": 184.6298879433135,
+        "y": -220.71127861666008,
+        "label": "iuk.iqra.edu.pk",
+        "pointTitle": "subdomain: iuk.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Crtsh",
+        "size": 15
+      }
+    },
+    {
+      "key": "152",
+      "attributes": {
+        "x": 154.99152587883128,
+        "y": 236.02194133574477,
+        "label": "43.231.60.48",
+        "pointTitle": "address: 43.231.60.48",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "153",
+      "attributes": {
+        "x": -161.49851652855665,
+        "y": -199.13922717447102,
+        "label": "103.138.162.141",
+        "pointTitle": "address: 103.138.162.141",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "154",
+      "attributes": {
+        "x": -216.05901040624158,
+        "y": 257.99882006602985,
+        "label": "portal.iqra.edu.pk",
+        "pointTitle": "subdomain: portal.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "155",
+      "attributes": {
+        "x": -246.00694232264863,
+        "y": -289.22914935157036,
+        "label": "64.233.160.0/19",
+        "pointTitle": "netblock: 64.233.160.0/19",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "156",
+      "attributes": {
+        "x": 209.1190497652036,
+        "y": 300.14765262778695,
+        "label": "emba.iqra.edu.pk",
+        "pointTitle": "subdomain: emba.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "157",
+      "attributes": {
+        "x": 174.63226965578826,
+        "y": -189.55195539157387,
+        "label": "2603:5:22f0::33",
+        "pointTitle": "address: 2603:5:22f0::33",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "158",
+      "attributes": {
+        "x": 191.77178529782975,
+        "y": 171.31135970597796,
+        "label": "103.138.162.60",
+        "pointTitle": "address: 103.138.162.60",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "159",
+      "attributes": {
+        "x": 314.46247957864557,
+        "y": -160.39719597219894,
+        "label": "crm.iqra.edu.pk",
+        "pointTitle": "subdomain: crm.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AlienVault",
+        "size": 15
+      }
+    },
+    {
+      "key": "160",
+      "attributes": {
+        "x": 227.57036058854814,
+        "y": 245.38146655198966,
+        "label": "150.129.4.0/22",
+        "pointTitle": "netblock: 150.129.4.0/22",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "161",
+      "attributes": {
+        "x": 193.10901024209187,
+        "y": -260.1357455788229,
+        "label": "alumni2.iqra.edu.pk",
+        "pointTitle": "subdomain: alumni2.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Alterations",
+        "size": 15
+      }
+    },
+    {
+      "key": "162",
+      "attributes": {
+        "x": 316.516671603468,
+        "y": 168.0133114420857,
+        "label": "ghs.google.com",
+        "pointTitle": "subdomain: ghs.google.com",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "163",
+      "attributes": {
+        "x": -181.82701466783877,
+        "y": -201.27009738592915,
+        "label": "iuvle.azurewebsites.net",
+        "pointTitle": "domain: iuvle.azurewebsites.net",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "164",
+      "attributes": {
+        "x": 251.94622696570886,
+        "y": 250.20955106828012,
+        "label": "vle.iqra.edu.pk",
+        "pointTitle": "subdomain: vle.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "165",
+      "attributes": {
+        "x": 176.2161996113916,
+        "y": -175.2668169360246,
+        "label": "waws-prod-ma1-009.sip.azurewebsites.windows.net",
+        "pointTitle": "subdomain: waws-prod-ma1-009.sip.azurewebsites.windows.net",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "166",
+      "attributes": {
+        "x": 315.57474207931784,
+        "y": 267.85032667357865,
+        "label": "15169",
+        "pointTitle": "as: 15169, Desc: GOOGLE - Google LLC",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "167",
+      "attributes": {
+        "x": -289.44009807278036,
+        "y": -315.1010717723979,
+        "label": "aspmx3.googlemail.com",
+        "pointTitle": "mx: aspmx3.googlemail.com",
+        "color": "#F7727B",
+        "category": "mx",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "168",
+      "attributes": {
+        "x": 183.411471524999,
+        "y": 273.9556381546996,
+        "label": "116.71.128.85",
+        "pointTitle": "address: 116.71.128.85",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "169",
+      "attributes": {
+        "x": -189.45958652231283,
+        "y": -289.8876407079215,
+        "label": "googlemail.com",
+        "pointTitle": "domain: googlemail.com",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "170",
+      "attributes": {
+        "x": -278.2401767359068,
+        "y": 302.139420607092,
+        "label": "58895",
+        "pointTitle": "as: 58895, Desc: EBONE1-PK Ebone Network (PVT.) Limited",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "171",
+      "attributes": {
+        "x": -327.9200195016872,
+        "y": -210.65335062688257,
+        "label": "2404:6800:4003:c04::1b",
+        "pointTitle": "address: 2404:6800:4003:c04::1b",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "172",
+      "attributes": {
+        "x": 266.3829233290454,
+        "y": 191.89743723747134,
+        "label": "sdgs.iqra.edu.pk",
+        "pointTitle": "subdomain: sdgs.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "173",
+      "attributes": {
+        "x": -190.60679048536528,
+        "y": -220.1618984020333,
+        "label": "iuq.iqra.edu.pk",
+        "pointTitle": "subdomain: iuq.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "174",
+      "attributes": {
+        "x": 242.61199182283676,
+        "y": 260.6307663719641,
+        "label": "13.90.157.98",
+        "pointTitle": "address: 13.90.157.98",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "175",
+      "attributes": {
+        "x": 304.29531147702755,
+        "y": -311.3939181140688,
+        "label": "admissionsv2.iqra.edu.pk",
+        "pointTitle": "subdomain: admissionsv2.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "DNSDumpster",
+        "size": 15
+      }
+    },
+    {
+      "key": "176",
+      "attributes": {
+        "x": -183.03155253465093,
+        "y": 238.11136258726333,
+        "label": "iqra.edu.pk",
+        "pointTitle": "domain: iqra.edu.pk",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "177",
+      "attributes": {
+        "x": -317.2703116226336,
+        "y": -204.35172780314474,
+        "label": "142.250.150.26",
+        "pointTitle": "address: 142.250.150.26",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "178",
+      "attributes": {
+        "x": -179.25814284923553,
+        "y": 312.349220572806,
+        "label": "18.198.163.56",
+        "pointTitle": "address: 18.198.163.56",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "179",
+      "attributes": {
+        "x": -182.7584315344534,
+        "y": -259.33994480992726,
+        "label": "infobip.com",
+        "pointTitle": "domain: infobip.com",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "180",
+      "attributes": {
+        "x": -335.9783229111373,
+        "y": 208.08218536739741,
+        "label": "scholarship.iqra.edu.pk",
+        "pointTitle": "subdomain: scholarship.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "181",
+      "attributes": {
+        "x": -333.91677401068887,
+        "y": -224.3953662944075,
+        "label": "ce.iqra.edu.pk",
+        "pointTitle": "subdomain: ce.iqra.edu.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "182",
+      "attributes": {
+        "x": -216.19584949520805,
+        "y": 236.48021423409313,
+        "label": "2a00:1450:400b:c00::1b",
+        "pointTitle": "address: 2a00:1450:400b:c00::1b",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    }
+  ]
+}

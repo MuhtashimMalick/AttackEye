@@ -40,7 +40,7 @@ sys.path.insert(0, os.path.join(BASE_DIR, "apps"))
 
 # DEBUG = config("DEBUG", default=False, cast=bool)
 
-# ALLOWED_HOSTS = config("ALLOWED_HOSTS", default="127.0.0.1,localhost,*", cast=Csv())
+# ALLOWED_HOSTS = config("ALLOWED_HOSTS", default="127.0.0.1,localhost", cast=Csv())
 
 # Application definition
 
@@ -113,13 +113,13 @@ WSGI_APPLICATION = "config.wsgi.application"
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
 # DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'attackeye',
-#         'USER':'admin',
-#         'PASSWORD':'password',
-#         'HOST':'localhost',
-#         'PORT': '3306',
+#     "default": {
+#         "ENGINE": "django.db.backends.mysql",
+#         "NAME": "attackeye",
+#         "USER": "admin",
+#         "PASSWORD": "password",
+#         "HOST": "localhost",
+#         "PORT": "3306",
 #     }
 # }
 
@@ -135,12 +135,6 @@ DATABASES = {
     )
 }
 
-# DATABASES = {
-#     "default": dj_database_url.config(
-#         default=config("DATABASE_URL", default="postgres://simple:simple@localhost:5432/simple"),
-#         conn_max_age=600,
-#     )
-# }
 
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
