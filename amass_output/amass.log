@@ -1,122 +1,113 @@
-16:20:34.769197 SecurityTrails: check callback failed for the configuration
-16:20:34.783835 FOFA: Email address or API key data was not provided
-16:20:34.784073 ThreatBook: check callback failed for the configuration
-16:20:34.769666 FacebookCT: check callback failed for the configuration
-16:20:34.785912 BinaryEdge: check callback failed for the configuration
-16:20:34.773504 WhoisXMLAPI: check callback failed for the configuration
-16:20:34.785976 ZoomEye: check callback failed for the configuration
-16:20:34.773632 AlienVault: API key data was not provided
-16:20:34.773654 Ahrefs: check callback failed for the configuration
-16:20:34.777950 VirusTotal: check callback failed for the configuration
-16:20:34.778459 Spamhaus: check callback failed for the configuration
-16:20:34.778476 C99: check callback failed for the configuration
-16:20:34.778500 BuiltWith: check callback failed for the configuration
-16:20:34.778512 ZETAlytics: check callback failed for the configuration
-16:20:34.778529 Hunter: check callback failed for the configuration
-16:20:34.780586 Spyse: check callback failed for the configuration
-16:20:34.780773 CIRCL: check callback failed for the configuration
-16:20:34.781458 IPdata: check callback failed for the configuration
-16:20:34.781560 IPinfo: check callback failed for the configuration
-16:20:34.781713 IntelX: check callback failed for the configuration
-16:20:34.781968 GitHub: check callback failed for the configuration
-16:20:34.782444 DNSDB: API key data was not provided
-16:20:34.782464 PassiveTotal: check callback failed for the configuration
-16:20:34.782540 PentestTools: check callback failed for the configuration
-16:20:34.782605 GitLab: check callback failed for the configuration
-16:20:34.782646 DNSRepo: check callback failed for the configuration
-16:20:34.782631 Quake: check callback failed for the configuration
-16:20:34.782726 DNSlytics: check callback failed for the configuration
-16:20:34.782841 Detectify: check callback failed for the configuration
-16:20:34.782861 NetworksDB: API key data was not provided
-16:20:34.783441 ONYPHE: check callback failed for the configuration
-16:20:34.785885 Shodan: check callback failed for the configuration
-16:20:34.785887 Umbrella: API key data was not provided
-16:20:34.786167 Umbrella: check callback failed for the configuration
-16:20:34.785896 360PassiveDNS: check callback failed for the configuration
-16:20:34.785898 Cloudflare: API key data was not provided
-16:20:34.785904 Chaos: check callback failed for the configuration
-16:20:34.785905 Twitter: API key data was not provided
-16:20:34.786198 Twitter: check callback failed for the configuration
-16:20:34.786081 DNSDB: check callback failed for the configuration
-16:20:40.567367 Querying Yahoo for openai.com subdomains
-16:20:40.567400 Querying AbuseIPDB for openai.com subdomains
-16:20:40.567454 Querying HackerOne for openai.com subdomains
-16:20:40.567467 Querying Censys for openai.com subdomains
-16:20:40.567471 Querying AlienVault for openai.com subdomains
-16:20:40.567474 Querying Searchcode for openai.com subdomains
-16:20:40.567476 Querying HackerTarget for openai.com subdomains
-16:20:40.567479 Querying HyperStat for openai.com subdomains
-16:20:40.567481 Querying IPv4Info for openai.com subdomains
-16:20:40.567483 Querying Maltiverse for openai.com subdomains
-16:20:40.567486 Querying Digitorus for openai.com subdomains
-16:20:40.567489 Querying CertSpotter for openai.com subdomains
-16:20:40.567491 Querying CommonCrawl for openai.com subdomains
-16:20:40.567493 Querying Crtsh for openai.com subdomains
-16:20:40.567495 Querying DNSDumpster for openai.com subdomains
-16:20:40.567498 Querying ArchiveIt for openai.com subdomains
-16:20:40.567500 Querying AnubisDB for openai.com subdomains
-16:20:40.567502 Querying Searx for openai.com subdomains
-16:20:40.567505 Querying Arquivo for openai.com subdomains
-16:20:40.567507 Querying SiteDossier for openai.com subdomains
-16:20:40.567510 Querying SonarSearch for openai.com subdomains
-16:20:40.567512 Querying DuckDuckGo for openai.com subdomains
-16:20:40.567514 Querying Ask for openai.com subdomains
-16:20:40.567548 Querying ThreatCrowd for openai.com subdomains
-16:20:40.567553 Querying Sublist3rAPI for openai.com subdomains
-16:20:40.567557 Querying PKey for openai.com subdomains
-16:20:40.567559 Querying Baidu for openai.com subdomains
-16:20:40.567561 Querying RapidDNS for openai.com subdomains
-16:20:40.567564 Querying Brute Forcing for openai.com subdomains
-16:20:40.567568 Querying Bing for openai.com subdomains
-16:20:40.567570 Querying Mnemonic for openai.com subdomains
-16:20:40.567572 Querying UKWebArchive for openai.com subdomains
-16:20:40.567575 Querying ThreatMiner for openai.com subdomains
-16:20:40.567577 Querying URLScan for openai.com subdomains
-16:20:40.567579 Querying BufferOver for openai.com subdomains
-16:20:40.567582 Querying Wayback for openai.com subdomains
-16:20:40.567584 Querying Riddler for openai.com subdomains
-16:20:40.567587 Querying FullHunt for openai.com subdomains
-16:20:40.567590 Querying GoogleCT for openai.com subdomains
-16:20:40.567592 Querying N45HT for openai.com subdomains
-16:20:40.567594 Querying Greynoise for openai.com subdomains
-16:20:40.567597 Querying Robtex for openai.com subdomains
-16:20:40.567600 Querying Gists for openai.com subdomains
-16:20:40.567602 Querying HAW for openai.com subdomains
-16:20:40.567605 GoogleCT: vertical request to service failed: 400: 400 Bad Request
-16:20:40.567609 PKey: scrape: 503: 503 Service Temporarily Unavailable
-16:20:40.567612 FullHunt: vertical request to service failed: 401: 401 Unauthorized
-16:20:40.567616 BufferOver: scrape: Get "https://dns.bufferover.run/dns?q=.openai.com": dial tcp: lookup dns.bufferover.run: no such host
-16:20:40.567619 Greynoise: vertical request to service failed: 502: 502 Bad Gateway
-16:20:40.567622 Digitorus: scrape: 500: 500 Internal Server Error
-16:20:40.567626 ArchiveIt: scrape: 403: 403 Forbidden
-16:20:41.373902 DNS wildcard detected: Resolver 76.76.19.19:53: *.openai.com: type: 2
-16:20:45.568615 Censys: vertical request to service failed: 403: 403 Forbidden
-16:20:45.568646 Searx: scrape: 403: 403 Forbidden
-16:20:45.568650 IPv4Info: get_path request to service failed: 404: 404 Not Found
-16:20:45.568654 UKWebArchive: scrape: 429: 429 Too Many Requests
-16:20:45.568657 SiteDossier: scrape: 404: 404 No data available
-16:20:45.568660 Arquivo: vertical request to service failed: 400: 400 Bad Request
-16:20:50.568831 ThreatCrowd: vertical request to service failed: 503: 503 Service Temporarily Unavailable
-16:20:50.568863 N45HT: vertical request to service failed: 404: 404 Not Found
-16:21:10.777307 SonarSearch: vertical request to service failed: 522: 522 
-16:21:10.777347 Sublist3rAPI: vertical request to service failed: 522: 522 
-16:21:35.797621 DNS: query on resolver 195.19.194.170:53, for microscopepay.openai.com type 28 returned error FORMERR
-16:21:45.801037 Robtex: vertical request to service failed: Get "https://freeapi.robtex.com/pdns/forward/openai.com": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
-16:21:45.801064 URLScan: result request to service failed: Get "https://urlscan.io/api/v1/result/5aed8740-c125-4adf-ad67-1fd1b744fb82/": net/http: TLS handshake timeout
-16:22:00.816804 Searchcode: vertical request to service failed: Get "https://searchcode.com/?q=.openai.com&p=4": net/http: TLS handshake timeout
-16:22:05.817012 CommonCrawl: scrape: Get "https://index.commoncrawl.org/CC-MAIN-2022-49-index?output=json&fl=url&url=*.openai.com": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
-16:22:05.817051 DNS: query on resolver 195.19.194.170:53, for 13-challenge.openai.com type 5 returned error FORMERR
-16:22:10.821981 Robtex: ip_info request to service failed: Get "https://freeapi.robtex.com/ipquery/13.107.237.67": net/http: TLS handshake timeout
-16:22:15.822461 NetworksDB: https://networksdb.io/ip/2404:6800:4003:c00::1b: Get "https://networksdb.io/ip/2404:6800:4003:c00::1b": net/http: TLS handshake timeout
-16:22:15.822489 DNS: query on resolver 195.19.194.170:53, for wwwsmtp.openai.com type 28 returned error FORMERR
-16:22:15.822495 DNS: query on resolver 195.19.194.170:53, for www-security.openai.com type 28 returned error FORMERR
-16:22:15.822511 AlienVault: https://otx.alienvault.com/api/v1/indicators/domain/openai.com/url_list?page=26: Get "https://otx.alienvault.com/api/v1/indicators/domain/openai.com/url_list?page=26": net/http: TLS handshake timeout
-16:22:20.823438 RADb: https://rdap.arin.net/registry/arin_originas0_networksbyoriginas/15169: unexpected end of JSON input
-16:22:35.829169 RADb: https://rdap.arin.net/registry/ip/2404:6800:4003:c00::1b: Get "https://rdap.arin.net/registry/ip/2404:6800:4003:c00::1b": read tcp 172.16.16.68:59104->199.71.0.160:443: read: connection reset by peer
-16:22:35.829216 Gists: vertical request to service failed: Get "https://gist.github.com/search?p=5&q=openai.com&ref=searchresults": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
-16:22:40.832659 CommonCrawl: scrape: Get "https://index.commoncrawl.org/CC-MAIN-2022-40-index?output=json&fl=url&url=*.openai.com": net/http: TLS handshake timeout
-16:22:50.848930 URLScan: result request to service failed: Get "https://urlscan.io/api/v1/result/98e23aaf-9918-4b31-ae0f-5a267ae3431b/": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
-16:22:55.850182 BGPView: get_cidr request to service failed: Get "https://api.bgpview.io/ip/20.228.150.34": EOF
-16:23:15.854494 NetworksDB: https://networksdb.io/autonomous-system/AS15169: Get "https://networksdb.io/autonomous-system/AS15169": net/http: TLS handshake timeout
-16:23:15.854964 Robtex: ip_info request to service failed: Get "https://freeapi.robtex.com/ipquery/2603:1061:0:700::2": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
-16:24:25.907616 Robtex: ip_info request to service failed: Get "https://freeapi.robtex.com/ipquery/2620:1ec:8ec:700::2": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+18:30:46.310665 ZoomEye: check callback failed for the configuration
+18:30:46.310953 Shodan: check callback failed for the configuration
+18:30:46.310981 AlienVault: API key data was not provided
+18:30:46.310980 Spamhaus: check callback failed for the configuration
+18:30:46.310993 Spyse: check callback failed for the configuration
+18:30:46.311013 ThreatBook: check callback failed for the configuration
+18:30:46.311029 Twitter: API key data was not provided
+18:30:46.311042 SecurityTrails: check callback failed for the configuration
+18:30:46.311079 C99: check callback failed for the configuration
+18:30:46.311076 Hunter: check callback failed for the configuration
+18:30:46.311093 CIRCL: check callback failed for the configuration
+18:30:46.311082 ZETAlytics: check callback failed for the configuration
+18:30:46.310837 360PassiveDNS: check callback failed for the configuration
+18:30:46.310977 Ahrefs: check callback failed for the configuration
+18:30:46.311113 Chaos: check callback failed for the configuration
+18:30:46.311103 Cloudflare: API key data was not provided
+18:30:46.311127 GitHub: check callback failed for the configuration
+18:30:46.311119 DNSDB: API key data was not provided
+18:30:46.311125 DNSDB: check callback failed for the configuration
+18:30:46.311135 NetworksDB: API key data was not provided
+18:30:46.311140 DNSRepo: check callback failed for the configuration
+18:30:46.311150 ONYPHE: check callback failed for the configuration
+18:30:46.311151 DNSlytics: check callback failed for the configuration
+18:30:46.311163 Detectify: check callback failed for the configuration
+18:30:46.311051 BinaryEdge: check callback failed for the configuration
+18:30:46.311071 WhoisXMLAPI: check callback failed for the configuration
+18:30:46.311175 FOFA: Email address or API key data was not provided
+18:30:46.311141 GitLab: check callback failed for the configuration
+18:30:46.311116 IntelX: check callback failed for the configuration
+18:30:46.311037 Twitter: check callback failed for the configuration
+18:30:46.311062 VirusTotal: check callback failed for the configuration
+18:30:46.311047 Umbrella: API key data was not provided
+18:30:46.311483 Umbrella: check callback failed for the configuration
+18:30:46.311069 BuiltWith: check callback failed for the configuration
+18:30:46.311102 IPinfo: check callback failed for the configuration
+18:30:46.311094 IPdata: check callback failed for the configuration
+18:30:46.311225 FacebookCT: check callback failed for the configuration
+18:30:46.311264 PentestTools: check callback failed for the configuration
+18:30:46.311270 PassiveTotal: check callback failed for the configuration
+18:30:46.311249 Quake: check callback failed for the configuration
+18:30:52.027867 Querying Yahoo for muet.edu.pk subdomains
+18:30:52.027898 Querying Crtsh for muet.edu.pk subdomains
+18:30:52.027903 Querying DNSDumpster for muet.edu.pk subdomains
+18:30:52.027905 Querying AbuseIPDB for muet.edu.pk subdomains
+18:30:52.027908 Querying RapidDNS for muet.edu.pk subdomains
+18:30:52.027911 Querying Riddler for muet.edu.pk subdomains
+18:30:52.027913 Querying ThreatMiner for muet.edu.pk subdomains
+18:30:52.027916 Querying Sublist3rAPI for muet.edu.pk subdomains
+18:30:52.027919 Querying HackerOne for muet.edu.pk subdomains
+18:30:52.027921 Querying Searx for muet.edu.pk subdomains
+18:30:52.027924 Querying Robtex for muet.edu.pk subdomains
+18:30:52.027928 Querying Searchcode for muet.edu.pk subdomains
+18:30:52.027930 Querying Maltiverse for muet.edu.pk subdomains
+18:30:52.027932 Querying AlienVault for muet.edu.pk subdomains
+18:30:52.027935 Querying URLScan for muet.edu.pk subdomains
+18:30:52.027937 Querying UKWebArchive for muet.edu.pk subdomains
+18:30:52.027939 Querying BufferOver for muet.edu.pk subdomains
+18:30:52.027942 Querying Baidu for muet.edu.pk subdomains
+18:30:52.027944 Querying Bing for muet.edu.pk subdomains
+18:30:52.027947 Querying Brute Forcing for muet.edu.pk subdomains
+18:30:52.027951 Querying HackerTarget for muet.edu.pk subdomains
+18:30:52.027953 Querying HyperStat for muet.edu.pk subdomains
+18:30:52.027956 Querying IPv4Info for muet.edu.pk subdomains
+18:30:52.028071 Querying Digitorus for muet.edu.pk subdomains
+18:30:52.028076 Querying DuckDuckGo for muet.edu.pk subdomains
+18:30:52.028079 Querying SiteDossier for muet.edu.pk subdomains
+18:30:52.028081 Querying SonarSearch for muet.edu.pk subdomains
+18:30:52.028084 Querying Censys for muet.edu.pk subdomains
+18:30:52.028087 Querying CertSpotter for muet.edu.pk subdomains
+18:30:52.028089 Querying ThreatCrowd for muet.edu.pk subdomains
+18:30:52.028092 Querying CommonCrawl for muet.edu.pk subdomains
+18:30:52.028094 Querying Mnemonic for muet.edu.pk subdomains
+18:30:52.028096 Querying Wayback for muet.edu.pk subdomains
+18:30:52.028098 Querying FullHunt for muet.edu.pk subdomains
+18:30:52.028101 Querying N45HT for muet.edu.pk subdomains
+18:30:52.028104 Querying ArchiveIt for muet.edu.pk subdomains
+18:30:52.028106 Querying AnubisDB for muet.edu.pk subdomains
+18:30:52.028109 Querying PKey for muet.edu.pk subdomains
+18:30:52.028111 Querying HAW for muet.edu.pk subdomains
+18:30:52.028113 Querying Gists for muet.edu.pk subdomains
+18:30:52.028117 Querying GoogleCT for muet.edu.pk subdomains
+18:30:52.028119 Querying Arquivo for muet.edu.pk subdomains
+18:30:52.028122 Querying Ask for muet.edu.pk subdomains
+18:30:52.028124 Querying Greynoise for muet.edu.pk subdomains
+18:30:52.028127 FullHunt: vertical request to service failed: 401: 401 Unauthorized
+18:30:52.028131 GoogleCT: vertical request to service failed: 400: 400 Bad Request
+18:30:52.028134 Riddler: scrape: 503: 503 Service Unavailable
+18:30:52.028137 IPv4Info: get_path request to service failed: 404: 404 Not Found
+18:30:52.028140 Greynoise: vertical request to service failed: 502: 502 Bad Gateway
+18:30:52.028143 PKey: scrape: 503: 503 Service Temporarily Unavailable
+18:30:52.028145 ArchiveIt: scrape: 403: 403 Forbidden
+18:30:52.028148 Digitorus: scrape: 500: 500 Internal Server Error
+18:30:52.028150 N45HT: vertical request to service failed: 404: 404 Not Found
+18:30:52.028153 Censys: vertical request to service failed: 403: 403 Forbidden
+18:30:52.028155 UKWebArchive: scrape: 429: 429 Too Many Requests
+18:30:57.043097 BufferOver: scrape: Get "https://dns.bufferover.run/dns?q=.muet.edu.pk": dial tcp: lookup dns.bufferover.run: no such host
+18:30:57.066302 Arquivo: vertical request to service failed: 400: 400 Bad Request
+18:30:57.066328 SiteDossier: scrape: 404: 404 No data available
+18:31:02.066777 ThreatCrowd: vertical request to service failed: 503: 503 Service Temporarily Unavailable
+18:31:22.072078 Sublist3rAPI: vertical request to service failed: 522: 522 
+18:31:22.072110 SonarSearch: vertical request to service failed: 522: 522 
+18:31:27.073036 Ask: scrape: Get "https://www.ask.com/web?l=dir&o=0&page=10&q=site%3Amuet.edu.pk+-www.muet.edu.pk&qo=pagination": net/http: TLS handshake timeout
+18:31:52.125515 Searx: scrape: Post "https://searx.run/search": EOF
+18:31:57.126113 Robtex: vertical request to service failed: Get "https://freeapi.robtex.com/pdns/forward/muet.edu.pk": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+18:32:02.130248 RADb: https://rdap.arin.net/registry/arin_originas0_networksbyoriginas/13335: unexpected end of JSON input
+18:32:02.130282 CommonCrawl: scrape: Get "https://index.commoncrawl.org/CC-MAIN-2023-06-index?output=json&fl=url&url=*.muet.edu.pk": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+18:32:07.130299 BGPView: get_asn request to service failed: Get "https://api.bgpview.io/prefix/2606:4700::/32": EOF
+18:32:07.130328 Bing: scrape: Get "https://www.bing.com/search?FORM=PORE&first=151&q=domain%3Amuet.edu.pk+-site%3Awww.muet.edu.pk": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+18:32:22.133165 DNS: query on resolver 49.255.44.62:53, for eesd-2017.muet.edu.pk type 5 returned error FORMERR
+18:32:57.160641 Searchcode: vertical request to service failed: Get "https://searchcode.com/?q=.muet.edu.pk&p=8": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+18:33:02.161332 Robtex: ip_info request to service failed: Get "https://freeapi.robtex.com/ipquery/104.26.15.132": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+18:34:07.185459 Robtex: ip_info request to service failed: Get "https://freeapi.robtex.com/ipquery/2606:4700:20::681a:e84": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+18:34:12.186354 ArchiveIt: scrape: 429: 429 Too Many Requests
