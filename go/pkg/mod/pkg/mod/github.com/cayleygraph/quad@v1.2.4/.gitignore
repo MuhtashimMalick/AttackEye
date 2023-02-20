@@ -1,7 +1,0 @@
-*.swp
-main
-*.test
-*.peg.go
-.DS_Store
-
-vendor/

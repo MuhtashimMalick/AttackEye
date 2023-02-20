@@ -1,4 +1,4 @@
-#!/home/attack-eye/Attack-Eye/env/bin/python3
+#!/home/hamza/Attack-Eye/env/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys

@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "attack-eye"
+version = "0.1.0"
+description = "Attack Eye: A Subdomain Enumeration & Attack Surface mapping Tool."
+authors = ["Obad94 <zafarobad@gmail.com>"]
+license = "Close Source"
+readme = "README.md"
+packages = [{include = "attack_eye"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
