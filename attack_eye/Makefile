@@ -1,4 +1,7 @@
 # Define variables
+
+include .env
+
 PYTHON = python3
 PIP = $(PYTHON) -m pip
 MANAGE = $(PYTHON) manage.py
@@ -37,6 +40,16 @@ shell:
 
 celery:
 	celery -A config worker --pool=prefork --concurrency=4 --loglevel=info
+
+set-env-local:
+	@echo "DEBUG=False" > .env
+	@echo "DATABASE_URL=postgres://user:password@localhost/dbname" >> .env
+	
+
+set-env:
+	@bash -c 'make set-env-local && source .env && export DEBUG && export DATABASE_URL && exec bash' > /dev/null 2>&1 
+	@echo "Local environment set successfully."
+
 
 # Define phony targets
 .PHONY: install test runserver migrate shell attackeye celery venv

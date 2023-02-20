@@ -124,16 +124,16 @@ WSGI_APPLICATION = "config.wsgi.application"
 # }
 
 
-# default_db_url = config(
-#     "DATABASE_URL", default="mysql://admin:password@localhost:3306/attackeye"
-# )
+default_db_url = config(
+    "DATABASE_URL", default="mysql://admin:password@localhost:3306/attackeye"
+)
 
-# DATABASES = {
-#     "default": dj_database_url.config(
-#         default=default_db_url,
-#         conn_max_age=600,
-#     )
-# }
+DATABASES = {
+    "default": dj_database_url.config(
+        default=default_db_url,
+        conn_max_age=600,
+    )
+}
 
 # DATABASES = {
 #     "default": dj_database_url.config(

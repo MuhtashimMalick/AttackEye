@@ -12,7 +12,7 @@ click-repl==0.2.0
 decorator==5.1.1
 Django==4.0.3
 django-cors-headers==3.13.0
-dj-database-url-1.2.0
+dj-database-url
 django-session-timeout==0.1.0
 djangorestframework==3.14.0
 docopt==0.6.2
