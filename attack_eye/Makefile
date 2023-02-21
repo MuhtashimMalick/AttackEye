@@ -9,11 +9,14 @@ PORT = 8080
 IP = 172.16.16.68
 VENV = /home/hamza/Attack-Eye/env/bin/activate
 
+LOCAL_SETTINGS = config.settings.local
+PRODUCTION_SETTINGS = config.settings.production
+SETTINGS = $(LOCAL_SETTINGS)
 # Define targets
 
 attackeye:
 	@echo "Running Server..."
-	@gnome-terminal --tab --title="Server" --command="bash -c 'source $(VENV); make runserver; exec bash'" > /dev/null 2>&1
+	@gnome-terminal --tab --title="Server" --command="bash -c 'source $(VENV); make runserver SETTINGS=$(SETTINGS); exec bash'" > /dev/null 2>&1
 	@echo "Running Celery..."
 	@gnome-terminal --tab --title="Celery" --command="bash -c 'source $(VENV); make celery; exec bash'" > /dev/null 2>&1
 	@echo "Server & Celery running successfully."
@@ -29,7 +32,7 @@ test:
 	$(MANAGE) test
 
 runserver:
-	$(MANAGE) runserver $(IP):$(PORT)
+	$(MANAGE) runserver --settings=$(SETTINGS) $(IP):$(PORT)
 
 migrate:
 	$(MANAGE) makemigrations
@@ -42,15 +45,17 @@ celery:
 	celery -A config worker --pool=prefork --concurrency=4 --loglevel=info
 
 set-env-local:
+	$(eval SETTINGS=$(LOCAL_SETTINGS))
 	@echo "DEBUG=True" > .env
 	@echo "DATABASE_URL=mysql://admin:password@localhost:3306/attackeye" >> .env
-	@bash -c 'source .env && export DEBUG && export DATABASE_URL && export DJANGO_SETTINGS_MODULE=config.settings.local && make attackeye && exec bash'
+	@bash -c 'source .env && export DEBUG && export DATABASE_URL && make attackeye SETTINGS=$(SETTINGS) && exec bash'
 	@echo "Local environment set successfully."
 
 set-env-production:
+	$(eval SETTINGS=$(PRODUCTION_SETTINGS))
 	@echo "DEBUG=False" > .env
 	@echo "DATABASE_URL=mysql://admin:password@localhost:3306/attackeye" >> .env
-	@bash -c 'source .env && export DEBUG && export DATABASE_URL && export DJANGO_SETTINGS_MODULE=config.settings.production && make attackeye && exec bash'
+	@bash -c 'source .env && export DEBUG && export DATABASE_URL && make attackeye SETTINGS=$(SETTINGS) && exec bash'
 	@echo "Production environment set successfully."
 
 set-env-test:
