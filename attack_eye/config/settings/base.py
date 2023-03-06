@@ -14,6 +14,8 @@ import os
 import sys
 import dj_database_url
 from decouple import Csv, config
+import configparser
+from django.utils.translation import gettext_lazy as _
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -25,23 +27,29 @@ SITE_ROOT = os.path.abspath(os.path.dirname(os.path.dirname(__name__) + "../"))
 sys.path.insert(0, os.path.join(BASE_DIR, "apps"))
 
 
+config_parser = configparser.ConfigParser()
+config_parser.read("/etc/attackeye/settings.ini")
+
+
+# DEBUG setting
+DEBUG = config_parser.getboolean(config("ENVIRONMENT"), "DEBUG")
+
+# ALLOWED_HOSTS setting
+ALLOWED_HOSTS = config_parser.get(config("ENVIRONMENT"), "ALLOWED_HOSTS").split(",")
+
+# SECRET_KEY setting
+SECRET_KEY = config_parser.get(config("ENVIRONMENT"), "SECRET_KEY")
+
+# DATABASE_URL setting
+DATABASES = {
+    "default": dj_database_url.config(
+        default=config_parser.get(config("ENVIRONMENT"), "DATABASE_URL"),
+        conn_max_age=600,
+    )
+}
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
-
-# SECURITY WARNING: keep the secret key used in production secret!
-# SECRET_KEY = '7reb9d$g$mhgw0_)@y%+jh=$bnj9f*)v4zz1b4b-p+^^=zd8(d'
-
-# # SECURITY WARNING: don't run with debug turned on in production!
-# DEBUG = True
-
-# ALLOWED_HOSTS = ["*"]
-
-
-# SECRET_KEY = config("SECRET_KEY", default="django-insecure$settings.local")
-
-# DEBUG = config("DEBUG", default=False, cast=bool)
-
-# ALLOWED_HOSTS = config("ALLOWED_HOSTS", default="127.0.0.1,localhost", cast=Csv())
 
 # Application definition
 
@@ -52,9 +60,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    # Django REST framework
     "rest_framework",
-    # CORS
     "corsheaders",
     "apps.core",
     "apps.amass",
@@ -69,7 +75,6 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django_session_timeout.middleware.SessionTimeoutMiddleware",
-    # CORS
     "corsheaders.middleware.CorsMiddleware",
     "django.middleware.common.CommonMiddleware",
 ]
@@ -109,34 +114,6 @@ CELERY_IMPORTS = ("apps.core.tasks",)
 
 WSGI_APPLICATION = "config.wsgi.application"
 
-
-# Database
-# https://docs.djangoproject.com/en/2.1/ref/settings/#databases
-
-# DATABASES = {
-#     "default": {
-#         "ENGINE": "django.db.backends.mysql",
-#         "NAME": "attackeye",
-#         "USER": "admin",
-#         "PASSWORD": "password",
-#         "HOST": "localhost",
-#         "PORT": "3306",
-#     }
-# }
-
-
-default_db_url = config(
-    "DATABASE_URL", default="mysql://admin:password@localhost:3306/attackeye"
-)
-
-DATABASES = {
-    "default": dj_database_url.config(
-        default=default_db_url,
-        conn_max_age=600,
-    )
-}
-
-
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
 
@@ -159,20 +136,33 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.1/topics/i18n/
 
-LANGUAGE_CODE = config("LANGUAGE_CODE", default="en-us")
 
-TIME_ZONE = config("TIME_ZONE", default="Asia/Karachi")
+# LANGUAGE_CODE setting
+LANGUAGE_CODE = config_parser.get(
+    config("ENVIRONMENT"), "LANGUAGE_CODE", fallback="en-us"
+)
 
-# LANGUAGE_CODE = 'en-us'
+# TIME_ZONE setting
+TIME_ZONE = config_parser.get(
+    config("ENVIRONMENT"), "TIME_ZONE", fallback="Asia/Karachi"
+)
 
-# TIME_ZONE = 'Asia/Karachi'
+# Internationalization
+LANGUAGES = [
+    ("en-us", _("English")),
+    ("es", _("Spanish")),
+    # Add other languages that you want to support
+]
+
+LOCALE_PATHS = [
+    os.path.join(BASE_DIR, "locale"),
+]
 
 USE_I18N = True
 
 USE_L10N = True
 
-USE_TZ = False
-
+USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/

@@ -7,24 +7,10 @@ from apps.core import *
 from .base import *
 
 
-# SECRET_KEY = config("SECRET_KEY", default="django-insecure$settings.local")
+if config("ENVIRONMENT", default="development") == "production":
+    # Modify the DATABASES setting as necessary for production environment
+    pass
 
-# DEBUG = config("DEBUG", default=False, cast=bool)
-
-SECRET_KEY = config("SECRET_KEY", default="django-insecure$settings.local")
-
-ALLOWED_HOSTS = config("ALLOWED_HOSTS", default="172.16.16.68", cast=Csv())
-
-# default_db_url = config(
-#     "DATABASE_URL", default="mysql://admin:password@localhost:3306/attackeye"
-# )
-
-# DATABASES = {
-#     "default": dj_database_url.config(
-#         default=default_db_url,
-#         conn_max_age=600,
-#     )
-# }
 
 # LANGUAGE_CODE = config("LANGUAGE_CODE", default="en-us")
 

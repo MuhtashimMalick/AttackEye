@@ -1,0 +1,1229 @@
+{
+  "edges": [
+    {
+      "key": "0",
+      "source": "0",
+      "target": "10",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "1",
+      "source": "0",
+      "target": "38",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "2",
+      "source": "1",
+      "target": "4",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "3",
+      "source": "1",
+      "target": "26",
+      "edgeTitle": "ptr_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "4",
+      "source": "3",
+      "target": "15",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "5",
+      "source": "3",
+      "target": "38",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "6",
+      "source": "5",
+      "target": "4",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "7",
+      "source": "5",
+      "target": "24",
+      "edgeTitle": "ptr_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "8",
+      "source": "6",
+      "target": "7",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "9",
+      "source": "6",
+      "target": "38",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "10",
+      "source": "9",
+      "target": "4",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "11",
+      "source": "9",
+      "target": "30",
+      "edgeTitle": "ptr_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "12",
+      "source": "11",
+      "target": "4",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "13",
+      "source": "11",
+      "target": "30",
+      "edgeTitle": "ptr_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "14",
+      "source": "12",
+      "target": "4",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "15",
+      "source": "12",
+      "target": "36",
+      "edgeTitle": "ptr_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "16",
+      "source": "13",
+      "target": "33",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "17",
+      "source": "13",
+      "target": "37",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "18",
+      "source": "14",
+      "target": "15",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "19",
+      "source": "14",
+      "target": "38",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "20",
+      "source": "16",
+      "target": "19",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "21",
+      "source": "16",
+      "target": "38",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "22",
+      "source": "17",
+      "target": "2",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "23",
+      "source": "17",
+      "target": "38",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "24",
+      "source": "18",
+      "target": "38",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "25",
+      "source": "21",
+      "target": "28",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "26",
+      "source": "21",
+      "target": "38",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "27",
+      "source": "22",
+      "target": "4",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "28",
+      "source": "22",
+      "target": "6",
+      "edgeTitle": "ptr_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "29",
+      "source": "23",
+      "target": "38",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "30",
+      "source": "23",
+      "target": "34",
+      "edgeTitle": "cname_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "31",
+      "source": "24",
+      "target": "31",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "32",
+      "source": "24",
+      "target": "38",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "33",
+      "source": "25",
+      "target": "4",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "34",
+      "source": "25",
+      "target": "17",
+      "edgeTitle": "ptr_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "35",
+      "source": "26",
+      "target": "42",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "36",
+      "source": "26",
+      "target": "38",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "37",
+      "source": "29",
+      "target": "4",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "38",
+      "source": "29",
+      "target": "18",
+      "edgeTitle": "ptr_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "39",
+      "source": "30",
+      "target": "27",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "40",
+      "source": "30",
+      "target": "38",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "41",
+      "source": "32",
+      "target": "20",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "42",
+      "source": "32",
+      "target": "38",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "43",
+      "source": "33",
+      "target": "2",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "44",
+      "source": "34",
+      "target": "38",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "45",
+      "source": "36",
+      "target": "38",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "46",
+      "source": "37",
+      "target": "19",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "47",
+      "source": "37",
+      "target": "8",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "48",
+      "source": "37",
+      "target": "7",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "49",
+      "source": "37",
+      "target": "31",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "50",
+      "source": "37",
+      "target": "15",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "51",
+      "source": "37",
+      "target": "27",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "52",
+      "source": "37",
+      "target": "42",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "53",
+      "source": "37",
+      "target": "10",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "54",
+      "source": "37",
+      "target": "28",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "55",
+      "source": "37",
+      "target": "20",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "56",
+      "source": "37",
+      "target": "35",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "57",
+      "source": "38",
+      "target": "8",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "58",
+      "source": "38",
+      "target": "26",
+      "edgeTitle": "mx_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "59",
+      "source": "38",
+      "target": "24",
+      "edgeTitle": "mx_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "60",
+      "source": "38",
+      "target": "38",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "61",
+      "source": "38",
+      "target": "17",
+      "edgeTitle": "ns_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "62",
+      "source": "38",
+      "target": "6",
+      "edgeTitle": "ns_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "63",
+      "source": "39",
+      "target": "35",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "64",
+      "source": "39",
+      "target": "38",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "65",
+      "source": "40",
+      "target": "4",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "66",
+      "source": "40",
+      "target": "21",
+      "edgeTitle": "ptr_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "67",
+      "source": "41",
+      "target": "4",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "68",
+      "source": "41",
+      "target": "30",
+      "edgeTitle": "ptr_record",
+      "attributes": {
+        "size": 1
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "key": "0",
+      "attributes": {
+        "x": 0,
+        "y": 0,
+        "label": "konferans.tcdd.gov.tr",
+        "pointTitle": "subdomain: konferans.tcdd.gov.tr",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Crtsh",
+        "size": 15
+      }
+    },
+    {
+      "key": "1",
+      "attributes": {
+        "x": -1.162144070057254,
+        "y": -1.2360388647876097,
+        "label": "114.99.175.212.in-addr.arpa",
+        "pointTitle": "ptr: 114.99.175.212.in-addr.arpa",
+        "color": "#E33E14",
+        "category": "ptr",
+        "type": "border",
+        "source": "Reverse DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "2",
+      "attributes": {
+        "x": 3.3135403711602756,
+        "y": 3.9570755403361426,
+        "label": "85.111.21.60",
+        "pointTitle": "address: 85.111.21.60",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "3",
+      "attributes": {
+        "x": 5.0243247863835006,
+        "y": -5.0306101870270465,
+        "label": "mitel.tcdd.gov.tr",
+        "pointTitle": "subdomain: mitel.tcdd.gov.tr",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "4",
+      "attributes": {
+        "x": 5.336597678753497,
+        "y": 5.604421075632303,
+        "label": "212.in-addr.arpa",
+        "pointTitle": "domain: 212.in-addr.arpa",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "Reverse DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "5",
+      "attributes": {
+        "x": -7.2322691826219145,
+        "y": -6.206002686144055,
+        "label": "122.99.175.212.in-addr.arpa",
+        "pointTitle": "ptr: 122.99.175.212.in-addr.arpa",
+        "color": "#E33E14",
+        "category": "ptr",
+        "type": "border",
+        "source": "Reverse DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "6",
+      "attributes": {
+        "x": 9.329057690439857,
+        "y": 11.367778435928178,
+        "label": "ns1.tcdd.gov.tr",
+        "pointTitle": "ns: ns1.tcdd.gov.tr",
+        "color": "#E36414",
+        "category": "ns",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "7",
+      "attributes": {
+        "x": 12.531975347040909,
+        "y": -7.52815023623794,
+        "label": "212.175.52.197",
+        "pointTitle": "address: 212.175.52.197",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "8",
+      "attributes": {
+        "x": -12.022142882547422,
+        "y": 14.819974799067984,
+        "label": "212.175.52.249",
+        "pointTitle": "address: 212.175.52.249",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "9",
+      "attributes": {
+        "x": -15.155400692155519,
+        "y": -11.5401498752161,
+        "label": "106.99.175.212.in-addr.arpa",
+        "pointTitle": "ptr: 106.99.175.212.in-addr.arpa",
+        "color": "#E33E14",
+        "category": "ptr",
+        "type": "border",
+        "source": "Reverse DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "10",
+      "attributes": {
+        "x": -11.32773776762767,
+        "y": 19.597176971770352,
+        "label": "212.175.52.201",
+        "pointTitle": "address: 212.175.52.201",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "11",
+      "attributes": {
+        "x": 12.100025047459017,
+        "y": -21.309947745204056,
+        "label": "125.99.175.212.in-addr.arpa",
+        "pointTitle": "ptr: 125.99.175.212.in-addr.arpa",
+        "color": "#E33E14",
+        "category": "ptr",
+        "type": "border",
+        "source": "Reverse DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "12",
+      "attributes": {
+        "x": -15.887211952915928,
+        "y": 19.46722420042355,
+        "label": "65.99.175.212.in-addr.arpa",
+        "pointTitle": "ptr: 65.99.175.212.in-addr.arpa",
+        "color": "#E33E14",
+        "category": "ptr",
+        "type": "border",
+        "source": "Reverse DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "13",
+      "attributes": {
+        "x": -25.311111494781308,
+        "y": -19.139131288483757,
+        "label": "9121",
+        "pointTitle": "as: 9121, Desc: TTNET, TR",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "14",
+      "attributes": {
+        "x": 14.513947098443552,
+        "y": 19.86922295372937,
+        "label": "micollab.tcdd.gov.tr",
+        "pointTitle": "subdomain: micollab.tcdd.gov.tr",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "15",
+      "attributes": {
+        "x": 27.210644205223,
+        "y": -24.963480584067568,
+        "label": "212.175.99.29",
+        "pointTitle": "address: 212.175.99.29",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "16",
+      "attributes": {
+        "x": 21.01131659149585,
+        "y": 26.94135122459143,
+        "label": "etys.tcdd.gov.tr",
+        "pointTitle": "subdomain: etys.tcdd.gov.tr",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "17",
+      "attributes": {
+        "x": -22.62441330136822,
+        "y": -24.334609115951917,
+        "label": "ns2.tcdd.gov.tr",
+        "pointTitle": "ns: ns2.tcdd.gov.tr",
+        "color": "#E36414",
+        "category": "ns",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "18",
+      "attributes": {
+        "x": 18.17138924789915,
+        "y": 22.13713710497127,
+        "label": "bloktren.tcdd.gov.tr",
+        "pointTitle": "subdomain: bloktren.tcdd.gov.tr",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Wayback",
+        "size": 15
+      }
+    },
+    {
+      "key": "19",
+      "attributes": {
+        "x": -19.34009403579273,
+        "y": -36.24566107391898,
+        "label": "212.175.99.88",
+        "pointTitle": "address: 212.175.99.88",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "20",
+      "attributes": {
+        "x": -20.215230895184398,
+        "y": 32.97696574627125,
+        "label": "212.175.52.199",
+        "pointTitle": "address: 212.175.52.199",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "21",
+      "attributes": {
+        "x": 30.498622909213424,
+        "y": -37.20742774975668,
+        "label": "cikis.tcdd.gov.tr",
+        "pointTitle": "subdomain: cikis.tcdd.gov.tr",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Reverse DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "22",
+      "attributes": {
+        "x": -33.72122711381052,
+        "y": 36.219664343788054,
+        "label": "84.99.175.212.in-addr.arpa",
+        "pointTitle": "ptr: 84.99.175.212.in-addr.arpa",
+        "color": "#E33E14",
+        "category": "ptr",
+        "type": "border",
+        "source": "Reverse DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "23",
+      "attributes": {
+        "x": 23.287476033293782,
+        "y": -27.965187384076682,
+        "label": "panel.tcdd.gov.tr",
+        "pointTitle": "subdomain: panel.tcdd.gov.tr",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Wayback",
+        "size": 15
+      }
+    },
+    {
+      "key": "24",
+      "attributes": {
+        "x": 25.870520642553455,
+        "y": 38.85613499823016,
+        "label": "posta1.tcdd.gov.tr",
+        "pointTitle": "mx: posta1.tcdd.gov.tr",
+        "color": "#F7727B",
+        "category": "mx",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "25",
+      "attributes": {
+        "x": 32.66603959675952,
+        "y": -32.44961098440402,
+        "label": "85.99.175.212.in-addr.arpa",
+        "pointTitle": "ptr: 85.99.175.212.in-addr.arpa",
+        "color": "#E33E14",
+        "category": "ptr",
+        "type": "border",
+        "source": "Reverse DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "26",
+      "attributes": {
+        "x": 36.119197421163534,
+        "y": 48.00137574098265,
+        "label": "posta2.tcdd.gov.tr",
+        "pointTitle": "mx: posta2.tcdd.gov.tr",
+        "color": "#F7727B",
+        "category": "mx",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "27",
+      "attributes": {
+        "x": 52.005514502211064,
+        "y": -28.064148532368215,
+        "label": "212.175.52.194",
+        "pointTitle": "address: 212.175.52.194",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "28",
+      "attributes": {
+        "x": 44.9169803416928,
+        "y": 40.44073190449489,
+        "label": "212.175.99.92",
+        "pointTitle": "address: 212.175.99.92",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "29",
+      "attributes": {
+        "x": -44.079839501914755,
+        "y": -54.38370205308804,
+        "label": "103.99.175.212.in-addr.arpa",
+        "pointTitle": "ptr: 103.99.175.212.in-addr.arpa",
+        "color": "#E33E14",
+        "category": "ptr",
+        "type": "border",
+        "source": "Reverse DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "30",
+      "attributes": {
+        "x": -54.612761858081164,
+        "y": 30.664743312546722,
+        "label": "posta.tcdd.gov.tr",
+        "pointTitle": "subdomain: posta.tcdd.gov.tr",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Wayback",
+        "size": 15
+      }
+    },
+    {
+      "key": "31",
+      "attributes": {
+        "x": 33.93739909975335,
+        "y": -44.90922164070782,
+        "label": "212.175.99.122",
+        "pointTitle": "address: 212.175.99.122",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "32",
+      "attributes": {
+        "x": 55.57209288987414,
+        "y": 38.65495745474868,
+        "label": "tcddanket.tcdd.gov.tr",
+        "pointTitle": "subdomain: tcddanket.tcdd.gov.tr",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Wayback",
+        "size": 15
+      }
+    },
+    {
+      "key": "33",
+      "attributes": {
+        "x": -47.17453799572321,
+        "y": -65.16542993851306,
+        "label": "85.111.20.0/22",
+        "pointTitle": "netblock: 85.111.20.0/22",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "34",
+      "attributes": {
+        "x": 49.40491903125971,
+        "y": 62.923781765749474,
+        "label": "netscaler.tcdd.gov.tr",
+        "pointTitle": "subdomain: netscaler.tcdd.gov.tr",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Wayback",
+        "size": 15
+      }
+    },
+    {
+      "key": "35",
+      "attributes": {
+        "x": 56.07878195341546,
+        "y": -54.26761579886172,
+        "label": "212.175.52.204",
+        "pointTitle": "address: 212.175.52.204",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "36",
+      "attributes": {
+        "x": -50.36521906723969,
+        "y": 52.1122428130141,
+        "label": "yolcubilgi.tcdd.gov.tr",
+        "pointTitle": "subdomain: yolcubilgi.tcdd.gov.tr",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Reverse DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "37",
+      "attributes": {
+        "x": -70.71613392572839,
+        "y": -72.59729710628822,
+        "label": "212.175.0.0/17",
+        "pointTitle": "netblock: 212.175.0.0/17",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "38",
+      "attributes": {
+        "x": 57.76245164099406,
+        "y": 46.96692217501819,
+        "label": "tcdd.gov.tr",
+        "pointTitle": "domain: tcdd.gov.tr",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "39",
+      "attributes": {
+        "x": -54.87950710487862,
+        "y": -70.11489444315562,
+        "label": "das.tcdd.gov.tr",
+        "pointTitle": "subdomain: das.tcdd.gov.tr",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Wayback",
+        "size": 15
+      }
+    },
+    {
+      "key": "40",
+      "attributes": {
+        "x": -48.01698814991977,
+        "y": 71.12121146067547,
+        "label": "92.99.175.212.in-addr.arpa",
+        "pointTitle": "ptr: 92.99.175.212.in-addr.arpa",
+        "color": "#E33E14",
+        "category": "ptr",
+        "type": "border",
+        "source": "Reverse DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "41",
+      "attributes": {
+        "x": 80.14303069878493,
+        "y": -72.39499867122339,
+        "label": "121.99.175.212.in-addr.arpa",
+        "pointTitle": "ptr: 121.99.175.212.in-addr.arpa",
+        "color": "#E33E14",
+        "category": "ptr",
+        "type": "border",
+        "source": "Reverse DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "42",
+      "attributes": {
+        "x": 66.35205346829942,
+        "y": 72.35786450576498,
+        "label": "212.175.99.114",
+        "pointTitle": "address: 212.175.99.114",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    }
+  ]
+}

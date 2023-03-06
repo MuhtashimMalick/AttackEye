@@ -1,0 +1,772 @@
+{
+  "edges": [
+    {
+      "key": "0",
+      "source": "0",
+      "target": "26",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "1",
+      "source": "2",
+      "target": "21",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "2",
+      "source": "2",
+      "target": "7",
+      "edgeTitle": "mx_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "3",
+      "source": "2",
+      "target": "2",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "4",
+      "source": "2",
+      "target": "28",
+      "edgeTitle": "ns_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "5",
+      "source": "2",
+      "target": "5",
+      "edgeTitle": "ns_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "6",
+      "source": "2",
+      "target": "8",
+      "edgeTitle": "ns_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "7",
+      "source": "4",
+      "target": "21",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "8",
+      "source": "4",
+      "target": "2",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "9",
+      "source": "5",
+      "target": "3",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "10",
+      "source": "5",
+      "target": "20",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "11",
+      "source": "5",
+      "target": "27",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "12",
+      "source": "7",
+      "target": "17",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "13",
+      "source": "7",
+      "target": "10",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "14",
+      "source": "7",
+      "target": "11",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "15",
+      "source": "8",
+      "target": "6",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "16",
+      "source": "8",
+      "target": "20",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "17",
+      "source": "8",
+      "target": "19",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "18",
+      "source": "9",
+      "target": "21",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "19",
+      "source": "12",
+      "target": "0",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "20",
+      "source": "12",
+      "target": "9",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "21",
+      "source": "13",
+      "target": "23",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "22",
+      "source": "13",
+      "target": "22",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "23",
+      "source": "13",
+      "target": "15",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "24",
+      "source": "15",
+      "target": "1",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "25",
+      "source": "16",
+      "target": "17",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "26",
+      "source": "16",
+      "target": "10",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "27",
+      "source": "18",
+      "target": "16",
+      "edgeTitle": "prefix",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "28",
+      "source": "22",
+      "target": "27",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "29",
+      "source": "22",
+      "target": "19",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "30",
+      "source": "22",
+      "target": "14",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "31",
+      "source": "23",
+      "target": "3",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "32",
+      "source": "23",
+      "target": "6",
+      "edgeTitle": "contains",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "33",
+      "source": "24",
+      "target": "26",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "34",
+      "source": "24",
+      "target": "2",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "35",
+      "source": "25",
+      "target": "26",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "36",
+      "source": "25",
+      "target": "2",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "37",
+      "source": "28",
+      "target": "1",
+      "edgeTitle": "a_record",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "38",
+      "source": "28",
+      "target": "20",
+      "edgeTitle": "root",
+      "attributes": {
+        "size": 1
+      }
+    },
+    {
+      "key": "39",
+      "source": "28",
+      "target": "14",
+      "edgeTitle": "aaaa_record",
+      "attributes": {
+        "size": 1
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "key": "0",
+      "attributes": {
+        "x": -0,
+        "y": 0,
+        "label": "178.128.0.0/16",
+        "pointTitle": "netblock: 178.128.0.0/16",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "1",
+      "attributes": {
+        "x": 1.1539140306052171,
+        "y": -1.1094395381956383,
+        "label": "198.41.222.173",
+        "pointTitle": "address: 198.41.222.173",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "2",
+      "attributes": {
+        "x": 2.9716891652102806,
+        "y": 2.4316934989141052,
+        "label": "nicpakistan.pk",
+        "pointTitle": "domain: nicpakistan.pk",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "3",
+      "attributes": {
+        "x": 5.187726889332319,
+        "y": -3.0425208131900097,
+        "label": "173.245.58.51",
+        "pointTitle": "address: 173.245.58.51",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "4",
+      "attributes": {
+        "x": -6.7871011385769435,
+        "y": 5.046713345709129,
+        "label": "www.nicpakistan.pk",
+        "pointTitle": "subdomain: www.nicpakistan.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "5",
+      "attributes": {
+        "x": -7.030155439596669,
+        "y": -7.9664231381482935,
+        "label": "ns1.digitalocean.com",
+        "pointTitle": "ns: ns1.digitalocean.com",
+        "color": "#E36414",
+        "category": "ns",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "6",
+      "attributes": {
+        "x": -6.030163411920015,
+        "y": 11.540220457167987,
+        "label": "173.245.59.41",
+        "pointTitle": "address: 173.245.59.41",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "7",
+      "attributes": {
+        "x": -12.991653951319048,
+        "y": -8.509420680683323,
+        "label": "nicpakistan-pk.mail.protection.outlook.com",
+        "pointTitle": "mx: nicpakistan-pk.mail.protection.outlook.com",
+        "color": "#F7727B",
+        "category": "mx",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "8",
+      "attributes": {
+        "x": -8.179090606034528,
+        "y": 12.634692241634664,
+        "label": "ns2.digitalocean.com",
+        "pointTitle": "ns: ns2.digitalocean.com",
+        "color": "#E36414",
+        "category": "ns",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "9",
+      "attributes": {
+        "x": -12.117994772159086,
+        "y": -12.7431598197409,
+        "label": "165.22.0.0/16",
+        "pointTitle": "netblock: 165.22.0.0/16",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "10",
+      "attributes": {
+        "x": 19.679371164784314,
+        "y": 19.54843629841765,
+        "label": "104.47.13.36",
+        "pointTitle": "address: 104.47.13.36",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "11",
+      "attributes": {
+        "x": -11.518916095370212,
+        "y": -19.485438536172662,
+        "label": "outlook.com",
+        "pointTitle": "domain: outlook.com",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "12",
+      "attributes": {
+        "x": 22.60639853062413,
+        "y": 23.80809265711069,
+        "label": "14061",
+        "pointTitle": "as: 14061, Desc: DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "13",
+      "attributes": {
+        "x": -13.440380255154587,
+        "y": -22.36987250855792,
+        "label": "13335",
+        "pointTitle": "as: 13335, Desc: CLOUDFLARENET - Cloudflare, Inc.",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "14",
+      "attributes": {
+        "x": 21.819639892517607,
+        "y": 26.945273910592462,
+        "label": "2400:cb00:2049:1::c629:dead",
+        "pointTitle": "address: 2400:cb00:2049:1::c629:dead",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "15",
+      "attributes": {
+        "x": -21.782958618437775,
+        "y": -19.913096171503796,
+        "label": "198.41.222.0/24",
+        "pointTitle": "netblock: 198.41.222.0/24",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "16",
+      "attributes": {
+        "x": -29.471530868198318,
+        "y": 24.48608097686074,
+        "label": "104.40.0.0/13",
+        "pointTitle": "netblock: 104.40.0.0/13",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "17",
+      "attributes": {
+        "x": -32.10950031499576,
+        "y": -17.212836157911156,
+        "label": "104.47.14.36",
+        "pointTitle": "address: 104.47.14.36",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "18",
+      "attributes": {
+        "x": -27.886831552364825,
+        "y": 35.45468597325542,
+        "label": "8075",
+        "pointTitle": "as: 8075, Desc: MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "color": "#ED7047",
+        "category": "as",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "19",
+      "attributes": {
+        "x": 22.579334107138028,
+        "y": -32.65443048532722,
+        "label": "2400:cb00:2049:1::adf5:3b29",
+        "pointTitle": "address: 2400:cb00:2049:1::adf5:3b29",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "20",
+      "attributes": {
+        "x": -22.99386092047348,
+        "y": 37.35543261593428,
+        "label": "digitalocean.com",
+        "pointTitle": "domain: digitalocean.com",
+        "color": "#EDE4C7",
+        "category": "domain",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "21",
+      "attributes": {
+        "x": 21.76186096439102,
+        "y": -24.11260995448126,
+        "label": "165.22.54.5",
+        "pointTitle": "address: 165.22.54.5",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "CertSpotter",
+        "size": 15
+      }
+    },
+    {
+      "key": "22",
+      "attributes": {
+        "x": 35.88884237527608,
+        "y": 36.814830631944915,
+        "label": "2400:cb00:2049::/48",
+        "pointTitle": "netblock: 2400:cb00:2049::/48",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "23",
+      "attributes": {
+        "x": 36.472940388275624,
+        "y": -32.32689047855884,
+        "label": "173.245.58.0/23",
+        "pointTitle": "netblock: 173.245.58.0/23",
+        "color": "#CC301E",
+        "category": "netblock",
+        "type": "border",
+        "source": "RIR",
+        "size": 15
+      }
+    },
+    {
+      "key": "24",
+      "attributes": {
+        "x": 40.29894427522122,
+        "y": 36.821451608377004,
+        "label": "nicapp.nicpakistan.pk",
+        "pointTitle": "subdomain: nicapp.nicpakistan.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "AlienVault",
+        "size": 15
+      }
+    },
+    {
+      "key": "25",
+      "attributes": {
+        "x": 34.90880608563735,
+        "y": -47.78623343097078,
+        "label": "test.nicpakistan.pk",
+        "pointTitle": "subdomain: test.nicpakistan.pk",
+        "color": "#B30000",
+        "category": "subdomain",
+        "type": "border",
+        "source": "Digitorus",
+        "size": 15
+      }
+    },
+    {
+      "key": "26",
+      "attributes": {
+        "x": 28.1721945213569,
+        "y": 30.55963554076153,
+        "label": "178.128.121.103",
+        "pointTitle": "address: 178.128.121.103",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "27",
+      "attributes": {
+        "x": 37.754737403269196,
+        "y": -46.95764093542596,
+        "label": "2400:cb00:2049:1::adf5:3a33",
+        "pointTitle": "address: 2400:cb00:2049:1::adf5:3a33",
+        "color": "#8F3D32",
+        "category": "address",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    },
+    {
+      "key": "28",
+      "attributes": {
+        "x": 46.99488318984949,
+        "y": 31.488616304896023,
+        "label": "ns3.digitalocean.com",
+        "pointTitle": "ns: ns3.digitalocean.com",
+        "color": "#E36414",
+        "category": "ns",
+        "type": "border",
+        "source": "DNS",
+        "size": 15
+      }
+    }
+  ]
+}
