@@ -1,3 +1,5 @@
+SHELL=/bin/bash
+
 # Define variables
 .DEFAULT_GOAL := help
 
@@ -13,6 +15,13 @@ PRODUCTION_SETTINGS = config.settings.production
 TEST_SETTINGS = config.settings.test
 STAGING_SETTINGS = config.settings.staging
 SETTINGS = $(LOCAL_SETTINGS)
+
+BASE_REQUIREMENTS = requirements/base.txt
+LOCAL_REQUIREMENTS = requirements/local.txt
+PRODUCTION_REQUIREMENTS = requirements/production.txt
+STAGING_REQUIREMENTS = requirements/staging.txt
+TEST_REQUIREMENTS = requirements/test.txt
+REQUIREMENTS = $(LOCAL_REQUIREMENTS)
 # Define targets
 
 help:  ## Print this help message
@@ -36,7 +45,7 @@ help:  ## Print this help message
 	@echo "@@@@@@@@@@@@@@#(@@@@@ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@";
 	@echo "                                                                                                            ";
 
-	@awk 'BEGIN {FS = ":.*?## "} /^[a-zA-Z0-9_\/-]+:.*?## / {printf "# %-20s %s\n", $$1, $$2}' $(MAKEFILE_LIST)
+	@awk 'BEGIN {FS = ":.*?## "} /^[a-zA-Z0-9_\/-]+:.*?## / {printf "# %-30s %s\n", $$1, $$2}' $(MAKEFILE_LIST)
 	@echo "                                                                                                            ";
 
 attackeye: ## Attack Eye runserver with celery based on defined settings.
@@ -50,8 +59,9 @@ venv: ## Opens virtual environment in new tab
 	@gnome-terminal --tab --title="Virtual environment" --command="bash -c 'source $(VENV); exec bash'" > /dev/null 2>&1
 	@echo "Virtual environment running successfully."
 
-install: ## Install requirements i.e: base, local, production, test, staging
-	grep -v -E "^[[:space:]]*#" requirements.txt | grep -v -F -f blacklist.txt | python3 -m pip install -r /dev/stdin
+install: ## Install requirements i.e: base, local, production, test, staging 
+	$(PIP) install -r $(BASE_REQUIREMENTS)
+	grep -v -E "^[[:space:]]*#" $(REQUIREMENTS) | cut -d '=' -f 1 | grep -v -x -F -f <(cut -d '=' -f 1 requirements/blacklist.txt) | xargs -n 1 pip install --ignore-installed
 
 code_test: ## Test your code with test cases
 	$(MANAGE) test
@@ -92,6 +102,25 @@ staging: ## Set staging settings
 	@bash -c 'export ENVIRONMENT=staging && make attackeye SETTINGS=$(SETTINGS) && exec bash'
 	@echo "Staging environment set successfully."
 
+local_requirements: ## Set local requirements
+	$(eval REQUIREMENTS=$(LOCAL_REQUIREMENTS))
+	@bash -c 'make install REQUIREMENTS=$(REQUIREMENTS) && exec bash'
+	@echo "Local environment set successfully."
+
+production_requirements: ## Set production requirements
+	$(eval REQUIREMENTS=$(PRODUCTION_REQUIREMENTS))
+	@bash -c 'make install REQUIREMENTS=$(REQUIREMENTS) && exec bash'
+	@echo "Production environment set successfully."
+
+test_requirements: ## Set test requirements
+	$(eval REQUIREMENTS=$(TEST_REQUIREMENTS))
+	@bash -c 'make install REQUIREMENTS=$(REQUIREMENTS) && exec bash'
+	@echo "Test environment set successfully."
+
+staging_requirements: ## Set staging requirements
+	$(eval REQUIREMENTS=$(STAGING_REQUIREMENTS))
+	@bash -c 'make install REQUIREMENTS=$(REQUIREMENTS) && exec bash'
+	@echo "Staging environment set successfully."
 
 # Define phony targets
-.PHONY: install code_test runserver migrate shell attackeye celery venv staging test production local collectstatic
+.PHONY: install code_test runserver migrate shell attackeye celery venv staging test production local collectstatic local_requirements production_requirements test_requirements staging_requirements
