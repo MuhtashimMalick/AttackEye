@@ -1,0 +1,12 @@
+{% load cookie_consent_tags %}
+
+{% if request|cookie_consent_enabled %}
+    {% not_accepted_or_declined_cookie_groups request as cookie_groups %}
+    {% if cookie_groups %}
+        <div class="cookie-bar">
+            This site uses {{ cookie_groups|join:", " }} cookies for better performance and user experience. Do you agree to use cookies?
+            <a href="{% cookie_consent_accept_url cookie_groups %}" class="cc-cookie-accept">Accept</a>
+            <a href="{% cookie_consent_decline_url cookie_groups %}" class="cc-cookie-decline">Decline</a>
+        </div>
+    {% endif %}
+{% endif %}
