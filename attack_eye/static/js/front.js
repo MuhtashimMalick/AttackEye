@@ -1,19 +1,28 @@
 var form = document.querySelector('#dform') || false,
 	spinner = document.querySelector('.spinner');
 
+function validURL(str) {
+	var pattern = new RegExp('^(https?:\\/\\/)?'+ // protocol
+		'((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|'+ // domain name
+		'((\\d{1,3}\\.){3}\\d{1,3}))'+ // OR ip (v4) address
+		'(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*'+ // port and path
+		'(\\?[;&a-z\\d%_.~+=-]*)?'+ // query string
+		'(\\#[-a-z\\d_]*)?$','i'); // fragment locator
+	return !!pattern.test(str);
+}
+
 form.onsubmit = function() {
 	var scanFormContainer = document.querySelector('#tool2'),
 		formE = this;
 	
 	var domainInputValue = this.elements[1].value,
 		domainInput = this.elements[1],
-		toolTip = document.createElement('span'),
-		isDomain = /^(http(s?):\/\/)?[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,6}(\/)?$/i;
+		toolTip = document.createElement('span');
 
 	toolTip.className = 'tooltiptext';
 	toolTip.innerHTML = '<span>!</span>Input a valid domain';
 
-	if (domainInputValue == '' || !isDomain.test(domainInputValue)) {
+	if (domainInputValue == '' || !validURL(domainInputValue)) {
 		domainInput.parentNode.appendChild(toolTip);
 		setTimeout(function() {
 			domainInput.parentNode.removeChild(toolTip);

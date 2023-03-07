@@ -24,41 +24,4 @@ cd $parent_dir/go/pkg/mod/pkg/mod/github.com/OWASP/Amass/v3/cmd/amass
 
 ./amass viz -enum 1 -graphistry -d $1 
 # # mv amass_graphistry.json /home/nccs-irp/sigma.js/examples/layouts/data.json
-# mv /home/$USER/Attack-Eye/amass_output/amass_graphistry.json $parent_dir/attack_eye/apps/amass/generated_subdomains/$1
 mv $parent_dir/amass_output/amass_graphistry.json $parent_dir/attack_eye/apps/amass/generated_subdomains/$1
-
-
-
-
-
-
-
-
-
-
-
-
-# DB_USER='admin';
-# DB_PASSWD='password';
-
-# DB_NAME='myprojectdb';
-# TABLE='tutorials_domain';
-
-# title="muhammad"
-# data='{
-#     'address': '123 Some House Number', 
-#     'city': 'Some City',
-#     'state': 'Utah',
-# }'
-# data=$({
-#     'address': '123 Some House Number', 
-#     'city': 'Some City',
-#     'state': 'Utah',
-# # })
-# data=$(</home/hamza/django-rest-api/django-rest-api-master/DjangoRestApi/attackeye/templates/data.json)
-
-# echo "$data"
-# #mysql commands
-# mysql --user=$DB_USER --password=$DB_PASSWD $DB_NAME << EOF
-# INSERT INTO $TABLE (id, title,data) VALUES (NULL, "$title",'$data');
-# EOF

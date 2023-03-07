@@ -5,8 +5,8 @@ PYTHON = python3
 PIP = $(PYTHON) -m pip
 MANAGE = $(PYTHON) manage.py
 PORT = 8080
-IP = 172.16.16.68
-VENV = /home/hamza/Attack-Eye/env/bin/activate
+IP = $(shell hostname -I | cut -d' ' -f1)
+VENV = $(HOME)/Attack-Eye/env/bin/activate
 
 LOCAL_SETTINGS = config.settings.local
 PRODUCTION_SETTINGS = config.settings.production

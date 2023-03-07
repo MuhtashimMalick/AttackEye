@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 17:22:21.025892 360PassiveDNS: check callback failed for the configuration
 17:22:21.026017 Ahrefs: check callback failed for the configuration
 17:22:21.026237 AlienVault: API key data was not provided
@@ -102,3 +103,111 @@
 17:22:56.793422 Sublist3rAPI: vertical request to service failed: 522: 522 
 17:23:26.802159 ArchiveIt: pages request to service failed: Get "https://archive-it.org/explore?show=Sites&q=theserverside.com": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
 17:23:36.805707 CommonCrawl: scrape: Get "https://index.commoncrawl.org/CC-MAIN-2023-06-index?output=json&fl=url&url=*.theserverside.com": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+=======
+11:08:46.297722 360PassiveDNS: check callback failed for the configuration
+11:08:46.297789 Ahrefs: check callback failed for the configuration
+11:08:46.297807 AlienVault: API key data was not provided
+11:08:46.297863 BinaryEdge: check callback failed for the configuration
+11:08:46.297884 BuiltWith: check callback failed for the configuration
+11:08:46.297892 C99: check callback failed for the configuration
+11:08:46.297901 CIRCL: check callback failed for the configuration
+11:08:46.297918 Chaos: check callback failed for the configuration
+11:08:46.297921 Cloudflare: API key data was not provided
+11:08:46.297934 DNSDB: API key data was not provided
+11:08:46.298981 DNSDB: check callback failed for the configuration
+11:08:46.297948 DNSRepo: check callback failed for the configuration
+11:08:46.297956 DNSlytics: check callback failed for the configuration
+11:08:46.297965 Detectify: check callback failed for the configuration
+11:08:46.297976 FOFA: Email address or API key data was not provided
+11:08:46.298005 FacebookCT: check callback failed for the configuration
+11:08:46.298027 GitHub: check callback failed for the configuration
+11:08:46.298036 GitLab: check callback failed for the configuration
+11:08:46.298113 VirusTotal: check callback failed for the configuration
+11:08:46.298122 Hunter: check callback failed for the configuration
+11:08:46.298133 IPdata: check callback failed for the configuration
+11:08:46.298140 IPinfo: check callback failed for the configuration
+11:08:46.298149 IntelX: check callback failed for the configuration
+11:08:46.298165 NetworksDB: API key data was not provided
+11:08:46.298176 ONYPHE: check callback failed for the configuration
+11:08:46.298186 PassiveTotal: check callback failed for the configuration
+11:08:46.298197 PentestTools: check callback failed for the configuration
+11:08:46.298213 Quake: check callback failed for the configuration
+11:08:46.298449 SecurityTrails: check callback failed for the configuration
+11:08:46.298546 Shodan: check callback failed for the configuration
+11:08:46.298579 Spamhaus: check callback failed for the configuration
+11:08:46.298589 Spyse: check callback failed for the configuration
+11:08:46.298603 ThreatBook: check callback failed for the configuration
+11:08:46.298618 Twitter: API key data was not provided
+11:08:46.299088 Twitter: check callback failed for the configuration
+11:08:46.298636 Umbrella: API key data was not provided
+11:08:46.299095 Umbrella: check callback failed for the configuration
+11:08:46.298688 WhoisXMLAPI: check callback failed for the configuration
+11:08:46.298704 ZETAlytics: check callback failed for the configuration
+11:08:46.298713 ZoomEye: check callback failed for the configuration
+11:08:50.654514 DNS wildcard detected: Resolver 76.76.19.19:53: *.heimdalsecurity.com: type: 2
+11:08:51.734496 Querying Yahoo for heimdalsecurity.com subdomains
+11:08:51.734784 Querying AbuseIPDB for heimdalsecurity.com subdomains
+11:08:51.734846 Querying AlienVault for heimdalsecurity.com subdomains
+11:08:51.734895 Querying AnubisDB for heimdalsecurity.com subdomains
+11:08:51.734944 Querying ArchiveIt for heimdalsecurity.com subdomains
+11:08:51.734997 Querying Arquivo for heimdalsecurity.com subdomains
+11:08:51.735046 Querying Ask for heimdalsecurity.com subdomains
+11:08:51.735098 Querying Baidu for heimdalsecurity.com subdomains
+11:08:51.735148 Querying Bing for heimdalsecurity.com subdomains
+11:08:51.735199 Querying Brute Forcing for heimdalsecurity.com subdomains
+11:08:51.735249 Querying BufferOver for heimdalsecurity.com subdomains
+11:08:51.735301 Querying Censys for heimdalsecurity.com subdomains
+11:08:51.735365 Querying CertSpotter for heimdalsecurity.com subdomains
+11:08:51.735426 Querying CommonCrawl for heimdalsecurity.com subdomains
+11:08:51.735476 Querying Crtsh for heimdalsecurity.com subdomains
+11:08:51.735528 Querying DNSDumpster for heimdalsecurity.com subdomains
+11:08:51.735577 Querying Digitorus for heimdalsecurity.com subdomains
+11:08:51.735628 Querying DuckDuckGo for heimdalsecurity.com subdomains
+11:08:51.735677 Querying FullHunt for heimdalsecurity.com subdomains
+11:08:51.735741 Querying Gists for heimdalsecurity.com subdomains
+11:08:51.735794 Querying GoogleCT for heimdalsecurity.com subdomains
+11:08:51.735847 BufferOver: scrape: Get "https://dns.bufferover.run/dns?q=.heimdalsecurity.com": dial tcp: lookup dns.bufferover.run: no such host
+11:08:51.735898 Querying Greynoise for heimdalsecurity.com subdomains
+11:08:51.735953 Querying HAW for heimdalsecurity.com subdomains
+11:08:51.736003 Querying HackerOne for heimdalsecurity.com subdomains
+11:08:51.736057 Querying HackerTarget for heimdalsecurity.com subdomains
+11:08:51.736108 Querying HyperStat for heimdalsecurity.com subdomains
+11:08:51.736159 Querying IPv4Info for heimdalsecurity.com subdomains
+11:08:51.736210 Querying Maltiverse for heimdalsecurity.com subdomains
+11:08:51.736262 Querying Mnemonic for heimdalsecurity.com subdomains
+11:08:51.736312 Querying N45HT for heimdalsecurity.com subdomains
+11:08:51.736379 Querying PKey for heimdalsecurity.com subdomains
+11:08:51.736531 Querying RapidDNS for heimdalsecurity.com subdomains
+11:08:51.736588 Querying Riddler for heimdalsecurity.com subdomains
+11:08:51.736638 Querying Robtex for heimdalsecurity.com subdomains
+11:08:51.736694 Querying Searchcode for heimdalsecurity.com subdomains
+11:08:51.736789 Querying Searx for heimdalsecurity.com subdomains
+11:08:51.736843 Querying SiteDossier for heimdalsecurity.com subdomains
+11:08:51.736896 Querying SonarSearch for heimdalsecurity.com subdomains
+11:08:51.736946 Querying Sublist3rAPI for heimdalsecurity.com subdomains
+11:08:51.736998 Querying ThreatCrowd for heimdalsecurity.com subdomains
+11:08:51.737047 Querying ThreatMiner for heimdalsecurity.com subdomains
+11:08:51.737099 Querying UKWebArchive for heimdalsecurity.com subdomains
+11:08:51.737148 Querying URLScan for heimdalsecurity.com subdomains
+11:08:51.737200 Querying Wayback for heimdalsecurity.com subdomains
+11:08:51.737251 PKey: scrape: 403: 403 Forbidden
+11:08:51.737316 FullHunt: vertical request to service failed: 401: 401 Unauthorized
+11:08:51.737376 GoogleCT: vertical request to service failed: 400: 400 Bad Request
+11:08:51.737431 IPv4Info: get_path request to service failed: 404: 404 Not Found
+11:08:51.737481 Greynoise: vertical request to service failed: 502: 502 Bad Gateway
+11:08:51.737533 Searchcode: vertical request to service failed: 429: 429 Too Many Requests
+11:08:51.737583 Digitorus: scrape: 500: 500 Internal Server Error
+11:08:51.737635 ArchiveIt: scrape: 403: 403 Forbidden
+11:08:51.737684 N45HT: vertical request to service failed: 404: 404 Not Found
+11:08:51.737761 Crtsh: vertical request to service failed: 502: 502 Bad Gateway
+11:08:51.737813 SiteDossier: scrape: 404: 404 No data available
+11:08:51.737864 Censys: vertical request to service failed: 403: 403 Forbidden
+11:08:56.741506 Ask: scrape: 502: 502 Bad Gateway
+11:09:01.770403 Arquivo: vertical request to service failed: 400: 400 Bad Request
+11:09:01.770628 ThreatCrowd: vertical request to service failed: 503: 503 Service Temporarily Unavailable
+11:09:21.771192 SonarSearch: vertical request to service failed: 522: 522 
+11:09:21.771251 Sublist3rAPI: vertical request to service failed: 522: 522 
+11:09:31.771641 DNS: query on resolver 80.253.20.71:53, for f-devcdn.heimdalsecurity.com type 28 returned error FORMERR
+11:09:51.775322 ArchiveIt: pages request to service failed: Get "https://archive-it.org/explore?show=Sites&q=heimdalsecurity.com": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+11:10:14.226016 RADb: https://rdap.arin.net/registry/autnum/8075: Get "https://rdap.arin.net/registry/autnum/8075": context canceled
+>>>>>>> 000aaece07692251cbd60cf521189ff4b444e5b1
