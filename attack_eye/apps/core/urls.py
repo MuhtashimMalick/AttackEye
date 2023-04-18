@@ -1,6 +1,7 @@
 from django.urls import re_path
 from django.urls import path
 from apps.core import views
+from apps.nmap.views import port_info, nmap_report, generate_nmap_xml_report
 from django.contrib import admin
 
 urlpatterns = [
@@ -17,7 +18,7 @@ urlpatterns = [
     re_path(r'^api/showgraph', views.showgraph,name='showgraph'),
     # re_path(r'^api/deletedomain/(?P<description>[a-z].+)', views.deletedomain,name='deletedomain'),
     re_path(r'^api/deletedomain',views.deletedomain,name="deletedomain"),
-    re_path(r'^surface$', views.surface,name='surface'),
+    re_path(r'^surface/(?P<value>[a-z].+)', views.surface,name='surface'),
     re_path(r'^api/attackeye$', views.attackeye_list,name='attackeye_list'),
     re_path(r'^api/load/graph/(?P<graphdomain>[a-z].+)', views.graph_json),
     # re_path(r'^api/load/graph$', views.graph_json),
@@ -29,10 +30,11 @@ urlpatterns = [
     re_path(r'^api/attackeye/published$', views.attackeye_list_published),
     re_path(r'^api/view/table$', views.table_view),
 
-    re_path(r'^index/nmap$', views.nmap,name='nmap'),
-    
-    re_path(r'^api/nmapreport$', views.portinfo,name='nmapreport'),
+    # re_path(r'^index/nmap$', views.nmap,name='nmap'),
     # re_path(r'^api/viewreport',views.deletedomain,name="deletedomain"),
+    re_path(r'^api/nmapreport/(?P<value>[a-z].+)', nmap_report, name='nmapreport'),
+    re_path(r'^api/portinfo/(?P<value1>[a-z].+)/(?P<value2>[A-Za-z0-9].+)', port_info, name='portinfo'),
+    re_path(r'^api/generatenmapxmlreport', generate_nmap_xml_report, name='generatenmapxmlreport')
 ]
 
 

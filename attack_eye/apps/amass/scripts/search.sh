@@ -20,8 +20,8 @@
 parent_dir=$(realpath -- "/home/$USER/Attack-Eye")
 cd $parent_dir/go/pkg/mod/pkg/mod/github.com/OWASP/Amass/v3/cmd/amass
 
-./amass enum -d $1
+./amass enum -d $1 -o $parent_dir/attack_eye/apps/amass/generated_subdomains/$1.txt
 
 ./amass viz -enum 1 -graphistry -d $1 
 # # mv amass_graphistry.json /home/nccs-irp/sigma.js/examples/layouts/data.json
-mv $parent_dir/amass_output/amass_graphistry.json $parent_dir/attack_eye/apps/amass/generated_subdomains/$1
+mv $parent_dir/go/pkg/mod/pkg/mod/github.com/OWASP/Amass/v3/cmd/amass/amass_graphistry.json $parent_dir/attack_eye/apps/amass/generated_subdomains/$1

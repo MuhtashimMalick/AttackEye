@@ -1,7 +1,7 @@
 # from django.template import loader
 # from django.template.loader import get_template
 from django.template import Template, Context
-from .nmap import parse_nmap_xml_report
+from ..nmap.nmap import parse_nmap_xml_report
 from django.shortcuts import render, redirect
 import json
 from rest_framework.decorators import parser_classes
@@ -40,8 +40,8 @@ from django.contrib.auth.decorators import login_required
 
 
 @login_required
-def surface(request):
-    return render(request, "surface.html")
+def surface(request, value):
+    return render(request, 'surface.html', {'nmap_report_file_name': value})
 
 
 # logging.basicConfig(filename='/tmp/example.log', encoding='utf-8', level=logging.DEBUG)
@@ -407,39 +407,39 @@ def registeruser(request):
     return render(request, "register.html", context)
 
 
-@api_view(["POST"])
-def nmap(request):
-    if request.method == "POST":
-        domain = request.data["domain"]
-        graph = open(
-            f"{settings.SITE_ROOT}/attack_eye/apps/core/templates/" + domain + ".txt",
-            "r",
-        )
-        content = graph.read()
-        lines = content.splitlines()
-        print(lines)
-        return Response({"received data": lines})
-        # for i in content:
-        #     subdomains.append(i)
-        # print(subdomains)
-        # return render(request, 'nmap.html',{'subdomain':lines})
+# @api_view(["POST"])
+# def nmap(request):
+#     if request.method == "POST":
+#         domain = request.data["domain"]
+#         graph = open(
+#             f"{settings.SITE_ROOT}/attack_eye/apps/core/templates/" + domain + ".txt",
+#             "r",
+#         )
+#         content = graph.read()
+#         lines = content.splitlines()
+#         print(lines)
+#         return Response({"received data": lines})
+#         # for i in content:
+#         #     subdomains.append(i)
+#         # print(subdomains)
+#         # return render(request, 'nmap.html',{'subdomain':lines})
 
 
-def portinfo(request):
-    #   template=Template('My name is {{name}}')
-    report = parse_nmap_xml_report("testscan", "example.com")
-    context = {"report": report}
-    #   context = Context({'name': 'hamza'})
-    #   return render(template.render(context))
-    #   return Response({'received data':'ok'})
+# def portinfo(request):
+#     #   template=Template('My name is {{name}}')
+#     report = parse_nmap_xml_report("testscan", "example.com")
+#     context = {"report": report}
+#     #   context = Context({'name': 'hamza'})
+#     #   return render(template.render(context))
+#     #   return Response({'received data':'ok'})
 
-    print(context)
-    # hamza(request,context)
-    # template = loader.get_template('portsinfo.html')
-    # return HttpResponse(template.render(context, request))
-    return render(request, "portsinfo.html", context)
+#     print(context)
+#     # hamza(request,context)
+#     # template = loader.get_template('portsinfo.html')
+#     # return HttpResponse(template.render(context, request))
+#     return render(request, "portsinfo.html", context)
 
 
-# def hamza(request,context):
-#     print("inside")
-#     return render(request, 'portsinfo.html', context)
+# # def hamza(request,context):
+# #     print("inside")
+# #     return render(request, 'portsinfo.html', context)

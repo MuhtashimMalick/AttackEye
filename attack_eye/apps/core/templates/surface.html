@@ -2,388 +2,411 @@
 {% load static %}
 
 {% block styles %}
-  <link rel="stylesheet" href="{% static 'css/bootstrap-icons.css' %}"/>
+<link rel="stylesheet" href="{% static 'css/bootstrap-icons.css' %}" />
 {% endblock %}
 
 {% block content %}
 
-  <script src="{% static 'js/bundle.js' %}"></script>
+<script src="{% static 'js/bundle.js' %}"></script>
 
-  <style type="text/css">
-    html,
-    body,
-    #sigma-container {
-      width: 100%;
-      height: 100%;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      margin-left: auto; 
-      margin-right: auto;
-      background-color: #000;
-      /* background-color: aliceblue; */
-    }
+<style type="text/css">
+  html,
+  body,
+  #sigma-container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000;
+    /* background-color: aliceblue; */
+  }
 
-    /* .fa {
+  /* .fa {
       margin-left: -12px;
       margin-right: 8px;
     } */
-    .round-div {
-      margin-top: 10px;
-      display: inline-block;
-    }   
-    .ptr{
-      background-color: #E33E14;
-      /* position: absolute;
+  .round-div {
+    margin-top: 10px;
+    display: inline-block;
+  }
+
+  .ptr {
+    background-color: #E33E14;
+    /* position: absolute;
       left: 3em;
       bottom: 43em; */
-      width: 60px;
-      height: 60px;
-      border: 3px solid #FFF;
-      border-radius: 50%;
-      cursor: pointer;
-      display: block;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      font-size: 12px;
-    }  
+    width: 60px;
+    height: 60px;
+    border: 3px solid #FFF;
+    border-radius: 50%;
+    cursor: pointer;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+  }
 
-    .mx{
-      background-color: #F7727B;
-      /* position: absolute;
+  .mx {
+    background-color: #F7727B;
+    /* position: absolute;
       left: 3em;
       bottom: 43em; */
-      width: 60px;
-      height: 60px;
-      border: 3px solid #FFF;
-      border-radius: 50%;
-      cursor: pointer;
-      display: block;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      font-size: 12px;
-    }  
+    width: 60px;
+    height: 60px;
+    border: 3px solid #FFF;
+    border-radius: 50%;
+    cursor: pointer;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+  }
 
-    .address {
-      background-color:#8f3d32; 
-      /* position: absolute;
+  .address {
+    background-color: #8f3d32;
+    /* position: absolute;
       left: 3em;
       bottom: 36em; */
-      width: 60px;
-      height: 60px;
-      border: 3px solid #FFF;
-      border-radius: 50%;
-      cursor: pointer;
-      display: block;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      font-size: 12px;
-    }  
+    width: 60px;
+    height: 60px;
+    border: 3px solid #FFF;
+    border-radius: 50%;
+    cursor: pointer;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+  }
 
-    .subdomain {
-      background-color: #B30000;
-      /* position: absolute;
+  .subdomain {
+    background-color: #B30000;
+    /* position: absolute;
       left: 3em;
       bottom: 29em; */
-      width: 60px;
-      height: 60px;
-      border: 3px solid #FFF;
-      border-radius: 50%;
-      cursor: pointer;
-      display: block;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      font-size: 12px;
-      text-align: center;
-    } 
+    width: 60px;
+    height: 60px;
+    border: 3px solid #FFF;
+    border-radius: 50%;
+    cursor: pointer;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    text-align: center;
+  }
 
-    .domain {
-      background-color: #EDE4C7;
-      /* position: absolute;
+  .domain {
+    background-color: #EDE4C7;
+    /* position: absolute;
       left: 3em;
       bottom: 22em; */
-      width: 60px;
-      height: 60px;
-      border: 3px solid #FFF;
-      border-radius: 50%;
-      cursor: pointer;
-      display: block;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      font-size: 12px;
-    } 
+    width: 60px;
+    height: 60px;
+    border: 3px solid #FFF;
+    border-radius: 50%;
+    cursor: pointer;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+  }
 
-    .as {
-      background-color: #ED7047;
-      /* position: absolute;
+  .as {
+    background-color: #ED7047;
+    /* position: absolute;
       left: 3em;
       bottom: 15em; */
-      width: 60px;
-      height: 60px;
-      border: 3px solid #FFF;
-      border-radius: 50%;
-      cursor: pointer;
-      display: block;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      font-size: 12px;
-    }  
+    width: 60px;
+    height: 60px;
+    border: 3px solid #FFF;
+    border-radius: 50%;
+    cursor: pointer;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+  }
 
-    .netblock {
-      background-color: #CC301E;
-      /* position: absolute;
+  .netblock {
+    background-color: #CC301E;
+    /* position: absolute;
       left: 3em;
       bottom: 8em; */
-      width: 60px;
-      height: 60px;
-      border: 3px solid #FFF;
-      border-radius: 50%;
-      cursor: pointer;
-      display: block;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      font-size: 12px;
-      text-align: center;
-    }  
+    width: 60px;
+    height: 60px;
+    border: 3px solid #FFF;
+    border-radius: 50%;
+    cursor: pointer;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    text-align: center;
+  }
 
-    .ns {
-      background-color:#E36414; 
-      /* position: absolute;
+  .ns {
+    background-color: #E36414;
+    /* position: absolute;
       left: 3em;
       bottom: 1em; */
-      width: 60px;
-      height: 60px;
-      border: 3px solid #FFF;
-      border-radius: 50%;
-      cursor: pointer;
-      display: block;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      font-size: 12px;
-    }
-    /* .searchmain{
+    width: 60px;
+    height: 60px;
+    border: 3px solid #FFF;
+    border-radius: 50%;
+    cursor: pointer;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+  }
+
+  /* .searchmain{
       position:absolute;
       top : 1px;
       left :1px;
 
     } */
 
-    #search-input{
-      padding: 0 0.5em;
-      height: 34px;
-    }
-    #search {
-      float:left;
-      cursor: pointer;
-      padding-left: 5px;
-      padding-right: 0;
-      margin-right: 5px;
-    }
+  #search-input {
+    padding: 0 0.5em;
+    height: 34px;
+  }
 
-    #searchimg{
-      display: inline;
-      font-size: 18px;
-    }
-    #controls {
-      position: absolute;
-      left:20%;
-      bottom: 2%;
-      text-align: right;
-    }
-    
+  #search {
+    float: left;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 0;
+    margin-right: 5px;
+  }
 
-    #abc {
-      /* position: absolute;
+  #searchimg {
+    display: inline;
+    font-size: 18px;
+  }
+
+  #controls {
+    position: absolute;
+    left: 20%;
+    bottom: 2%;
+    text-align: right;
+  }
+
+
+  #abc {
+    /* position: absolute;
       left: 20em;
       top: 1em; */
-      background: white;
-      cursor: pointer;
-      padding-left: 5px;
-      padding-right: 5px;
-    }
-    .parent-div{
-      margin: 0 5px;
-    }
-    .parent-div > button{
-      text-align:center;
-      font-size: 16px;
-      height: 35px;
-      line-height: 30px;
-    }
-    .parent-div a{
-      width:100%;
-      text-align:center;
-      background:black;
-      cursor: pointer;
-      color: white;
-      border: none;
-      border-radius: 4px;
-      padding: 10px 20px;
-      text-decoration:none;
-    }
-    .parent-div > button img{
-      height:2em;
-    }
-    .parent-div > button >span{
-      height: 100%;
-      text-align: center;
-      font-size: 16px;
-    }
+    background: white;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 
-    .disabled{
-      background-color: grey;
-      color: white;
-      border: none;
-      border-radius: 4px;
-      padding: 10px 20px;
-    }
-        
-    .download {
-      background: #12132a;
-      color: white;
-      border: none;
-      border-radius: 4px;
-      padding: 0px 15px;
-   
-    }
-    .nmap {
-      border: none;
-     
-      border-radius: 4px;
-      padding: 0px 15px;
-      background: black;
-      color: white;
-    }
-    .tabular {
-      border: none;
-     
-      border-radius: 4px;
-      padding: 0px 15px;
-      background: black;
-      color: white;
-    }
+  .parent-div {
+    margin: 0 5px;
+  }
 
-    input[type=text], select {
-      
-      padding: 10px 20px;
-      /* margin: 2px 0; */
-      display: inline-block;
-      /* border:black; */
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      box-sizing: border-box;
-    }
+  .parent-div>button {
+    text-align: center;
+    font-size: 16px;
+    height: 35px;
+    line-height: 30px;
+  }
 
-    input[type=submit] {
-      /* position: absolute;
+  .parent-div a {
+    width: 100%;
+    text-align: center;
+    background: black;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+
+  .parent-div>button img {
+    height: 2em;
+  }
+
+  .parent-div>button>span {
+    height: 100%;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .disabled {
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+  }
+
+  .download {
+    background: #12132a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0px 15px;
+
+  }
+
+  .nmap {
+    border: none;
+
+    border-radius: 4px;
+    padding: 0px 15px;
+    background: black;
+    color: white;
+  }
+
+  .tabular {
+    border: none;
+
+    border-radius: 4px;
+    padding: 0px 15px;
+    background: black;
+    color: white;
+  }
+
+  input[type=text],
+  select {
+
+    padding: 10px 20px;
+    /* margin: 2px 0; */
+    display: inline-block;
+    /* border:black; */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
+    /* position: absolute;
       left: 70em;
       top: 1em; */
-      background-color: black;
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-    }
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
 
-    input[type=submit]:hover {
-      background-color: black;
-    }
+  input[type=submit]:hover {
+    background-color: black;
+  }
 
 
-  
-  
-    .buttonloader {
-    
-      background-color: black; /* Green background */
-      color: white; /* White text */
-      padding:10px 20px;
-      border-radius: 4px;
-      
 
-    }
-    #spinner{
-      display:none;
 
-    }
-    .maintag{
-      position:absolute;
-      top:0px;
-      right:0px;
-    }
-    #mob {
-      position: absolute;
-      top: 120px;
-      width: 90px;
-      left: 27px;
-      padding-bottom: 15px;
-      text-align: center;
-      background-color: #2f376880;
-      border: 1px solid #ffffff;
-    }
-    .input {
-      position: relative;
-      display: inline-block;
-      vertical-align: middle;
-    }
-    .input:not(:hover) label {
-      display: none;
-    }
-    .input label {
-      position: absolute;
-      top: 100%;
-      left: 50%;
-      transform: translateX(-50%);
-      background: black;
-      color: white;
-      padding: 0.2em;
-      border-radius: 2px;
-      margin-top: 0.3em;
-      font-size: 0.8em;
-      white-space: nowrap;
-    }
-    .input button {
-      width: 15px;
-      height: 15px;
-      display: inline-block;
-      text-align: center;
-      background: white;
-      outline: none;
-      border:black;
-      /* border: 1px solid dimgrey; */
-      border-radius: 2px;
-      cursor: pointer;
-      padding: 0;
-      line-height: 15px;
-    }
-    .Navbar {
-      position:absolute;
-      top:0px;
-      width:100%;
-      background-color: #263238c2;
-      border-bottom: 1px solid #444444;
-      /* background-image: url('{% static 'img/login-background-01.jpg' %}'); */
-      display: flex;
-      color: white;
-      /* box-shadow: rgb(15 52 143 / 90%) 0px 0px 60px -12px, rgb(70 75 141 / 83%) 0px 18px 36px -18px; */
-    }
-/* .Navbar-home a{
+  .buttonloader {
+
+    background-color: black;
+    /* Green background */
+    color: white;
+    /* White text */
+    padding: 10px 20px;
+    border-radius: 4px;
+
+
+  }
+
+  #spinner {
+    display: none;
+
+  }
+
+  .maintag {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+
+  #mob {
+    position: absolute;
+    top: 120px;
+    width: 90px;
+    left: 27px;
+    padding-bottom: 15px;
+    text-align: center;
+    background-color: #2f376880;
+    border: 1px solid #ffffff;
+  }
+
+  .input {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .input:not(:hover) label {
+    display: none;
+  }
+
+  .input label {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: black;
+    color: white;
+    padding: 0.2em;
+    border-radius: 2px;
+    margin-top: 0.3em;
+    font-size: 0.8em;
+    white-space: nowrap;
+  }
+
+  .input button {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    text-align: center;
+    background: white;
+    outline: none;
+    border: black;
+    /* border: 1px solid dimgrey; */
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 0;
+    line-height: 15px;
+  }
+
+  .Navbar {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    background-color: #263238c2;
+    border-bottom: 1px solid #444444;
+    /* background-image: url('{% static 'img/login-background-01.jpg' %}'); */
+    display: flex;
+    color: white;
+    /* box-shadow: rgb(15 52 143 / 90%) 0px 0px 60px -12px, rgb(70 75 141 / 83%) 0px 18px 36px -18px; */
+  }
+
+  /* .Navbar-home a{
   float: none;
   position: absolute;
   top: 50%;
@@ -396,209 +419,219 @@
   border:#FFF;
   
 } */
-/* .Navbar-home a:hover{ */
+  /* .Navbar-home a:hover{ */
   /* text-decoration:none; */
-     /* text-shadow: 2px 2px 2px #555; */
-  
-/* } */
-.Navbar__Items {
-  display:flex;
-  align-items: center;
-}
-.Navbar__Link{
-display:flex;
-}
-.Navbar__Link a{
-  
-  float: left;
- display: block;
- color:black;
- text-align: center;
- padding: 10px 16px;
- text-decoration: none;
- font-size: 17px;
-  /* font-size: 10px; */
-}
-.Navbar__Items--right {
-  margin-left:auto;
-  
-}
-.Navbar__Link a img {
-  width: 250px;
-  height: auto;
-}
- 
+  /* text-shadow: 2px 2px 2px #555; */
 
-.Navbar__Link-toggle {
-  display: none;
-}
-/* #togglediv{
+  /* } */
+  .Navbar__Items {
+    display: flex;
+    align-items: center;
+  }
+
+  .Navbar__Link {
+    display: flex;
+  }
+
+  .Navbar__Link a {
+
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    /* font-size: 10px; */
+  }
+
+  .Navbar__Items--right {
+    margin-left: auto;
+
+  }
+
+  .Navbar__Link a img {
+    width: 250px;
+    height: auto;
+  }
+
+
+  .Navbar__Link-toggle {
+    display: none;
+  }
+
+  /* #togglediv{
   display:none;
 } */
-#togglediv{
-  display: block;
-  position: absolute;
-  top: 80px;
-  left: 10px;
-  border: none;
-  padding: 5px 10px;
-  background-color: #ffffff;
-  border-radius: 7px;
-  font-family: system-ui;
-  font-size: 13px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
+  #togglediv {
+    display: block;
+    position: absolute;
+    top: 80px;
+    left: 10px;
+    border: none;
+    padding: 5px 10px;
+    background-color: #ffffff;
+    border-radius: 7px;
+    font-family: system-ui;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
 
-/* .suggestions{
+  /* .suggestions{
   padding:10px;
 
 } */
-@media only screen and (max-width: 1250px) {
+  @media only screen and (max-width: 1250px) {
 
-  .Navbar-home{
+    .Navbar-home {
 
-    align-self: flex-end;
-    display: flex;
-    /* position: absolute; */
-    justify-content: center;;
-    /* left:3;
+      align-self: flex-end;
+      display: flex;
+      /* position: absolute; */
+      justify-content: center;
+      ;
+      /* left:3;
     top:10px; */
-    cursor: pointer;
-  }
-  #mob{
-    display:none;
-  }
+      cursor: pointer;
+    }
 
-  .round-div{
-   
-    width:50px;
-    height:50px;
-    font-size: 6px;
-    border:2px;
-  }
-  .Navbar__Items,
-  .Navbar {
-    flex-direction: column;
-  }
-  .Navbar__Items {
-    display:none;
-  }
-  .Navbar__Items--right {
-    margin-left:0;
-  
-  }
-  .Navbar__ToggleShow {
-    
-    display: flex;
-  }
-    
-.Navbar__Link-toggle {
-  color:black;
-  background:rgb(214, 212, 212);
-    /* background:black; */
-    align-self: flex-end;
-    display: initial;
-    position: absolute;
-    right:10px;
-    top:10px;
-    cursor: pointer;
-   } 
+    #mob {
+      display: none;
+    }
 
-.parent-div{
-  width:100%;
-  height:2%
-}
-/* #togglediv{
+    .round-div {
+
+      width: 50px;
+      height: 50px;
+      font-size: 6px;
+      border: 2px;
+    }
+
+    .Navbar__Items,
+    .Navbar {
+      flex-direction: column;
+    }
+
+    .Navbar__Items {
+      display: none;
+    }
+
+    .Navbar__Items--right {
+      margin-left: 0;
+
+    }
+
+    .Navbar__ToggleShow {
+
+      display: flex;
+    }
+
+    .Navbar__Link-toggle {
+      color: black;
+      background: rgb(214, 212, 212);
+      /* background:black; */
+      align-self: flex-end;
+      display: initial;
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      cursor: pointer;
+    }
+
+    .parent-div {
+      width: 100%;
+      height: 2%
+    }
+
+    /* #togglediv{
   display:block;
   position:absolute;
   top:75px;
   left:0px;
 } */
-}
+  }
+</style>
 
+<div id="sigma-container"></div>
+{% comment %} <h1 id='domain' data-att={{domain}}></h1> {% endcomment %}
+{% comment %} {{ data }} {% endcomment %}
+<div id="abc"></div>
+<div id="controls">
+  <div class="input"><label for="zoom-in">Zoom in</label><button id="zoom-in">+</button></div>
+  <div class="input"><label for="zoom-out">Zoom out</label><button id="zoom-out">-</button></div>
+  <div class="input"><label for="zoom-reset">Reset zoom</label><button id="zoom-reset">⊙</button></div>
+  <div class="input">
+    <label for="labels-threshold">Labels threshold</label>
+    <input id="labels-threshold" type="range" min="0" max="50" step="1" />
+  </div>
+</div>
 
+</div>
 
+<button id="togglediv">Legend Toggle</button>
 
-    
+<div id="mob" class="roundmain" style="display:block;">
+  <div class="round-div">
+    <button class="subdomain">
+      Sub<br>Domain
+    </button>
+  </div>
+  <div class="round-div">
+    <button class="domain">
+      Domain
+    </button>
+  </div>
+  <div class="round-div"><button class="as">
+      AS
+    </button></div>
+  <div class="round-div"> <button class="netblock">
+      Net<br>Block
+    </button></div>
+  <div class="round-div">
+    <button class="ns">
+      NS
+    </button>
+  </div>
+  <div class="round-div"> <button class="mx">
+      MX
+    </button></div>
+  <div class="round-div"> <button class="ptr">
+      PTR
+    </button></div>
+  <div class="round-div"><button class="address">
+      Address
+    </button></div>
+</div>
+/*****************************************************************************************/
+<div class="Navbar">
+  <div class="Navbar__Link Navbar__Link-brand">
 
-  </style>
-
-  <div id="sigma-container"></div>
- {% comment %} <h1 id='domain' data-att={{domain}}></h1> {% endcomment %}
-  {% comment %} {{ data }} {% endcomment %}
-  <div id="abc" ></div>
-    <div id="controls">
-      <div class="input"><label for="zoom-in">Zoom in</label><button id="zoom-in">+</button></div>
-      <div class="input"><label for="zoom-out">Zoom out</label><button id="zoom-out">-</button></div>
-      <div class="input"><label for="zoom-reset">Reset zoom</label><button id="zoom-reset">⊙</button></div>
-      <div class="input">
-        <label for="labels-threshold">Labels threshold</label>
-        <input id="labels-threshold" type="range" min="0" max="50" step="1" />
-      </div>
+    <div>
+      <a href="/"><img src="{% static 'img/white2.png' %}" alt="logo"></a>
     </div>
+  </div>
 
-    </div>
-
-      <button id="togglediv">Legend Toggle</button>
-
-      <div id="mob" class="roundmain" style="display:block;"><div class="round-div">
-        <button class="subdomain">
-        Sub<br>Domain
-      </button>
-    </div>
-    <div class="round-div">
-        <button class="domain">
-          Domain
-        </button></div>
-    <div class="round-div"><button class="as">
-        AS
-      </button></div>
-    <div class="round-div">  <button class="netblock">
-        Net<br>Block
-      </button></div>
-    <div class="round-div">
-        <button class="ns">
-          NS
-        </button></div>
-    <div class="round-div">  <button class="mx">
-        MX
-      </button></div>
-      <div class="round-div">  <button class="ptr">
-        PTR
-      </button></div>
-    <div class="round-div"><button class="address">
-        Address
-      </button></div></div>
-      /*****************************************************************************************/
-      <div class="Navbar">
-        <div class="Navbar__Link Navbar__Link-brand">
-          
-          <div >
-          <a href="/"><img src="{% static 'img/white2.png' %}" alt="logo"></a>
-        </div>
-        </div>
-        
-        <div class="Navbar__Link Navbar__Link-toggle">
-          <!-- <i  class="fa-solid fa-bars"></i> -->
-          <i class="fa fa-bars" aria-hidden="true"></i>
-          <!-- <img src="./advanced-search.svg"> -->
-        </div>
-<!--       
+  <div class="Navbar__Link Navbar__Link-toggle">
+    <!-- <i  class="fa-solid fa-bars"></i> -->
+    <i class="fa fa-bars" aria-hidden="true"></i>
+    <!-- <img src="./advanced-search.svg"> -->
+  </div>
+  <!--       
         <nav class="Navbar__Items">
 
         </nav> -->
-        <nav class="Navbar__Items Navbar__Items--right">
-          <div id="search">
-            <div id="searchimg">
-              <i class="bi bi-binoculars"></i>
-            </div>
-              <input type="search" id="search-input" list="suggestions" placeholder="Try searching for a node..." />
-              <datalist id="suggestions"></datalist>
-            </div>
-          <!-- <div >  -->
-            <!-- <form   id="myform" >
+  <nav class="Navbar__Items Navbar__Items--right">
+    <div id="search">
+      <div id="searchimg">
+        <i class="bi bi-binoculars"></i>
+      </div>
+      <input type="search" id="search-input" list="suggestions" placeholder="Try searching for a node..." />
+      <datalist id="suggestions"></datalist>
+    </div>
+    <!-- <div >  -->
+    <!-- <form   id="myform" >
             
               <input type="text" name="textInput" placeholder="Enter domain name ...">
             
@@ -613,45 +646,47 @@ display:flex;
       
               
           </form> -->
-        <!-- </div> -->
-          <div class="parent-div">
-            <button class="bi bi-patch-question-fill" id="random">
-              <span> Random</span>
-            </button>
-          </div>
-          <div class="parent-div">
-           <button id="forceatlas2" class="bi bi-stop-circle-fill">
-              <span>Force Atlas</span>
-            </button>
-          </div>
-          <div class="parent-div">
-            <button id="circular" class="bi bi-circle">
-              <span> Circular</span>
-            </button>
-          </div>
-          <div class="parent-div"> 
-             <button class="download">
-               Download
-              {% comment %} <a class="btn btn-primary" href='/index' download>Download</a> {% endcomment %}
-            </button></div>
+    <!-- </div> -->
+    <div class="parent-div">
+      <button class="bi bi-patch-question-fill" id="random">
+        <span> Random</span>
+      </button>
+    </div>
+    <div class="parent-div">
+      <button id="forceatlas2" class="bi bi-stop-circle-fill">
+        <span>Force Atlas</span>
+      </button>
+    </div>
+    <div class="parent-div">
+      <button id="circular" class="bi bi-circle">
+        <span> Circular</span>
+      </button>
+    </div>
+    <div class="parent-div">
+      <button class="download">
+        Download
+        {% comment %} <a class="btn btn-primary" href='/index' download>Download</a> {% endcomment %}
+      </button>
+    </div>
 
-          <div class="parent-div"> 
-            <button class="tabular">
-              Table
-            </button> 
-          </div>
-          <div class="parent-div">
-              <button class='nmap' type="submit"  onclick="location.href='{% url 'nmapreport' %}'" name='mybtn2'>Subdomain Report</button>
-          </div>
-           
-        </nav>
-      </div>
-      <!--Container Main end-->
-  
-    <script type="text/javascript">
-      function spinner() {
-        document.getElementsByClassName("loader")[0].style.display = "block";
-      }
-    </script> 
+    <div class="parent-div">
+      <button class="tabular">
+        Table
+      </button>
+    </div>
+    <div class="parent-div">
+      <button class='nmap' type="submit" onclick="location.href='{% url 'nmapreport' value=nmap_report_file_name %}'"
+        name='mybtn2'>Subdomain Report</button>
+    </div>
+
+  </nav>
+</div>
+<!--Container Main end-->
+
+<script type="text/javascript">
+  function spinner() {
+    document.getElementsByClassName("loader")[0].style.display = "block";
+  }
+</script>
 
 {% endblock %}

@@ -4,16 +4,14 @@ import pathlib
 from django.conf import settings
 
 
-def generate_nmap_xml_report(input_file_name, output_file_name):
+def generate_xml_report(file_name):
     subprocess.call(
-        f"nmap -A -T5 -p0-65535 --privilege --min-hostgroup 256 --host-timeout 30m --min-parallelism 100 -iL {str(pathlib.Path().resolve())+'/myblog/'+input_file_name+'.txt'} -oX {str(pathlib.Path().resolve())+'/myblog/'+output_file_name+'.xml'}", shell=True,)
+        f"nmap -A -T5 --privilege --min-hostgroup 256 --host-timeout 30m --min-parallelism 100 -iL {settings.SITE_ROOT}/attack_eye/apps/amass/generated_subdomains/{file_name}.txt -oX {settings.SITE_ROOT}/attack_eye/apps/nmap/port_scanning_reports/{file_name}.xml", shell=True,)
 
 
 def parse_nmap_xml_report(xml_file_name: str, host_name: str):
     try:
-        # tree = et.parse(str(pathlib.Path().resolve()) +
-        #                 f"/myblog/{xml_file_name}.xml")
-        tree = et.parse(f'{settings.SITE_ROOT}/attack_eye/apps/amass/generated_subdomains/testscan.xml')
+        tree = et.parse(f'{settings.SITE_ROOT}/attack_eye/apps/nmap/port_scanning_reports/{xml_file_name}.xml')
     except:
         return f'No XML file with name {xml_file_name}.xml'
     root = tree.getroot()
@@ -37,4 +35,4 @@ def parse_nmap_xml_report(xml_file_name: str, host_name: str):
     return f'No host with name {host_name}'
 
 
-print(parse_nmap_xml_report('testscan', 'example.com'))
+# print(parse_nmap_xml_report('testscan', 'example.com'))

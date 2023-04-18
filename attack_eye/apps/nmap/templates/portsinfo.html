@@ -1,0 +1,168 @@
+{% extends "./base.html" %}
+{% load static %}
+
+{% block content %}
+<style>
+    #begining {
+        text-align: center;
+        padding-top: 1% !important;
+        padding-bottom: 5% !important;
+        color: white;
+        background: rgb(14, 32, 32);
+        background: radial-gradient(circle,
+                rgba(14, 32, 32, 1) 0%,
+                rgba(13, 4, 32, 1) 100%);
+    }
+
+    #head {
+        margin-top: 3% !important;
+        text-decoration: underline;
+    }
+
+    #c1 {
+        font-weight: 500;
+        font-size: 19px;
+        margin-left: 2%;
+    }
+
+    .d1 {
+        font-size: 17px;
+        font-weight: 300;
+        margin-left: 1%;
+    }
+
+    #hop-table {
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+        width: 70%;
+    }
+
+    #os-table {
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+        width: 90%;
+    }
+
+    #port-table {
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+    }
+
+    thead {
+        background-color: #1b1e22;
+        color: white;
+        border-color: #373b3e;
+        padding: 50px;
+    }
+</style>
+
+<div class="container-fluid" id="begining">
+    <div class="container-lg" id="begining1" data-aos="fade-up">
+        <h1 id="head">Target</h1>
+        <p>
+            <span id="c1">Hostname: </span><span class="d1">{{ report.host }} </span>
+            <span id="c1">IP Address: </span><span class="d1">{{ report.address }} </span>
+        </p>
+        <h1 id="head">Ports</h1>
+        <p>
+            <span id="c1">Filtered Ports: </span><span class="d1">{{ report.filtered_ports }} </span>
+            <span id="c1">Closed Ports: </span><span class="d1">{{ report.closed_ports }} </span>
+            <span id="c1">Open Ports: </span><span class="d1">{{ report.open_ports|length }}</span>
+        </p>
+        <table id="port-table" class="table table-hover table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Protocol</th>
+                    <th scope="col">Port Number</th>
+                    <th scope="col">State</th>
+                    <th scope="col">Service</th>
+                    <th scope="col">Service Product</th>
+                    <th scope="col">Service Version</th>
+                    <th scope="col">Service Extra Info</th>
+                    <th scope="col">CPE</th>
+                </tr>
+            </thead>
+            <tbody class="table-dark">
+                {% for port in report.open_ports %}
+                <tr>
+                    <th scope="row">{{ forloop.counter }}</th>
+                    <th scope="row">{{ port.protocol|default:"N/A" }}</th>
+                    <th scope="row">{{ port.port_id|default:"N/A" }}</th>
+                    <td>{{ port.state|default:"N/A" }}</td>
+                    <td>{{ port.services.name|default:"N/A" }}</td>
+                    <td>{{ port.services.product|default:"N/A" }}</td>
+                    <td>{{ port.services.version|default:"N/A" }}</td>
+                    <td>{{ port.services.extrainfo|default:"N/A" }}</td>
+                    <td>{{ port.cpe|default:"N/A" }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <h1 id="head">Operating System</h1>
+        <table id="os-table" class="table table-hover table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Operating System</th>
+                    <th scope="col">Vendor</th>
+                    <th scope="col">OS Family</th>
+                    <th scope="col">Accuracy</th>
+                    <th scope="col">CPE</th>
+                </tr>
+            </thead>
+            <tbody class="table-dark">
+                {% for os in report.os_detail %}
+                <tr>
+                    <th scope="row">{{ forloop.counter }}</th>
+                    <td>{{ os.os_match.name|default:"N/A" }}</td>
+                    <td>{{ os.os_class.vendor|default:"N/A" }}</td>
+                    <td>{{ os.os_class.osfamily|default:"N/A" }}</td>
+                    <td>{{ os.os_match.accuracy|default:"N/A" }}%</td>
+                    <td>{{ os.cpe|default:"N/A" }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        <h1 id="head">Traceroute ({{ report.hops|length }} hops)</h1>
+        <table id="hop-table" class="table table-hover table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">Hop</th>
+                    <th scope="col">IP Address</th>
+                    <th scope="col">Hostname</th>
+                    <th scope="col">RTT</th>
+                </tr>
+            </thead>
+            <tbody class="table-dark">
+                {% for hop in report.hops %}
+                <tr>
+                    <th scope="row">{{ forloop.counter }}</th>
+                    <td>{{ hop.ipaddr|default:"N/A" }}</td>
+                    <td>{{ hop.host|default:"N/A" }}</td>
+                    <td>{{ hop.rtt|default:"N/A" }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init(
+        {
+            offset: 120,
+            duration: 1900,
+        }
+    );
+</script>
+
+{% endblock %}

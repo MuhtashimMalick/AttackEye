@@ -64,6 +64,7 @@ INSTALLED_APPS = [
     "corsheaders",
     "apps.core",
     "apps.amass",
+    "apps.nmap"
 ]
 
 MIDDLEWARE = [
