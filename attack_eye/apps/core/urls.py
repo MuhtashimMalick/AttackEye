@@ -1,7 +1,8 @@
 from django.urls import re_path
 from django.urls import path
 from apps.core import views
-from apps.nmap.views import port_info, nmap_report, generate_nmap_xml_report, portscan, porttable, deleteport
+from apps.nmap.views import port_info, nmap_report, portscan, porttable, deleteport
+from apps.email_service.views import send_email
 from django.contrib import admin
 
 urlpatterns = [
@@ -33,11 +34,12 @@ urlpatterns = [
     # re_path(r'^index/nmap$', views.nmap,name='nmap'),
     # re_path(r'^api/viewreport',views.deletedomain,name="deletedomain"),
     re_path(r'^api/nmapreport/(?P<value>[a-z].+)', nmap_report, name='nmapreport'),
-    re_path(r'^api/portinfo/(?P<value1>[a-z].+)/(?P<value2>[A-Za-z0-9].+)', port_info, name='portinfo'),
-    re_path(r'^api/generatenmapxmlreport', generate_nmap_xml_report, name='generatenmapxmlreport'),
+    re_path(r'^api/portinfo/(?P<value1>[a-z0-9.].+)/(?P<value2>[A-Za-z0-9].+)', port_info, name='portinfo'),
+    # re_path(r'^api/generatenmapxmlreport', generate_nmap_xml_report, name='generatenmapxmlreport'),
     re_path(r'^portscan', portscan, name='portscan'),
     re_path(r'^api/porttable$', porttable, name='porttable'),
     re_path(r'^api/deleteport$', deleteport, name='deleteport'),
+    re_path(r'^api/sendemail', send_email, name='sendemail'),
 ]
 
 

@@ -12,6 +12,8 @@ from core.models import scan
 from nmap.models import port_scan
 from django.conf import settings
 import datetime
+from apps.email_service.views import send_email
+from requests import post
 
 
 @shared_task
@@ -29,8 +31,10 @@ def amass(y,user):
 
 @shared_task
 def celery_generate_xml_report(host_name, user):
+    # print('hello hello hello')
     print(f"Port scanning of {host_name} has STARTED")
     subprocess.call(
         f"nmap -T5 -sS -sV -O --privilege --min-hostgroup 128 --top-ports 100 --traceroute --min-parallelism 100 {host_name} -oX {settings.SITE_ROOT}/attack_eye/apps/nmap/port_scanning_reports/{host_name}.xml", shell=True,)
     print(f"Port scanning of {host_name} has COMPLETED")
+    # post("http://10.0.2.15:8080/api/sendemail", data={"subject": "AttackEye Email", "email": "muhtashimmalick9@gmail.com", "message": "hello world"}, )
     port_scan.objects.filter(UserId=user,domain=host_name).update(pending=1, timeDateEnd=datetime.datetime.now())

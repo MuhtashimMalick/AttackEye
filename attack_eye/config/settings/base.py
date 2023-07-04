@@ -64,7 +64,8 @@ INSTALLED_APPS = [
     "corsheaders",
     "apps.core",
     "apps.amass",
-    "apps.nmap"
+    "apps.nmap",
+    "apps.email_service"
 ]
 
 MIDDLEWARE = [
@@ -112,6 +113,7 @@ TEMPLATES = [
 
 CELERY_BROKER_URL = "amqp://localhost"
 CELERY_IMPORTS = ("apps.core.tasks",)
+
 
 WSGI_APPLICATION = "config.wsgi.application"
 
@@ -200,3 +202,11 @@ SESSION_EXPIRE_AFTER_LAST_ACTIVITY = True
 # ==============================================================================
 
 SIMPLE_ENVIRONMENT = config("SIMPLE_ENVIRONMENT", default="local")
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_USE_TLS = False
+EMAIL_PORT = 465
+EMAIL_USE_SSL = True
+EMAIL_HOST_USER = 'muhtashimmalick8@gmail.com'
+EMAIL_HOST_PASSWORD = 'xjdvjulnupoejxtf'

@@ -35,15 +35,18 @@ def portscan(request):
     elif request.method == "POST":
         domain = request.data["domain"]
 
-        isValidDomain = validators.domain(domain)
+        # isValidDomain = validators.domain(domain)
 
-        try:
-            domainStatusCode = requests.get(
-                f"http://{domain}", headers={"User-Agent": "Mozilla/5.0"}
-            ).status_code
-        except requests.exceptions.ConnectionError as e:
-            print(e)
-            domainStatusCode = 0
+        isValidDomain = True
+        domainStatusCode = 200
+
+        # try:
+        #     domainStatusCode = requests.get(
+        #         f"http://{domain}", headers={"User-Agent": "Mozilla/5.0"}
+        #     ).status_code
+        # except requests.exceptions.ConnectionError as e:
+        #     print(e)
+        #     domainStatusCode = 0
 
         print(domainStatusCode)
         if isValidDomain and (
@@ -138,11 +141,11 @@ def port_info(request, value1, value2):
     context = {'report': report}
     return render(request, 'portsinfo.html', context)
 
-@api_view(["POST"])
-def generate_nmap_xml_report(request):
-    if request.method == "POST":
-        if request.user.is_authenticated:
-            user = request.session["_auth_user_id"]
-            domain = request.data["domain"]
-            celery_generate_xml_report.delay(str(domain), str(user))
-            return Response()
+# @api_view(["POST"])
+# def generate_nmap_xml_report(request):
+#     if request.method == "POST":
+#         if request.user.is_authenticated:
+#             user = request.session["_auth_user_id"]
+#             domain = request.data["domain"]
+#             celery_generate_xml_report.delay(str(domain), str(user))
+#             return Response()
